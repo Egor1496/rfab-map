@@ -8,12 +8,12 @@ export const NavLinksMap = () => {
   const selectActiveMap = useSelector((state) => state.menuSelectedReducer).activeMap
 
   const listMap = [
-    { type: "rfab-map/skyrim", name: "Скайрим", isMain: true },
-    { type: "rfab-map/solstheim", name: "Солстхеим", isMain: true },
-    { type: "rfab-map/blackreach", name: "Черный предел" },
-    { type: "rfab-map/forgottenvale", name: "Забытая долина" },
-    { type: "rfab-map/soulcairn", name: "Каирн Душ" },
-    { type: "rfab-map/skuldafn", name: "Скулдафн" },
+    { type: "skyrim", name: "Скайрим", isMain: true },
+    { type: "solstheim", name: "Солстхеим", isMain: true },
+    { type: "blackreach", name: "Черный предел" },
+    { type: "forgottenvale", name: "Забытая долина" },
+    { type: "soulcairn", name: "Каирн Душ" },
+    { type: "skuldafn", name: "Скулдафн" },
   ]
 
   const getClassName = (link) => [

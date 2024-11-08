@@ -1,6 +1,5 @@
 import sass from './bossList.module.sass'
 
-import { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { MyAccordion } from '../../shared/myAccordion/MyAccordion';

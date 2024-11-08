@@ -1,22 +1,22 @@
 import sass from './leftMenu.module.sass'
 
-import React, { Suspense } from 'react'
 import { useSelector } from 'react-redux'
 
 import { AccordionTab } from 'primereact/accordion'
 
 import { MySidebar } from '../../shared/mySidebar/MySidebar'
 import { MyAccordion } from '../../shared/myAccordion/MyAccordion'
+// import { MySpinner } from '../../shared/mySpinner/MySpinner';
 
 import { MenuFilter } from '../menuFilter/MenuFilter'
 import { MenuAddFilter } from '../menuAddFilter/MenuAddFilter'
 import { NavLinksMap } from '../navLinksMap/NavLinksMap'
-import { MySpinner } from '../../shared/mySpinner/MySpinner';
+
 import { BossList } from '../bossList/BossList';
 
 import listMenu from "../../../data/ui/menuFilters"
 
-const TaskList = React.lazy(() => import('../taskList/TaskList'));
+// const TaskList = React.lazy(() => import('../taskList/TaskList'));
 
 export const LeftMenu = () => {
   const selectActiveMap = useSelector((state) => state.menuSelectedReducer).activeMap

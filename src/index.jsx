@@ -30,9 +30,9 @@ root.render(
   //<React.StrictMode>
   <Provider store={store}>
     <PrimeReactProvider value={{ unstyled: false, ripple: true }}>
-      <BrowserRouter>
+      <BrowserRouter basename="rfab-map/">
         <Routes>
-          <Route path="rfab-map/" element={<MapLayout />}>
+          <Route path="/" element={<MapLayout />}>
             <Route index element={<SkyrimPage />} />
             <Route path="skyrim/" element={<SkyrimPage />} />
             <Route path="solstheim/" element={<SolstheimPage />} />
