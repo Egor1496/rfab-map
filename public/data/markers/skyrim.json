@@ -1,0 +1,5838 @@
+[
+  {
+    "title": "Солитьюд (<q lblue>30lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Заброшенная канализация (<q lblue>30lvl</q>) Сразу на входе гигантские злокрысы 5, Много тайников. <br/>Крыло Пелагия (<q lblue>50lvl</q>): Очень маленькая комната, <q red>босс</q> (Валкиназ) с лева в упоре, сразу атакует. <br/> <q lblue>Квест</q>: Мужчина, который кричал «Волки» - для активации квеста на Хризамер. <br/> <q lblue>Квест</q> на Хризамер (<q lblue>50lvl</q>). Достав Хризамер из ножен вас телепортит в другое измерение, из которого <q red>нельзя</q> выбраться не победив босса (Сэй'Жин). Внутри <q green>8</q> сильных огне. атронахов и <q green>3</q> <q red>повелителя</q> в конце.",
+    "nameIcon": "Solitude",
+    "md": "xl",
+    "type": "soc magic magic_boss mutant roc",
+    "id": "id1",
+    "top": 262,
+    "left": 432,
+    "bossList": [
+      "Валкиназ",
+      "Матка злокрысов",
+      "Древняя Хадж-мота",
+      "Сэй'Жин"
+    ],
+    "prizeList": [
+      "<q purple>Хризамер</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Синий дворец (<q lblue>50lvl</q>)",
+    "description": "<q lblue>Квест</q> на убийство Потемы. После входа на тумбе лежит ключ от хризамера. Внутри <q green>12</q> драугров, <q green>4</q> вампира. Папа вампир (<q lblue>125lvl</q>) после дверей загадок, у него ключ от следующей комнаты. В конце дверь <q red>закроется</q> и восстанут <q green>6</q> драугров.",
+    "nameIcon": "BluePalace",
+    "type": "bottle draugry draugry_boss xp chest",
+    "id": "id2",
+    "top": 269,
+    "left": 472,
+    "bossList": [
+      "Останки Потемы"
+    ],
+    "prizeList": [
+      "<q lblue><q lblue>Квест</q> на убийство вампиров</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Крепость Миствейл",
+    "nameIcon": "MistveilKeep",
+    "type": "soc roc",
+    "id": "id4",
+    "top": 900,
+    "left": 1181,
+    "prizeList": [
+      "<q yelow>Снаряжение стражников</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Рифтен",
+    "description": "Убей грелод добрую для квеста. <br/> <q lblue>Квест</q>: Мадези - <q yelow>1000р</q>. Принеси бивень и золотую руду. <br/> <q lblue>Квест</q>: Уничтожение гильдии воров (<q lblue>30lvl</q>) (<q lblue>35lvl</q>).",
+    "type": "soc bandit_boss",
+    "nameIcon": "Riften",
+    "id": "id3",
+    "top": 885,
+    "left": 1181,
+    "bossList": [
+      "Сартис Идрен",
+      "Орини Дрел"
+    ]
+  },
+  {
+    "title": "Коллегия винтерхолда (<q lblue>30lvl</q>)",
+    "description": "Мидден: Драугр, <q green>2</q> скелета, <q green>2</q> морозных паука.",
+    "type": "magic magic_boss soc",
+    "nameIcon": "CollegeofWinterhold",
+    "id": "id5",
+    "top": 231,
+    "left": 1007,
+    "bossList": [
+      "Дремора Валкиназ",
+      "Первый помощник"
+    ],
+    "prizeList": [
+      "<q yelow>Бутылки</q>",
+      "<q yelow>Ингридиенты</q>",
+      "<q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Винтерхолд",
+    "nameIcon": "Winterhold",
+    "type": "soc",
+    "id": "id6",
+    "top": 264,
+    "left": 980,
+    "prizeList": [
+      "<q yelow>Великий Посох Отторжения</q>."
+    ]
+  },
+  {
+    "title": "Подкаменная крепость (<q lblue>30lvl</q>) (<q lblue>???lvl</q>)",
+    "description": "Большой паук, фалмеров <q green>21</q>, двемеры???.",
+    "nameIcon": "UnderstoneKeep",
+    "type": "",
+    "id": "id7",
+    "top": 578,
+    "left": 76
+  },
+  {
+    "title": "Маркарт (<q lblue>35lvl</q>)",
+    "description": "<q lblue>Квест</q>: Убийство Турана - <q lblue>35lvl</q>, После <q lblue>30lvl</q>.",
+    "nameIcon": "Markarth",
+    "type": "soc roc",
+    "id": "id8",
+    "top": 568,
+    "left": 92,
+    "bossList": [
+      "Дозорный Туран"
+    ],
+    "prizeList": [
+      "<q yelow>Ожерелье</q> если спасти от изгоя",
+      "<q yelow>Бичь Даэдра</q>",
+      "<q yelow>Сет Турана</q>",
+      "<q yelow>Символ Элейдона</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Фолкрит (<q lblue>25lvl</q>)",
+    "description": "<q lblue>Квест</q> Хирсина",
+    "nameIcon": "Falkreath",
+    "type": "",
+    "id": "id9",
+    "top": 858,
+    "left": 541,
+    "prizeList": [
+      "<q yelow>Кольцо Хирсина</q>."
+    ]
+  },
+  {
+    "title": "Королевский дворец",
+    "nameIcon": "PalaceoftheKings",
+    "description": "",
+    "type": "soc roc",
+    "id": "id10",
+    "top": 449,
+    "left": 1058,
+    "prizeList": [
+      "<q yelow>Посуда</q>"
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Данстар",
+    "nameIcon": "Dawnstar",
+    "type": "",
+    "id": "id10.0",
+    "top": 253.5,
+    "left": 732.3
+  },
+  {
+    "title": "Виндхельм (<q lblue>10lvl</q>) (<q lblue>50lvl</q>)",
+    "nameIcon": "Windhelm",
+    "description": "",
+    "type": "bandit_boss magic_boss",
+    "id": "id11",
+    "top": 477,
+    "left": 1059,
+    "md": "xl",
+    "bossList": [
+      "Бестия Дро'Ра",
+      "Смертник Им-Шей",
+      "Дурзол гро-Ягарз",
+      "Сьорта Полутролль",
+      "Капитан Гилейнский Волк",
+      "Сир Жермен",
+      "Пепельная Охотница Уршамасу",
+      "Лесной рейнджер Дотиэль",
+      "Прелат Кадрайн"
+    ],
+    "prizeList": [
+      "<q yelow>Каджитский посох</q>",
+      "<q yelow>Щит Эгида Чернотопья</q>",
+      "<q yelow>Орчий Гнев</q>",
+      "<q yelow>Орчья Ярость</q>",
+      "<q yelow>Топор Полутролля</q>",
+      "<q yelow>Скимитар Гилейнского Волка</q>",
+      "<q yelow>Строс М`кайский кинжал</q>",
+      "<q yelow>Молот Сира Жермена</q>",
+      "<q yelow>Щит оплот Виндкипа</q>",
+      "<q yelow>Посох Огонь</q>",
+      "<q yelow>Кинжал Пепел</q>",
+      "<q yelow>Святилище Мефалы</q>."
+    ]
+  },
+  {
+    "title": "Замок ярла",
+    "nameIcon": "JarlResidence",
+    "type": "soc roc",
+    "id": "id12",
+    "top": 586,
+    "left": 725,
+    "prizeList": [
+      "<q yelow>Серебряные слитки</q>",
+      "<q yelow>Посуда</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ],
+      [
+        "bottleP.png"
+      ]
+    ]
+  },
+  {
+    "title": "Вайтран (<q lblue>0lvl</q>)",
+    "description": "В зале мертвых <q green>4</q> скелета за дверью.",
+    "nameIcon": "Whiterun",
+    "type": "skelet soc roc",
+    "id": "id13",
+    "top": 612,
+    "left": 701,
+    "prizeList": [
+      "<q yelow>Серебряные слитки</q>",
+      "<q yelow>Покои ярла</q>",
+      "<q yelow>Дом соратников</q>",
+      "<q yelow>Кузница</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp",
+        "3"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "bottleP.png"
+      ]
+    ]
+  },
+  {
+    "title": "Морфал",
+    "nameIcon": "Morthal",
+    "type": "",
+    "id": "id14",
+    "top": 379,
+    "left": 514
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>2</q>, после открытия сундука <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id15",
+    "top": 575,
+    "left": 694,
+    "prizeList": [
+      "<q yelow>Алкоголь</q>"
+    ],
+    "prizeIcon": [
+      [
+        "skooma.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Тихих Лун (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>6</q> снаружи и <q green>3</q> внутри.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Tomb",
+    "id": "id16",
+    "top": 532,
+    "left": 646,
+    "bossList": [
+      "Рон Ворон"
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Чистых родников (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q> снаружи и <q green>3</q> внутри.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id17",
+    "top": 526,
+    "left": 687,
+    "bossList": [
+      "Шаглак"
+    ],
+    "prizeList": [
+      "Рецепт <q yelow>Толченый бивень</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Хребет Острие Ножа (<q lblue>10lvl</q>) (<q lblue>30lvl</q>)",
+    "description": "Бандиты <q green>9</q> снаружи и <q green>6</q> внутри. после 20лвл <q red>босс</q> по квесту.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id18",
+    "top": 798,
+    "left": 416,
+    "bossList": [
+      "Воин Боэтии"
+    ],
+    "prizeList": [
+      "<q yelow>Эбонитова Кольчуга</q>",
+      "<q yelow>Лук Честный Обмен</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleP.png"
+      ]
+    ]
+  },
+  {
+    "title": "Факельная шахта (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>1</q> снаружи и <q green>8</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Mine",
+    "id": "id19",
+    "top": 763,
+    "left": 662,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Оплот Змеиный Утес (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>5</q> снаружи и <q green>3</q> внутри и ворожея.",
+    "type": "trash xp",
+    "nameIcon": "Campsite",
+    "id": "id20",
+    "top": 604,
+    "left": 336,
+    "prizeList": [
+      "<q lblue>Предмет</q> на опыт по квесту Хроланда."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Картспайр (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>3</q>.",
+    "type": "trash",
+    "nameIcon": "Campsite",
+    "id": "id21",
+    "top": 561,
+    "left": 233,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Картспайр (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>11</q>.",
+    "type": "trash",
+    "nameIcon": "Campsite",
+    "id": "id22",
+    "top": 567,
+    "left": 219,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Теснина грабителя (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>7</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id23",
+    "top": 440,
+    "left": 385
+  },
+  {
+    "title": "Высота Драконий Мост (<q lblue>10lvl</q>)",
+    "description": "Изгои <q green>2</q>.",
+    "type": "trash",
+    "nameIcon": "Campsite",
+    "id": "id24",
+    "top": 373,
+    "left": 303
+  },
+  {
+    "title": "Оплот Друадах (<q lblue>30lvl</q>)",
+    "description": "Изгои <q green>2</q> снаружи и <q green>4</q> внутри.",
+    "type": "trash trash_boss bottle",
+    "nameIcon": "Campsite",
+    "id": "id25",
+    "top": 408,
+    "left": 154,
+    "bossList": [
+      "Рэйгар Чёрная Смерть"
+    ],
+    "prizeList": [
+      "<q yelow>Немощь</q>",
+      "<q yelow>Хворь</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleS.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Последний пост (<q lblue>50lvl</q>)",
+    "description": "Эбонитовый воин по квесту.",
+    "type": "magic_boss set",
+    "nameIcon": "Campsite",
+    "id": "id26",
+    "top": 822,
+    "left": 1250,
+    "bossList": [
+      "Эбонитовый воин"
+    ],
+    "prizeList": [
+      "<q purple>Сет эбонитового воина</q>"
+    ]
+  },
+  {
+    "title": "Северная сторожевая крепость (<q lblue>30lvl</q>)",
+    "description": "Эльфы <q green>8</q> снаружи и <q green>7</q> внутри, Нужны резисты к стихиям и магии",
+    "type": "magic magic_boss",
+    "nameIcon": "Fort",
+    "id": "id27",
+    "top": 220,
+    "left": 181,
+    "bossList": [
+      "Дознаватель Крепости"
+    ],
+    "prizeList": [
+      "<q yelow>Сапоги Инквизитора</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Храгстад (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>7</q> снаружи и <q green>6</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id28",
+    "top": 229,
+    "left": 283
+  },
+  {
+    "title": "Хармугстал (<q lblue>30lvl</q>)",
+    "description": "Много мелких пауков. Рычаги 1, 4 (не спиши).",
+    "type": "magic magic_boss",
+    "nameIcon": "Fort",
+    "id": "id29",
+    "top": 418,
+    "left": 203,
+    "bossList": [
+      "Корнал"
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Сломанная башня (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>4</q> снаружи и <q green>7</q> внутри, руна гроз.",
+    "type": "trash bottle chest",
+    "nameIcon": "Fort",
+    "id": "id30",
+    "top": 463,
+    "left": 296,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleS.png"
+      ],
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Сноухок (<q lblue>30lvl</q>)",
+    "description": "<q green>5</q> некромантов и <q green>4</q> скелетов снаружи. <q green>5</q> некромантов <q green>5</q> скелетов внутри. Перед центральной закрытой дверью ледяная руна (ключ на столе)",
+    "type": "magic",
+    "nameIcon": "Fort",
+    "id": "id31",
+    "top": 367,
+    "left": 459,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Сангард (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>8</q> снаружи. внутри пусто и мелкий лут.",
+    "type": "trash",
+    "nameIcon": "Fort",
+    "id": "id32",
+    "top": 671,
+    "left": 415
+  },
+  {
+    "title": "Крепость Треснувший Бивень (<q lblue>25lvl</q>)",
+    "description": "Бандиты <q green>4</q> снаружи. Внутри <q green>3</q> бандита.",
+    "type": "bandit bandit_boss bottle",
+    "nameIcon": "Fort",
+    "id": "id33",
+    "top": 865,
+    "left": 462,
+    "bossList": [
+      "Гунзул"
+    ],
+    "prizeList": [
+      "<q yelow>Орфей</q>",
+      "<q yelow>Свирепость</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleS.png"
+      ],
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Глубины Илиналты (<q lblue>35lvl</q>)",
+    "description": "Скелетов <q green>6</q> и <q green>7</q> некромантов. Далее <q green>5</q> скелетов и <q green>4</q> некроманта.",
+    "type": "magic bottle chest",
+    "nameIcon": "Fort",
+    "id": "id34",
+    "top": 745,
+    "left": 540,
+    "prizeList": [
+      "<q yelow>Посох Даэдрического Приказа</q>",
+      "<q yelow>Звезда Азуры</q> по квесту."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleM.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Греймур (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q> снаружи и <q green>8</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id35",
+    "top": 614,
+    "left": 591,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Западная сторожевая башня (<q lblue>40lvl</q>)",
+    "description": "После убийства босса появляются <q red>драконы</q>! Убивай драконов до квеста с мираком что бы получить больше душ.",
+    "type": "dragon dragon_boss",
+    "nameIcon": "Fort",
+    "id": "id36",
+    "top": 635,
+    "left": 640,
+    "bossList": [
+      "Мирмулнир"
+    ]
+  },
+  {
+    "title": "Дрифтшейд - Приют (<q lblue>25lvl</q>)",
+    "description": "Воины серебряной руки <q green>2</q> снаружи и <q green>17</q> внутри. Много огне. арбалетов.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id37",
+    "top": 332,
+    "left": 809,
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Феллхаммер (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>6</q> снаружи и <q green>4</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id38",
+    "top": 365,
+    "left": 771
+  },
+  {
+    "title": "Форт Дунстад (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q> снаружи и <q green>9</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id39",
+    "top": 395,
+    "left": 728,
+    "prizeIcon": [
+      [
+        "bottleP.png"
+      ]
+    ]
+  },
+  {
+    "title": "Крепость Феллглоу (<q lblue>40lvl</q>)",
+    "description": "Маги призывают атронахов <q green>2</q> снаружи и <q green>17</q> внутри. После взятия квеста все враги возрождаются. <q green>3</q> вампира в клетках, <q green>4</q> некроманта. В конце дверь <q red>закрывается</q>. Если убит Босс лежит ключ от комнаты. В комнате <q green>7</q> дремор, можно выйти из комнаты.",
+    "type": "magic magic_boss",
+    "nameIcon": "Fort",
+    "id": "id40",
+    "top": 559,
+    "left": 836,
+    "bossList": [
+      "Вызывающая"
+    ],
+    "prizeList": [
+      "<q yelow>Стихийный плащ</q>",
+      "<q yelow>Круг Вачуту</q>",
+      "<q yelow>Сигильский Камень</q>."
+    ]
+  },
+  {
+    "title": "Хелген (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q> снаружи и <q green>7</q> внутри после босса <q green>2</q> паука и медведь.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Fort",
+    "id": "id42",
+    "top": 841,
+    "left": 686,
+    "bossList": [
+      "До'Сакхар"
+    ],
+    "prizeList": [
+      "<q yelow>Кольцо льва</q>",
+      "<q yelow>Банки V</q> в бочке."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Нойград (<q lblue>30lvl</q>)",
+    "description": "Маги (гроз/холод/огн) <q green>5</q> снаружи и <q green>8</q> внутри. Опасный босс за закрытой дверью.",
+    "type": "magic magic_boss set",
+    "nameIcon": "Fort",
+    "id": "id43",
+    "top": 878,
+    "left": 741,
+    "bossList": [
+      "Старший ученик",
+      "Брандиш"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Ледяной Воли</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Кровавый Трон (<q lblue>50lvl</q>)",
+    "description": "Внутри вампиры (2 спят ночью) <q green>8</q>, гончии <q green>3</q>, горгульи <q green>2</q> (Притворяются статуями)",
+    "type": "vampire vampire_boss set",
+    "nameIcon": "Fort",
+    "id": "id44",
+    "top": 931,
+    "left": 634,
+    "bossList": [
+      "Вигхар"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Древнего Вампира</q>."
+    ]
+  },
+  {
+    "title": "Форт Кастав (<q lblue>30lvl</q>)",
+    "description": "Некроманты <q green>3</q> призывают атронахов, <q green>5</q> скелетов.",
+    "type": "magic",
+    "nameIcon": "Fort",
+    "id": "id45",
+    "top": 422,
+    "left": 982,
+    "prizeList": [
+      "<q yelow>Свиток Ледяного Атронаха</q>."
+    ]
+  },
+  {
+    "title": "Морвунскар (<q lblue>35lvl</q>)",
+    "description": "Маги <q green>4</q> снаружи и <q green>8</q> внутри.",
+    "type": "magic magic_boss",
+    "nameIcon": "Fort",
+    "id": "id46",
+    "top": 526,
+    "left": 1013,
+    "bossList": [
+      "Нарис Порочный"
+    ],
+    "prizeList": [
+      "<q yelow>Роза Сангвина</q>",
+      "<q yelow>Кольцо критический разряд</q>."
+    ]
+  },
+  {
+    "title": "Висельная Скала (<q lblue>25lvl</q>)",
+    "description": "Воины Серебряной руки <q green>3</q> снаружи и <q green>8</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id47",
+    "top": 565,
+    "left": 948,
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Амол (<q lblue>25lvl</q>)",
+    "description": "Маги <q green>4</q> снаружи и <q green>6</q> внутри. Пассивные защитники &nbsp;-Сильные маги разрушения.",
+    "type": "magic",
+    "nameIcon": "Fort",
+    "id": "id48",
+    "top": 662,
+    "left": 952
+  },
+  {
+    "title": "Туманная застава (<q lblue>25lvl</q>)",
+    "description": "Бандиты <q green>5</q> снаружи и <q green>5</q> внутри.",
+    "type": "bandit bandit_boss set",
+    "nameIcon": "Fort",
+    "id": "id49",
+    "top": 699,
+    "left": 1069,
+    "bossList": [
+      "Фьола"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Фьолы</q>."
+    ]
+  },
+  {
+    "title": "Тревская застава (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>6</q> снаружи и <q green>17</q> внутри.",
+    "type": "bandit bandit_boss set",
+    "nameIcon": "Fort",
+    "id": "id50",
+    "top": 849,
+    "left": 989,
+    "bossList": [
+      "Брурид"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Брурида</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Зуб Фалдара (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q> снаружи и <q green>13</q> внутри. Много волков.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id51",
+    "top": 883,
+    "left": 1095,
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Гринвол (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи, <q green>4</q> внутри и <q green>3</q> паука.",
+    "type": "bandit",
+    "nameIcon": "Fort",
+    "id": "id52",
+    "top": 818,
+    "left": 1162
+  },
+  {
+    "title": "Башня Светотьмы (<q lblue>30lvl</q>)",
+    "description": "Мирный квестовый персонаж внутри. Некромантов <q green>8</q> и <q green>3</q> ворожей внутри. Во дворе форта карга и ворожея до квеста, можно запрыгнуть в форт снаружи.",
+    "type": "magic magic_boss bottle",
+    "nameIcon": "Fort",
+    "id": "id53",
+    "top": 948,
+    "left": 1102,
+    "bossList": [
+      "Сильвия"
+    ],
+    "prizeIcon": [
+      [
+        "bottleM.png"
+      ]
+    ]
+  },
+  {
+    "title": "Форт Стражи Рассвета",
+    "description": "Много серебряного оружия.",
+    "type": "soc",
+    "nameIcon": "Fort",
+    "id": "id54",
+    "top": 918,
+    "left": 1326,
+    "prizeList": [
+      "<q yelow>Топоры</q>",
+      "<q yelow>Арбалеты</q>",
+      "<q yelow>Посох</q>",
+      "<q yelow>Снаряжение</q>",
+      "<q yelow>Алкоголь</q>",
+      "<q yelow>Посуда</q>."
+    ]
+  },
+  {
+    "title": "Вечерняя пещера (<q lblue>20lvl</q>)",
+    "description": "Мост-ловушка. <q red>Падая в низ</q> вернуться нельзя. <q green>6</q> пауков и <q green>4</q> тролля в конце.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id55-0",
+    "top": 357.3,
+    "left": 152.9,
+    "prizeList": [
+      "<q yelow>Святилище</q> Ауриэля."
+    ]
+  },
+  {
+    "title": "Морозная Пещера (<q lblue>35lvl</q>) (<q lblue>???lvl</q>)",
+    "description": "вампиры!!! <q red>Босс</q> и <q green>3</q> стихийных атронаха.",
+    "type": "magic magic_boss",
+    "nameIcon": "Cave",
+    "id": "id55",
+    "top": 254,
+    "left": 186,
+    "bossList": [
+      "Себастьян Лорт"
+    ]
+  },
+  {
+    "title": "Отвесная нора (<q lblue>10lvl</q>)",
+    "description": "Ледяные тролли <q green>2</q>.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id56",
+    "top": 228,
+    "left": 232,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Отвесная нора (<q lblue>10lvl</q>)",
+    "description": "Снежные волки <q green>2</q>.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id57",
+    "top": 208,
+    "left": 229
+  },
+  {
+    "title": "Пещера Заблудшее Эхо (<q lblue>30lvl</q>)",
+    "description": "Кинь гриб в огонь. Далее <q green>8</q> Фалмеров и <q green>3</q> коруса.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id58",
+    "top": 273,
+    "left": 235,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Лунный Бор (<q lblue>40lvl</q>)",
+    "description": "Вампиры <q green>4</q>, треллов <q green>3</q>. Квестовые вампиры на опыт.",
+    "type": "vampire xp",
+    "nameIcon": "Cave",
+    "id": "id59",
+    "top": 299,
+    "left": 270,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Волчий Череп (<q lblue>10lvl</q>) (<q lblue>30lvl</q>)",
+    "description": "Бандиты <q green>4</q> внутри до квеста. <br/> При взятии квеста <q green>2</q> скелета у входа. Внутри <q green>2</q> драугра, <q green>2</q> скелета, <q green>2</q> некроманта. <q red>Упав в обвал</q>, выбраться нельзя, не пройдя локацию. Далее <q green>6</q> некромантов, <q green>2</q> драугра.",
+    "type": "bandit magic magic_boss",
+    "nameIcon": "Cave",
+    "id": "id60",
+    "top": 248,
+    "left": 328,
+    "bossList": [
+      "Мастер Ритуалов"
+    ],
+    "prizeList": [
+      "<q yelow>Свиток превосходства</q>",
+      "<q yelow>Боевой Посох Мастера Ритуалов</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Дымящаяся пещера (<q lblue>10lvl</q>)",
+    "description": "Морозный тролль.",
+    "type": "animal roc",
+    "nameIcon": "Cave",
+    "id": "id61",
+    "top": 220,
+    "left": 374,
+    "prizeList": [
+      "<q yelow>Труп мага</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Воронья нора (<q lblue>25lvl</q>)",
+    "description": "Ворожеи <q green>2</q> и медведь с пауком.",
+    "type": "magic bottle chest",
+    "nameIcon": "Cave",
+    "id": "id62",
+    "top": 187,
+    "left": 350,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleM.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Зеленая Тень (<q lblue>20lvl</q>)",
+    "description": "Спригганы <q green>6</q> и медведи.",
+    "type": "animal xp bottle",
+    "nameIcon": "Cave",
+    "id": "id63",
+    "top": 175,
+    "left": 390,
+    "prizeList": [
+      "<q lblue>Шлем ностера</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleS.png"
+      ]
+    ]
+  },
+  {
+    "title": "Грот Сломанное Весло (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>12</q>. Много ядо-магов-автоматчиков настакивают долгое отравление.",
+    "type": "bandit bandit_boss set",
+    "nameIcon": "Cave",
+    "id": "id64",
+    "top": 145,
+    "left": 427,
+    "bossList": [
+      "Джари-Ра",
+      "Капитан Харгар"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Джари-Ра</q>",
+      "<q yelow>Лук Джари-Ра</q>",
+      "<q yelow>Сапоги Харгара</q>",
+      "<q yelow>Секира Харгара</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Грот Соленая Вода (<q lblue>0lvl</q>)",
+    "description": "Хоркеры.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id66",
+    "top": 170,
+    "left": 468
+  },
+  {
+    "title": "Логово Моварта (<q lblue>40lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Внутри <q green>3</q> вампира (1 спит ночью), <q green>6</q> треллов и <q red>Босс</q> по квесту.",
+    "type": "vampire vampire_boss set",
+    "nameIcon": "Cave",
+    "id": "id67",
+    "top": 340,
+    "left": 534,
+    "bossList": [
+      "Моварт Пикуин"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Моварта</q>."
+    ]
+  },
+  {
+    "title": "Ингвильд (<q lblue>35lvl</q>)",
+    "description": "Другры и призраки. <q green>6</q> другров внутри, <q green>5</q> призраков внутри.",
+    "type": "draugry magic_boss ghost roc",
+    "nameIcon": "Tomb",
+    "id": "id68",
+    "top": 218,
+    "left": 814,
+    "bossList": [
+      "Арондил"
+    ],
+    "prizeList": [
+      "<q yelow>Холодное ожерелье</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Хоба (<q lblue>35lvl</q>)",
+    "description": "Внутри <q green>9</q> некромантов, <q green>6</q> скелетов, под мостом некромант и скелет.",
+    "type": "magic xp roc",
+    "nameIcon": "Cave",
+    "id": "id69",
+    "top": 283,
+    "left": 848,
+    "prizeList": [
+      "<q yelow>Холодня ярость</q>",
+      "<q lblue>Флейта Пантеи</q> на опыт."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ],
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Алтарь (<q lblue>10lvl</q>)",
+    "description": "<q green>3</q> скелета появляются после взятия любого предмета на алтаре.",
+    "type": "skelet",
+    "nameIcon": "DaedricShrine",
+    "id": "id70",
+    "scale": 0.4,
+    "top": 348,
+    "left": 942,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Неприметное убежище (<q lblue>30lvl</q>)",
+    "description": "Фалмеры <q green>16</q>, паук, корусы  <q green>6</q>. <br/> Упав в <q red>обвал</q> на входе, обратно не выбраться. Нажимная плита на входе.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id71",
+    "top": 337,
+    "left": 946
+  },
+  {
+    "title": "Пещера Холодный Берег (<q lblue>10lvl</q>) (<q lblue>35lvl</q>)",
+    "description": "Внутри <q green>3</q> тролля. Сразу после люка <q red>закрывается</q> решетка и появляются по очереди <q green>3</q> сильных стихийных атронаха. После нахождения Меча Монарха: <q red>Босс</q> и атронахи.",
+    "type": "animal magic magic_boss",
+    "nameIcon": "Cave",
+    "id": "id73",
+    "top": 300,
+    "left": 1095,
+    "bossList": [
+      "Тельдин Терано"
+    ],
+    "prizeList": [
+      "<q yelow>Краволхок</q>",
+      "<q yelow>Клинок Монарха</q>"
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Мертворожденного (<q lblue>30lvl</q>)",
+    "description": "В тунеле фалмеры <q green>7</q>, корусы <q green>4</q>.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id74",
+    "top": 388,
+    "left": 1039
+  },
+  {
+    "title": "Забытая пещера (<q lblue>35lvl</q>)",
+    "description": "Драугров <q green>12</q>. Далее <q green>7</q> драугров. В конце локации двойные двери <q red>закроются</q>.",
+    "type": "draugry draugry_boss  xp bottle",
+    "nameIcon": "Cave",
+    "id": "id75",
+    "top": 431,
+    "left": 911,
+    "bossList": [
+      "Куралмил"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Смертный Приговор</q>",
+      "<q yelow>Рецепт</q> Превосходка резистов",
+      "<q yelow>Белый флакон</q> (По квесту Нурелиона)",
+      "<q lblue>Предмет</q> на опыт в маленьком сейфе."
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ],
+      [
+        "bottleS.png"
+      ],
+      [
+        "bottleM.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Бронзовая Вода (<q lblue>0lvl</q>)",
+    "description": "Пару волков.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id76",
+    "top": 456,
+    "left": 901
+  },
+  {
+    "title": "Пещера Говорящие Холмы (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>2</q> снаружи и <q green>7</q> внутри. <q red>Босс</q> по квесту «Саммерсетские тени»",
+    "type": "bandit xp",
+    "nameIcon": "Cave",
+    "id": "id77",
+    "top": 523,
+    "left": 962,
+    "bossList": [
+      "Линви"
+    ],
+    "prizeList": [
+      "<q lblue>Предмет</q> на опыт в сундуке."
+    ]
+  },
+  {
+    "title": "Закатная расселина (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>2</q> бандита, Фалмеры <q green>6</q>, Корусы <q green>3</q>.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id79",
+    "top": 402,
+    "left": 773,
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Крипта Ночной пустоты (<q lblue>50lvl</q>)",
+    "description": "Вампиров <q green>9</q>, гончих <q green>5</q> и <q green>2</q> драугра. После деревянной двери <q red>Босс</q> и вампир. Далее <q green>2</q> гаргульи, <q green>2</q> драугра и сидит повелитель.",
+    "type": "vampire vampire_boss bottle chest",
+    "nameIcon": "Cave",
+    "id": "id81",
+    "top": 375,
+    "left": 650,
+    "bossList": [
+      "Локил"
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Мерцающий Туман (<q lblue>40lvl</q>)",
+    "description": "Корус на входе, <q green>6</q> фалмеров, <q green>3</q> коруса и большой паук. Нужно иметь тир 2 стамину. Ловушка при выходе из тоннеля.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id82",
+    "top": 553,
+    "left": 778,
+    "prizeList": [
+      "Центурион (<q lblue>100lvl</q>) <q lblue>2000xp</q>. В конце локации."
+    ]
+  },
+  {
+    "title": "Приют Редорана (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q> и собака внутри.",
+    "type": "bandit xp",
+    "nameIcon": "Cave",
+    "id": "id83",
+    "top": 561,
+    "left": 589,
+    "prizeList": [
+      "<q lblue>Меч Армена</q> на опыт."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Логово плута (<q lblue>10lvl</q>) (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>1</q> снаружи и <q green>11</q> внутри. <q red>Босс</q> по квесту.",
+    "type": "bandit",
+    "nameIcon": "Cave",
+    "id": "id84",
+    "top": 581,
+    "left": 492,
+    "bossList": [
+      "Кемату"
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Разводная пещера (<q lblue>0lvl</q>)",
+    "description": "Снаружи волк и паук. Внутри волки и тролль.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id85",
+    "top": 452,
+    "left": 462,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Оротхейм (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Cave",
+    "id": "id86",
+    "top": 467,
+    "left": 419,
+    "prizeList": [
+      "<q yelow>Броня Странствующего Рыцаря</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Провал Сквозняков (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>15</q> фалмеров и <q green>3</q> корусов.",
+    "type": "falmer ",
+    "nameIcon": "Cave",
+    "id": "id88",
+    "top": 405,
+    "left": 317,
+    "prizeIcon": [
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пристанище Лжеца (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>13</q> фалмеров и корус, паучки и бандиты при выходе из локации.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id89",
+    "top": 424,
+    "left": 279
+  },
+  {
+    "title": "Оплот Прыжок Брюсы (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>2</q> снаружи и <q green>2</q> внутри.",
+    "type": "trash",
+    "nameIcon": "Cave",
+    "id": "id90",
+    "top": 390,
+    "left": 246,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Отвесный Утес (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>3</q> снаружи и <q green>4</q> внутри потом <q green>4</q> внутри и <q green>2</q> ворожеи (<q lblue>квест</q> с мелкой)",
+    "type": "trash",
+    "nameIcon": "Cave",
+    "id": "id91",
+    "top": 515,
+    "left": 190,
+    "prizeList": [
+      "<q yelow>Глаз Мелки</q>",
+      "<q yelow>Веревское сердце</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png",
+        "3"
+      ]
+    ]
+  },
+  {
+    "title": "Шахта Логово Сольюнда (<q lblue>30lvl</q>)",
+    "description": "Драугры <q green>9</q> внутри и драугр (<q lblue>100lvl</q>) в конце. Падая в <q red>обвал</q> выбраться нельзя не пройдя всю локацию.",
+    "type": "draugry",
+    "nameIcon": "Mine",
+    "scale": 0.4,
+    "id": "id92",
+    "top": 565,
+    "left": 266
+  },
+  {
+    "title": "Оплот Красный Орёл (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>2</q> снаружи и <q green>5</q> внутри потом <q green>11</q> и <q red>Босс</q> в конце.",
+    "type": "trash",
+    "nameIcon": "Cave",
+    "id": "id93",
+    "top": 535,
+    "left": 238,
+    "bossList": [
+      "Изгой хранитель Красного Орла"
+    ],
+    "prizeList": [
+      "<q yelow>Ярость Красного Орла</q>."
+    ]
+  },
+  {
+    "title": "Каирн Мятежника (<q lblue>35lvl</q>)",
+    "description": "Проход <q red>закрывается</q>.",
+    "type": "draugry draugry_boss bottle",
+    "nameIcon": "Cave",
+    "id": "id94",
+    "top": 515,
+    "left": 290,
+    "bossList": [
+      "Красный Орёл"
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Озерный утес (<q lblue>20lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Изгои над пещерой <q green>3</q> и <q lblue>Книга Опыта</q>. Внутри драугры и <q red>боссы</q> призраки Голдура. Все Призраки <q red>боссов</q> Голдура по порядку и <q green>8</q> драугров. Самый страшный Лучник, создает <q green>7</q> своих копий.",
+    "type": "draugry draugry_boss ghost_boss trash set",
+    "nameIcon": "Cave",
+    "id": "id95",
+    "top": 597,
+    "left": 191,
+    "bossList": [
+      "Йурик Голдурсон",
+      "Сигдис Голдурсон",
+      "Микрул Голдурсон"
+    ],
+    "prizeList": [
+      "<q yelow>Амулет Голдура</q>",
+      "<q yelow>Сет Воина Слова</q>."
+    ]
+  },
+  {
+    "title": "Утесная пещера (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>8</q> драугров.",
+    "type": "draugry",
+    "nameIcon": "Cave",
+    "id": "id96",
+    "top": 625,
+    "left": 213
+  },
+  {
+    "title": "Чистый ручей",
+    "description": "Пару рыбок.",
+    "type": "animal soc",
+    "nameIcon": "Cave",
+    "id": "id98",
+    "top": 651,
+    "left": 134,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Мшистая пещера (<q lblue>20lvl</q>)",
+    "description": "Сприганты 3 и медведь",
+    "type": "animal bottle chest",
+    "nameIcon": "Cave",
+    "id": "id102",
+    "top": 751,
+    "left": 463,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleS.png"
+      ]
+    ]
+  },
+  {
+    "title": "Гленморильский ковен (<q lblue>30lvl</q>)",
+    "description": "Cнаружи <q red>ведьма</q>. Внутри <q green>5</q> ведьм и <q green>4</q> ворожей. <br/>По квесту соратников.",
+    "type": "magic",
+    "nameIcon": "Cave",
+    "id": "id103",
+    "top": 763,
+    "left": 384
+  },
+  {
+    "title": "Разделенное ущелье (<q lblue>35lvl</q>)",
+    "description": "Некромантов <q green>7</q>, скелетов <q green>5</q> и огне аторонах.",
+    "type": "animal magic bottle word chest roc",
+    "nameIcon": "Cave",
+    "id": "id104",
+    "top": 708,
+    "left": 447,
+    "prizeList": [
+      "Слово <q yelow>Огненное Дыхание</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleM.png"
+      ],
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Сломанный Клык (<q lblue>35lvl</q>)",
+    "description": "В упоре <q red>вампир</q> и <q green>4</q> скелета, в конце локации <q red>вампир</q> (спит ночью).",
+    "type": "vampire bottle chest",
+    "nameIcon": "Cave",
+    "id": "id105",
+    "top": 639,
+    "left": 476,
+    "prizeList": [
+      "<q yelow>Одеяние Мастера Колдовства</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleH.png"
+      ],
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Спящего дерева (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>",
+    "type": "giant",
+    "nameIcon": "Cave",
+    "id": "id106",
+    "top": 642,
+    "left": 505
+  },
+  {
+    "title": "Грот Утопленника (<q lblue>20lvl</q>)",
+    "description": "Спригганы <q green>4</q>, медведи <q green>4</q> и саблезуб.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id107",
+    "top": 707,
+    "left": 519,
+    "prizeList": [
+      "<q yelow>Клинок Болара</q>."
+    ]
+  },
+  {
+    "title": "Приречная застава (<q lblue>10lvl</q>)",
+    "description": "Бандиты. <q green>2</q> снаружи и <q green>7</q> внутри.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Cave",
+    "id": "id108",
+    "top": 636,
+    "left": 768,
+    "bossList": [
+      "Ульфр Слепой",
+      "Хайварр Железная Рука"
+    ]
+  },
+  {
+    "title": "Серозимняя застава (<q lblue>10lvl</q>) (<q lblue>25lvl</q>)",
+    "description": "Пару троллей. Используй огонь. <q red>Босс</q> по квесту.",
+    "type": "ghost_boss",
+    "nameIcon": "Cave",
+    "id": "id109",
+    "top": 594,
+    "left": 793,
+    "bossList": [
+      "Дух-Страж Тролля"
+    ],
+    "prizeList": [
+      "<q yelow>Лук Фроки</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Глубокая Тень (<q lblue>15lvl</q>)",
+    "description": "Тролли <q green>15</q>.",
+    "type": "animal mutant",
+    "nameIcon": "Cave",
+    "id": "id110",
+    "top": 596,
+    "left": 895,
+    "bossList": [
+      "Улик"
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Убежище Потерянный Нож (<q lblue>10lvl</q>)",
+    "description": "Бандиты на опыт <q green>20</q> внутри.",
+    "type": "bandit bandit_boss xp",
+    "nameIcon": "Cave",
+    "id": "id111",
+    "top": 676,
+    "left": 935,
+    "bossList": [
+      "Халвар Нетрезвый"
+    ],
+    "prizeList": [
+      "<q yelow>Молот Опьянения</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Сосновый Пик (<q lblue>0lvl</q>)",
+    "description": "Медведь снаружи и внутри.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id112",
+    "top": 757,
+    "left": 872,
+    "prizeList": [
+      "<q yelow>бриллиант</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Кронвангр (<q lblue>10lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Внутри <q green>18</q> пауков и <q green>3</q> <q red>вампира</q> (3 спят ночью).",
+    "type": "xp soc animal",
+    "nameIcon": "Cave",
+    "id": "id113",
+    "top": 604,
+    "left": 1012,
+    "prizeList": [
+      "<q yelow>Труп мамонта</q> на входе",
+      "<q lblue>Щит роге</q> на опыт",
+      "Рецепт <q yelow>Концентрированный паучий яд</q>",
+      "<q yelow>Черная вдова</q>"
+    ]
+  },
+  {
+    "title": "Святилище Великого Древа (<q lblue>20lvl</q>)",
+    "description": "По квесту <q green>3</q> сприганов.",
+    "type": "animal ",
+    "nameIcon": "Cave",
+    "id": "id114",
+    "top": 656,
+    "left": 1015,
+    "prizeList": [
+      "Сундук за веткой Рецепт <q yelow>Превосходка Омоложения (V)</q>"
+    ]
+  },
+  {
+    "title": "Черный Проход (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>10</q> фалмеров и <q green>3</q> коруса.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id115",
+    "top": 754,
+    "left": 1003
+  },
+  {
+    "title": "Откос Крегвеллоу (<q lblue>30lvl</q>)",
+    "description": "Снаружи маг (<q lblue>40lvl</q>). Внутри <q green>7</q> сильных мага и <q green>3</q> атронаха.",
+    "type": "magic bottle chest",
+    "nameIcon": "Cave",
+    "id": "id116",
+    "top": 593,
+    "left": 1125,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleM.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Крегслейн (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>1</q> снаружи и <q green>4</q> внутри.",
+    "type": "bandit bandit_boss set",
+    "nameIcon": "Cave",
+    "id": "id117",
+    "top": 694,
+    "left": 1161,
+    "bossList": [
+      "Мясник"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Мясника</q>",
+      "<q yelow>Резак</q>",
+      "<q yelow>Потрошитель</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ],
+      [
+        "book.png",
+        "2"
+      ],
+      [
+        "skooma.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Толвальда (<q lblue>30lvl</q>)",
+    "description": "Если открыть сундук с двух сторон зайдут <q green>3</q> фалмера, потом <q green>7</q>. Далее <q green>11</q> фалмеров, <q green>4</q> корусов. Далее <q green>12</q> фалмеров, <q green>2</q> коруса.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id118",
+    "top": 735,
+    "left": 1198
+  },
+  {
+    "title": "Пещера зеленая стена",
+    "description": "Тайный вход (адепт) во двор форта.",
+    "type": "bandit",
+    "nameIcon": "Cave",
+    "id": "id120",
+    "top": 804,
+    "left": 1181
+  },
+  {
+    "title": "Камнепадная пещера (<q lblue>20lvl</q>)",
+    "description": "Некромант снаружи и <q green>1</q> внутри.",
+    "type": "magic",
+    "nameIcon": "Cave",
+    "id": "id121",
+    "top": 798,
+    "left": 1096,
+    "prizeList": [
+      "<q yelow>Кровавый Гримуар</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Каирн Холдира (<q lblue>40lvl</q>)",
+    "description": "Внутри призраки, <q green>2</q> драугра и <q red>повелитель</q> (<q lblue>100lvl</q>) мечник, призывает <q green>2</q> скелетов архимагов. Далее??? решетка <q red>закрывается</q>.",
+    "type": "draugry draugry_boss ghost xp",
+    "nameIcon": "Cave",
+    "id": "id122",
+    "top": 890,
+    "left": 501,
+    "bossList": [
+      "драугр Холдир"
+    ],
+    "prizeList": [
+      "<q lblue>Барабан Рьерна</q> на опыт",
+      "<q yelow>Хватка Призрака</q>",
+      "<q yelow>Посох Холдира</q>."
+    ]
+  },
+  {
+    "title": "Южное святилище (<q lblue>35lvl</q>)",
+    "description": "Просторная локация. Снаружи маг, внутри <q green>6</q> магов. Маги быстро и больно бьют кинжалами, ходят парами. Забор можно перепрыгнуть в обе стороны.",
+    "type": "magic magic_boss",
+    "nameIcon": "Cave",
+    "id": "id122-0",
+    "top": 923.3,
+    "left": 735.9,
+    "bossList": [
+      "Башнаг"
+    ]
+  },
+  {
+    "title": "Грот Серая Вода (<q lblue>10lvl</q>)",
+    "description": "<q green>2</q> тролля и саблезуб.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id123",
+    "top": 873,
+    "left": 693
+  },
+  {
+    "title": "Сквозняковый проход (<q lblue>10lvl</q>)",
+    "description": "<q green>2</q> Ледяных привидения и волк.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id125",
+    "top": 888,
+    "left": 642
+  },
+  {
+    "title": "Пещера Хеймара (<q lblue>40lvl</q>)",
+    "description": "Ловушка на входе. Вампиры <q green>4</q> и несколько треллов. Далее вампиры <q green>4</q> (<q lblue>100lvl</q>) и пару треллов.",
+    "type": "vampire",
+    "nameIcon": "Cave",
+    "id": "id126",
+    "top": 841,
+    "left": 807
+  },
+  {
+    "title": "Медовая пещера (<q lblue>10lvl</q>)",
+    "description": "Медведь снаружи и <q green>2</q> внутри.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id127",
+    "top": 827,
+    "left": 886,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пещера Желтый Камень (<q lblue>10lvl</q>)",
+    "description": "Волки, троль, <q green>2</q> медведя.",
+    "type": "animal",
+    "nameIcon": "Cave",
+    "id": "id128",
+    "top": 849,
+    "left": 1242
+  },
+  {
+    "title": "Пещера Каменный Ручей (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>4</q>. В пещере есть тайный вход в Кагрензел, а в нем сундук и далеко двемерский <q red>этеринавт-предводитель</q> (<q lblue>50lvl</q>) и фалмеры.",
+    "type": "bandit  xp",
+    "nameIcon": "Cave",
+    "id": "id128-0",
+    "top": 663.3,
+    "left": 1185.9,
+    "prizeList": [
+      "<q lblue>Лютня</q> на опыт."
+    ]
+  },
+  {
+    "title": "Кристаллическая пещера (<q lblue>35lvl</q>)",
+    "description": "Огромный медведь в конце небольшой пещеры и пару зверей.",
+    "type": "animal mutant",
+    "nameIcon": "Cave",
+    "id": "id129",
+    "top": 967,
+    "left": 1144,
+    "bossList": [
+      "Косолап"
+    ],
+    "prizeList": [
+      "<q yelow>Посох Гатнора</q>",
+      "<q yelow>Сердце Косолапа</q>."
+    ]
+  },
+  {
+    "title": "Лощина Сломанный шлем (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>2</q> снаружи и <q green>3</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Cave",
+    "id": "id130",
+    "top": 929,
+    "left": 1235,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пруд Чистых Сосен",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id132",
+    "top": 287,
+    "left": 294,
+    "prizeList": [
+      "<q yelow>Труп алхимика</q>"
+    ]
+  },
+  {
+    "title": "Пруд Глаз Мары (<q lblue>35lvl</q>)",
+    "description": "Внутри <q green>2</q> вампира в упоре (спят ночью). Маленькая комната, есть пространство для уклонения.",
+    "type": "vampire",
+    "nameIcon": "Pond",
+    "id": "id133",
+    "top": 560,
+    "left": 976,
+    "prizeList": [
+      "Сундук с <q yelow>Эбонитовым лутом</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Чистое озеро (<q lblue>10lvl</q>)",
+    "description": "Тролль внутри.",
+    "type": "animal",
+    "nameIcon": "Pond",
+    "id": "id134",
+    "top": 758,
+    "left": 1054,
+    "prizeList": [
+      "<q yelow>Лук охоты</q>."
+    ]
+  },
+  {
+    "title": "Осенняя поляна (<q lblue>10lvl</q>)",
+    "description": "Спригган, <q green>2</q> медведя саблезуб.",
+    "type": "animal",
+    "nameIcon": "Pond",
+    "id": "id135",
+    "top": 834,
+    "left": 1116
+  },
+  {
+    "title": "Кратер Драконий Зуб (<q lblue>20lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Изгои <q green>2</q> и ворожея.",
+    "type": "trash dragon chest word",
+    "nameIcon": "Dragon",
+    "id": "id136",
+    "top": 427,
+    "left": 191,
+    "prizeList": [
+      "Слово <q yelow>Элементная Ярость</q>",
+      "<q yelow>Сокровище</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
+    ]
+  },
+  {
+    "title": "Пик Древних (<q lblue>50lvl</q>)",
+    "description": "",
+    "type": "dragon word",
+    "nameIcon": "Dragon",
+    "id": "id137",
+    "top": 474,
+    "left": 505,
+    "prizeList": [
+      "Слово <q yelow>Разоружение</q>."
+    ]
+  },
+  {
+    "title": "Алтарь Рожденного Небом (<q lblue>50lvl</q>)",
+    "description": "",
+    "type": "dragon word",
+    "nameIcon": "Dragon",
+    "id": "id138",
+    "top": 435,
+    "left": 619,
+    "prizeList": [
+      "Слово <q yelow>Морозное дыхание</q>."
+    ]
+  },
+  {
+    "title": "Гора Антор (<q lblue>50lvl</q>)",
+    "description": "",
+    "type": "dragon word",
+    "nameIcon": "Dragon",
+    "id": "id139",
+    "top": 377,
+    "left": 934,
+    "prizeList": [
+      "Слово <q yelow>Ледяная форма</q>."
+    ]
+  },
+  {
+    "title": "Двуглавый пик (<q lblue>40lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "После квеста <q red><q red>Дракон</q></q>.",
+    "type": "dragon word priest",
+    "nameIcon": "Dragon",
+    "id": "id140",
+    "top": 526,
+    "left": 852,
+    "bossList": [
+      "Кросис"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Голосовой бросок</q>."
+    ]
+  },
+  {
+    "title": "Скелетный гребень (<q lblue>10lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "<q green>3</q> скелета.",
+    "type": "skelet dragon chest word",
+    "nameIcon": "Dragon",
+    "id": "id141",
+    "top": 622,
+    "left": 1054,
+    "prizeList": [
+      "<q yelow>Сокровище</q>",
+      "Слово <q yelow>Морозное дыхание</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
+    ]
+  },
+  {
+    "title": "Вершина Северный Ветер (<q lblue>10lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "<q green>3</q> скелета.",
+    "type": "skelet dragon word",
+    "nameIcon": "Dragon",
+    "id": "id142",
+    "top": 753,
+    "left": 1114,
+    "prizeList": [
+      "Слово <q yelow>Шепот ауры</q>."
+    ]
+  },
+  {
+    "title": "Откушенный Язык (<q lblue>20lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Некромант и <q green>3</q> скелета.",
+    "type": "dragon magic word",
+    "nameIcon": "Dragon",
+    "id": "id143",
+    "top": 979,
+    "left": 1181,
+    "prizeList": [
+      "Слово <q yelow>Испуг</q>."
+    ]
+  },
+  {
+    "title": "Осенняя сторож. башня (<q lblue>10lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Бандиты <q green>4</q>.",
+    "type": "bandit chest word",
+    "nameIcon": "Dragon",
+    "id": "id144",
+    "top": 902,
+    "left": 899,
+    "prizeList": [
+      "Слово <q yelow>Смертный приговор</q>",
+      "2 <q yelow>Праха вампира</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Ход Древних (<q lblue>50lvl</q>)",
+    "description": "",
+    "type": "dragon word",
+    "nameIcon": "Dragon",
+    "id": "id145",
+    "top": 901,
+    "left": 628,
+    "prizeList": [
+      "Слово <q yelow>Мощь Хищника</q>."
+    ]
+  },
+  {
+    "title": "Бтардамз (<q lblue>40lvl</q>)",
+    "description": "Снаружи <q green>5</q> одержимых. Внутри <q green>40</q> одержимых, <q green>12</q> паучков <q green>7</q> двемеров и Центурион.",
+    "type": "dwemer magic_boss set",
+    "nameIcon": "DwemerRuins",
+    "id": "id146",
+    "scale": 0.4,
+    "top": 445,
+    "left": 121,
+    "bossList": [
+      "Оркендор"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Двемеского Архитектора</q>",
+      "<q yelow>Боевой Посох Оркендора</q>."
+    ]
+  },
+  {
+    "title": "Аркнтамз (<q lblue>30lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Внутри <q green>2</q> двемерских паука, <q green>10</q> фалмеров и <q green>4</q> коруса. Далее загадка и зачарованная сфера (<q lblue>60lvl</q>). При прерывании последовательности по порядку появляются: <q green>4</q> двемерских паука, <q green>2</q> сферы, арбалетные болты, центурион (<q lblue>100lvl</q>).",
+    "type": "dwemer",
+    "nameIcon": "DwemerRuins",
+    "id": "id148",
+    "scale": 0.4,
+    "top": 689,
+    "left": 199
+  },
+  {
+    "title": "Аванчнзел (<q lblue>40lvl</q>)",
+    "description": "Взять <q lblue>квест</q> в Рифтане. Внутри <q green>20</q> Двемерских паучков, двемеры <q green>8</q>, и двемерский призрак. Каратели <q green>2</q>, смертальная <q red>ловушка</q> у двойной двери. В финальной комнате двемерский центурион (<q lblue>100lvl</q>) <q lblue>2000xp</q> ждет игрока.",
+    "type": "dwemer dwemer_boss",
+    "nameIcon": "DwemerRuins",
+    "id": "id149",
+    "scale": 0.4,
+    "top": 928,
+    "left": 1021,
+    "bossList": [
+      "Кадак Мезалф"
+    ],
+    "prizeList": [
+      "<q yelow>Кольцо Кадака Мезалфа</q>",
+      "<q yelow>бафф Двемерские Знания</q>."
+    ]
+  },
+  {
+    "title": "Кладовая гномов (<q lblue>30lvl</q>)",
+    "description": "Зачар. сфера (<q lblue>60lvl</q>), <q green>2</q> паука и <q green>2</q> сферы.",
+    "type": "dwemer",
+    "nameIcon": "DwemerRuins",
+    "id": "id150",
+    "top": 647,
+    "left": 1162,
+    "prizeList": [
+      "<q yelow>Книга Волшебная Починка</q>."
+    ]
+  },
+  {
+    "title": "Кагрензел (<q lblue>25lvl</q>)",
+    "description": "<q red>Безвозвратная</q> ловушка светлячок. <q green>3</q> Фалмеров и босс.",
+    "type": "dwemer dwemer_boss",
+    "nameIcon": "DwemerRuins",
+    "id": "id151",
+    "scale": 0.4,
+    "top": 681,
+    "left": 1237,
+    "bossList": [
+      "Двемерский этеринавт-предводитель"
+    ],
+    "prizeList": [
+      "<q yelow>Шлем</q> и <q yelow>Перчатки</q> Этеринавта."
+    ]
+  },
+  {
+    "title": "Мзулфт (<q lblue>40lvl</q>)",
+    "description": "Внутри хранитель (<q lblue>70lvl</q>), защитник, <q green>2</q> паука. Далее <q green>2</q> сферы, <q green>2</q> паука, защитник, <q green>2</q> хранителя (<q lblue>70lvl</q>). Далее <q green>10</q> фалмеров, <q green>6</q> корусов. Далее <q green>5</q> фалмеров и центурион (<q lblue>100lvl</q>). В конце <q red>Босс</q>?????.",
+    "type": "dwemer dwemer_boss",
+    "nameIcon": "DwemerRuins",
+    "id": "id152",
+    "scale": 0.4,
+    "top": 632,
+    "left": 1162
+  },
+  {
+    "title": "Иркнтанд (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>8</q> снаружи. Внутри фалмеры и двемеры????",
+    "type": "bandit",
+    "nameIcon": "DwemerRuins",
+    "id": "id154",
+    "scale": 0.4,
+    "top": 502,
+    "left": 881
+  },
+  {
+    "title": "Ральдбтхар (<q lblue>10lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи и <q green>7</q> внутри. Далее <q green>3</q> сферы, баллиста, <q green>3</q> паука, <q green>2</q> защитника (<q lblue>50lvl</q>). <br/> Далее <q green>5</q> фалмеров, ловушка арбалет, <q green>3</q> паука и сфера. <br/> Далее <q green>5</q> Фалмеров и <q red>цинтурион</q> (<q lblue>100lvl</q>). <br/> Далее баллиста, паук, хранитель (<q lblue>70lvl</q>), призрак (<q lblue>45lvl</q>), зач. сфера (<q lblue>60lvl</q>). Далее <q red>центурион</q>, хранитель, защитник и зачар сфера все в одном месте.",
+    "type": "bandit bandit_boss dwemer set",
+    "nameIcon": "DwemerRuins",
+    "id": "id155",
+    "scale": 0.4,
+    "top": 502,
+    "left": 916,
+    "bossList": [
+      "Ален Дюфон"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Алена Дюфона</q>",
+      "<q yelow>Проклятье Эгиды</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Альфтанд (<q lblue>40lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Внутри <q green>3</q> защитника, <q green>7</q> пауков, <q green>2</q> сферы. Далее <q green>2</q> хранителя (<q lblue>70lvl</q>), призрак, <q green>3</q> паука, баллиста, <q green>18</q> фалмеров и <q red>центурион</q> (<q lblue>100lvl</q>). <br/> Чёрный Предел по квесту Септимия Сегония. <br/> Чёрный Предел: После входа в упоре атакуют <q green>6</q> сфер и паук. Далее <q green>96</q> фалмеры. <br/> <q red>Центурион</q> (<q lblue>100lvl</q>) в начале на дороге. <br/> <q red>Центурион</q> (<q lblue>100lvl</q>) в середине локации. <br/> <q red>Центурион</q> (<q lblue>100lvl</q>) не подалеку от «Главный подьемник Мзинчалефта». <br/> Если крикнуть безжалостной силой в огромную сферу то появится <q red><q red>Дракон</q></q>.",
+    "type": "dwemer falmer dragon magic_boss dragon_boss",
+    "nameIcon": "DwemerRuins",
+    "id": "id158",
+    "scale": 0.4,
+    "top": 342.3,
+    "left": 878.9,
+    "bossList": [
+      "Мзарк",
+      "Вультурьйол"
+    ],
+    "prizeList": [
+      "<q yelow>Головоломка Мзарка</q>",
+      "<q yelow>Заполненый словарь</q>",
+      "<q yelow>Посох Мзарка</q>",
+      "<q yelow>Свиток Мастрерский Стук</q>."
+    ]
+  },
+  {
+    "title": "Мзинчалефта (<q lblue>10lvl</q>) (<q lblue>30lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Бандиты <q green>8</q> снаружи и <q green>6</q> внутри. <br/> Далее <q green>4</q> бандита сражаются с <q red>хранителем</q> (<q lblue>70lvl</q>) и сферой. <br/> Далее <q green>2</q> паука, <q green>2</q> сферы и <q red>хранитель</q> (<q lblue>70lvl</q>) <br/> Потом фалмеры <q green>15</q>, сфера и <q red>цинтурион</q> (<q lblue>100lvl</q>) в конце.",
+    "type": "bandit falmer dwemer",
+    "nameIcon": "DwemerRuins",
+    "id": "id161",
+    "scale": 0.4,
+    "top": 320,
+    "left": 652,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Водоем Холодный Ветер (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>, мамонты <q green>3</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id163",
+    "top": 587,
+    "left": 641
+  },
+  {
+    "title": "Лагерь Говорящий Камень (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>, мамонты <q green>2</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id164",
+    "top": 521,
+    "left": 411
+  },
+  {
+    "title": "Лагерь Сонное Дерево (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>3</q>, мамонты <q green>2</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id165",
+    "top": 632,
+    "left": 497,
+    "prizeList": [
+      "<q yelow>Живица Сонного Дерева</q>."
+    ]
+  },
+  {
+    "title": "Арочный перевал (<q lblue>20lvl</q>)",
+    "description": "Великан и мамонт.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id166-0",
+    "top": 491.3,
+    "left": 848.9
+  },
+  {
+    "title": "Красный перевал (<q lblue>20lvl</q>)",
+    "description": "Великан и мамонт, <q green>4</q> бандита атакуют великана.",
+    "type": "giant bandit soc",
+    "nameIcon": "GiantCamp",
+    "id": "id166",
+    "top": 338,
+    "left": 704,
+    "prizeList": [
+      "<q yelow>Снаряжение бандитов</q>."
+    ]
+  },
+  {
+    "title": "Дом Буранов (<q lblue>30lvl</q>)",
+    "type": "giant giant_boss mutant",
+    "description": "Великан, мамонты <q green>2</q> и босс.",
+    "nameIcon": "GiantCamp",
+    "id": "id167",
+    "top": 464,
+    "left": 758,
+    "bossList": [
+      "Рагнок"
+    ],
+    "prizeList": [
+      "<q yelow>Зубочистка Рагнока</q>."
+    ]
+  },
+  {
+    "title": "Утес Каменный Холм (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id168",
+    "top": 451,
+    "left": 689
+  },
+  {
+    "title": "Поцелуй Секунды (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id169",
+    "top": 674,
+    "left": 625
+  },
+  {
+    "title": "Скала Гулдун (<q lblue>25lvl</q>)",
+    "type": "giant giant_boss soc",
+    "description": "Великаны <q green>3</q> вместе с боссом.",
+    "nameIcon": "GiantCamp",
+    "id": "id170",
+    "top": 622,
+    "left": 861,
+    "bossList": [
+      "Горак Убийца троллей"
+    ],
+    "prizeList": [
+      "<q yelow>Шкуры троллей</q>",
+      "<q yelow>Серебряный двуручный меч</q>."
+    ]
+  },
+  {
+    "title": "Седловая скала (<q lblue>20lvl</q>)",
+    "description": "Великан.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id171",
+    "top": 607,
+    "left": 926
+  },
+  {
+    "title": "Лагерь Сломанная Нога (<q lblue>20lvl</q>)",
+    "description": "Великаны <q green>2</q>.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id172",
+    "top": 634,
+    "left": 987
+  },
+  {
+    "title": "Паровой лагерь (<q lblue>20lvl</q>)",
+    "description": "Великан, мамонт.",
+    "type": "giant",
+    "nameIcon": "GiantCamp",
+    "id": "id173",
+    "top": 620,
+    "left": 1086
+  },
+  {
+    "title": "Роща Ведьмин Туман (<q lblue>30lvl</q>)",
+    "description": "Карга (<q lblue>50lvl</q>)",
+    "type": "magic",
+    "nameIcon": "Grove",
+    "id": "id174",
+    "top": 598.7,
+    "left": 1054.4,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Скрытая роща (<q lblue>20lvl</q>)",
+    "description": "Спригган снаружи, пару волков и спригган внутри.",
+    "type": "animal bottle chest",
+    "nameIcon": "Grove",
+    "id": "id176",
+    "top": 444.7,
+    "left": 821.4,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleS.png"
+      ]
+    ]
+  },
+  {
+    "title": "Нора Зеленый Ручей (<q lblue>0lvl</q>)",
+    "description": "Случайный зверек.",
+    "type": "animal soc",
+    "nameIcon": "Grove",
+    "id": "id177",
+    "top": 539.7,
+    "left": 548.4,
+    "prizeList": [
+      "<q yelow>Шкуры</q> под навесом."
+    ]
+  },
+  {
+    "title": "Вечнозеленая роща (<q lblue>20lvl</q>)",
+    "description": "Волк, <q green>2</q> сприггана.",
+    "type": "animal",
+    "nameIcon": "Grove",
+    "id": "id178",
+    "top": 798.7,
+    "left": 476.4
+  },
+  {
+    "title": "Поляна предков (<q lblue>20lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Спригганы <q green>3</q>. После прочтения свитка по квесту выйдут <q green>4</q> вампира и горгулья.",
+    "type": "animal vampire",
+    "nameIcon": "Grove",
+    "id": "id179",
+    "top": 886.7,
+    "left": 594.4
+  },
+  {
+    "title": "Шахта Потерянный Шанс",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Mine",
+    "id": "id180",
+    "top": 871.5,
+    "left": 1253.3,
+    "prizeList": [
+      "Руда <q yelow>Золото</q> за водопадом."
+    ]
+  },
+  {
+    "title": "Шахта Камень Шора (<q lblue>20lvl</q>)",
+    "description": "Парализующие паучки <q green>6</q>.",
+    "type": "animal",
+    "nameIcon": "Mine",
+    "id": "id181",
+    "top": 780.5,
+    "left": 1138.3
+  },
+  {
+    "title": "Шахта Северный Ветер (<q lblue>10lvl</q>)",
+    "description": "<q green>3</q> скелета.",
+    "type": "skelet",
+    "nameIcon": "Mine",
+    "id": "id183",
+    "top": 731.5,
+    "left": 1109.3,
+    "prizeList": [
+      "<q yelow>Эбонитовая Жила</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "шахта Черный Брод",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id185",
+    "top": 696.5,
+    "left": 1013.3,
+    "prizeList": [
+      "Руда <q yelow>Корунд</q>."
+    ]
+  },
+  {
+    "title": "Шахта горячий пар",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id186",
+    "top": 545.5,
+    "left": 1069.3,
+    "prizeList": [
+      "Руда <q yelow>Малахит</q>."
+    ]
+  },
+  {
+    "title": "Сумрачная шахта",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id187",
+    "top": 570.5,
+    "left": 1138.3,
+    "prizeList": [
+      "Руда <q yelow>Эбонит</q>."
+    ]
+  },
+  {
+    "title": "Шахта",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id190",
+    "top": 259.5,
+    "left": 717.3,
+    "prizeList": [
+      "Руда <q yelow>Ртутная</q>."
+    ]
+  },
+  {
+    "title": "Желчная шахта (<q lblue>10lvl</q>)",
+    "description": "Бандиты орки <q green>3</q> снаружи и <q green>1</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Mine",
+    "id": "id194",
+    "top": 719.5,
+    "left": 382.3,
+    "prizeList": [
+      "руда <q yelow>Орихалковая</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Мрачный Предел (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>5</q> фалмеров, <q green>2</q> корусов. Далее <q green>6</q> фалмеров и корус.",
+    "type": "falmer",
+    "nameIcon": "Cave",
+    "id": "id195",
+    "top": 670.6,
+    "left": 316.9
+  },
+  {
+    "title": "Шахта",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id196",
+    "top": 664.3,
+    "left": 180.9,
+    "prizeList": [
+      "Руда <q yelow>Орихалк</q>."
+    ]
+  },
+  {
+    "title": "Шахта колскеггр (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>3</q> снаружи и <q green>5</q> внутри.",
+    "type": "trash lode",
+    "nameIcon": "Mine",
+    "id": "id198",
+    "top": 537.6,
+    "left": 167.9,
+    "prizeList": [
+      "Руда <q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Шахта Сануарах",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id200",
+    "top": 451.3,
+    "left": 217.9,
+    "prizeList": [
+      "Руда <q yelow>Серебро</q>."
+    ]
+  },
+  {
+    "title": "Шахта ущелье фенна",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id201",
+    "top": 460.3,
+    "left": 207.9,
+    "prizeList": [
+      "Руда <q yelow>Серебро</q>."
+    ]
+  },
+  {
+    "title": "Шахта",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mine",
+    "id": "id202",
+    "top": 330.3,
+    "left": 150.9,
+    "prizeList": [
+      "Руда <q yelow>Орихалк</q>."
+    ]
+  },
+  {
+    "title": "Вольскигге (<q lblue>10lvl</q>) (<q lblue>35lvl</q>) (<q lblue>60lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи и <q red>Драугр</q> в руинах, <q green>6</q> бандитов внутри. <br/> Далее <q red>закрывающаяся решетка</q> и <q green>3</q> <q red>драугра</q> в склепах. Далее <q green>17</q> драугров и <q red>повелитель</q> (<q lblue>100lvl</q>) на второй фазе воскрешает драугров и восполняет <q llred>ХП</q>. Пик Вольскигге <q red>закрывается</q>!",
+    "type": "bandit draugry word priest",
+    "nameIcon": "Tomb",
+    "id": "id203",
+    "top": 298.8,
+    "left": 219.3,
+    "bossList": [
+      "Вольсунг"
+    ],
+    "prizeList": [
+      "Сундук с <q yelow>Эбонит. лутом</q>",
+      "<q yelow>Вольсунг</q>",
+      "слово <q yelow>Стремительный рывок</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лесной оплот (<q lblue>25lvl</q>) (<q lblue>30lvl</q>)",
+    "description": "Изгои <q green>3</q> снаружи и папаша, <q green>7</q> внутри и <q green>4</q> <q red>руны</q> холода, потом <q green>14</q> снаружи, <q green>8</q> <q red>ведьм</q> внутри и ворожея.",
+    "type": "trash  set",
+    "nameIcon": "Tomb",
+    "id": "id204",
+    "top": 336.8,
+    "left": 216.3,
+    "prizeList": [
+      "Над водопадом <q yelow>Сет Хищника</q>",
+      "Слово <q yelow>Замедление времени</q>",
+      "<q yelow>Торнадо</q>",
+      "<q yelow>Рецепт комб. яд V</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png",
+        "2"
+      ]
+    ]
+  },
+  {
+    "title": "Фолгунтур (<q lblue>40lvl</q>)",
+    "description": "Внутри <q green>18</q> другров. Перед комнатой с загадкой <q red>закроются</q> двери и начнут восставать <q green>6</q> драугров, Используй свиток «священный круг». После захода в Фолгундур Крипта, двери <q red>закроются</q>.",
+    "type": "draugry draugry_boss word",
+    "nameIcon": "Tomb",
+    "id": "id206",
+    "top": 301.8,
+    "left": 484.9,
+    "bossList": [
+      "Микрул Голдурсон"
+    ],
+    "prizeList": [
+      "<q yelow>Часть амулета Голдура</q>",
+      "Слово <q yelow>Морозное дыхание</q>."
+    ]
+  },
+  {
+    "title": "Руины Высоких Врат (<q lblue>60lvl</q>)",
+    "description": "Внутри <q green>16</q> драугров. Дальше <q red>закроется</q> дверь.",
+    "type": "draugry priest",
+    "nameIcon": "Tomb",
+    "id": "id207",
+    "top": 253.8,
+    "left": 575.9,
+    "bossList": [
+      "Вокун"
+    ]
+  },
+  {
+    "title": "Устенгрев (<q lblue>40lvl</q>)",
+    "description": "<q lblue>Квест</q>: Рог Юргена - <q lblue>40lvl</q>. <br/> Пару некромантов и <q green>9</q> драугров. Далее <q green>5</q> драугров, несколько скелетов и <q red>повелитель</q> внизу в водопаде. После загадки, комната с нажимными огненными <q red>ловушками</q>.",
+    "type": "draugry word set",
+    "nameIcon": "Tomb",
+    "id": "id208",
+    "top": 306.8,
+    "left": 562.9,
+    "prizeList": [
+      "<q yelow>Сет Языка</q>",
+      "Слово <q yelow>Замедление времени</q>."
+    ]
+  },
+  {
+    "title": "Упокоище (<q lblue>40lvl</q>)",
+    "description": "Драугры <q green>4</q> <q yelow>крепко спят</q>, можно убить по одному. Дальше <q green>3</q> драугра и пауки. <q red>Падая</q> в яму вернуться нельзя. Далее <q red>закрывается</q> решетка с <q green>12</q> драуграми. Босс в конце локации за дверью с когтем. Далее решетка <q red>закрывается</q> с <q green>14</q> драуграми и <q red>боссом</q>. Убивай драугров как можно быстрее, Используй свиток «священный круг».",
+    "type": "draugry draugry_boss bottle",
+    "nameIcon": "Tomb",
+    "id": "id209",
+    "top": 420.8,
+    "left": 423.9,
+    "bossList": [
+      "Король Олаф Одноглазый"
+    ],
+    "prizeList": [
+      "<q yelow>Призрачный Крушитель</q>"
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лабиринтиан (<q lblue>20lvl</q>) (<q lblue>55lvl</q>)",
+    "description": "Ледяные тролли <q green>10</q> снаружи. <br/> В начале <q red>закрывается</q> решетка! На большой арене <q red>Дракон-скелет</q>, <q green>2</q> <q red>повелителя</q>, <q green>9</q> драугров, скелеты <q green>6</q>. <br/> Бездна: Призрак, <q green>5</q> драугров, электро руна, <q red>повелитель</q>. <br/> Галерея: Повелитель, <q green>18</q> драугров, скелеты <q green>6</q>, <q green>3</q> мать дымок, <q green>7</q> Призраков. <br/> Трибуна: <q green>9</q> призраков, руна холода, турели камни душ, скелет. Далее Большая деревянная двойная дверь <q red>закрывается</q>! <br/> Небольшая арена: <q green>3</q> Повелителя, <q green>5</q> драугров (<q lblue>100lvl</q>), Босс после активации. <br/> В конце локации <q red>Босс</q> Эстормо.",
+    "type": "animal draugry dragon ghost bottle priest",
+    "nameIcon": "Tomb",
+    "id": "id210",
+    "top": 448.8,
+    "left": 573.9,
+    "bossList": [
+      "Дракон-скелет",
+      "Морокеи"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Замедление Времени</q>",
+      "<q yelow>Посох Магнуса</q>",
+      "<q yelow>Морокеи</q>",
+      "<q yelow>Мастерский стук</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleM.png"
+      ],
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Обитель Раннвейг (<q lblue>30lvl</q>)",
+    "description": "Призраки <q green>3</q> снаружи и <q green>5</q> внутри.",
+    "type": "skelet magic_boss ghost roc",
+    "nameIcon": "Tomb",
+    "id": "id211",
+    "top": 506.8,
+    "left": 486.9,
+    "bossList": [
+      "Сильд"
+    ],
+    "prizeList": [
+      "<q yelow>Кольцо Сильда</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Волундруд (<q lblue>40lvl</q>)",
+    "description": "Внутри слева <q green>7</q> другров, справа <q green>7</q> драугров. В финальной комнате двери <q red>закрываются</q>, за ними <q red>Босс</q> и <q green>3</q> драугра.",
+    "type": "draugry draugry_boss ghost_boss word",
+    "nameIcon": "Tomb",
+    "id": "id213",
+    "top": 488.8,
+    "left": 665.9,
+    "bossList": [
+      "Квенел Язык"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Шепот Ауры</q>",
+      "<q yelow>Кольцо Ледяная Защита</q>",
+      "<q yelow>Окин</q>",
+      "<q yelow>Эдуж</q>."
+    ]
+  },
+  {
+    "title": "Фростмир (<q lblue>10lvl</q>) (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи и <q green>13</q> внутри.",
+    "type": "bandit magic_boss word chest",
+    "nameIcon": "Tomb",
+    "id": "id214",
+    "top": 364.8,
+    "left": 665.9,
+    "bossList": [
+      "Бледная леди"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Ледяная форма</q>",
+      "<q yelow>Хладное Око</q>",
+      "<q yelow>Светящаяся пыль Бледной леди</q>",
+      "<q yelow>Бледный Клинок</q>",
+      "Щит <q yelow>Звезда Магнуса</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Корваньюнд (<q lblue>10lvl</q>) (<q lblue>30lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи. До квеста «Зубчатая корона». С квестом <q green>3</q> солдата снаружи и <q green>14</q> внутри. Далее активировав рычаг восстанут <q green>6</q> драугров. В конце <q green>2</q> драугра.",
+    "type": "bandit draugry draugry_boss word set",
+    "nameIcon": "Tomb",
+    "id": "id215",
+    "top": 478.8,
+    "left": 807.9,
+    "bossList": [
+      "Король Боргас"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Замедление времени</q>",
+      "<q yelow>Зубчатая Корона</q>",
+      "<q yelow>Сет Боргаса</q>."
+    ]
+  },
+  {
+    "title": "Серебряное логово (<q lblue>0lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Бандиты <q green>2</q> снаружи. Внутри на нижнем уровне есть дверь загадка и <q green>5</q> драугров. Далее <q green>2</q> ловушки и <q green>10</q> другров.",
+    "type": "bandit draugry word",
+    "nameIcon": "Tomb",
+    "id": "id216",
+    "top": 416.8,
+    "left": 820.9,
+    "prizeList": [
+      "Слово <q yelow>Разоружение</q>."
+    ]
+  },
+  {
+    "title": "Курган Железный (<q lblue>35lvl</q>)",
+    "description": "Туннель драугров <q green>7</q> внутри, дальше <q red>закроется решетка</q>.",
+    "type": "draugry draugry_boss word",
+    "nameIcon": "Tomb",
+    "id": "id217",
+    "top": 402.8,
+    "left": 854.9,
+    "bossList": [
+      "Военачальник Гатрик"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Бесплотность</q>."
+    ]
+  },
+  {
+    "title": "Гробница Исграмора (<q lblue>????lvl</q>)",
+    "description": "Внутри <q green>11</q> призраков (<q lblue>60lvl</q>) и пауки. Дальше <q green>10</q> призраков и босс????",
+    "type": "ghost bottle set",
+    "nameIcon": "Tomb",
+    "id": "id218",
+    "top": 206.8,
+    "left": 932.9,
+    "prizeList": [
+      "<q yelow>Сет предвестника</q>",
+      "<q yelow>Бафф Истинный Соратник</q>",
+      "<q yelow>Превосходное Зелье</q>????."
+    ]
+  },
+  {
+    "title": "Саартал (<q lblue>30lvl</q>)",
+    "description": "Внутри <q green>13</q> драугров, огне руна, <q green>2</q> гроз. руна.",
+    "type": "draugry draugry_boss soc word",
+    "nameIcon": "Tomb",
+    "id": "id219",
+    "top": 298.8,
+    "left": 922.9,
+    "bossList": [
+      "Йурик голдурсон"
+    ],
+    "prizeList": [
+      "<q yelow>Банки</q> и <q yelow>Свитки</q> на входе",
+      "Слово <q yelow>Ледяная форма</q>",
+      "<q yelow>20% двуруч. урона</q>",
+      "<q yelow>эбонит. лут</q>."
+    ]
+  },
+  {
+    "title": "Курган Ингола (<q lblue>30lvl</q>)",
+    "description": "Драугров внутри <q green>8</q>. Перед загадкой <q red>закроются</q> двери. Если не взять коготь от двери то можно остаться взаперти <q red>навсегда</q>!",
+    "type": "draugry draugry_boss set",
+    "nameIcon": "Tomb",
+    "id": "id220",
+    "top": 439.8,
+    "left": 1131.9,
+    "bossList": [
+      "Тень Ингола"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Ингола</q>",
+      "<q yelow>Щит Печаль Исграмора</q>."
+    ]
+  },
+  {
+    "title": "Снежная Завеса - Святилище (<q lblue>30lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "По <q lblue>квесту</q> гильдии воров. При открытии сундука восстают <q green>2</q> драугра. Дальше <q green>20</q> драугров. Далее <q green>9</q> драугров, <q red>повелитель</q> (<q lblue>100lvl</q>) посошник с архимагами и <q green>2</q> драуграми.",
+    "type": "draugry bottle word",
+    "nameIcon": "Tomb",
+    "id": "id221",
+    "top": 361.8,
+    "left": 1091.9,
+    "prizeList": [
+      "Слово <q yelow>Разоружение</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleS.png"
+      ]
+    ]
+  },
+  {
+    "title": "Рагнвальд (<q lblue>50lvl</q>)",
+    "description": "Снаружи <q green>2</q> драугра. Внутри <q green>4</q> Драугра и <q red>Босс</q>. <br/>&nbsp; -Слева <q green>8</q> драугров, <q green>2</q> драугра и <q red>Босс</q>. <br/>&nbsp; -Справа <q green>3</q> драугра, <q green>2</q> драугра и <q red>Босс</q>.",
+    "type": "draugry draugry_boss word priest",
+    "nameIcon": "Tomb",
+    "id": "id222",
+    "top": 503.3,
+    "left": 89.9,
+    "bossList": [
+      "Страж Сирек",
+      "Страж Торстен",
+      "Отар безумный"
+    ],
+    "prizeList": [
+      "<q yelow>Отар</q>",
+      "Слово <q yelow>Кармония Кин</q>."
+    ]
+  },
+  {
+    "title": "Ведьмин оплот (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>8</q> снаружи, в руинах <q green>3</q> и папаша.",
+    "type": "trash bottle chest",
+    "nameIcon": "Tomb",
+    "id": "id223",
+    "top": 641.3,
+    "left": 86.9,
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleS.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Оплот Потерянная Долина (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>13</q> потом папаша и <q green>2</q> варажеи.",
+    "type": "trash xp word",
+    "nameIcon": "Tomb",
+    "id": "id224",
+    "top": 702.5,
+    "left": 351.3,
+    "prizeList": [
+      "Прыжок с моста <q lblue>3000xp</q>",
+      "слово <q yelow>Бесплодность</q>",
+      "<q yelow>Веревское сердце</q> <q green>2</q>."
+    ]
+  },
+  {
+    "title": "Валтум (<q lblue>60lvl</q>)",
+    "description": "Драугров <q green>6</q> и <q red>повелитель</q>. Далее <q green>10</q> драугров, <q red>повелитель</q> в клетке. За решеткой <q green>3</q> драугра и <q red>повелитель</q> с <q green>3</q> драуграми за дверью загадкой.",
+    "type": "draugry priest",
+    "nameIcon": "Tomb",
+    "id": "id225",
+    "top": 684.7,
+    "left": 272.4,
+    "bossList": [
+      "Хевнорак"
+    ]
+  },
+  {
+    "title": "Сумеречная гробница (<q lblue>30lvl</q>)",
+    "description": "По квесту гильдии.",
+    "type": "skelet",
+    "nameIcon": "Tomb",
+    "id": "id226",
+    "top": 842.7,
+    "left": 411.4
+  },
+  {
+    "title": "Северный бастион Кричащий Ветер (<q lblue>50lvl</q>)",
+    "description": "Скелеты и трелл. После огненных ловушек, комната с <q red>закрывающейся</q> дверью. В комнате <q green>4</q> вампира и <q red>Босс</q>",
+    "type": "vampire vampire_boss chest bottle",
+    "nameIcon": "Tomb",
+    "id": "id227",
+    "top": 814.7,
+    "left": 550.4,
+    "bossList": [
+      "Тилоре Малорен"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Элементная Ярость</q>",
+      "<q yelow>Шлем Инквизитора</q>",
+      "<q yelow>Эликсир крови вампира</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Южный бастион Кричащий Ветер (<q lblue>30lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Снаружи <q green>2</q> драугра и скелет. Внутри <q red>вампиры</q>.",
+    "type": "draugry",
+    "nameIcon": "Tomb",
+    "id": "id228",
+    "top": 833.7,
+    "left": 554.4
+  },
+  {
+    "title": "Ветреный пик (<q lblue>10lvl</q>) (<q lblue>40lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи и <q green>3</q> внутри потом большой паук. Дальше <q red>драугры</q> <q green>17</q> и <q red>закрывающаяся дверь</q>. Далее Драугры <q green>10</q>, в конце <q green>9</q> и босс.",
+    "type": "bandit draugry ",
+    "nameIcon": "Tomb",
+    "id": "id229",
+    "top": 720.7,
+    "left": 623.4,
+    "prizeList": [
+      "За водопадом скрытый сундук с <q yelow>Эбонит лутом</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Гробница Хилгрунда (<q lblue>40lvl</q>)",
+    "description": "Драугров <q green>19</q>. В конце локации двойные двери <q red>закроются</q>, восстанут <q green>11</q> драугров и <q red>Босс</q>.",
+    "type": "draugry magic_boss bottle set",
+    "nameIcon": "Tomb",
+    "id": "id230",
+    "top": 642.7,
+    "left": 890.4,
+    "bossList": [
+      "Валс Веран"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Валса Веран</q>",
+      "<q yelow>Клинок Боего мага</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleM.png"
+      ]
+    ]
+  },
+  {
+    "title": "Зал Гейрмунда (<q lblue>35lvl</q>)",
+    "description": "<q red>Упав</q>, вернуться нельзя. Внутри <q green>4</q> драугра, после двери <q green>6</q> драугров.",
+    "type": "draugry draugry_boss  bottle",
+    "nameIcon": "Tomb",
+    "id": "id231",
+    "top": 790.7,
+    "left": 915.4,
+    "bossList": [
+      "Сигдис Голдурсон"
+    ],
+    "prizeList": [
+      "<q yelow>Лук Голдура</q>",
+      "<q yelow>Часть амулета</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleS.png"
+      ]
+    ]
+  },
+  {
+    "title": "Курган Погребальный Огонь (<q lblue>45lvl</q>)",
+    "description": "В локации две опасные, незаметные ловушки. Драугров <q green>13</q> и несколько скелетов. Дальше небольшая арена (<q red>закроется</q> дверь). Сразу восстанут почти все <q green>12</q> драгров и <q red>повелитель</q>. Беги на левую колонну, уворачивайся от криков. Используй свиток «священный круг», «Передышка» (восстановление 50). В конце арены, за мостом есть полка для отдыха (<q llred>абуз</q>).",
+    "type": "draugry",
+    "nameIcon": "Tomb",
+    "id": "id232",
+    "top": 784.7,
+    "left": 885.4,
+    "prizeList": [
+      "<q red>Повелитель</q> (<q lblue>100lvl</q>) <q lblue>11000xp</q>."
+    ]
+  },
+  {
+    "title": "Ветровая Дуга (<q lblue>40lvl</q>) (<q lblue>50lvl</q>)",
+    "description": "Открытая локация. В начале <q green>14</q> скелетов, <q green>2</q> драугра спят, после лестницы наверх <q red>Босс</q> и драугр (<q lblue>100lvl</q>), далее <q green>2</q> другра. <q red><q red>Дракон</q></q> после квеста.",
+    "type": "draugry draugry_boss word",
+    "nameIcon": "Tomb",
+    "id": "id233",
+    "top": 901.8,
+    "left": 846.3,
+    "bossList": [
+      "Агнар Железная Борода"
+    ],
+    "prizeList": [
+      "<q yelow>Нордский героик</q> топор и лук",
+      "<q yelow>Шлем Инквизитора</q>",
+      "Слово <q yelow>Высасывание жизни</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Ангарвунд (<q lblue>40lvl</q>)",
+    "description": "Внутри <q green>3</q> драугра. В левом крыле: <q red>Обвал</q>, выход в конце, <q green>22</q> драугров. В правом крыле: <q green>10</q> драугров. В центральном крыле <q red>повелитель</q>.",
+    "type": "draugry",
+    "nameIcon": "Tomb",
+    "id": "id234",
+    "top": 894.8,
+    "left": 991.3,
+    "prizeList": [
+      "Слово <q yelow>Мощь Хищника</q>."
+    ]
+  },
+  {
+    "title": "Форелхост (<q lblue>55lvl</q>)",
+    "description": "Не заходи если не уверен. Ключ в сундуке. Призраки <q green>10</q> и <q green>3</q> драугра. Дальше <q green>2</q> призрака, драугры <q green>27</q> и <q red>повелитель</q> милишник. Далее <q green>11</q> драугров и <q red>повелитель</q> маг. За дверью с загадкой (двери <q red>закроются</q>) босс, <q green>4</q> яд. драугров (<q lblue>90lvl</q>) и <q green>3</q> слабых яд. драугров.",
+    "type": "draugry ghost word priest",
+    "nameIcon": "Tomb",
+    "id": "id235",
+    "top": 941.8,
+    "left": 1211.3,
+    "bossList": [
+      "Рагот"
+    ],
+    "prizeList": [
+      "<q yelow>Кинжал Квазейна</q>",
+      "Слово <q yelow>Грозовой Зов</q>."
+    ]
+  },
+  {
+    "title": "Ансилвунд (<q lblue>35lvl</q>)",
+    "description": "Снаружи маг. Внутри <q green>10</q> драгуров, <q green>7</q> некромантов и атронах. Далее комната с ловушками, <q green>4</q> драгуров, <q green>2</q> некромантов, при взятии ключа восстанут <q green>4</q> драугра. При взятии ключа: Восстают <q green>6</q> драугров, за двойными дверьми <q red>Босс</q> (двери <q red>закрываются</q>).",
+    "type": "draugry magic_boss roc bottle",
+    "nameIcon": "Tomb",
+    "id": "id236",
+    "top": 697.8,
+    "left": 1181.3,
+    "bossList": [
+      "Лу'а Аль-Скавен"
+    ],
+    "prizeList": [
+      "<q yelow>Призрачный меч</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleM.png"
+      ],
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Утес Холодный Ветер (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>3</q> и ворожея.",
+    "type": "trash",
+    "nameIcon": "NordicTower",
+    "id": "id239",
+    "top": 540.8,
+    "left": 303.3,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Башня Кредлстоун (<q lblue>20lvl</q>)",
+    "description": "Ворожея.",
+    "type": "trash",
+    "nameIcon": "NordicTower",
+    "id": "id240",
+    "top": 694.8,
+    "left": 320.3,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Башня Баннермист (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "NordicTower",
+    "id": "id241",
+    "top": 785.8,
+    "left": 456.3,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Теневая башня (<q lblue>10lvl</q>)",
+    "description": "Спригган.",
+    "type": "animal",
+    "nameIcon": "NordicTower",
+    "id": "id242",
+    "top": 861.8,
+    "left": 578.3
+  },
+  {
+    "title": "Южная горная застава (<q lblue>30lvl</q>) (<q lblue>10lvl</q>)",
+    "description": "Опасная <q red>мать дымок</q> снаружи. Внутри <q green>5</q> бандитов и огромный <q red>паук</q>.",
+    "type": "bandit",
+    "nameIcon": "NordicTower",
+    "id": "id243",
+    "top": 808.8,
+    "left": 701.3,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Нилхейм (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q>.",
+    "type": "bandit",
+    "nameIcon": "NordicTower",
+    "id": "id244",
+    "top": 775.8,
+    "left": 954.3
+  },
+  {
+    "title": "Башни Валтейм (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q> снаружи и <q green>13</q> внутри. Много лучников.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "NordicTower",
+    "id": "id245",
+    "top": 596.8,
+    "left": 868.3,
+    "bossList": [
+      "Элси Спайкер"
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ],
+      [
+        "skooma.png"
+      ]
+    ]
+  },
+  {
+    "title": "Старушечья скала (<q lblue>20lvl</q>)",
+    "description": "Изгои <q green>3</q> внутри потом изгой и босс.",
+    "type": "trash magic_boss word roc",
+    "nameIcon": "NordicTower",
+    "id": "id246",
+    "top": 644.3,
+    "left": 68.9,
+    "bossList": [
+      "Драскуа"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Испуг</q>",
+      "<q yelow>Навершие Бритвы Мерунеса</q>."
+    ],
+    "prizeIcon": [
+      [
+        "roc.webp"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Наблюдательный пост «Четыре Черепа»",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "NordicDwelling",
+    "id": "id247",
+    "top": 519.8,
+    "left": 220.3
+  },
+  {
+    "title": "Развалины (<q lblue>35lvl</q>)",
+    "description": "Снаружи треллы <q green>2</q> и возможно <q red>гончая</q> (<q lblue>40lvl</q>). Внутри <q red>вампир</q> (<q lblue>70lvl</q>) (спит ночью), трелл и драугр зомби.",
+    "type": "vampire",
+    "nameIcon": "NordicDwelling",
+    "id": "id248",
+    "top": 569.8,
+    "left": 318.3,
+    "prizeList": [
+      "Сундук с <q yelow>Эбонитовым лутом</q>."
+    ]
+  },
+  {
+    "title": "Потерянный Валкигг (<q lblue>30lvl</q>)",
+    "description": "Драугры <q green>8</q> внутри. В конце сильный ядовитый драугр.",
+    "type": "draugry",
+    "nameIcon": "NordicDwelling",
+    "id": "id250",
+    "top": 442.8,
+    "left": 591.3
+  },
+  {
+    "title": "Привал Хамвира (<q lblue>30lvl</q>)",
+    "description": "<q green>3</q> скелета и сильный <q red>драугр</q>.",
+    "type": "draugry",
+    "nameIcon": "NordicDwelling",
+    "id": "id251",
+    "top": 529.8,
+    "left": 576.3,
+    "prizeList": [
+      "Сундук с <q yelow>Эбонит. лутом</q>."
+    ]
+  },
+  {
+    "title": "Придорожные руины (<q lblue>20lvl</q>)",
+    "description": "Cприган. Используй огонь",
+    "type": "animal",
+    "nameIcon": "NordicDwelling",
+    "id": "id252",
+    "top": 834.8,
+    "left": 498.3
+  },
+  {
+    "title": "Северная горная застава (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>3</q> на входе и <q green>5</q> внутри вместе с огромным <q red>пауком</q>. Опасная <q red>Мать дымок</q> на выходе.",
+    "type": "bandit",
+    "nameIcon": "NordicDwelling",
+    "id": "id253",
+    "top": 779.8,
+    "left": 742.3,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Высота Йоргрим (<q lblue>10lvl</q>)",
+    "description": "<q green>2</q> скелета в гробах.",
+    "type": "skelet",
+    "nameIcon": "NordicDwelling",
+    "id": "id254",
+    "top": 423.8,
+    "left": 929.3
+  },
+  {
+    "title": "Около Руин Оберега Ветров (<q lblue>25lvl</q>)",
+    "description": "Призрак по квесту Фроки.",
+    "type": "ghost_boss",
+    "nameIcon": "NordicDwelling",
+    "id": "id255",
+    "top": 297.8,
+    "left": 694.3,
+    "bossList": [
+      "Дух-Страж Злокрыса"
+    ]
+  },
+  {
+    "title": "Приют Подмастерья (<q lblue>0lvl</q>)",
+    "description": "Бандит.",
+    "type": "bandit",
+    "nameIcon": "NordicDwelling",
+    "id": "id256",
+    "top": 340.8,
+    "left": 1051.3,
+    "prizeList": [
+      "<q yelow>Паучий яд</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Руины Небесного храма (<q lblue>20lvl</q>)",
+    "description": "Скелеты <q green>4</q> и Драугр.",
+    "type": "draugry chest",
+    "nameIcon": "NordicDwelling",
+    "id": "id257",
+    "top": 205.8,
+    "left": 1011.3,
+    "prizeList": [
+      "<q yelow>Магический щит</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Слеза Сироты (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "Bandit",
+    "nameIcon": "Shipwreck",
+    "id": "id258",
+    "top": 181.8,
+    "left": 255.3
+  },
+  {
+    "title": "Привередливый солод (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>2</q> снаружи и <q green>5</q> внутри.",
+    "type": "bandit roc",
+    "nameIcon": "Shipwreck",
+    "id": "id259",
+    "top": 204.8,
+    "left": 473.3,
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ],
+      [
+        "roc.webp"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Корабль «Бегущего по льду» (<q lblue>20lvl</q>)",
+    "description": "Пассивные бандиты и ядомаги-автоматчики по квесту: <q green>5</q> снаружи, <q green>4</q> внутри. Босс агриться сразу после захода в корабль если атаковать первым. P.S. Атакуют твою лошадь. Потеряешь праведность если сваншотишь мирного бандита.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Shipwreck",
+    "id": "id261",
+    "top": 243.8,
+    "left": 528.3,
+    "bossList": [
+      "Диджа"
+    ]
+  },
+  {
+    "title": "Корабль «Соленого молота» (<q lblue>0lvl</q>)",
+    "description": "Крабики.",
+    "type": "animal",
+    "nameIcon": "Shipwreck",
+    "id": "id262",
+    "top": 213.8,
+    "left": 626.3
+  },
+  {
+    "title": "Каприз Хелы (<q lblue>30lvl</q>)",
+    "description": "Много Бандитов по квесту Восточной Имперской Компании.",
+    "type": "bandit magic_boss",
+    "nameIcon": "Shipwreck",
+    "id": "id263",
+    "top": 196.3,
+    "left": 796.9,
+    "bossList": [
+      "Халдин"
+    ],
+    "prizeList": [
+      "Меч шторма?????"
+    ]
+  },
+  {
+    "title": "Плащ Пилигрима (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>9</q> ???????????????.",
+    "type": "bandit",
+    "nameIcon": "Shipwreck",
+    "id": "id264",
+    "top": 216.8,
+    "left": 894.3
+  },
+  {
+    "title": "Корабль «Гордости Тель Воса» (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>3</q>",
+    "type": "bandit",
+    "nameIcon": "Shipwreck",
+    "id": "id265",
+    "top": 253.8,
+    "left": 1069.3,
+    "prizeList": [
+      "Руда <q yelow>Малахит</q> <q green>12</q>."
+    ]
+  },
+  {
+    "title": "Корабль «Зимней войны» (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q>. <br/> Рядом может плавать <q red>огромная</q> рыба.",
+    "type": "bandit xp",
+    "nameIcon": "Shipwreck",
+    "id": "id266",
+    "top": 380.8,
+    "left": 1173.3,
+    "prizeList": [
+      "<q lblue>бандиты</q> на опыт."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Хижина Агнис (<q lblue>0lvl</q>)",
+    "description": "Пассивная ведьма. Перед нападением сагри для сохранения праведности.",
+    "type": "magic ",
+    "nameIcon": "Shack",
+    "id": "id267",
+    "top": 756,
+    "left": 636.7,
+    "prizeIcon": [
+      [
+        "bottleP.png"
+      ]
+    ]
+  },
+  {
+    "title": "Бандиты",
+    "description": "<q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id268",
+    "top": 738,
+    "left": 644.7
+  },
+  {
+    "title": "Лагерь",
+    "description": "Бандиты <q green>2</q>",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id269",
+    "top": 770,
+    "left": 698.7,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Чужак (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>6</q> снаружи и <q green>3</q> внутри.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id270",
+    "top": 557,
+    "left": 444.4,
+    "bossList": [
+      "Уркар"
+    ],
+    "prizeList": [
+      "<q yelow>Ожерелье Предков</q>."
+    ]
+  },
+  {
+    "title": "Лагерь Йофилганд (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q> снаружи и <q red>призраки</q> неподалеку.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id271",
+    "top": 522,
+    "left": 492.7
+  },
+  {
+    "title": "Лагерь Рыжая Лиса (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id272",
+    "top": 638,
+    "left": 361.7
+  },
+  {
+    "title": "Лагерь Земельный дозор (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>10</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id273",
+    "top": 600,
+    "left": 400
+  },
+  {
+    "title": "Пост Предателя (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>-<q green>4</q>.",
+    "type": "bandit xp",
+    "nameIcon": "Shack",
+    "id": "id274",
+    "top": 468.3,
+    "left": 1147.9,
+    "prizeList": [
+      "<q lblue>Предмет</q> на опыт в сейфе."
+    ]
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q> засада при открытии запертого сундука. Появляются справа за деревом.",
+    "nameIcon": "Bandit",
+    "type": "bandit",
+    "id": "id275",
+    "top": 830,
+    "left": 649.4
+  },
+  {
+    "title": "Некромант (<q lblue>20lvl</q>)",
+    "description": "Сильный маг появляется ночью.",
+    "nameIcon": "Star",
+    "type": "magic",
+    "id": "id276",
+    "top": 803,
+    "left": 605.4
+  },
+  {
+    "title": "Сосновая застава (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>18</q> внутри.",
+    "type": "bandit bandit_boss roc",
+    "nameIcon": "Shack",
+    "id": "id277",
+    "top": 827.3,
+    "left": 604.9,
+    "bossList": [
+      "Ригель Сильная Рука"
+    ],
+    "prizeList": [
+      "<q yelow>Щит Доблесть</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ],
+      [
+        "roc.webp"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Валус (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id278",
+    "top": 384,
+    "left": 1125.4
+  },
+  {
+    "title": "Некромант (<q lblue>20lvl</q>)",
+    "description": "Сильный маг ночью.",
+    "type": "magic",
+    "nameIcon": "Star",
+    "id": "id279",
+    "top": 829,
+    "left": 469.4
+  },
+  {
+    "title": "Лагерь береговой камень (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>6</q> и <q green>2</q> рядом.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id280",
+    "top": 784,
+    "left": 429.4
+  },
+  {
+    "title": "Лагерь Желтая Изгородь (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>8</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id281",
+    "top": 547,
+    "left": 813.4
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>2</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id282",
+    "top": 906,
+    "left": 1233.4
+  },
+  {
+    "title": "Дом Дреласа (<q lblue>10lvl</q>)",
+    "description": "",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Shack",
+    "id": "id283",
+    "top": 519,
+    "left": 528.4,
+    "bossList": [
+      "Дрелас"
+    ]
+  },
+  {
+    "title": "Лагерь Хьолдаар",
+    "description": "Бандиты <q green>4</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id284",
+    "top": 439,
+    "left": 538.4
+  },
+  {
+    "title": "Лагерь Бронин (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q> снаружи.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id285",
+    "top": 135,
+    "left": 1025.4,
+    "bossList": [
+      "Нарикус"
+    ],
+    "prizeList": [
+      "<q yelow>Щит Нарикуса</q>."
+    ]
+  },
+  {
+    "title": "Резиденция Черный Вереск (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>2</q> снаружи и <q green>4</q> внутри.",
+    "type": "bandit",
+    "nameIcon": "Shack",
+    "id": "id286",
+    "top": 874,
+    "left": 1241.4
+  },
+  {
+    "title": "Пещера Ноголомный Проход (<q lblue>20lvl</q>)",
+    "description": "Скелеты <q green>12</q> и некромант, могут зажать толпой. <q green>4</q> <q red>руны</q> холода возле дверей.",
+    "type": "skelet",
+    "nameIcon": "Cave",
+    "id": "id287",
+    "top": 702,
+    "left": 559.4
+  },
+  {
+    "title": "Лагерь Ветер с Озера (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>3</q> и спригган.",
+    "type": "bandit animal",
+    "nameIcon": "Campsite",
+    "id": "id288",
+    "top": 579.6,
+    "left": 987.4
+  },
+  {
+    "title": "Убежище Тёмного Братства (<q lblue>30lvl</q>)",
+    "description": "По квесту. В локации боссы расположены по порядку, можно быстро убить всех по одному.",
+    "type": "bantit bandit_boss magic_boss",
+    "nameIcon": "Settlement",
+    "id": "id289",
+    "top": 820,
+    "left": 479.4,
+    "bossList": [
+      "Арнбьорн",
+      "Визара",
+      "Габриэлла",
+      "Назир",
+      "Фестус Крекс"
+    ]
+  },
+  {
+    "title": "Лагерь Болотный лишайник (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q> и рядом <q green>2</q> тигра.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id290",
+    "top": 378.7,
+    "left": 258
+  },
+  {
+    "title": "Лагер перциус (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>7</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id291",
+    "top": 367.7,
+    "left": 171
+  },
+  {
+    "title": "Лагерь Мертвая Капля (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>11</q>",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id292",
+    "top": 189,
+    "left": 224.4
+  },
+  {
+    "title": "Железное убежище (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Shack",
+    "id": "id293",
+    "top": 219,
+    "left": 339.4
+  },
+  {
+    "title": "Логово Кру'ула (<q lblue>20lvl</q>)",
+    "description": "",
+    "type": "mutant",
+    "nameIcon": "Sneg",
+    "scale": 0.25,
+    "id": "id294",
+    "top": 510,
+    "left": 978.4,
+    "bossList": [
+      "Кру'ул"
+    ]
+  },
+  {
+    "title": "Пещера Каменной пасти (<q lblue>20lvl</q>)",
+    "description": "Бандиты: <q green>1</q> снаружи, <q green>4</q> внутри и <q green>2</q> тигра в упоре. В конце локации <q red>закрывающаяся дверь</q>. За дверью появляются два босса. Дверь можно открыть цепью.",
+    "type": "bandit bandit_boss magic_boss",
+    "nameIcon": "Cave",
+    "id": "id295",
+    "top": 568,
+    "left": 786.4,
+    "bossList": [
+      "Баглаг",
+      "Тален-лей",
+      "Варис"
+    ],
+    "prizeList": [
+      "<q yelow>Карта</q> открывает весь скайрим."
+    ],
+    "prizeIcon": [
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Арциус (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>4</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id295",
+    "top": 453,
+    "left": 959.4
+  },
+  {
+    "title": "Лагерь Береговой стражи (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id296",
+    "top": 136,
+    "left": 363.4
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>3</q> нападают на стражников.",
+    "type": "bandit soc",
+    "nameIcon": "Bandit",
+    "id": "id297",
+    "top": 547.7,
+    "left": 741
+  },
+  {
+    "title": "Кладбище Мамонтов (<q lblue>0lvl</q>) (<q lblue>30lvl</q>)",
+    "description": "<q green>2</q> бандита скамят мамонта. <q red>Босс</q> по квесту Фроки.",
+    "type": "bandit ghost_boss soc",
+    "nameIcon": "Bandit",
+    "id": "id298",
+    "top": 505.7,
+    "left": 714,
+    "bossList": [
+      "Дух-Страж Мамонта"
+    ],
+    "prizeList": [
+      "<q yelow>Труп мамонта</q>."
+    ]
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id299",
+    "top": 796.7,
+    "left": 640,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Лагерь Утреннее поле (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>2</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id300",
+    "top": 806.7,
+    "left": 560
+  },
+  {
+    "title": "Скелеты (<q lblue>0lvl</q>)",
+    "description": "<q green>2</q>.",
+    "type": "skelet",
+    "nameIcon": "Star",
+    "id": "id301",
+    "top": 794.7,
+    "left": 545
+  },
+  {
+    "title": "Камень лорда (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "StandingStone",
+    "id": "id302",
+    "top": 392.7,
+    "left": 647
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>3</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id303",
+    "top": 266.7,
+    "left": 671,
+    "prizeList": [
+      "<q yelow>Книга Опыта</q>."
+    ]
+  },
+  {
+    "title": "Пиромант (<q lblue>25lvl</q>)",
+    "description": "",
+    "type": "magic",
+    "nameIcon": "Star",
+    "id": "id304",
+    "top": 330.7,
+    "left": 351
+  },
+  {
+    "title": "Бандиты (<q lblue>0lvl</q>)",
+    "description": "<q green>2</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id305",
+    "top": 325.7,
+    "left": 359
+  },
+  {
+    "title": "Лагерь Холодная скала (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>4</q> и два босса.",
+    "type": "bandit bandit_boss magic_boss",
+    "nameIcon": "Campsite",
+    "id": "id306",
+    "top": 249.7,
+    "left": 223,
+    "bossList": [
+      "Драгс",
+      "древори"
+    ],
+    "prizeList": [
+      "<q yelow>Копье Драгса</q>",
+      "<q yelow>Кольцо Древори</q>."
+    ]
+  },
+  {
+    "title": "Лагерь снегопад (<q lblue>20lvl</q>)",
+    "description": "бандиты <q green>2</q>. Не застрянь на склонах.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id307",
+    "top": 350.7,
+    "left": 232,
+    "bossList": [
+      "Вангар Одичалый"
+    ]
+  },
+  {
+    "title": "Руины Бталфта (<q lblue>10lvl</q>) (<q lblue>55lvl</q>)",
+    "description": "Снаружи <q green>3</q> бандита. Внутри в конце локации, после двойных дверей арена <q red>закрывается</q>. Много паучков, <q green>6</q> сфер и <q red>Босс</q>. Без крапивника не ходи.",
+    "type": "bandit dwemer dwemer_boss set",
+    "nameIcon": "PointofInterest",
+    "id": "id308",
+    "top": 862.7,
+    "left": 910,
+    "bossList": [
+      "Мастер-кузнец"
+    ],
+    "prizeList": [
+      "За лавовым озером свиток <q yelow>Мастерский стук</q>",
+      "<q yelow>Этеривый сет</q>",
+      "на выбор этеривый <q yelow>Щит</q>/<q yelow>Корона</q>/<q yelow>Посох</q>."
+    ]
+  },
+  {
+    "title": "Щелкающая пещера (<q lblue>30lvl</q>)",
+    "description": "Некромантов <q green>5</q> и большой паук (<q lblue>60lvl</q>). Ворожея (<q lblue>30lvl</q>) В конце локации пуляет фаерболы и призывает медведя.",
+    "type": "magic bottle chest",
+    "nameIcon": "Cave",
+    "id": "id309",
+    "top": 770.7,
+    "left": 1017,
+    "prizeList": [
+      "<q yelow>Посох Паралича</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleM.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Сторожевая башня Рифта (<q lblue>25lvl</q>)",
+    "description": "Бандиты орки <q green>2</q>, снаружи стоит босс.",
+    "type": "bandit magic_boss",
+    "nameIcon": "ImperialTower",
+    "id": "id310",
+    "top": 793.7,
+    "left": 1020,
+    "bossList": [
+      "Дрег`Тал"
+    ]
+  },
+  {
+    "title": "Лагерь Березовый ствол (<q lblue>10lvl</q>)",
+    "description": "бандиты <q green>4</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id311",
+    "top": 921.7,
+    "left": 1085
+  },
+  {
+    "title": "Лагерь Речной берег (<q lblue>10lvl</q>)",
+    "description": "бандиты <q green>4</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id312",
+    "top": 849.7,
+    "left": 1052
+  },
+  {
+    "title": "Убежище Камонна Тонг (<q lblue>20lvl</q>)",
+    "description": "бандиты <q green>4</q> все <q red>невидимки</q>.",
+    "type": "bandit bandit_boss",
+    "nameIcon": "Campsite",
+    "id": "id313",
+    "top": 868.7,
+    "left": 993,
+    "bossList": [
+      "Наркобарон Камонна тонг"
+    ],
+    "prizeList": [
+      "Много <q yelow>Cкумы</q> в бочках."
+    ]
+  },
+  {
+    "title": "Мать Дымок (<q lblue>20lvl</q>)",
+    "description": "Сильный маг холода.",
+    "type": "magic",
+    "nameIcon": "Star",
+    "scale": 0.3,
+    "id": "id314",
+    "top": 407,
+    "left": 1094.4
+  },
+  {
+    "title": "Гнездо ветров Предела (<q lblue>20lvl</q>)",
+    "description": "",
+    "type": "dwemer dwemer_boss",
+    "nameIcon": "DwemerRuins",
+    "id": "id315",
+    "top": 625.3,
+    "left": 191.9,
+    "bossList": [
+      "Смотрящий Мтансела"
+    ],
+    "prizeList": [
+      "<q yelow>Булава Хладная Погибель</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Старый Хроланд",
+    "description": "Спи в таверне для квеста на опыт.",
+    "type": "xp",
+    "nameIcon": "Settlement",
+    "id": "id316",
+    "top": 611,
+    "left": 279.4
+  },
+  {
+    "title": "Логово Снега (<q lblue>25lvl</q>)",
+    "description": "Саблезубы <q green>2</q>.",
+    "type": "animal mutant",
+    "nameIcon": "Sneg",
+    "scale": 0.25,
+    "id": "id317",
+    "top": 219,
+    "left": 410.4,
+    "bossList": [
+      "Снег"
+    ],
+    "prizeList": [
+      "<q yelow>Сердце Снега</q>."
+    ]
+  },
+  {
+    "title": "Статуя Меридии (<q lblue>30lvl</q>)",
+    "description": "Скелеты <q green>29</q> внутри, далее двойные <q red>закрывающиеся</q> двери.",
+    "type": "magic magic_boss",
+    "nameIcon": "DaedricShrine",
+    "scale": 0.4,
+    "id": "id318",
+    "top": 278,
+    "left": 339.4,
+    "bossList": [
+      "Малкоран",
+      "Тень Малкорана"
+    ],
+    "prizeList": [
+      "<q yelow>Книга мертвых</q>",
+      "<q yelow>Сияние Рассвета</q>."
+    ]
+  },
+  {
+    "title": "Сигнальная башня Снежная (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>2</q>",
+    "type": "bandit",
+    "nameIcon": "ImperialTower",
+    "id": "id319",
+    "top": 353.7,
+    "left": 790
+  },
+  {
+    "title": "Лагерь Обломки корабля (<q lblue>20lvl</q>)",
+    "description": "Бандиты <q green>10</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id320",
+    "top": 183.7,
+    "left": 971
+  },
+  {
+    "title": "Лагерь Ледник (<q lblue>10lvl</q>)",
+    "description": "Бандиты <q green>5</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id321",
+    "top": 322.7,
+    "left": 1132
+  },
+  {
+    "title": "Лагерь Смотрящего (<q lblue>0lvl</q>)",
+    "description": "Бандиты <q green>5</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id322",
+    "top": 414.7,
+    "left": 1041
+  },
+  {
+    "title": "Картвастен (<q lblue>25lvl</q>)",
+    "description": "Наёмники Серебряной Крови <q green>4</q> по квесту. Станешь <q yelow>другом орков</q> если убьешь бандитов.",
+    "type": "bandit",
+    "nameIcon": "Town",
+    "id": "id323",
+    "top": 467.7,
+    "left": 218
+  },
+  {
+    "title": "Лагерь Клеверовая изгород (<q lblue>10lvl</q>)",
+    "description": "бандиты <q green>5</q> и один застрял в скале.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "id": "id324",
+    "top": 703.7,
+    "left": 307
+  },
+  {
+    "title": "Лунная лесопилка (<q lblue>25lvl</q>)",
+    "description": "Вампиры <q green>2</q>. Мирные, снимают праведность но дают много XP.",
+    "type": "vampire",
+    "nameIcon": "WoodMill",
+    "id": "id325",
+    "top": 780,
+    "left": 511.4
+  },
+  {
+    "title": "Пещера Холодная (<q lblue>20lvl</q>)",
+    "description": "Атронах внутри и <q green>3</q>  снаружи, внутри мирный Ледяной атронах, если его убить, снаружи появятся <q green>3</q> злых лед атронаха.",
+    "type": "magic",
+    "nameIcon": "Cave",
+    "scale": 0.3,
+    "id": "id326",
+    "top": 121,
+    "left": 1025.4
+  },
+  {
+    "title": "Инеевый маяк (<q lblue>30lvl</q>)",
+    "description": "В погребальной урне лежит ключ от подвала. <q red>Падая вниз</q>, выбраться нельзя. Фалмеры <q green>5</q>, Корусы <q green>14</q>. Поднимись на маяк и положи останки моряка в костер.",
+    "type": "falmer mutant",
+    "nameIcon": "Lighthouse",
+    "id": "id327",
+    "top": 295,
+    "left": 826.4,
+    "bossList": [
+      "Королева Корусов"
+    ],
+    "prizeList": [
+      "<q yelow>Останки моряка</q>",
+      "бафф «<q yelow>Отдых моряка</q>»."
+    ],
+    "prizeIcon": [
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ],
+      [
+        "сhaurus.png"
+      ]
+    ]
+  },
+  {
+    "title": "Зал Дозора (<q lblue>35lvl</q>)",
+    "description": "После убийства стендаревцев или посещения форта Стражи рассвета, либо после <q lblue>30lvl</q> появляется Вампир.",
+    "type": "vampire vampire_boss",
+    "nameIcon": "Shack",
+    "id": "id328",
+    "top": 379,
+    "left": 697.4,
+    "bossList": [
+      "Хранитель Каркетта"
+    ],
+    "prizeList": [
+      "<q yelow>Проклятый Нодати</q>."
+    ]
+  },
+  {
+    "title": "Камни Вэйнон (<q lblue>10lvl</q>)",
+    "description": "При подходе к статуе появляются <q green>2</q> Ледяных змеев.",
+    "type": "skelet",
+    "nameIcon": "PointofInterest",
+    "id": "id329",
+    "top": 441,
+    "left": 767.4
+  },
+  {
+    "title": "Красноводное логово (<q lblue>45lvl</q>)",
+    "description": "Снаружи <q green>2</q> мирных трелла. Много ловушек повсюду. Внутри <q green>3</q> мирных трелла. Если выпить скумы то окажешься в <q red>запертой клетке</q>. За клеткой вампир, <q green>4</q> трелла и скелет. Дальше Вампир и гончая. Далее <q green>6</q> вампиров, <q green>2</q> гончих и <q green>3</q> ловушки перед боссом. Некоторые вампиры спять ночью в гробах. При открытии сункука аграться вампиры по скрипту!",
+    "type": "vampire vampire_boss chest bottle",
+    "nameIcon": "Shack",
+    "scale": 0.4,
+    "id": "id330",
+    "top": 828,
+    "left": 1061.4,
+    "bossList": [
+      "Венар Вульпин"
+    ],
+    "prizeList": [
+      "<q yelow>Живица Сонного Дерева</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Фолкрит-Сторожевая Башня (<q lblue>20lvl</q>)",
+    "description": "Некромант с призрачной секирой, вызывает призрачного волка (можно безопастно подбежать). На вершине башни. Моментально режет СТ ударом в блок.",
+    "type": "magic",
+    "nameIcon": "ImperialTower",
+    "id": "id331",
+    "top": 818,
+    "left": 523.4,
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Около Поместья «Озёрное» (<q lblue>25lvl</q>)",
+    "description": "<q lblue>Квест</q> Фроки.",
+    "type": "ghost_boss",
+    "nameIcon": "Sneg",
+    "scale": 0.15,
+    "id": "id332",
+    "top": 812,
+    "left": 578.4,
+    "bossList": [
+      "Дух-Страж Волка"
+    ]
+  },
+  {
+    "title": "Около Монумента Гьюкара (<q lblue>25lvl</q>)",
+    "description": "<q lblue>Квест</q> Фроки.",
+    "type": "ghost_boss",
+    "nameIcon": "Sneg",
+    "scale": 0.15,
+    "id": "id333",
+    "top": 612,
+    "left": 434.4,
+    "bossList": [
+      "Дух-Страж Грязекраба"
+    ]
+  },
+  {
+    "title": "Около Сумеречной Гробницы (<q lblue>25lvl</q>)",
+    "description": "<q lblue>Квест</q> Фроки.",
+    "type": "ghost_boss",
+    "nameIcon": "Sneg",
+    "scale": 0.15,
+    "id": "id334",
+    "top": 827,
+    "left": 415.4,
+    "bossList": [
+      "Дух-Страж Медведя"
+    ]
+  },
+  {
+    "title": "Около Приюта Подмастерья (<q lblue>25lvl</q>)",
+    "description": "<q lblue>Квест</q> Фроки.",
+    "type": "ghost_boss",
+    "nameIcon": "Sneg",
+    "scale": 0.15,
+    "id": "id335",
+    "top": 311,
+    "left": 1047.4,
+    "bossList": [
+      "Дух-Страж Саблезуба"
+    ]
+  },
+  {
+    "title": "Камень атронаха (<q lblue>30lvl</q>)",
+    "description": "",
+    "type": "magic magic_boss soc",
+    "nameIcon": "StandingStone",
+    "id": "id336",
+    "top": 677,
+    "left": 996.4,
+    "bossList": [
+      "Гром"
+    ],
+    "prizeList": [
+      "<q yelow>Сердце Грома</q> (для прокачки магии",
+      "не продавай)",
+      "<q yelow>Свиток Дух Волка</q>."
+    ]
+  },
+  {
+    "title": "<q lblue>Квест</q> музея (<q lblue>30lvl</q>)",
+    "description": "Случайный <q red>дремора</q>.",
+    "type": "magic  bottle",
+    "nameIcon": "DaedricShrine",
+    "id": "id337",
+    "top": 429,
+    "left": 636.4,
+    "prizeList": [
+      "<q yelow>Бритва Мерунеса</q>",
+      "<q yelow>Книга Даэдрического Ремесла</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ],
+      [
+        "bottleW.png"
+      ]
+    ]
+  },
+  {
+    "title": "Одинокая скала (<q lblue>30lvl</q>)",
+    "description": "По квесту восстановления древа в вайтране. <q green>4</q> некроманта и ворожея. <q red>Открытая</q> локация.",
+    "type": "magic",
+    "nameIcon": "PointofInterest",
+    "id": "id338",
+    "top": 814.7,
+    "left": 749.1,
+    "prizeList": [
+      "<q yelow>Крапивник</q>."
+    ]
+  },
+  {
+    "title": "Маг (<q lblue>20lvl</q>)",
+    "description": "",
+    "type": "magic",
+    "nameIcon": "Star",
+    "id": "id339",
+    "top": 811.7,
+    "left": 1122.5
+  },
+  {
+    "title": "Древний Каирн (<q lblue>45lvl</q>)",
+    "description": "Драугров <q green>13</q> и воины серебряной крови. Далее двойные двери <q red>закроются</q> с <q green>17</q> драуграми и <q red>Боссом</q>. Далее <q red>закрывающаяся</q> железная дверь и <q green>18</q> драугров восстают из могил при взятии предмета со стенда. Используй свиток «священный круг».",
+    "type": "draugry draugry_boss bottle word",
+    "nameIcon": "Tomb",
+    "id": "id340",
+    "top": 531.7,
+    "left": 586.1,
+    "bossList": [
+      "Хранитель Крипты"
+    ],
+    "prizeList": [
+      "Слово <q yelow>Огненное Дыхание</q>."
+    ],
+    "prizeIcon": [
+      [
+        "bottleH.png"
+      ]
+    ]
+  },
+  {
+    "title": "Роща Кин (<q lblue>50lvl</q>)",
+    "description": "Салокнир",
+    "type": "dragon dragon_boss",
+    "nameIcon": "Circle",
+    "id": "id345",
+    "top": 544.3,
+    "left": 1094.2,
+    "bossList": [
+      "Салокнир"
+    ]
+  },
+  {
+    "title": "Логово (<q lblue>10lvl</q>)",
+    "description": "Саблезуб.",
+    "type": "animal",
+    "nameIcon": "ImperialTower",
+    "id": "id346",
+    "top": 467.6,
+    "left": 1172.8
+  },
+  {
+    "title": "Сундук (<q lblue>10lvl</q>)",
+    "description": "Все книги на опыт и случайные враги.",
+    "prizeIcon": [
+      [
+        "chest.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "book.png"
+      ]
+    ],
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id347",
+    "top": 419.6,
+    "left": 1058.4
+  },
+  {
+    "title": "Могила Чемпиона (<q lblue>60lvl</q>)",
+    "description": "Внутри <q green>11</q> драугров и <q red>Босс</q> в конце. МОЖНО УБЕЖАТЬ ЕСЛИ СТРАШНО!!! Не нужно строить из себя героя, все герои уже в Совнгарде :)",
+    "type": "draugry_boss draugry ",
+    "nameIcon": "Tomb",
+    "id": "id348",
+    "top": 795.7,
+    "left": 1242.5,
+    "bossList": [
+      "Умбра"
+    ],
+    "prizeList": [
+      "<q purple>Даэдрический меч Умбра</q>"
+    ]
+  },
+  {
+    "title": "Клинок Ледяного Монарха (<q lblue>30lvl</q>)",
+    "description": "Меч по квесту",
+    "type": "",
+    "nameIcon": "Loot",
+    "id": "id348-0",
+    "top": 135.7,
+    "left": 985.1,
+    "prizeList": [
+      "<q yelow>Ледяной Клинок Монарха</q>."
+    ]
+  },
+  {
+    "title": "Переправа глубинного народа (<q lblue>30lvl</q>)",
+    "description": "Снаружи зачар. сфера (<q lblue>60lvl</q>), <q green>5</q> сфер, <q green>2</q> паука.",
+    "type": "dwemer",
+    "nameIcon": "PointofInterest",
+    "id": "id349",
+    "top": 407.6,
+    "left": 109.4
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id350",
+    "top": 465.3,
+    "left": 950.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id351",
+    "top": 576.3,
+    "left": 1041.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id352",
+    "top": 633.3,
+    "left": 1029.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "Он там есть?. <q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id353",
+    "top": 652.3,
+    "left": 1125.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id354",
+    "top": 959.3,
+    "left": 1184.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id355",
+    "top": 840.3,
+    "left": 1092.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id356",
+    "top": 876.3,
+    "left": 938.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id357",
+    "top": 914.3,
+    "left": 685.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id358",
+    "top": 534.3,
+    "left": 778.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id359",
+    "top": 282.3,
+    "left": 648.2
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id360",
+    "top": 428.3,
+    "left": 520.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id361",
+    "top": 415.3,
+    "left": 406.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id362",
+    "top": 337.3,
+    "left": 384.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id363",
+    "top": 566.3,
+    "left": 525.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id364",
+    "top": 683.3,
+    "left": 477.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id365",
+    "top": 573.3,
+    "left": 347.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id366",
+    "top": 698.3,
+    "left": 396.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id367",
+    "top": 809.3,
+    "left": 468.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id368",
+    "top": 591.3,
+    "left": 237.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id369",
+    "top": 505.3,
+    "left": 135.9
+  },
+  {
+    "title": "Курган (<q lblue>50lvl</q>)",
+    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200lvl</q>) <q lblue>16000</q>-<q lblue>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "type": "dragon",
+    "nameIcon": "Circle",
+    "id": "id370",
+    "top": 374.3,
+    "left": 205.9
+  },
+  {
+    "title": "Сумка охотника",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id371",
+    "top": 806.3,
+    "left": 674.9,
+    "prizeList": [
+      "<q yelow>Банки</q>",
+      "<q yelow>Свитки</q>",
+      "<q yelow>Еда</q>."
+    ]
+  },
+  {
+    "title": "Труп мага (<q lblue>0lvl</q>)",
+    "description": "Пару волков.",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id372",
+    "top": 282.3,
+    "left": 1023.2,
+    "prizeList": [
+      "<q yelow>Посох льда</q>",
+      "<q yelow>Паучий Яд</q>."
+    ],
+    "prizeIcon": [
+      [
+        "book.png"
+      ]
+    ]
+  },
+  {
+    "title": "Слово силы",
+    "description": "",
+    "type": "soc word",
+    "nameIcon": "Dragon",
+    "id": "id373",
+    "top": 211.6,
+    "left": 945.4,
+    "prizeList": [
+      "<q yelow>Мощь Хищника</q>."
+    ]
+  },
+  {
+    "title": "Святилище Зенитара",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "DaedricShrine",
+    "id": "id374",
+    "top": 844.6,
+    "left": 1200.8,
+    "prizeList": [
+      "<q yelow>Амулет Зенитара</q>."
+    ]
+  },
+  {
+    "title": "Сторожевая башня Шора",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "ImperialTower",
+    "id": "id375",
+    "top": 749.6,
+    "left": 1166.4,
+    "prizeList": [
+      "<q yelow>Трупы стражников</q>."
+    ]
+  },
+  {
+    "title": "Стоянка охотников",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mammoth",
+    "scale": 0.2,
+    "id": "id376",
+    "top": 610.6,
+    "left": 1106.8,
+    "prizeList": [
+      "<q yelow>Труп мамонта</q>."
+    ]
+  },
+  {
+    "title": "Безхозные ящики",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id377",
+    "top": 651.6,
+    "left": 1023.8,
+    "prizeList": [
+      "<q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Скелеты (<q lblue>0lvl</q>)",
+    "description": "Засада <q green>3</q> скелетов.",
+    "type": "skelet",
+    "nameIcon": "Star",
+    "id": "id378",
+    "top": 673.6,
+    "left": 1066.8
+  },
+  {
+    "title": "",
+    "description": "Мирный великан.",
+    "type": "soc giant",
+    "nameIcon": "GiantCamp",
+    "id": "id379",
+    "top": 669.6,
+    "left": 1099.8,
+    "prizeList": [
+      "<q yelow>Труп мамонта</q>."
+    ]
+  },
+  {
+    "title": "Святилище Талоса",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "DaedricShrine",
+    "id": "id380",
+    "top": 592.6,
+    "left": 944.4,
+    "prizeList": [
+      "<q yelow>Снаряжение</q>."
+    ]
+  },
+  {
+    "title": "Лесопилка пирожок",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "WoodMill",
+    "id": "id381",
+    "top": 609.6,
+    "left": 978.4,
+    "prizeList": [
+      "В доме рабочих <q yelow>Банки</q>",
+      "<q yelow>Бутылки</q>",
+      "<q yelow>Еда</q>."
+    ]
+  },
+  {
+    "title": "Неудачник лоренц",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Shack",
+    "id": "id382",
+    "top": 633.6,
+    "left": 922.4,
+    "prizeList": [
+      "<q yelow>Снаряжение</q>."
+    ]
+  },
+  {
+    "title": "<q yelow>Труп мамонта</q>",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mammoth",
+    "scale": 0.2,
+    "id": "id383",
+    "top": 298.6,
+    "left": 887.4
+  },
+  {
+    "title": "Святилище Талоса",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "DaedricShrine",
+    "id": "id384",
+    "top": 291.6,
+    "left": 883.8,
+    "prizeList": [
+      "<q yelow>Снаряжение</q>."
+    ]
+  },
+  {
+    "title": "<q yelow>Серебряный меч</q>.",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id385",
+    "top": 571.6,
+    "left": 656.4
+  },
+  {
+    "title": "Логово великана",
+    "description": "Великан.",
+    "type": "soc giant",
+    "nameIcon": "GiantCamp",
+    "scale": 0.3,
+    "id": "id386",
+    "top": 433.6,
+    "left": 733.4,
+    "prizeList": [
+      "<q yelow>Труп мамонта</q>."
+    ]
+  },
+  {
+    "title": "Алтарь Талоса (<q lblue>20lvl</q>)",
+    "description": "В засаде <q green>2</q> талморца.",
+    "type": "magic",
+    "nameIcon": "DaedricShrine",
+    "id": "id387",
+    "top": 563.7,
+    "left": 806.1,
+    "prizeList": [
+      "<q yelow>Камень душ</q>",
+      "<q yelow>Септимы</q>."
+    ]
+  },
+  {
+    "title": "Скелет лося",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id388",
+    "top": 759.7,
+    "left": 643.1,
+    "prizeList": [
+      "<q yelow>Безупречный изумруд</q>."
+    ]
+  },
+  {
+    "title": "Событие",
+    "description": "Случайный враг",
+    "type": "",
+    "nameIcon": "Star",
+    "id": "id389",
+    "top": 937.7,
+    "left": 1288.5
+  },
+  {
+    "title": "",
+    "description": "Проход в «Форт стражи рассвета»",
+    "type": "",
+    "nameIcon": "Pass",
+    "id": "id390",
+    "top": 931.7,
+    "left": 1277.5
+  },
+  {
+    "title": "Домик",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Shack",
+    "id": "id391",
+    "top": 981.7,
+    "left": 1227.5,
+    "prizeList": [
+      "<q yelow>Свиток огне атронаха</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id392",
+    "top": 989.7,
+    "left": 1222.5,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Два саблезуба (<q lblue>10lvl</q>)",
+    "description": "",
+    "type": "animal",
+    "nameIcon": "Star",
+    "id": "id393",
+    "top": 971.7,
+    "left": 1160.5
+  },
+  {
+    "title": "Бандит (<q lblue>10lvl</q>)",
+    "description": "Грабитель (<q lblue>30lvl</q>)",
+    "type": "bandit",
+    "nameIcon": "Star",
+    "id": "id394",
+    "top": 921.7,
+    "left": 1105.1
+  },
+  {
+    "title": "Руда",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id395",
+    "top": 903.7,
+    "left": 936.1,
+    "prizeList": [
+      "<q yelow>Орихалковая</q> жила",
+      "<q yelow>бриллиант</q>."
+    ]
+  },
+  {
+    "title": "Хижина Фроки",
+    "description": "Квесты на убийства духов зверей.",
+    "type": "soc",
+    "nameIcon": "Shack",
+    "id": "id396",
+    "top": 910.7,
+    "left": 937.1,
+    "prizeList": [
+      "<q yelow>Амулет Кин</q> за <q lblue>квест</q>."
+    ]
+  },
+  {
+    "title": "Алтарь Талоса",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "DaedricShrine",
+    "id": "id397",
+    "top": 922.7,
+    "left": 928.5,
+    "prizeList": [
+      "<q yelow>Септимы</q>",
+      "<q yelow>Снаряжение</q>."
+    ]
+  },
+  {
+    "title": "Руда",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id398",
+    "top": 925.7,
+    "left": 904.1,
+    "prizeList": [
+      "<q yelow>Оружие</q>",
+      "<q yelow>Зелья</q>",
+      "рядом <q yelow>Ртутная</q> жила",
+      "<q yelow>Ожерелье</q>"
+    ]
+  },
+  {
+    "title": "Домик",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Shack",
+    "id": "id399",
+    "top": 851.7,
+    "left": 880.1,
+    "prizeList": [
+      "<q yelow>Ингридиенты</q>."
+    ]
+  },
+  {
+    "title": "Некромант (<q lblue>25lvl</q>)",
+    "description": "",
+    "type": "magic",
+    "nameIcon": "Star",
+    "id": "id400",
+    "top": 810.7,
+    "left": 912.1
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id401",
+    "top": 110.3,
+    "left": 1031.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id402",
+    "top": 232.3,
+    "left": 1046.6,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id403",
+    "top": 203.3,
+    "left": 944.6,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id404",
+    "top": 200.3,
+    "left": 835.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id405",
+    "top": 223.3,
+    "left": 778.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id406",
+    "top": 324.3,
+    "left": 736.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id407",
+    "top": 333.3,
+    "left": 625.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id408",
+    "top": 259.3,
+    "left": 524.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id409",
+    "top": 142.3,
+    "left": 378.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id410",
+    "top": 144.3,
+    "left": 364.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id411",
+    "top": 358.3,
+    "left": 298.4,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id412",
+    "top": 386.3,
+    "left": 1064.9,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id413",
+    "top": 440.3,
+    "left": 1021.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id414",
+    "top": 433.3,
+    "left": 848.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id415",
+    "top": 600.7,
+    "left": 526.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id416",
+    "top": 553.7,
+    "left": 555.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id417",
+    "top": 494.7,
+    "left": 620.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id418",
+    "top": 526.7,
+    "left": 663.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id419",
+    "top": 573.7,
+    "left": 738.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id420",
+    "top": 532.7,
+    "left": 829.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id421",
+    "top": 586.7,
+    "left": 897.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id422",
+    "top": 524.7,
+    "left": 989.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id423",
+    "top": 522.7,
+    "left": 1138.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id424",
+    "top": 669.4,
+    "left": 1234.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id425",
+    "top": 871.3,
+    "left": 761.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id426",
+    "top": 865.3,
+    "left": 518.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id427",
+    "top": 835.3,
+    "left": 540.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id428",
+    "top": 943.3,
+    "left": 555.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id429",
+    "top": 650.3,
+    "left": 903.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id430",
+    "top": 709.3,
+    "left": 927.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id431",
+    "top": 775.3,
+    "left": 968.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id432",
+    "top": 819.3,
+    "left": 961.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id433",
+    "top": 908.3,
+    "left": 1025.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id434",
+    "top": 865.3,
+    "left": 1045.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id435",
+    "top": 760.3,
+    "left": 1066.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Жила",
+    "description": "",
+    "type": "lode",
+    "nameIcon": "Lode",
+    "id": "id436",
+    "top": 658.3,
+    "left": 1091.2,
+    "prizeList": [
+      "<q yelow>Золото</q>."
+    ]
+  },
+  {
+    "title": "Алтарь акатоша (<q lblue>10lvl</q>)",
+    "description": "Скелеты <q green>3</q>.",
+    "type": "skelet",
+    "nameIcon": "DaedricShrine",
+    "id": "id437",
+    "top": 656.9,
+    "left": 1098
+  },
+  {
+    "title": "Пост Септимия Сегония",
+    "description": "<q lblue>Квест</q> для входа в Чёрный Предел.",
+    "type": "",
+    "nameIcon": "Cave",
+    "scale": 0.3,
+    "id": "id438",
+    "top": 141.6,
+    "left": 998.1
+  },
+  {
+    "title": "Скелеты (<q lblue>30lvl</q>)",
+    "description": "Сильный скелет-маг и <q green>2</q> воина-скелета.",
+    "type": "skelet",
+    "nameIcon": "Star",
+    "id": "id439",
+    "top": 665.5,
+    "left": 534.6
+  },
+  {
+    "title": "Сундук с загадкой",
+    "description": "<q yelow>Снаряжение</q>.",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id440",
+    "top": 678.4,
+    "left": 523.9
+  },
+  {
+    "title": "Событие (<q lblue>10lvl</q>)",
+    "description": "Разбойник (<q lblue>29lvl</q>)",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id441",
+    "top": 496.5,
+    "left": 1001
+  },
+  {
+    "title": "Звери (<q lblue>10lvl</q>)",
+    "description": "",
+    "type": "animal",
+    "nameIcon": "Star",
+    "id": "id442",
+    "top": 496.1,
+    "left": 1020.2
+  },
+  {
+    "title": "Событие (<q lblue>10lvl</q>)",
+    "description": "Бандиты (<q lblue>20lvl</q>)  <q green>2</q>.",
+    "type": "bandit",
+    "nameIcon": "Campsite",
+    "scale": 0.2,
+    "id": "id443",
+    "top": 796.1,
+    "left": 955.3
+  },
+  {
+    "title": "Торговый пост Белого берега",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id444",
+    "top": 434.5,
+    "left": 813.1,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Истмарка",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id445",
+    "top": 599.9,
+    "left": 1087.5,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Медовой гривы",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id446",
+    "top": 868.2,
+    "left": 963.5,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Мирваны",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id447",
+    "top": 651.5,
+    "left": 328.7,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Серебряных песков",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id448",
+    "top": 265.7,
+    "left": 241.2,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Ущелья Азуры",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id449",
+    "top": 399.4,
+    "left": 1018.3,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Торговый пост Хьялмарка",
+    "description": "Скупают хлам.",
+    "type": "trade",
+    "nameIcon": "Town",
+    "scale": 0.3,
+    "id": "id450",
+    "top": 356.1,
+    "left": 370.1,
+    "prizeList": [
+      "Продают <q yelow>Свитки телепортации</q> и <q yelow>Камни душ</q>."
+    ]
+  },
+  {
+    "title": "Алтарь Ауриэля",
+    "description": "",
+    "type": "",
+    "nameIcon": "Altar",
+    "id": "id451",
+    "top": 546.9,
+    "left": 369.1
+  },
+  {
+    "title": "Сигнальная башня стендарра",
+    "description": "",
+    "type": "set",
+    "nameIcon": "ImperialTower",
+    "id": "id452",
+    "top": 954.8,
+    "left": 1257.1,
+    "prizeList": [
+      "<q yelow>Сет Странствующего Рыцаря</q>."
+    ]
+  },
+  {
+    "title": "Стоянка охотников",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Loot",
+    "id": "id453",
+    "top": 331.4,
+    "left": 1094.7,
+    "prizeList": [
+      "<q yelow>Ожерелье</q>",
+      "<q yelow>Клыки Хоркеров</q>."
+    ]
+  },
+  {
+    "title": "Полянка",
+    "description": "",
+    "type": "soc",
+    "nameIcon": "Mammoth",
+    "scale": 0.2,
+    "id": "id454",
+    "top": 419.4,
+    "left": 459.4,
+    "prizeList": [
+      "<q yelow>Труп мамонта</q>."
+    ]
+  },
+  {
+    "title": "Святилище Боэтии (<q lblue>30lvl</q>)",
+    "description": "После (<q lblue>30lvl</q>) персонажа, в скайриме нападает поклонник Боэтии (<q lblue>60lvl</q>) <q lblue>4000xp</q>. Сильный дуальшик. <br/> Поклонники Боэтии (<q lblue>45lvl</q>) <q green>6</q>, все милишники.",
+    "type": "bandit",
+    "nameIcon": "DaedricShrine",
+    "id": "id455",
+    "top": 505.7,
+    "left": 1148.4
+  },
+  {
+    "title": "Засада бандитов (<q lblue>0lvl</q>)",
+    "description": "бандиты <q green>4</q>.",
+    "type": "bandit",
+    "nameIcon": "Bandit",
+    "id": "id456",
+    "top": 510.9,
+    "left": 370.3
+  },
+  {
+    "title": "Корабль (<q lblue>10lvl</q>)",
+    "description": "<q lblue>Квест</q>: Убить бандита <q yelow>1000р</q>.",
+    "type": "",
+    "nameIcon": "Shipwreck",
+    "id": "id457",
+    "top": 480.1,
+    "left": 1081
+  },
+  {
+    "title": "Глотка Мира (<q lblue>55lvl</q>)",
+    "description": "После прочтения свитка появляется Алдуин (пред финальный босс)",
+    "type": "dragon dragon_boss",
+    "nameIcon": "PointofInterest",
+    "id": "id458",
+    "top": 739.5,
+    "left": 810.6,
+    "bossList": [
+      "Алдуин"
+    ],
+    "prizeList": [
+      "<q yelow>Фус</q> (сила)",
+      "<q yelow>Файм</q> (плоть)",
+      "<q yelow>Йел</q> (огонь)."
+    ]
+  },
+  {
+    "title": "Данстарское убежище темного братства (<q lblue>25lvl</q>)",
+    "description": "Призраки милишники (<q lblue>30lvl</q>) 12, босс в конце.",
+    "type": "ghost bandit_boss",
+    "nameIcon": "Settlement",
+    "id": "id459",
+    "top": 225.8,
+    "left": 738.3,
+    "bossList": [
+      "Цицерон"
+    ],
+    "prizeList": [
+      "<q yelow>Сет Цицерона</q>."
+    ]
+  },
+  {
+    "title": "Около Острова крабов",
+    "description": "Гигантская Рыба-убийца",
+    "type": "mutant",
+    "nameIcon": "Sneg",
+    "scale": 0.25,
+    "id": "id460",
+    "top": 136.9,
+    "left": 1062.2,
+    "bossList": [
+      "Гигантская Рыба-убийца"
+    ]
+  },
+  {
+    "title": "Остров крабов",
+    "description": "",
+    "type": "animal mutant",
+    "nameIcon": "Sneg",
+    "scale": 0.25,
+    "id": "id461",
+    "top": 107,
+    "left": 1076.7,
+    "bossList": [
+      "Гигантский краб"
+    ]
+  },
+  {
+    "title": "Укрытие старейшин (<q lblue>45lvl</q>)",
+    "description": "По квесту стражей рассвета. Вампиры <q green>2</q>, гончеи <q green>2</q>, трелла <q green>2</q>.",
+    "type": "vampire",
+    "nameIcon": "Cave",
+    "id": "id462",
+    "top": 378.3,
+    "left": 364.5,
+    "bossList": [
+      "Малк"
+    ],
+    "prizeList": [
+      "Сет <q yelow>Рыцаря Стражи Рассвета</q>",
+      "<q yelow>Секира Ваника</q>"
+    ]
+  }
+]

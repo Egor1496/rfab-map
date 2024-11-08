@@ -1,0 +1,64 @@
+.pathList
+  padding: 5px
+
+.buttonWrap
+  display: flex
+  flex-wrap: wrap
+  justify-content: space-around
+  align-items: center
+  gap: 2px
+  .icon
+    width: 35px
+    height: 35px
+    background-size: contain
+    background-repeat: no-repeat
+    background-position: center center
+    transition: transform 0.2s
+    &:hover
+      cursor: pointer
+      transform: scale(1.1)
+    &:active
+      cursor: pointer
+      transform: scale(1)
+  .add
+    background-image: url("/assets/images/ui/right-menu/add-path.svg")
+  .upload
+    width: 40px
+    height: 40px
+    background-image: url("/assets/images/ui/right-menu/upload-path.svg")
+  .download
+    background-image: url("/assets/images/ui/right-menu/download-path.svg")
+
+.listPath
+  display: flex
+  margin-top: 10px
+  padding: 5px 0
+  gap: 5px
+  justify-content: flex-start
+  flex-wrap: wrap
+  align-content: center
+
+.path
+  display: flex
+  min-width: 20px
+  min-height: 10px
+  padding: 2px 5px
+  padding-bottom: 3px
+  justify-content: center
+  align-content: center
+  font-size: 14px
+  font-weight: bold
+  color: #000000
+  border: none
+  background-color: #39932b
+  border-radius: 2px
+  overflow: hidden
+  transition: transform 0.1s
+  &:hover
+    transform: scale(1.05)
+    cursor: pointer
+    background-color: #61ff49
+
+.active
+  text-decoration: underline
+  background-color: #61ff49

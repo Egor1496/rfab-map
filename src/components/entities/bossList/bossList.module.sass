@@ -1,0 +1,40 @@
+// .MyBossList
+
+.myAccordion
+  & [class~="p-accordion-header"]
+    margin-bottom: 3px
+    background-color: #484848bf
+    transition: background-color 100ms
+    &:hover
+      background-color: #ac3b3bc7
+  & [class~="p-accordion-header-text"]
+    padding: 4px 0
+    padding-left: 6px
+    font-family: 'Cuyabra'
+    font-size: 15px
+
+.accordTab
+  position: relative
+  display: flex
+  justify-content: space-between
+  .lvlWrap
+    padding-right: 10px
+  .lvl
+    color: rgb(31, 180, 255)
+  .itemBoss
+    position: absolute
+    right: -20px
+    top: 0
+
+.boss
+  padding: 2px
+  padding-left: 6px
+  color: #ececec
+  font-size: 14px
+  &:hover
+    cursor: pointer
+    text-decoration: underline
+  &:active
+    color: #c8c8c879
+  .lvl
+    color: rgb(31, 180, 255)

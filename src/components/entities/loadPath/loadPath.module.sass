@@ -1,0 +1,43 @@
+// .loadPath
+
+.uploadWrap
+  position: relative
+  display: flex
+  width: 50vw
+  height: 50vh
+  margin: 15px
+  justify-content: center
+  align-content: center
+  border: 4px dashed #929292
+  border-radius: 5px
+
+[class~="p-fileupload"]
+  width: 100%
+  height: 100%
+
+[class~="p-fileupload-content"]
+  position: absolute
+  top: 0
+  left: 0
+  width: 100%
+  height: 100%
+
+[class~="p-fileupload-choose"]
+  position: absolute
+  z-index: 10
+  top: 50%
+  left: 50%
+  transform: translate(-50%, -50%)
+  & > svg
+    display: none
+
+[class~="p-button-label"]
+    display: flex
+    width: 370px
+    min-height: 50px
+    justify-content: center
+    align-items: center
+    border-radius: 15px
+
+.underline
+  text-decoration: underline

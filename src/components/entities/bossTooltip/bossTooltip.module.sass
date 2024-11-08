@@ -1,0 +1,131 @@
+.bossTooltip
+  &:hover .decLi1
+    &::before
+      border-bottom: 2px solid rgba(31, 180, 255, 0.293)
+    &:hover
+      &::before
+        border-bottom: 2px solid rgb(31, 180, 255)
+  &:hover .decLi2
+    &::before
+      border-bottom: 2px solid rgba(255, 31, 31, 0.293)
+    &:hover
+      &::before
+        border-bottom: 2px solid rgb(255, 31, 31)
+  &.sm
+    max-width: 150px
+    .addStats, .arr
+      display: none
+    .icn, .locLink
+      display: none
+  &.md
+    max-width: 300px
+    .mainStats, .addStats
+      font-size: 16px
+    .mainStats
+      margin-bottom: 2px
+    .addStats
+      margin-bottom: 5px
+
+.mainStats, .addStats
+  display: flex
+  gap: 10px
+  justify-content: center
+  align-content: center
+  font-weight: bold
+
+.de
+  margin-top: 5px
+  padding: 5px
+  border-radius: 4px
+  background-color: #7f7f7f63
+.no
+  margin-top: 5px
+  padding: 5px
+  border-radius: 4px
+  background-color: #3333335b
+  &.noLink
+    text-decoration: underline
+    &:hover
+      cursor: pointer
+  span
+    color: white
+.hp
+  color: rgb(255, 69, 69)
+.xp
+  color: rgb(31, 180, 255)
+.weapon span
+  color: rgb(255, 240, 76)
+.location span
+  color: white
+
+.de, .no
+  display: none
+.sm .no
+  display: inline-block
+.md .de
+  display: inline-block
+
+.icn
+  display: inline-block
+  width: 18px
+  height: 18px
+  margin-left: 2px
+  transform: translateY(3px)
+  background-size: contain
+  background-repeat: no-repeat
+  background-position: center center
+.xp .icn
+  background-image: url("/assets/images/ui/left-menu/star.svg")
+.hp .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/hp.svg")
+.arr .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/arr.svg")
+.ty .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/head.svg")
+.weapon .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/sword.svg")
+.inf .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/inf.svg")
+.poi .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/poi.svg")
+.mag .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/mag.svg")
+.fir .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/fir.svg")
+.col .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/col.svg")
+.sto .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/sto.svg")
+.location .icn
+  background-image: url("/assets/images/ui/left-menu/bossTooltip/map.svg")
+
+.location
+  display: flex
+  align-items: center
+  gap: 3px
+  margin-bottom: 3px
+  > span, > a
+    transform: translate(0px, 3px)
+  a
+    text-decoration: none
+  .locLink
+    display: inline-flex
+    width: 18px
+    height: 18px
+    transform: translate(0px, 3px)
+    background-size: 25px 25px
+    background-repeat: no-repeat
+    background-position: center center
+    background-image: url("/assets/images/ui/left-menu/bossTooltip/link.svg")
+
+.decLi1, .decLi2
+  position: relative
+  &::before
+    content: ""
+    position: absolute
+    left: 0
+    bottom: -2px
+    width: 100%
+    height: 2px
+  &:hover
+    cursor: pointer

@@ -1,0 +1,182 @@
+.createNewPath
+  display: none
+  gap: 5px
+  position: absolute
+  z-index: -1
+  left: 50%
+  top: 0%
+  padding-top: 10px
+  transform: translateX(-50%)
+  opacity: 0
+  transition: opacity 0.3s
+
+.opacity
+  opacity: 1
+
+.visible
+  display: flex
+  z-index: 20
+
+.inputWrap
+  display: flex
+  flex-direction: column
+  justify-content: flex-start
+  gap: 5px
+
+.controlWrap
+  display: flex
+  justify-content: flex-start
+  gap: 5px
+
+.namePath, .descrPath
+  height: 24px
+  width: 170px
+  padding: 4px
+  font-size: 14px
+  color: white
+  background-color: rgba(0, 0, 0, 0.8)
+  outline: none
+  border: 2px solid #929292
+  border-radius: 4px
+  &[class~="p-invalid"]
+    border: 2px solid rgb(255, 27, 27)
+  &:disabled
+    background-color: rgba(0, 0, 0, 0.2)
+    border: 2px solid rgba(146, 146, 146, 0.5)
+
+.descrPath
+  font-size: 12px
+  height: auto
+  min-height: 34px !important
+
+.iconWrap
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  min-width: 7px
+  height: 30px
+  padding: 0 6px
+  gap: 5px
+  border-radius: 4px
+  background-color: rgba(0, 0, 0, 0.8)
+  border: 2px solid #929292
+  .cancelPoint
+    position: absolute
+    width: 100%
+    height: 100%
+    transform: translateX(-1px)
+    background-repeat: no-repeat
+    background-position: center center
+    background-image: url('/assets/images/ui/arrow-next.svg')
+    background-size: 35px
+    &:hover
+      cursor: pointer
+      transform: scale(1.2) translateX(-1px)
+    &:active
+      transform: scale(1) translateX(-1px)
+  .knot, .point
+    border-radius: 50%
+    background-repeat: no-repeat
+    background-position: center center
+    opacity: 0.5
+    transition: transform 0.1s
+    &:hover
+      cursor: pointer
+      transform: scale(1.2)
+    &:active
+      transform: scale(1)
+    &.active
+      opacity: 1
+
+.knot
+  width: 18px
+  height: 18px
+  background-image: url('/assets/images/ui/Knot.svg')
+  background-size: 25px
+
+.point
+  width: 20px
+  height: 20px
+  background-image: url('/assets/images/ui/Point.svg')
+  background-size: 30px
+
+.lineSolid, .lineDash, .lineDott
+  width: 25px
+  transition: transform 0.1s
+  overflow: hidden
+  &:hover
+    transform: scale(1.2)
+    cursor: pointer
+    &:active
+      transform: scale(1)
+  & > div
+    height: 25px
+    border-left: 4px rgb(77, 255, 49)
+    opacity: 0.6
+    transform: translate(9px, 7.5px) rotate(45deg)
+  &.active > div
+    opacity: 1
+
+.lineSolid > div
+  border-left-style: solid
+
+.lineDash > div
+  border-left-style: dashed
+
+.lineDott > div
+  border-left-style: dotted
+
+.lineColor
+  display: flex
+  justify-content: center
+  align-items: center
+  height: 100%
+  width: 25px
+  margin-left: 10px
+  padding-left: 6px
+  border-left: 2px solid #929292
+  & [class~="p-colorpicker"] > input
+    width: 20px
+    border: none
+    outline: none
+    background: linear-gradient(90deg, hsl(0, 100%, 50%), hsl(60, 100%, 50%), hsl(120, 100%, 50%), hsl(240, 100%, 50%), hsl(270, 100%, 50%), hsl(360, 100%, 50%) ) !important
+    transition: transform 0.1s
+    &:hover
+      transform: rotate(2deg) scale(1.2)
+    &:active
+      transform: rotate(0deg) scale(1)
+
+[class~="p-colorpicker-panel"]
+      transform: translateX(-80.5%)
+
+[class~="p-colorpicker-color-selector"],
+[class~="p-colorpicker-hue"]
+      top: 12px
+      overflow: hidden
+      border-radius: 4px
+      border: 2px solid #929292
+
+.buttonWrap
+  display: flex
+  align-items: flex-end
+  gap: 5px
+  button
+    padding: 3px 5px
+    border-radius: 5px
+    font-size: 13px
+    font-weight: 600
+    color: white
+    background-color: rgba(0, 0, 0, 0.8)
+    border: 2px solid #929292
+    transition: transform 0.1s
+    &:hover
+      background-color: rgba(0, 0, 0, 0.8)
+      cursor: pointer
+      transform: scale(1.05)
+    &:active
+      transform: scale(1)
+    &.save
+      color: rgb(97, 255, 73)
+    &.download
+      color: rgb(60, 114, 202)

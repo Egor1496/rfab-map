@@ -1,0 +1,113 @@
+.markerModal
+  position: fixed
+  z-index: 100
+  display: none
+  left: -600px
+  top: -600px
+  &.sm
+    max-width: 400px
+  &.md
+    max-width: 500px
+  &.xl
+    max-width: 600px
+
+.header
+  position: absolute
+  top: 0
+  left: 0
+  display: flex
+  justify-content: space-between
+  width: 100%
+  padding: 0 5px
+  .ctrl
+    display: flex
+    align-items: flex-end
+    font-weight: bold
+    font-size: 12px
+    text-shadow: 0 0 20px #fff, 0 0 2px #fff
+    color: #2f2f2f
+    transform: translate(0px, -20px)
+    &.active
+      text-shadow: 0 0 20px #2f2f2f, 0 0 2px #2f2f2f, 0 0 2px #f0f40f, 0 0 2px #f0f40f, 0 0 2px #f0f40f
+      color: #f8efb1c9
+  .modeModal
+    .icon
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 20px
+      height: 20px
+      border-radius: 5px
+      font-weight: bold
+      font-size: 18px
+      text-shadow: 0 0 20px #fff, 0 0 2px #fff
+      color: #2f2f2f
+      &:hover
+        cursor: pointer
+        color: #000
+      &.pluse
+        transform: translate(-4px, 0px)
+      &.minus
+        transform: translate(-8px, 0px)
+
+.modalContent
+  padding: 4px
+  border-radius: 5px
+  border: 2px solid #929292
+  background-color: rgba(0, 0, 0, 0.8)
+  font-family: 'Arimo-Regular'
+
+.title
+  margin: 0
+  padding: 0
+  font-size: 18px
+  font-family: 'Arimo-Medium'
+  // .levelValue
+
+// .description
+
+.taskList
+  font-size: 16px
+  font-family: 'Arimo-Italic'
+
+.bossList
+  font-size: 16px
+  font-family: 'Arimo-Italic'
+
+.prize
+  font-size: 16px
+  font-family: 'Arimo-Italic'
+
+.footer
+  display: flex
+  align-items: flex-start
+  flex-wrap: wrap
+  gap: 2px
+  width: auto
+  margin-top: 2px
+  padding-bottom: 2px
+
+.prizeIcon
+  position: relative
+  display: flex
+  justify-content: center
+  align-items: center
+  padding: 5px
+  border-radius: 5px
+  border: 2px solid #929292
+  background-color: rgba(0, 0, 0, 0.8)
+  &:hover
+    cursor: pointer
+    transform: scale(0.95)
+
+.prizeCount
+  position: absolute
+  top: 0px
+  right: 2px
+  display: flex
+  justify-content: center
+  align-items: center
+  font-size: 14px
+  font-weight: bold
+  color: #fff
+  text-shadow: 0 0 20px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000, 0 0 2px #000

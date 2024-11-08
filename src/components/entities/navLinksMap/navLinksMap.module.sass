@@ -1,0 +1,23 @@
+.navLinksMap
+  display: flex
+  flex-direction: column
+  flex-wrap: wrap
+  gap: 2px
+  margin-bottom: 4px
+  a
+    padding: 2px
+    padding-left: 10px
+    font-size: 16px
+    color: #e6e6e6
+    background-color: #484848bf
+    transition: background-color 100ms
+    text-decoration: none
+    &:hover
+      background-color: #b0a637ae
+    &.main
+      color: #fff
+      font-size: 19px
+      padding-left: 4px
+
+.navLinksMap .activeMap
+  background-color: #b0a637ae

@@ -1,0 +1,55 @@
+.myFloatTooltip
+  position: fixed
+  z-index: 1200
+  opacity: 0
+
+.content
+  position: relative
+  display: flex
+  flex-direction: column
+  padding: 4px
+  border-radius: 4px
+  border: 2px solid #92929296
+  background-color: #0a0403f3
+  gap: 2px
+  font-size: 14px
+  text-align: left
+
+.header
+  position: absolute
+  top: 0
+  left: 0
+  display: flex
+  justify-content: space-between
+  width: 100%
+  padding: 0 5px
+  .ctrl
+    display: flex
+    align-items: flex-end
+    font-weight: bold
+    font-size: 12px
+    text-shadow: 0 0 20px #fff, 0 0 2px #fff
+    color: #2f2f2f
+    transform: translate(0px, -24px)
+    &.active
+      text-shadow: 0 0 20px #2f2f2f, 0 0 2px #2f2f2f, 0 0 2px #f0f40f, 0 0 2px #f0f40f, 0 0 2px #f0f40f
+      color: #f8efb1c9
+  .modeModal
+    .icon
+      display: flex
+      justify-content: center
+      align-items: center
+      width: 20px
+      height: 20px
+      border-radius: 5px
+      font-weight: bold
+      font-size: 18px
+      text-shadow: 0 0 20px #fff, 0 0 2px #fff
+      color: #2f2f2f
+      &:hover
+        cursor: pointer
+        color: #000
+      &.pluse
+        transform: translate(-4px, 0px)
+      &.minus
+        transform: translate(-8px, 0px)

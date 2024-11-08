@@ -1,0 +1,95 @@
+==========================================================================================
+
+  Star - звездочка.
+  bandit - Бандиты.
+  Campsite - Лагерь (Camp)
+  Cave - Пещера (Cave)
+  Tower - Форт (Fort)
+  Fort - Форт (Fort)
+  DwemerRuins - Двемерские руины (Dwarven Ruin)
+  Shipwreck - Корабли (Ship)
+  Shack - Лачуга (Shack)
+  DaedricShrine - святилище (Daedric Shrine)
+  Dragon - Логово дракона (Dragon Lair)
+  NordicDwelling - Руины (Ruin)
+  Tomb - Нордские руины (Nordic Ruin)
+  OrcStronghold - Крепость орков (Orc Stronghold)
+  Grove - Роща (Grove)
+  Mine - Шахта (Mine)
+  Pass - Проход (Pass)
+  Pond - Поляна (Clearing)
+  Town - Город (Town)
+  Settlement - Поселение (Settlement)
+  WoodMill - Лесопилка (Wood Mill)
+  Farm - Ферма (Farm)
+  FarmWithMill - Мельница (Wheat Mill)
+  Stable - Конюшня (Stable)
+  Dock - Пристань (Dock)
+  Lighthouse - Маяк (Lighthouse)
+  ImperialTower - Сторожевая башня (Watchtower)
+  GiantCamp - Лагерь великанов (giant Camp)
+  NordicTower - Башня нордов (Nordic Tower)
+  PointofInterest - Достопримечательность (Landmark)
+  StandingStone - Камни хранители (Standing Stone)
+  ImperialCamp - Имперский лагерь (Imperial Camp)
+  StormcloakCamp - Лагерь Братьев Бури (Stormcloak Camp)
+  Altar - Алтарь
+  Castle_3 - Замок 4 крыши
+  Castle_4 - Бутылочный домик с дымоходом
+  Miraak - Мирак
+  Raven_Rock - клякса с усами
+  Standing_Stones - 3 камня-столба
+  Telvanni_Tower - Гриб
+
+==========================================================================================
+
+  <br/> &nbsp; - «»
+
+  (<q lblue>lvl</q>)
+  <q green>ЧИСЛО</q>
+  <q yelow>ЦЕННОСТЬ</q>
+  <q red>КРАСНЫЙ</q>
+
+==========================================================================================
+
+  Используй: Свиток «священный круг»
+  Используй: «Передышка» (восстановление 50)
+  Используй: Слово «Разоружение»
+  Используй: Заклинание «Аура упокоения»
+
+==========================================================================================
+
+  dollar -- soc
+  star -- xp
+  bottle -- bottle
+  word -- word
+  set -- set
+  chest -- chest
+  gold -- lode
+  barenziah -- roc
+
+  standing_stones -- roc
+  book -- book
+  lode -- stal
+
+  skull -- boss
+
+==========================================================================================
+
+  book.png -- "Книга опыта"
+  сhaurus.png -- "Яйцо коруса"
+  purse.png -- "Кошелечек"
+  satchel.png -- "Сумочка алхимика"
+  chest-sm.png -- "Небольшой сундук"
+  roc.webp -- "Камень Барензии"
+  daedra.png -- "Сердце даэдра"
+  knapsack.png -- "Портфель"
+  skooma.png -- "Скума"
+  bottleP.png -- "Паралич"
+  bottleW.png -- "Превосходка веса"
+  bottleH.png -- "Превосходка ХП"
+  bottleS.png -- "Превосходка СТ"
+  bottleM.png -- "Превосходка МП"
+  chest.png -- "Мастерский сундук"
+
+==========================================================================================

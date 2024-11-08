@@ -1,0 +1,16 @@
+https://www.nikomedvedev.ru/other/vscodeshortcuts/hotkeys.html
+https://habr.com/ru/articles/718662/
+
+Ctrl + N | Новый файл
+
+Ctrl + P | Быстрый переход к файлу
+
+Ctrl + G | Перейти к строке
+
+Ctrl + L | Выделить текущую строку
+
+Ctrl + U | Убрать последний добавленный курсор
+
+Ctrl + ` | Терминал
+
+Alt + Shift + ↓ | Добавить курсор ниже
