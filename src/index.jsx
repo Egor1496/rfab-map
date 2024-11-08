@@ -34,12 +34,12 @@ root.render(
         <Routes>
           <Route path="rfab-map/" element={<MapLayout />}>
             <Route index element={<SkyrimPage />} />
-            <Route path="skyrim" element={<SkyrimPage />} />
-            <Route path="solstheim" element={<SolstheimPage />} />
-            <Route path="blackreach" element={<BlackreachPage />} />
-            <Route path="forgottenvale" element={<ForgottenvalePage />} />
-            <Route path="soulcairn" element={<SoulcairnPage />} />
-            <Route path="skuldafn" element={<SkuldafnPage />} />
+            <Route path="skyrim/" element={<SkyrimPage />} />
+            <Route path="solstheim/" element={<SolstheimPage />} />
+            <Route path="blackreach/" element={<BlackreachPage />} />
+            <Route path="forgottenvale/" element={<ForgottenvalePage />} />
+            <Route path="soulcairn/" element={<SoulcairnPage />} />
+            <Route path="skuldafn/" element={<SkuldafnPage />} />
           </Route>
 
           <Route path="*" element={<ErrorPage />} />

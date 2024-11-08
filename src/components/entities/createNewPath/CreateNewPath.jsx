@@ -4,7 +4,6 @@ import { useEffect, useState } from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 
 import { InputText } from "primereact/inputtext";
-import { InputTextarea } from "primereact/inputTextarea";
 
 import { ColorPicker } from 'primereact/colorpicker';
 
@@ -180,20 +179,17 @@ export const CreateNewPath = () => {
 
         <InputText
           placeholder='Название (маршрута)'
-          className={sass.namePath}
+          className={sass.namePath + " " + (inputV.length < 3 ? sass.empty : "")}
           value={inputV}
           onChange={(e) => setInputV(e.target.value)}
-          invalid={inputV.length < 3}
         />
 
-        <InputTextarea
-          disabled={typePoint !== 2 ? true : false}
-          placeholder='Заметка (точки)'
-          autoResize
+        <textarea
           className={sass.descrPath}
+          placeholder='Заметка (точки)'
           value={textarV}
           onChange={(e) => setTextarV(e.target.value)}
-          rows={1}
+          disabled={typePoint !== 2 ? true : false}
         />
       </div>
 

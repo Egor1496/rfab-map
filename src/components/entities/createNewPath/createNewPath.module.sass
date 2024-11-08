@@ -30,7 +30,7 @@
 
 .namePath, .descrPath
   height: 24px
-  width: 170px
+  // width: 170px
   padding: 4px
   font-size: 14px
   color: white
@@ -38,16 +38,15 @@
   outline: none
   border: 2px solid #929292
   border-radius: 4px
-  &[class~="p-invalid"]
+  &.empty
     border: 2px solid rgb(255, 27, 27)
   &:disabled
     background-color: rgba(0, 0, 0, 0.2)
     border: 2px solid rgba(146, 146, 146, 0.5)
 
 .descrPath
+  resize: none
   font-size: 12px
-  height: auto
-  min-height: 34px !important
 
 .iconWrap
   position: relative
