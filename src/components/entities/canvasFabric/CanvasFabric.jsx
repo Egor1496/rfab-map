@@ -26,7 +26,7 @@ export const CanvasFabric = () => {
   useEffect(() => {
     gS.$element = $("#canvasMap");
 
-    gS.typeMap = window.location.pathname.split("/")[1] || "skyrim";
+    gS.typeMap = window.location.pathname.split("/")[2] || "skyrim";
 
     dispatch(activeMap(gS.typeMap));
     dispatch(createPathMV(false))
