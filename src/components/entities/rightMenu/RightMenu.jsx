@@ -17,7 +17,7 @@ export const RightMenu = () => {
     <MySidebar position="right">
       <MyAccordion activeIndex={0}>
         <AccordionTab header={<div className={sass.titlePath}>Маршруты</div>}>
-          <PathList />
+          {/* <PathList /> */}
         </AccordionTab>
         <AccordionTab header={<div className={sass.titleMarker}>Локации</div>}>
           <LocationSettings />
