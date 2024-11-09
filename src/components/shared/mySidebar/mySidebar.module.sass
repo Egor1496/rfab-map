@@ -26,6 +26,22 @@
     &::before
       left: -40px
 
+.openButton
+  position: fixed
+  z-index: 100
+  top: 10px
+  height: 40px
+  width: 40px
+  background-image: URL("assets/images/ui/openArrow.svg")
+  background-size: contain
+  background-repeat: no-repeat
+  transition: transform 0.1s
+  &.left
+    left: 10px
+  &.right
+    right: 10px
+    transform: rotate(180deg)
+
 .button
   position: fixed
   z-index: 100

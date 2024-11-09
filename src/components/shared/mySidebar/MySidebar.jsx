@@ -8,6 +8,13 @@ export const MySidebar = ({ children, position }) => {
 
 	return (
 		<>
+			{
+				!visible &&
+				<div
+					className={sass.openButton + " " + sass[position || "left"]}
+					onMouseMove={() => setVisible(true)}
+				/>
+			}
 			<Sidebar
 				className={sass.sidebar + " " + sass[position || "left"]}
 				position={position}

@@ -2,9 +2,7 @@ import { mC } from "../../../scripts/map/paramsMap";
 
 import allbossses from "../../../data/bossList/bossList.json"
 
-export const getSecondDescription = (descrList) => descrList.map((descr) => `${descr}`).join("<br/>");
-
-export const getBossList = (bossList, modeModal) => {
+export const getBossList = (bossList = [], modeModal) => {
 	const bosses = bossList.map((currBoss) => {
 		let strBoss = "<q lred>Босс</q> " + currBoss.trim();
 
@@ -35,11 +33,11 @@ export const getBossList = (bossList, modeModal) => {
 	return bosses.join("<br/>");;
 }
 
-export const getTasks = (taskList) => taskList.map((task) => `${task}`).join("<br/>");
+export const getTasks = (taskList = []) => taskList.map((task) => `${task}`).join("<br/>");
 
-export const getPrizeList = (prize) => prize.map((prizz) => `${prizz}`).join(", ");
+export const getPrizeList = (prize = []) => prize.map((prizz) => `${prizz}`).join(", ");
 
-export const getPrizeIcon = (prizeIcon, sass) =>
+export const getPrizeIcon = (prizeIcon = [], sass) =>
 	prizeIcon.map((pI, i) => {
 		const name = pI[0] || "coin.png",
 			count = pI[1] || "",

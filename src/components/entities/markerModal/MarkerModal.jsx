@@ -3,7 +3,7 @@ import sass from './markerModal.module.sass'
 import { useRef, useState } from 'react';
 import { useSelector } from 'react-redux';
 
-import { getBossList, getPrizeList, getPrizeIcon, getSecondDescription, getTasks } from './markerModal.util';
+import { getBossList, getPrizeList, getPrizeIcon, getTasks } from './markerModal.util';
 
 import { gS } from '../../../scripts/global/paramsGlobal'
 import { getPosModalMarker } from '../../../scripts/map/transforms/getPosModalMarker';
