@@ -4,7 +4,6 @@ const initialState = {
 	floatTooltipMVB: false,
 	floatTooltipMVT: false,
 	floatTooltipPos: 0,
-	modeModal: localStorage.getItem("rfab-map-modFloatModal") || "md",
 	currBoss: {},
 	currTask: {},
 };
@@ -22,9 +21,6 @@ const floatTooltip = createSlice({
 		floatTooltipPos(state, action) {
 			state.floatTooltipPos = action.payload;
 		},
-		setModeModal(state, action) {
-			state.modeModal = action.payload;
-		},
 		setCurrBoss(state, action) {
 			state.currBoss = action.payload;
 		},
@@ -34,13 +30,7 @@ const floatTooltip = createSlice({
 	},
 });
 
-export const {
-	floatTooltipMVB,
-	floatTooltipMVT,
-	floatTooltipPos,
-	setModeModal,
-	setCurrBoss,
-	setCurrTask,
-} = floatTooltip.actions;
+export const { floatTooltipMVB, floatTooltipMVT, floatTooltipPos, setCurrBoss, setCurrTask } =
+	floatTooltip.actions;
 
 export default floatTooltip.reducer;

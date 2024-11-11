@@ -1,6 +1,6 @@
 import sass from './bossList.module.sass'
 
-import { useDispatch, useSelector } from 'react-redux';
+import { useDispatch } from 'react-redux';
 
 import { MyAccordion } from '../../shared/myAccordion/MyAccordion';
 import { AccordionTab } from 'primereact/accordion';
@@ -12,8 +12,6 @@ import { floatTooltipMVB, floatTooltipPos, setCurrBoss } from '../../../store/sl
 
 export const BossList = () => {
   const dispatch = useDispatch();
-
-  const keyPress = useSelector((state) => state.eventsReducer).keyPress;
 
   return (
     <div className={sass.myBossList}>
@@ -45,10 +43,7 @@ export const BossList = () => {
                       dispatch(floatTooltipMVB(true))
                     }}
 
-                    onMouseLeave={() => {
-                      if (keyPress !== "ControlLeft")
-                        dispatch(floatTooltipMVB(false))
-                    }}
+                    onMouseLeave={() => { dispatch(floatTooltipMVB(false)) }}
                   >
                     <div className={`${sass.boss}`}>
                       {boss.na}

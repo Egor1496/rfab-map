@@ -1,21 +1,17 @@
 import sass from './myFloatTooltip.module.sass'
 
-import { useRef, useState } from 'react';
-import { useDispatch, useSelector } from 'react-redux'
+import { useRef } from 'react';
+import { useSelector } from 'react-redux'
 
 import { store } from "../../../store/store"
-import { setModeModal } from '../../../store/slice/floatTooltip.slice';
 
-export const MyFloatTooltip = ({ children, isMode = false, isVisible = false }) => {
+export const MyFloatTooltip = ({ children, isMode = false }) => {
   const ref = useRef(null);
-
-  const modeModal = useSelector((state) => state.floatTooltipReducer).modeModal;
 
   const pos = store.getState().floatTooltipReducer.floatTooltipPos;
 
+  const toggleModeInfo = useSelector((state) => state.settingsReducer).toggleModeInfo;
   const keyPress = useSelector((state) => state.eventsReducer).keyPress;
-
-  const dispatch = useDispatch();
 
   setTimeout(() => {
     if (ref.current) {
@@ -39,24 +35,12 @@ export const MyFloatTooltip = ({ children, isMode = false, isVisible = false }) 
           isMode &&
           <div className={sass.header}>
             <div className={`${sass.ctrl} ${keyPress === "ControlLeft" ? sass.active : ""}`}>ctrl</div>
-            <div className={sass.modeModal}>
+            <div className={`${sass.modeModal} ${!toggleModeInfo ? sass.warning : ""}`}>
               {
-                modeModal === "md" ?
-                  <div
-                    className={`${sass.icon} ${sass.minus}`}
-                    onClick={() => {
-                      dispatch(setModeModal("sm"));
-                      localStorage.setItem("rfab-map-modFloatModal", "sm");
-                    }}
-                  >—</div>
+                toggleModeInfo ?
+                  <div className={`${sass.icon} ${sass.minus}`}>—</div>
                   :
-                  <div
-                    className={`${sass.icon} ${sass.pluse}`}
-                    onClick={() => {
-                      dispatch(setModeModal("md"));
-                      localStorage.setItem("rfab-map-modFloatModal", "md");
-                    }}
-                  >+</div>
+                  <div className={`${sass.icon} ${sass.pluse}`}>+</div>
               }
             </div>
           </div>

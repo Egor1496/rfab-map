@@ -22,8 +22,7 @@ export const handlerMouseout = (oImg) => {
 	setScaleHover(oImg, false);
 	gS.canvas.renderAll();
 
-	if (store.getState().eventsReducer.keyPress !== "ControlLeft")
-		store.dispatch(markerInfoMV(false));
+	store.dispatch(markerInfoMV(false));
 };
 
 let timerMouseDown;

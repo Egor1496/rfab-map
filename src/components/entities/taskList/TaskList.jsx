@@ -1,6 +1,6 @@
 import sass from './taskList.module.sass'
 
-import { useDispatch, useSelector } from 'react-redux'
+import { useDispatch } from 'react-redux'
 import { floatTooltipMVT, floatTooltipPos, setCurrTask } from '../../../store/slice/floatTooltip.slice'
 
 import { AccordionTab } from 'primereact/accordion'
@@ -9,11 +9,8 @@ import { MyAccordion } from '../../shared/myAccordion/MyAccordion'
 import tasksMenu from '../../../data/ui/menuTasks'
 import listTasks from '../../../data/taskList'
 
-
 export default function TaskList() {
   const dispatch = useDispatch();
-
-  const keyPress = useSelector((state) => state.eventsReducer).keyPress;
 
   return (
     <div className={sass.myTaskList}>
@@ -33,10 +30,7 @@ export default function TaskList() {
                       dispatch(floatTooltipMVT(true))
                     }}
 
-                    onMouseLeave={() => {
-                      if (keyPress !== "ControlLeft")
-                        dispatch(floatTooltipMVT(false))
-                    }}
+                    onMouseLeave={() => { dispatch(floatTooltipMVT(false)) }}
                   >
                     {task.name}
                     <div className={sass.lvlWrap}>

@@ -14,12 +14,11 @@
 .header
   position: absolute
   top: 0
-  right: 0
+  left: 0
   display: flex
   justify-content: space-between
-  width: 20px
+  width: 100%
   padding: 0 5px
-  // background-color: red
   .ctrl
     display: flex
     align-items: flex-end
@@ -32,6 +31,9 @@
       text-shadow: 0 0 20px #2f2f2f, 0 0 2px #2f2f2f, 0 0 2px #f0f40f, 0 0 2px #f0f40f, 0 0 2px #f0f40f
       color: #f8efb1c9
   .modeModal
+    &.warning .icon
+      text-shadow: 0 0 20px #2f2f2f, 0 0 2px #2f2f2f, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff
+      color: rgb(255, 69, 69)
     .icon
       display: flex
       justify-content: center
@@ -41,15 +43,15 @@
       border-radius: 5px
       font-weight: bold
       font-size: 18px
-      text-shadow: 0 0 20px #fff, 0 0 2px #fff
-      color: #2f2f2f
+      text-shadow: 0 0 20px #2f2f2f, 0 0 2px #2f2f2f, 0 0 2px #fff, 0 0 2px #fff, 0 0 2px #fff
+      color: rgb(97, 255, 73)
       &:hover
         cursor: pointer
         color: #000
       &.pluse
-        transform: translate(-12px, 0px)
+        transform: translate(-6px, 0px)
       &.minus
-        transform: translate(-14px, 0px)
+        transform: translate(-10px, 0px)
 
 .modalContent
   padding: 4px

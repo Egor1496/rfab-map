@@ -8,11 +8,9 @@ export const TassTooltip = () => {
 
   const task = store.getState().floatTooltipReducer.currTask;
 
-  const modeModal = useSelector((state) => state.floatTooltipReducer).modeModal;
-
   return (
     visible &&
-    <div className={sass.tassTooltip + " " + sass[modeModal]} >
+    <div className={sass.tassTooltip} >
       <div className={sass.taskManager}> Квестодатель - <span>{task.taskManager || "?"}</span></div>
       <div className={sass.location}> Локация - <span>{task.location || "?"}</span></div>
       <div className={sass.prize}> Награда - <span>{task.prize?.join(",\n") || "?"}</span></div>
