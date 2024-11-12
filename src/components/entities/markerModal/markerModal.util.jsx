@@ -41,9 +41,9 @@ export const getPrizeIcon = (prizeIcon = [], sass) =>
 	prizeIcon.map((pI, i) => {
 		const name = pI[0] || "coin.png",
 			count = pI[1] || "",
-			width = mC.prizeType[pI[0]].width || "",
-			height = mC.prizeType[pI[0]].height || "",
-			color = mC.prizeType[pI[0]].color || "#000000";
+			width = mC.prizeType[pI[0]]?.width || "",
+			height = mC.prizeType[pI[0]]?.height || "",
+			color = mC.prizeType[pI[0]]?.color || "#000000";
 
 		return (
 			<div className={sass.prizeIcon} key={i}>

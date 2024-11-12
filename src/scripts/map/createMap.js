@@ -20,14 +20,10 @@ import { getLocalStoreActivePath, getLocalStorePath, setOldStorePath } from "../
 import { gS } from "../global/paramsGlobal";
 import { mS } from "./paramsMap";
 
-import { rfabParser } from "../global/rfabParser";
-
 const loadMarkers = (dataMarkers) => {
 	gS.listMarkers = dataMarkers;
 
 	if (gS.listMarkers) createMarkers(); // Добавить метки на карту.
-
-	rfabParser(gS.listMarkers);
 };
 
 const loadPath = (dataPath) => {

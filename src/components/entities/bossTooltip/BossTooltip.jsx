@@ -27,6 +27,7 @@ export const BossTooltip = () => {
         {boss.hp && <span className={sass.hp}>{boss.hp}<div className={sass.icn} /></span>}
         {boss.arr && <span className={sass.arr}>{boss.arr}<div className={sass.icn} /></span>}
       </div>
+
       <div className={sass.addStats}>
         {boss.inf && <span className={sass.inf}>{boss.inf}<div className={sass.icn} /></span>}
         {boss.poi && <span className={sass.poi}>{boss.poi}<div className={sass.icn} /></span>}
@@ -35,10 +36,12 @@ export const BossTooltip = () => {
         {boss.col && <span className={sass.col}>{boss.col}<div className={sass.icn} /></span>}
         {boss.sto && <span className={sass.sto}>{boss.sto}<div className={sass.icn} /></span>}
       </div>
+
       {boss.ty &&
         <div className={sass.ty}>
           <div className={sass.icn} /> - {boss.ra && <span>{boss.ra}, </span>} {boss.ty}
         </div>}
+
       {boss.wp && <div className={sass.weapon}><div className={sass.icn} /> - {boss.wp}</div>}
 
       {

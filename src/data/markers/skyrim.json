@@ -60,7 +60,8 @@
       [
         "roc.webp"
       ]
-    ]
+    ],
+    "description": ""
   },
   {
     "title": "Рифтен",
@@ -102,13 +103,13 @@
     "left": 980,
     "prizeList": [
       "<q yelow>Великий Посох Отторжения</q>."
-    ]
+    ],
+    "description": ""
   },
   {
     "title": "Подкаменная крепость (<q lblue>30lvl</q>) (<q lblue>???lvl</q>)",
     "description": "Большой паук, фалмеров <q green>21</q>, двемеры???.",
     "nameIcon": "UnderstoneKeep",
-    "type": "",
     "id": "id7",
     "top": 578,
     "left": 76
@@ -140,7 +141,6 @@
     "title": "Фолкрит (<q lblue>25lvl</q>)",
     "description": "<q lblue>Квест</q> Хирсина",
     "nameIcon": "Falkreath",
-    "type": "",
     "id": "id9",
     "top": 858,
     "left": 541,
@@ -151,7 +151,6 @@
   {
     "title": "Королевский дворец",
     "nameIcon": "PalaceoftheKings",
-    "description": "",
     "type": "soc roc",
     "id": "id10",
     "top": 449,
@@ -168,15 +167,14 @@
   {
     "title": "Данстар",
     "nameIcon": "Dawnstar",
-    "type": "",
     "id": "id10.0",
     "top": 253.5,
-    "left": 732.3
+    "left": 732.3,
+    "description": ""
   },
   {
     "title": "Виндхельм (<q lblue>10lvl</q>) (<q lblue>50lvl</q>)",
     "nameIcon": "Windhelm",
-    "description": "",
     "type": "bandit_boss magic_boss",
     "id": "id11",
     "top": 477,
@@ -226,7 +224,8 @@
       [
         "bottleP.png"
       ]
-    ]
+    ],
+    "description": ""
   },
   {
     "title": "Вайтран (<q lblue>0lvl</q>)",
@@ -258,10 +257,10 @@
   {
     "title": "Морфал",
     "nameIcon": "Morthal",
-    "type": "",
     "id": "id14",
     "top": 379,
-    "left": 514
+    "left": 514,
+    "description": ""
   },
   {
     "title": "Бандиты (<q lblue>0lvl</q>)",
@@ -276,7 +275,15 @@
     ],
     "prizeIcon": [
       [
-        "skooma.png"
+        "skooma.png",
+        "4"
+      ],
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
@@ -291,9 +298,19 @@
     "bossList": [
       "Рон Ворон"
     ],
+    "prizeList": [
+      "<q yelow>Вышибала</q>"
+    ],
     "prizeIcon": [
       [
         "bottleW.png"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "book.png"
       ]
     ]
   },
@@ -314,6 +331,14 @@
     "prizeIcon": [
       [
         "bottleW.png"
+      ],
+      [
+        "purse.png",
+        "7"
+      ],
+      [
+        "chest-sm.png",
+        "4"
       ]
     ]
   },
@@ -335,6 +360,16 @@
     "prizeIcon": [
       [
         "bottleP.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png"
       ]
     ]
   },
@@ -349,6 +384,14 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "6"
+      ],
+      [
+        "chest-sm.png",
+        "3"
       ]
     ]
   },
@@ -404,7 +447,20 @@
     "nameIcon": "Campsite",
     "id": "id23",
     "top": 440,
-    "left": 385
+    "left": 385,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "book.png"
+      ]
+    ]
   },
   {
     "title": "Высота Драконий Мост (<q lblue>10lvl</q>)",
@@ -472,6 +528,13 @@
       [
         "book.png",
         "2"
+      ],
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "knapsack.png"
       ]
     ]
   },
@@ -482,7 +545,22 @@
     "nameIcon": "Fort",
     "id": "id28",
     "top": 229,
-    "left": 283
+    "left": 283,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "satchel.png"
+      ]
+    ]
   },
   {
     "title": "Хармугстал (<q lblue>30lvl</q>)",
@@ -561,7 +639,8 @@
     ],
     "prizeList": [
       "<q yelow>Орфей</q>",
-      "<q yelow>Свирепость</q>."
+      "<q yelow>Свирепость</q>",
+      "<q yelow>Обломки Бритвы Мерунеса</q>."
     ],
     "prizeIcon": [
       [
@@ -570,6 +649,14 @@
       [
         "book.png",
         "2"
+      ],
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "5"
       ]
     ]
   },
@@ -608,6 +695,14 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "5"
+      ],
+      [
+        "chest-sm.png",
+        "5"
       ]
     ]
   },
@@ -631,9 +726,24 @@
     "id": "id37",
     "top": 332,
     "left": 809,
+    "prizeList": [
+      "<q yelow>Кольцо Спектрального Удара</q>."
+    ],
     "prizeIcon": [
       [
         "book.png",
+        "2"
+      ],
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "7"
+      ],
+      [
+        "satchel.png",
         "2"
       ]
     ]
@@ -645,7 +755,15 @@
     "nameIcon": "Fort",
     "id": "id38",
     "top": 365,
-    "left": 771
+    "left": 771,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ],
+      [
+        "book.png"
+      ]
+    ]
   },
   {
     "title": "Форт Дунстад (<q lblue>10lvl</q>)",
@@ -655,9 +773,27 @@
     "id": "id39",
     "top": 395,
     "left": 728,
+    "prizeList": [
+      "<q yelow>Драгоценность</q> над камином."
+    ],
     "prizeIcon": [
       [
         "bottleP.png"
+      ],
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "skooma.png",
+        "3"
+      ],
+      [
+        "Safe.webp"
       ]
     ]
   },
@@ -690,12 +826,27 @@
       "До'Сакхар"
     ],
     "prizeList": [
+      "<q yelow>Крылатое копье</q>",
       "<q yelow>Кольцо льва</q>",
       "<q yelow>Банки V</q> в бочке."
     ],
     "prizeIcon": [
       [
         "bottleW.png"
+      ],
+      [
+        "purse.png",
+        "7"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "chest.png"
       ]
     ]
   },
@@ -712,11 +863,23 @@
       "Брандиш"
     ],
     "prizeList": [
-      "<q yelow>Сет Ледяной Воли</q>."
+      "<q yelow>Сет Ледяной Воли</q>",
+      "<q yelow>Карта сокровищ (Нойгард)</q>."
     ],
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "8"
+      ],
+      [
+        "satchel.png"
       ]
     ]
   },
@@ -775,6 +938,17 @@
       [
         "book.png",
         "2"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "6"
+      ],
+      [
+        "knapsack.png",
+        "3"
       ]
     ]
   },
@@ -799,7 +973,25 @@
       "Фьола"
     ],
     "prizeList": [
-      "<q yelow>Сет Фьолы</q>."
+      "<q yelow>Сет Фьолы</q>",
+      "<q yelow>Нордский Боевой Топор Поглащения</q>",
+      "<q yelow>Щит Стойкость</q>"
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png",
+        "2"
+      ]
     ]
   },
   {
@@ -822,6 +1014,25 @@
       ],
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "4"
+      ],
+      [
+        "chest-sm.png",
+        "11"
+      ],
+      [
+        "knapsack.png",
+        "2"
+      ],
+      [
+        "satchel.png",
+        "2"
+      ],
+      [
+        "bottleW.png"
       ]
     ]
   },
@@ -836,7 +1047,22 @@
     "prizeIcon": [
       [
         "book.png",
+        "3"
+      ],
+      [
+        "purse.png",
+        "11"
+      ],
+      [
+        "chest-sm.png",
+        "7"
+      ],
+      [
+        "satchel.png",
         "2"
+      ],
+      [
+        "skooma.png"
       ]
     ]
   },
@@ -847,7 +1073,21 @@
     "nameIcon": "Fort",
     "id": "id52",
     "top": 818,
-    "left": 1162
+    "left": 1162,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "5"
+      ],
+      [
+        "knapsack.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Башня Светотьмы (<q lblue>30lvl</q>)",
@@ -918,6 +1158,12 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
@@ -928,7 +1174,16 @@
     "nameIcon": "Cave",
     "id": "id57",
     "top": 208,
-    "left": 229
+    "left": 229,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "satchel.png"
+      ]
+    ]
   },
   {
     "title": "Пещера Заблудшее Эхо (<q lblue>30lvl</q>)",
@@ -1033,6 +1288,16 @@
     "prizeIcon": [
       [
         "bottleS.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "chest.png"
       ]
     ]
   },
@@ -1052,7 +1317,8 @@
       "<q yelow>Сет Джари-Ра</q>",
       "<q yelow>Лук Джари-Ра</q>",
       "<q yelow>Сапоги Харгара</q>",
-      "<q yelow>Секира Харгара</q>."
+      "<q yelow>Секира Харгара</q>",
+      "<q yelow>Абордаж</q>."
     ],
     "prizeIcon": [
       [
@@ -1060,6 +1326,14 @@
       ],
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "6"
+      ],
+      [
+        "chest-sm.png",
+        "9"
       ]
     ]
   },
@@ -1070,7 +1344,12 @@
     "nameIcon": "Cave",
     "id": "id66",
     "top": 170,
-    "left": 468
+    "left": 468,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Логово Моварта (<q lblue>40lvl</q>) (<q lblue>50lvl</q>)",
@@ -1234,6 +1513,18 @@
     ],
     "prizeList": [
       "<q lblue>Предмет</q> на опыт в сундуке."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "knapsack.png"
+      ]
     ]
   },
   {
@@ -1297,6 +1588,10 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
       ]
     ]
   },
@@ -1314,6 +1609,16 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "satchel.png"
       ]
     ]
   },
@@ -1348,6 +1653,18 @@
       ],
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "satchel.png",
+        "2"
       ]
     ]
   },
@@ -1566,6 +1883,9 @@
       [
         "book.png",
         "2"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
@@ -1601,6 +1921,20 @@
     "bossList": [
       "Ульфр Слепой",
       "Хайварр Железная Рука"
+    ],
+    "prizeList": [
+      "<q yelow>Перчатки Рваной Раны</q>",
+      "<q yelow>Старый Меч Хайварра</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "3"
+      ]
     ]
   },
   {
@@ -1620,6 +1954,9 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "knapsack.png"
       ]
     ]
   },
@@ -1637,6 +1974,16 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "Safe.webp"
       ]
     ]
   },
@@ -1657,6 +2004,17 @@
     "prizeIcon": [
       [
         "book.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "8"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "skooma.png",
         "2"
       ]
     ]
@@ -1691,6 +2049,24 @@
       "<q lblue>Щит роге</q> на опыт",
       "Рецепт <q yelow>Концентрированный паучий яд</q>",
       "<q yelow>Черная вдова</q>"
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "5"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png"
+      ],
+      [
+        "Safe.webp"
+      ]
     ]
   },
   {
@@ -1755,11 +2131,21 @@
         "bottleW.png"
       ],
       [
-        "book.png",
+        "book.png"
+      ],
+      [
+        "skooma.png",
+        "9"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
         "2"
       ],
       [
-        "skooma.png"
+        "Safe.webp"
       ]
     ]
   },
@@ -1779,7 +2165,12 @@
     "nameIcon": "Cave",
     "id": "id120",
     "top": 804,
-    "left": 1181
+    "left": 1181,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Камнепадная пещера (<q lblue>20lvl</q>)",
@@ -1795,6 +2186,13 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
       ]
     ]
   },
@@ -1875,7 +2273,12 @@
     "nameIcon": "Cave",
     "id": "id128",
     "top": 849,
-    "left": 1242
+    "left": 1242,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Пещера Каменный Ручей (<q lblue>0lvl</q>)",
@@ -1887,6 +2290,21 @@
     "left": 1185.9,
     "prizeList": [
       "<q lblue>Лютня</q> на опыт."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "roc.webp"
+      ]
     ]
   },
   {
@@ -1916,12 +2334,14 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
   {
     "title": "Пруд Чистых Сосен",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id132",
@@ -1945,6 +2365,14 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "2"
       ]
     ]
   },
@@ -1989,7 +2417,6 @@
   },
   {
     "title": "Пик Древних (<q lblue>50lvl</q>)",
-    "description": "",
     "type": "dragon word",
     "nameIcon": "Dragon",
     "id": "id137",
@@ -2001,7 +2428,6 @@
   },
   {
     "title": "Алтарь Рожденного Небом (<q lblue>50lvl</q>)",
-    "description": "",
     "type": "dragon word",
     "nameIcon": "Dragon",
     "id": "id138",
@@ -2013,7 +2439,6 @@
   },
   {
     "title": "Гора Антор (<q lblue>50lvl</q>)",
-    "description": "",
     "type": "dragon word",
     "nameIcon": "Dragon",
     "id": "id139",
@@ -2103,7 +2528,6 @@
   },
   {
     "title": "Ход Древних (<q lblue>50lvl</q>)",
-    "description": "",
     "type": "dragon word",
     "nameIcon": "Dragon",
     "id": "id145",
@@ -2311,6 +2735,11 @@
     "left": 704,
     "prizeList": [
       "<q yelow>Снаряжение бандитов</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -2326,6 +2755,11 @@
     ],
     "prizeList": [
       "<q yelow>Зубочистка Рагнока</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -2360,6 +2794,15 @@
     "prizeList": [
       "<q yelow>Шкуры троллей</q>",
       "<q yelow>Серебряный двуручный меч</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -2452,7 +2895,6 @@
   },
   {
     "title": "Шахта Потерянный Шанс",
-    "description": "",
     "type": "lode",
     "nameIcon": "Mine",
     "id": "id180",
@@ -2469,7 +2911,12 @@
     "nameIcon": "Mine",
     "id": "id181",
     "top": 780.5,
-    "left": 1138.3
+    "left": 1138.3,
+    "prizeIcon": [
+      [
+        "knapsack.png"
+      ]
+    ]
   },
   {
     "title": "Шахта Северный Ветер (<q lblue>10lvl</q>)",
@@ -2490,7 +2937,6 @@
   },
   {
     "title": "шахта Черный Брод",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id185",
@@ -2502,7 +2948,6 @@
   },
   {
     "title": "Шахта горячий пар",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id186",
@@ -2514,7 +2959,6 @@
   },
   {
     "title": "Сумрачная шахта",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id187",
@@ -2526,7 +2970,6 @@
   },
   {
     "title": "Шахта",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id190",
@@ -2550,6 +2993,10 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png",
+        "3"
       ]
     ]
   },
@@ -2564,7 +3011,6 @@
   },
   {
     "title": "Шахта",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id196",
@@ -2588,7 +3034,6 @@
   },
   {
     "title": "Шахта Сануарах",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id200",
@@ -2600,7 +3045,6 @@
   },
   {
     "title": "Шахта ущелье фенна",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id201",
@@ -2612,7 +3056,6 @@
   },
   {
     "title": "Шахта",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mine",
     "id": "id202",
@@ -2818,6 +3261,13 @@
       ],
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "4"
       ]
     ]
   },
@@ -3051,6 +3501,19 @@
     "prizeIcon": [
       [
         "bottleW.png"
+      ],
+      [
+        "chest-sm.png",
+        "11"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png"
+      ],
+      [
+        "Safe.webp"
       ]
     ]
   },
@@ -3220,6 +3683,13 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
       ]
     ]
   },
@@ -3230,7 +3700,12 @@
     "nameIcon": "NordicTower",
     "id": "id242",
     "top": 861.8,
-    "left": 578.3
+    "left": 578.3,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Южная горная застава (<q lblue>30lvl</q>) (<q lblue>10lvl</q>)",
@@ -3243,6 +3718,14 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "4"
       ]
     ]
   },
@@ -3253,7 +3736,20 @@
     "nameIcon": "NordicTower",
     "id": "id244",
     "top": 775.8,
-    "left": 954.3
+    "left": 954.3,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "satchel.png"
+      ]
+    ]
   },
   {
     "title": "Башни Валтейм (<q lblue>10lvl</q>)",
@@ -3266,12 +3762,20 @@
     "bossList": [
       "Элси Спайкер"
     ],
+    "prizeList": [
+      "<q yelow>Боевой Посох Элси</q>"
+    ],
     "prizeIcon": [
       [
         "book.png"
       ],
       [
-        "skooma.png"
+        "skooma.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "3"
       ]
     ]
   },
@@ -3306,7 +3810,15 @@
     "nameIcon": "NordicDwelling",
     "id": "id247",
     "top": 519.8,
-    "left": 220.3
+    "left": 220.3,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Развалины (<q lblue>35lvl</q>)",
@@ -3318,6 +3830,12 @@
     "left": 318.3,
     "prizeList": [
       "Сундук с <q yelow>Эбонитовым лутом</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ]
     ]
   },
   {
@@ -3339,6 +3857,11 @@
     "left": 576.3,
     "prizeList": [
       "Сундук с <q yelow>Эбонит. лутом</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -3348,7 +3871,12 @@
     "nameIcon": "NordicDwelling",
     "id": "id252",
     "top": 834.8,
-    "left": 498.3
+    "left": 498.3,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Северная горная застава (<q lblue>10lvl</q>)",
@@ -3399,6 +3927,15 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "satchel.png"
       ]
     ]
   },
@@ -3429,7 +3966,16 @@
     "nameIcon": "Shipwreck",
     "id": "id258",
     "top": 181.8,
-    "left": 255.3
+    "left": 255.3,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "skooma.png"
+      ]
+    ]
   },
   {
     "title": "Привередливый солод (<q lblue>10lvl</q>)",
@@ -3448,6 +3994,16 @@
       ],
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "Safe.webp"
       ]
     ]
   },
@@ -3461,6 +4017,26 @@
     "left": 528.3,
     "bossList": [
       "Диджа"
+    ],
+    "prizeList": [
+      "<q yelow>Брат</q>",
+      "<q yelow>Сестра</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png",
+        "6"
+      ],
+      [
+        "chest-sm.png"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "satchel.png",
+        "5"
+      ]
     ]
   },
   {
@@ -3485,6 +4061,15 @@
     ],
     "prizeList": [
       "Меч шторма?????"
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ]
     ]
   },
   {
@@ -3494,7 +4079,13 @@
     "nameIcon": "Shipwreck",
     "id": "id264",
     "top": 216.8,
-    "left": 894.3
+    "left": 894.3,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Корабль «Гордости Тель Воса» (<q lblue>10lvl</q>)",
@@ -3506,6 +4097,12 @@
     "left": 1069.3,
     "prizeList": [
       "Руда <q yelow>Малахит</q> <q green>12</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ]
     ]
   },
   {
@@ -3522,6 +4119,10 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
       ]
     ]
   },
@@ -3536,6 +4137,13 @@
     "prizeIcon": [
       [
         "bottleP.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png",
+        "2"
       ]
     ]
   },
@@ -3546,7 +4154,15 @@
     "nameIcon": "Bandit",
     "id": "id268",
     "top": 738,
-    "left": 644.7
+    "left": 644.7,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Лагерь",
@@ -3559,6 +4175,13 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
@@ -3575,6 +4198,12 @@
     ],
     "prizeList": [
       "<q yelow>Ожерелье Предков</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "4"
+      ]
     ]
   },
   {
@@ -3584,7 +4213,13 @@
     "nameIcon": "Campsite",
     "id": "id271",
     "top": 522,
-    "left": 492.7
+    "left": 492.7,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Лагерь Рыжая Лиса (<q lblue>0lvl</q>)",
@@ -3593,7 +4228,16 @@
     "nameIcon": "Campsite",
     "id": "id272",
     "top": 638,
-    "left": 361.7
+    "left": 361.7,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "satchel.png"
+      ]
+    ]
   },
   {
     "title": "Лагерь Земельный дозор (<q lblue>10lvl</q>)",
@@ -3602,7 +4246,16 @@
     "nameIcon": "Campsite",
     "id": "id273",
     "top": 600,
-    "left": 400
+    "left": 400,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "satchel.png"
+      ]
+    ]
   },
   {
     "title": "Пост Предателя (<q lblue>0lvl</q>)",
@@ -3614,6 +4267,20 @@
     "left": 1147.9,
     "prizeList": [
       "<q lblue>Предмет</q> на опыт в сейфе."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "Safe.webp"
+      ]
     ]
   },
   {
@@ -3623,7 +4290,12 @@
     "type": "bandit",
     "id": "id275",
     "top": 830,
-    "left": 649.4
+    "left": 649.4,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Некромант (<q lblue>20lvl</q>)",
@@ -3646,7 +4318,8 @@
       "Ригель Сильная Рука"
     ],
     "prizeList": [
-      "<q yelow>Щит Доблесть</q>."
+      "<q yelow>Щит Доблесть</q>",
+      "<q yelow>Необычная Серебряная Заготовка</q>."
     ],
     "prizeIcon": [
       [
@@ -3654,6 +4327,17 @@
       ],
       [
         "roc.webp"
+      ],
+      [
+        "purse.png",
+        "8"
+      ],
+      [
+        "chest-sm.png",
+        "8"
+      ],
+      [
+        "book.png"
       ]
     ]
   },
@@ -3664,7 +4348,12 @@
     "nameIcon": "Campsite",
     "id": "id278",
     "top": 384,
-    "left": 1125.4
+    "left": 1125.4,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Некромант (<q lblue>20lvl</q>)",
@@ -3682,7 +4371,19 @@
     "nameIcon": "Campsite",
     "id": "id280",
     "top": 784,
-    "left": 429.4
+    "left": 429.4,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "Safe.webp"
+      ]
+    ]
   },
   {
     "title": "Лагерь Желтая Изгородь (<q lblue>10lvl</q>)",
@@ -3691,7 +4392,17 @@
     "nameIcon": "Campsite",
     "id": "id281",
     "top": 547,
-    "left": 813.4
+    "left": 813.4,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Бандиты (<q lblue>0lvl</q>)",
@@ -3700,11 +4411,15 @@
     "nameIcon": "Bandit",
     "id": "id282",
     "top": 906,
-    "left": 1233.4
+    "left": 1233.4,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Дом Дреласа (<q lblue>10lvl</q>)",
-    "description": "",
     "type": "bandit bandit_boss",
     "nameIcon": "Shack",
     "id": "id283",
@@ -3712,6 +4427,11 @@
     "left": 528.4,
     "bossList": [
       "Дрелас"
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -3721,7 +4441,13 @@
     "nameIcon": "Campsite",
     "id": "id284",
     "top": 439,
-    "left": 538.4
+    "left": 538.4,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ]
+    ]
   },
   {
     "title": "Лагерь Бронин (<q lblue>10lvl</q>)",
@@ -3735,7 +4461,13 @@
       "Нарикус"
     ],
     "prizeList": [
+      "<q yelow>Имперский меч Нарикуса</q>",
       "<q yelow>Щит Нарикуса</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -3745,7 +4477,25 @@
     "nameIcon": "Shack",
     "id": "id286",
     "top": 874,
-    "left": 1241.4
+    "left": 1241.4,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "book.png"
+      ],
+      [
+        "satchel.png"
+      ],
+      [
+        "roc.webp"
+      ]
+    ]
   },
   {
     "title": "Пещера Ноголомный Проход (<q lblue>20lvl</q>)",
@@ -3763,7 +4513,16 @@
     "nameIcon": "Campsite",
     "id": "id288",
     "top": 579.6,
-    "left": 987.4
+    "left": 987.4,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "5"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Убежище Тёмного Братства (<q lblue>30lvl</q>)",
@@ -3788,7 +4547,16 @@
     "nameIcon": "Campsite",
     "id": "id290",
     "top": 378.7,
-    "left": 258
+    "left": 258,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "knapsack.png"
+      ]
+    ]
   },
   {
     "title": "Лагер перциус (<q lblue>10lvl</q>)",
@@ -3797,7 +4565,20 @@
     "nameIcon": "Campsite",
     "id": "id291",
     "top": 367.7,
-    "left": 171
+    "left": 171,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "3"
+      ],
+      [
+        "chest-sm.png",
+        "3"
+      ],
+      [
+        "Safe.webp"
+      ]
+    ]
   },
   {
     "title": "Лагерь Мертвая Капля (<q lblue>10lvl</q>)",
@@ -3806,7 +4587,17 @@
     "nameIcon": "Campsite",
     "id": "id292",
     "top": 189,
-    "left": 224.4
+    "left": 224.4,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "7"
+      ],
+      [
+        "chest-sm.png",
+        "4"
+      ]
+    ]
   },
   {
     "title": "Железное убежище (<q lblue>0lvl</q>)",
@@ -3815,11 +4606,18 @@
     "nameIcon": "Shack",
     "id": "id293",
     "top": 219,
-    "left": 339.4
+    "left": 339.4,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Логово Кру'ула (<q lblue>20lvl</q>)",
-    "description": "",
     "type": "mutant",
     "nameIcon": "Sneg",
     "scale": 0.25,
@@ -3849,6 +4647,10 @@
     "prizeIcon": [
       [
         "bottleW.png"
+      ],
+      [
+        "purse.png",
+        "7"
       ]
     ]
   },
@@ -3859,7 +4661,16 @@
     "nameIcon": "Campsite",
     "id": "id295",
     "top": 453,
-    "left": 959.4
+    "left": 959.4,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "7"
+      ],
+      [
+        "bottleW.png"
+      ]
+    ]
   },
   {
     "title": "Лагерь Береговой стражи (<q lblue>0lvl</q>)",
@@ -3868,7 +4679,13 @@
     "nameIcon": "Campsite",
     "id": "id296",
     "top": 136,
-    "left": 363.4
+    "left": 363.4,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "5"
+      ]
+    ]
   },
   {
     "title": "Бандиты (<q lblue>0lvl</q>)",
@@ -3877,7 +4694,13 @@
     "nameIcon": "Bandit",
     "id": "id297",
     "top": 547.7,
-    "left": 741
+    "left": 741,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Кладбище Мамонтов (<q lblue>0lvl</q>) (<q lblue>30lvl</q>)",
@@ -3905,6 +4728,12 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "purse.png"
+      ],
+      [
+        "satchel.png"
       ]
     ]
   },
@@ -3915,7 +4744,16 @@
     "nameIcon": "Campsite",
     "id": "id300",
     "top": 806.7,
-    "left": 560
+    "left": 560,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Скелеты (<q lblue>0lvl</q>)",
@@ -3945,11 +4783,18 @@
     "left": 671,
     "prizeList": [
       "<q yelow>Книга Опыта</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ],
+      [
+        "book.png"
+      ]
     ]
   },
   {
     "title": "Пиромант (<q lblue>25lvl</q>)",
-    "description": "",
     "type": "magic",
     "nameIcon": "Star",
     "id": "id304",
@@ -3975,11 +4820,21 @@
     "left": 223,
     "bossList": [
       "Драгс",
-      "древори"
+      "Древори"
     ],
     "prizeList": [
       "<q yelow>Копье Драгса</q>",
       "<q yelow>Кольцо Древори</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png",
+        "10"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ]
     ]
   },
   {
@@ -3992,6 +4847,17 @@
     "left": 232,
     "bossList": [
       "Вангар Одичалый"
+    ],
+    "prizeList": [
+      "<q yelow>Объятие Севера</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ],
+      [
+        "satchel.png"
+      ]
     ]
   },
   {
@@ -4044,6 +4910,11 @@
     "left": 1020,
     "bossList": [
       "Дрег`Тал"
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
@@ -4053,7 +4924,13 @@
     "nameIcon": "Campsite",
     "id": "id311",
     "top": 921.7,
-    "left": 1085
+    "left": 1085,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Лагерь Речной берег (<q lblue>10lvl</q>)",
@@ -4062,7 +4939,17 @@
     "nameIcon": "Campsite",
     "id": "id312",
     "top": 849.7,
-    "left": 1052
+    "left": 1052,
+    "prizeIcon": [
+      [
+        "purse.png",
+        "2"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Убежище Камонна Тонг (<q lblue>20lvl</q>)",
@@ -4077,6 +4964,26 @@
     ],
     "prizeList": [
       "Много <q yelow>Cкумы</q> в бочках."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png",
+        "4"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ],
+      [
+        "knapsack.png"
+      ],
+      [
+        "skooma.png",
+        "14"
+      ],
+      [
+        "Safe.webp"
+      ]
     ]
   },
   {
@@ -4091,7 +4998,6 @@
   },
   {
     "title": "Гнездо ветров Предела (<q lblue>20lvl</q>)",
-    "description": "",
     "type": "dwemer dwemer_boss",
     "nameIcon": "DwemerRuins",
     "id": "id315",
@@ -4132,6 +5038,11 @@
     ],
     "prizeList": [
       "<q yelow>Сердце Снега</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ]
     ]
   },
   {
@@ -4159,7 +5070,15 @@
     "nameIcon": "ImperialTower",
     "id": "id319",
     "top": 353.7,
-    "left": 790
+    "left": 790,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Лагерь Обломки корабля (<q lblue>20lvl</q>)",
@@ -4168,7 +5087,13 @@
     "nameIcon": "Campsite",
     "id": "id320",
     "top": 183.7,
-    "left": 971
+    "left": 971,
+    "prizeIcon": [
+      [
+        "chest-sm.png",
+        "3"
+      ]
+    ]
   },
   {
     "title": "Лагерь Ледник (<q lblue>10lvl</q>)",
@@ -4177,7 +5102,12 @@
     "nameIcon": "Campsite",
     "id": "id321",
     "top": 322.7,
-    "left": 1132
+    "left": 1132,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Лагерь Смотрящего (<q lblue>0lvl</q>)",
@@ -4186,7 +5116,12 @@
     "nameIcon": "Campsite",
     "id": "id322",
     "top": 414.7,
-    "left": 1041
+    "left": 1041,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Картвастен (<q lblue>25lvl</q>)",
@@ -4332,6 +5267,9 @@
     "prizeIcon": [
       [
         "book.png"
+      ],
+      [
+        "chest-sm.png"
       ]
     ]
   },
@@ -4389,7 +5327,6 @@
   },
   {
     "title": "Камень атронаха (<q lblue>30lvl</q>)",
-    "description": "",
     "type": "magic magic_boss soc",
     "nameIcon": "StandingStone",
     "id": "id336",
@@ -4439,7 +5376,6 @@
   },
   {
     "title": "Маг (<q lblue>20lvl</q>)",
-    "description": "",
     "type": "magic",
     "nameIcon": "Star",
     "id": "id339",
@@ -4537,7 +5473,6 @@
   {
     "title": "Клинок Ледяного Монарха (<q lblue>30lvl</q>)",
     "description": "Меч по квесту",
-    "type": "",
     "nameIcon": "Loot",
     "id": "id348-0",
     "top": 135.7,
@@ -4746,7 +5681,6 @@
   },
   {
     "title": "Сумка охотника",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id371",
@@ -4756,6 +5690,11 @@
       "<q yelow>Банки</q>",
       "<q yelow>Свитки</q>",
       "<q yelow>Еда</q>."
+    ],
+    "prizeIcon": [
+      [
+        "knapsack.png"
+      ]
     ]
   },
   {
@@ -4778,7 +5717,6 @@
   },
   {
     "title": "Слово силы",
-    "description": "",
     "type": "soc word",
     "nameIcon": "Dragon",
     "id": "id373",
@@ -4790,7 +5728,6 @@
   },
   {
     "title": "Святилище Зенитара",
-    "description": "",
     "type": "soc",
     "nameIcon": "DaedricShrine",
     "id": "id374",
@@ -4802,7 +5739,6 @@
   },
   {
     "title": "Сторожевая башня Шора",
-    "description": "",
     "type": "soc",
     "nameIcon": "ImperialTower",
     "id": "id375",
@@ -4810,11 +5746,15 @@
     "left": 1166.4,
     "prizeList": [
       "<q yelow>Трупы стражников</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
     ]
   },
   {
     "title": "Стоянка охотников",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mammoth",
     "scale": 0.2,
@@ -4827,7 +5767,6 @@
   },
   {
     "title": "Безхозные ящики",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id377",
@@ -4847,7 +5786,6 @@
     "left": 1066.8
   },
   {
-    "title": "",
     "description": "Мирный великан.",
     "type": "soc giant",
     "nameIcon": "GiantCamp",
@@ -4860,7 +5798,6 @@
   },
   {
     "title": "Святилище Талоса",
-    "description": "",
     "type": "soc",
     "nameIcon": "DaedricShrine",
     "id": "id380",
@@ -4872,7 +5809,6 @@
   },
   {
     "title": "Лесопилка пирожок",
-    "description": "",
     "type": "soc",
     "nameIcon": "WoodMill",
     "id": "id381",
@@ -4886,7 +5822,6 @@
   },
   {
     "title": "Неудачник лоренц",
-    "description": "",
     "type": "soc",
     "nameIcon": "Shack",
     "id": "id382",
@@ -4898,7 +5833,6 @@
   },
   {
     "title": "<q yelow>Труп мамонта</q>",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mammoth",
     "scale": 0.2,
@@ -4908,7 +5842,6 @@
   },
   {
     "title": "Святилище Талоса",
-    "description": "",
     "type": "soc",
     "nameIcon": "DaedricShrine",
     "id": "id384",
@@ -4920,7 +5853,6 @@
   },
   {
     "title": "<q yelow>Серебряный меч</q>.",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id385",
@@ -4955,7 +5887,6 @@
   },
   {
     "title": "Скелет лося",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id388",
@@ -4968,16 +5899,13 @@
   {
     "title": "Событие",
     "description": "Случайный враг",
-    "type": "",
     "nameIcon": "Star",
     "id": "id389",
     "top": 937.7,
     "left": 1288.5
   },
   {
-    "title": "",
     "description": "Проход в «Форт стражи рассвета»",
-    "type": "",
     "nameIcon": "Pass",
     "id": "id390",
     "top": 931.7,
@@ -4985,7 +5913,6 @@
   },
   {
     "title": "Домик",
-    "description": "",
     "type": "soc",
     "nameIcon": "Shack",
     "id": "id391",
@@ -4997,7 +5924,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id392",
@@ -5009,7 +5935,6 @@
   },
   {
     "title": "Два саблезуба (<q lblue>10lvl</q>)",
-    "description": "",
     "type": "animal",
     "nameIcon": "Star",
     "id": "id393",
@@ -5027,7 +5952,6 @@
   },
   {
     "title": "Руда",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id395",
@@ -5052,7 +5976,6 @@
   },
   {
     "title": "Алтарь Талоса",
-    "description": "",
     "type": "soc",
     "nameIcon": "DaedricShrine",
     "id": "id397",
@@ -5065,7 +5988,6 @@
   },
   {
     "title": "Руда",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id398",
@@ -5080,7 +6002,6 @@
   },
   {
     "title": "Домик",
-    "description": "",
     "type": "soc",
     "nameIcon": "Shack",
     "id": "id399",
@@ -5092,7 +6013,6 @@
   },
   {
     "title": "Некромант (<q lblue>25lvl</q>)",
-    "description": "",
     "type": "magic",
     "nameIcon": "Star",
     "id": "id400",
@@ -5101,7 +6021,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id401",
@@ -5113,7 +6032,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id402",
@@ -5125,7 +6043,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id403",
@@ -5137,7 +6054,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id404",
@@ -5149,7 +6065,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id405",
@@ -5161,7 +6076,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id406",
@@ -5173,7 +6087,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id407",
@@ -5185,7 +6098,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id408",
@@ -5197,7 +6109,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id409",
@@ -5209,7 +6120,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id410",
@@ -5221,7 +6131,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id411",
@@ -5233,7 +6142,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id412",
@@ -5245,7 +6153,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id413",
@@ -5257,7 +6164,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id414",
@@ -5269,7 +6175,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id415",
@@ -5281,7 +6186,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id416",
@@ -5293,7 +6197,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id417",
@@ -5305,7 +6208,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id418",
@@ -5317,7 +6219,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id419",
@@ -5329,7 +6230,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id420",
@@ -5341,7 +6241,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id421",
@@ -5353,7 +6252,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id422",
@@ -5365,7 +6263,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id423",
@@ -5377,7 +6274,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id424",
@@ -5389,7 +6285,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id425",
@@ -5401,7 +6296,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id426",
@@ -5413,7 +6307,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id427",
@@ -5425,7 +6318,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id428",
@@ -5437,7 +6329,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id429",
@@ -5449,7 +6340,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id430",
@@ -5461,7 +6351,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id431",
@@ -5473,7 +6362,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id432",
@@ -5485,7 +6373,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id433",
@@ -5497,7 +6384,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id434",
@@ -5509,7 +6395,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id435",
@@ -5521,7 +6406,6 @@
   },
   {
     "title": "Жила",
-    "description": "",
     "type": "lode",
     "nameIcon": "Lode",
     "id": "id436",
@@ -5543,7 +6427,6 @@
   {
     "title": "Пост Септимия Сегония",
     "description": "<q lblue>Квест</q> для входа в Чёрный Предел.",
-    "type": "",
     "nameIcon": "Cave",
     "scale": 0.3,
     "id": "id438",
@@ -5579,7 +6462,6 @@
   },
   {
     "title": "Звери (<q lblue>10lvl</q>)",
-    "description": "",
     "type": "animal",
     "nameIcon": "Star",
     "id": "id442",
@@ -5594,7 +6476,16 @@
     "scale": 0.2,
     "id": "id443",
     "top": 796.1,
-    "left": 955.3
+    "left": 955.3,
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "chest-sm.png",
+        "2"
+      ]
+    ]
   },
   {
     "title": "Торговый пост Белого берега",
@@ -5689,8 +6580,6 @@
   },
   {
     "title": "Алтарь Ауриэля",
-    "description": "",
-    "type": "",
     "nameIcon": "Altar",
     "id": "id451",
     "top": 546.9,
@@ -5698,7 +6587,6 @@
   },
   {
     "title": "Сигнальная башня стендарра",
-    "description": "",
     "type": "set",
     "nameIcon": "ImperialTower",
     "id": "id452",
@@ -5710,7 +6598,6 @@
   },
   {
     "title": "Стоянка охотников",
-    "description": "",
     "type": "soc",
     "nameIcon": "Loot",
     "id": "id453",
@@ -5719,11 +6606,18 @@
     "prizeList": [
       "<q yelow>Ожерелье</q>",
       "<q yelow>Клыки Хоркеров</q>."
+    ],
+    "prizeIcon": [
+      [
+        "purse.png"
+      ],
+      [
+        "knapsack.png"
+      ]
     ]
   },
   {
     "title": "Полянка",
-    "description": "",
     "type": "soc",
     "nameIcon": "Mammoth",
     "scale": 0.2,
@@ -5750,12 +6644,16 @@
     "nameIcon": "Bandit",
     "id": "id456",
     "top": 510.9,
-    "left": 370.3
+    "left": 370.3,
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ]
+    ]
   },
   {
     "title": "Корабль (<q lblue>10lvl</q>)",
     "description": "<q lblue>Квест</q>: Убить бандита <q yelow>1000р</q>.",
-    "type": "",
     "nameIcon": "Shipwreck",
     "id": "id457",
     "top": 480.1,
@@ -5808,7 +6706,6 @@
   },
   {
     "title": "Остров крабов",
-    "description": "",
     "type": "animal mutant",
     "nameIcon": "Sneg",
     "scale": 0.25,

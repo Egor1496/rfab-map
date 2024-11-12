@@ -13,6 +13,8 @@
         border-bottom: 2px solid rgb(255, 31, 31)
   &.sm
     max-width: 150px
+    .ty
+      margin-top: 4px
     .addStats, .arr
       display: none
     .icn, .locLink
@@ -49,6 +51,7 @@
       cursor: pointer
   span
     color: white
+
 .hp
   color: rgb(255, 69, 69)
 .xp
@@ -58,11 +61,11 @@
 .location span
   color: white
 
-.de, .no
+.de, .no, .weapon
   display: none
 .sm .no
   display: inline-block
-.md .de
+.md .de, .md .weapon
   display: inline-block
 
 .icn
@@ -74,6 +77,7 @@
   background-size: contain
   background-repeat: no-repeat
   background-position: center center
+
 .xp .icn
   background-image: url("/assets/images/ui/left-menu/star.svg")
 .hp .icn

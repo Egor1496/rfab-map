@@ -72,7 +72,6 @@ export const mC = {
 			tooltip: "Небольшой сундук",
 		},
 		"book.png": {
-			width: "22",
 			height: "20",
 			color: "#fff",
 			tooltip: "Книга опыта",
@@ -139,9 +138,14 @@ export const mC = {
 			tooltip: "Сердце даэдра",
 		},
 		"knapsack.png": {
-			height: "25",
+			height: "20",
 			color: "#a08d94",
-			tooltip: "Сумка",
+			tooltip: "Портфель",
+		},
+		"Safe.webp": {
+			height: "20",
+			color: "#778b9c",
+			tooltip: "Сейф",
 		},
 	},
 };

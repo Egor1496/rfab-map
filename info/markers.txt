@@ -81,6 +81,7 @@
   purse.png -- "Кошелечек"
   satchel.png -- "Сумочка алхимика"
   chest-sm.png -- "Небольшой сундук"
+  Safe.webp -- "Сейф"
   roc.webp -- "Камень Барензии"
   daedra.png -- "Сердце даэдра"
   knapsack.png -- "Портфель"
@@ -91,5 +92,72 @@
   bottleS.png -- "Превосходка СТ"
   bottleM.png -- "Превосходка МП"
   chest.png -- "Мастерский сундук"
+
+  "prizeIcon": [
+  [
+    "book.png",
+    -1
+  ],
+  [
+    "сhaurus.png",
+    -1
+  ],
+  [
+    "purse.png",
+    -1
+  ],
+  [
+    "satchel.png",
+    -1
+  ],
+  [
+    "chest-sm.png",
+    -1
+  ],
+  [
+    "Safe.webp",
+    -1
+  ],
+  [
+    "roc.webp",
+    -1
+  ],
+  [
+    "daedra.png",
+    -1
+  ],
+  [
+    "knapsack.png",
+    -1
+  ],
+  [
+    "skooma.png",
+    -1
+  ],
+  [
+    "bottleP.png",
+    -1
+  ],
+  [
+    "bottleW.png",
+    -1
+  ],
+  [
+    "bottleH.png",
+    -1
+  ],
+  [
+    "bottleS.png",
+    -1
+  ],
+  [
+    "bottleM.png",
+    -1
+  ],
+  [
+    "chest.png",
+    -1
+  ]
+]
 
 ==========================================================================================

@@ -5,6 +5,8 @@ import { activeFilter } from "../../../../store/slice/menuSelected.slice";
 
 import { gS } from "../../../global/paramsGlobal";
 
+// import { rfabParser } from "../../../global/rfabParser";
+
 export const createMarkers = () => {
 	const storeCleanLoc = JSON.parse(localStorage.getItem("rfab-map-cleanLoc") || "{}");
 	gS.cleanLoc = storeCleanLoc[gS.typeMap] || [];
@@ -26,4 +28,8 @@ export const createMarkers = () => {
 
 		createMarker(marker);
 	});
+
+	// setTimeout(() => {
+	// 	rfabParser(gS.listMarkers);
+	// }, 1000);
 };
