@@ -1,5 +1,4 @@
-import { gS } from "../../global/paramsGlobal";
-import { mS } from "../paramsMap";
+import { pM } from "../paramsMap";
 
 export const applyTransform = function () {
 	var maxTransX, maxTransY, minTransX, minTransY, group;
@@ -7,53 +6,53 @@ export const applyTransform = function () {
 	const space = 0;
 
 	// Рассчитаем пороговые значения для смещения по оси x
-	if (mS.base.baseWidth * mS.base.scale <= mS.base.width) {
+	if (pM.base.baseWidth * pM.base.scale <= pM.base.width) {
 		// Карта целиком помещается на холст
-		maxTransX = (mS.base.width - mS.base.baseWidth * mS.base.scale) / (2 * mS.base.scale);
-		minTransX = (mS.base.width - mS.base.baseWidth * mS.base.scale) / (2 * mS.base.scale);
+		maxTransX = (pM.base.width - pM.base.baseWidth * pM.base.scale) / (2 * pM.base.scale);
+		minTransX = (pM.base.width - pM.base.baseWidth * pM.base.scale) / (2 * pM.base.scale);
 	} else {
 		// Не влазит
 		maxTransX = 0;
-		minTransX = (mS.base.width - mS.base.baseWidth * mS.base.scale) / mS.base.scale;
+		minTransX = (pM.base.width - pM.base.baseWidth * pM.base.scale) / pM.base.scale;
 	}
 	// Ограничим смещение пороговыми значениями по оси x
-	if (mS.transform.transX > maxTransX + space) {
-		mS.transform.transX = maxTransX + space;
-	} else if (mS.transform.transX < minTransX - space) {
-		mS.transform.transX = minTransX - space;
+	if (pM.transform.transX > maxTransX + space) {
+		pM.transform.transX = maxTransX + space;
+	} else if (pM.transform.transX < minTransX - space) {
+		pM.transform.transX = minTransX - space;
 	}
 
 	// Рассчитаем пороговые значения для смещения по оси y
-	if (mS.base.baseHeight * mS.base.scale <= mS.base.height) {
-		maxTransY = (mS.base.height - mS.base.baseHeight * mS.base.scale) / (2 * mS.base.scale);
-		minTransY = (mS.base.height - mS.base.baseHeight * mS.base.scale) / (2 * mS.base.scale);
+	if (pM.base.baseHeight * pM.base.scale <= pM.base.height) {
+		maxTransY = (pM.base.height - pM.base.baseHeight * pM.base.scale) / (2 * pM.base.scale);
+		minTransY = (pM.base.height - pM.base.baseHeight * pM.base.scale) / (2 * pM.base.scale);
 	} else {
 		maxTransY = 0;
-		minTransY = (mS.base.height - mS.base.baseHeight * mS.base.scale) / mS.base.scale;
+		minTransY = (pM.base.height - pM.base.baseHeight * pM.base.scale) / pM.base.scale;
 	}
 	// Ограничим смещение пороговыми значениями по оси y
-	if (mS.transform.transY > maxTransY + space) {
-		mS.transform.transY = maxTransY + space;
-	} else if (mS.transform.transY < minTransY - space) {
-		mS.transform.transY = minTransY - space;
+	if (pM.transform.transY > maxTransY + space) {
+		pM.transform.transY = maxTransY + space;
+	} else if (pM.transform.transY < minTransY - space) {
+		pM.transform.transY = minTransY - space;
 	}
 
 	// Сгруппируем все объекты на холсте и применим трансформацию
-	group = new fabric.Group(gS.canvas.getObjects());
-	group.scaleX = mS.base.scale / gS.canvas.scale;
-	group.scaleY = mS.base.scale / gS.canvas.scale;
+	group = new fabric.Group(pM.canvas.getObjects());
+	group.scaleX = pM.base.scale / pM.canvas.scale;
+	group.scaleY = pM.base.scale / pM.canvas.scale;
 
-	group.left = mS.transform.transX * mS.base.scale;
-	group.top = mS.transform.transY * mS.base.scale;
+	group.left = pM.transform.transX * pM.base.scale;
+	group.top = pM.transform.transY * pM.base.scale;
 
-	mS.transform.mapOffsetY = group.top;
-	mS.transform.mapOffsetX = group.left;
+	pM.transform.mapOffsetY = group.top;
+	pM.transform.mapOffsetX = group.left;
 
 	group.destroy();
 
 	// Обновим глобальный масштаб на холсте
-	gS.canvas.scale = mS.base.scale;
+	pM.canvas.scale = pM.base.scale;
 
 	// Рендер холста
-	gS.canvas.renderAll();
+	pM.canvas.renderAll();
 };

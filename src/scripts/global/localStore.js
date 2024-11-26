@@ -1,4 +1,4 @@
-import { gS } from "./paramsGlobal";
+import { pM } from "../map/paramsMap";
 
 import { transformPathObj } from "./transformPathObj";
 
@@ -6,7 +6,7 @@ export const setLocalStoreFilter = (typeFilter) => {
 	const key = "rfab-map-activeFilter";
 	const oldTypeFilter = JSON.parse(localStorage.getItem(key) || "{}");
 
-	const value = { ...oldTypeFilter, [gS.typeMap]: typeFilter };
+	const value = { ...oldTypeFilter, [pM.typeMap]: typeFilter };
 
 	localStorage.setItem(key, JSON.stringify(value));
 };
@@ -15,7 +15,7 @@ export const setLocalStoreCleanLoc = (listId) => {
 	const key = "rfab-map-cleanLoc";
 	const oldCleanLoc = JSON.parse(localStorage.getItem(key) || "{}");
 
-	const value = { ...oldCleanLoc, [gS.typeMap]: listId };
+	const value = { ...oldCleanLoc, [pM.typeMap]: listId };
 
 	localStorage.setItem(key, JSON.stringify(value));
 };
@@ -57,18 +57,18 @@ export const setLocalStoreActivePath = (pathNumber) => {
 	const key = "rfab-map-activePath";
 	const oldTypeFilter = JSON.parse(localStorage.getItem(key) || "{}");
 
-	const value = { ...oldTypeFilter, [gS.typeMap]: pathNumber };
+	const value = { ...oldTypeFilter, [pM.typeMap]: pathNumber };
 
 	localStorage.setItem(key, JSON.stringify(value));
 };
 
 export const getLocalStoreActivePath = () =>
-	Number(JSON.parse(localStorage.getItem("rfab-map-activePath"))?.[gS.typeMap]) ?? -1;
+	Number(JSON.parse(localStorage.getItem("rfab-map-activePath"))?.[pM.typeMap]) ?? -1;
 
 export const deleteStorePath = (pathNumber) => {
 	const allPath = JSON.parse(localStorage.getItem("rfab-map-pathList") || "{}");
 
-	allPath[gS.typeMap].splice(pathNumber, 1);
+	allPath[pM.typeMap].splice(pathNumber, 1);
 
 	localStorage.setItem("rfab-map-pathList", JSON.stringify(allPath));
 };

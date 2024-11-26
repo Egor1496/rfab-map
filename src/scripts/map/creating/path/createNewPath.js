@@ -1,39 +1,38 @@
-import { store } from "../../../../store/store";
+import { pM } from "../../paramsMap";
 
-import { gS } from "../../../global/paramsGlobal";
-import { mS } from "../../paramsMap";
+import { store } from "../../../../store/store";
 
 import { createPath } from "./createPath";
 
 export const isCreateNewPath = () =>
-	store.getState().modalVisibleReducer.createPathMV && !gS.hasMoved;
+	store.getState().modalVisibleReducer.createPathMV && !pM.hasMoved;
 
 export const createNewPath = () => {
-	gS.propsCreatedPath.t = mS.cursor.pageY;
-	gS.propsCreatedPath.l = mS.cursor.pageX;
+	pM.propsCreatedPath.t = pM.cursor.pageY;
+	pM.propsCreatedPath.l = pM.cursor.pageX;
 
-	gS.сreatedPath.push({ ...gS.propsCreatedPath });
+	pM.сreatedPath.push({ ...pM.propsCreatedPath });
 
-	gS.canvas.remove(...gS.сreatedPathCanvas);
-	gS.сreatedPathCanvas.length = 0;
+	pM.canvas.remove(...pM.сreatedPathCanvas);
+	pM.сreatedPathCanvas.length = 0;
 
-	createPath(gS.сreatedPath, gS.сreatedPathCanvas);
+	createPath(pM.сreatedPath, pM.сreatedPathCanvas);
 };
 
 export const cancelPoint = () => {
-	if (!gS.сreatedPath.length) return;
+	if (!pM.сreatedPath.length) return;
 
-	gS.сreatedPath.length = gS.сreatedPath.length - 1;
+	pM.сreatedPath.length = pM.сreatedPath.length - 1;
 
-	gS.canvas.remove(...gS.сreatedPathCanvas);
-	gS.сreatedPathCanvas.length = 0;
+	pM.canvas.remove(...pM.сreatedPathCanvas);
+	pM.сreatedPathCanvas.length = 0;
 
-	if (gS.сreatedPath.length) createPath(gS.сreatedPath, gS.сreatedPathCanvas);
+	if (pM.сreatedPath.length) createPath(pM.сreatedPath, pM.сreatedPathCanvas);
 };
 
 export const deleteNewPath = () => {
-	gS.canvas.remove(...gS.сreatedPathCanvas);
+	pM.canvas.remove(...pM.сreatedPathCanvas);
 
-	gS.сreatedPathCanvas.length = 0;
-	gS.сreatedPath.length = 0;
+	pM.сreatedPathCanvas.length = 0;
+	pM.сreatedPath.length = 0;
 };

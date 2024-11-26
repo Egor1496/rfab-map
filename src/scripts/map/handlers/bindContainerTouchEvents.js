@@ -1,15 +1,14 @@
 import $ from "jquery";
 
+import { pM } from "../paramsMap";
+
 import { applyTransform } from "../transforms/applyTransform";
 import { setScale } from "../transforms/setScaleMap";
-
-import { mS } from "../paramsMap";
-import { gS } from "../../global/paramsGlobal";
 
 export const bindContainerTouchEvents = function () {
 	var touchStartScale,
 		touchStartDistance,
-		container = $(gS.canvas.wrapperEl),
+		container = $(pM.canvas.wrapperEl),
 		touchX,
 		touchY,
 		centerTouchX,
@@ -29,14 +28,14 @@ export const bindContainerTouchEvents = function () {
 			if (touches.length == 1) {
 				// Простое перемещение
 				if (lastTouchesLength == 1) {
-					transXOld = mS.transform.transX;
-					transYOld = mS.transform.transY;
-					mS.transform.transX -= (touchX - touches[0].pageX) / mS.base.scale;
-					mS.transform.transY -= (touchY - touches[0].pageY) / mS.base.scale;
+					transXOld = pM.transform.transX;
+					transYOld = pM.transform.transY;
+					pM.transform.transX -= (touchX - touches[0].pageX) / pM.base.scale;
+					pM.transform.transY -= (touchY - touches[0].pageY) / pM.base.scale;
 
 					applyTransform();
 
-					if (transXOld != mS.transform.transX || transYOld != mS.transform.transY) {
+					if (transXOld != pM.transform.transX || transYOld != pM.transform.transY) {
 						e.preventDefault();
 					}
 				}
@@ -57,7 +56,7 @@ export const bindContainerTouchEvents = function () {
 					e.preventDefault();
 				} else {
 					// Момент начала масштабирования, запомним параметры
-					offset = gS.$element.offset();
+					offset = pM.$element.offset();
 
 					if (touches[0].pageX > touches[1].pageX) {
 						centerTouchX = touches[1].pageX + (touches[0].pageX - touches[1].pageX) / 2;
@@ -73,7 +72,7 @@ export const bindContainerTouchEvents = function () {
 					centerTouchX -= offset.left;
 					centerTouchY -= offset.top;
 
-					touchStartScale = mS.base.scale;
+					touchStartScale = pM.base.scale;
 
 					touchStartDistance = Math.sqrt(
 						Math.pow(touches[0].pageX - touches[1].pageX, 2) +

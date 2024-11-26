@@ -11,10 +11,10 @@ import { createMap } from '../../../scripts/map/createMap';
 import { setSizeCanvas } from '../../../scripts/map/transforms/setSizeCanvas';
 
 import { activeMap } from '../../../store/slice/menuSelected.slice';
-
-import { setDefaultParams } from '../../../scripts/global/setDefaultParams';
-import { gS } from '../../../scripts/global/paramsGlobal';
 import { createPathMV } from '../../../store/slice/modalVisible.slice';
+
+import { pM } from '../../../scripts/map/paramsMap';
+import { setDefaultParams } from '../../../scripts/global/setDefaultParams';
 
 export const CanvasFabric = () => {
   const [isLoadMap, setIsLoadMap] = useState(false)
@@ -24,16 +24,16 @@ export const CanvasFabric = () => {
   const canvasRef = useRef(null);
 
   useEffect(() => {
-    gS.$element = $("#canvasMap");
+    pM.$element = $("#canvasMap");
 
-    gS.typeMap = window.location.pathname.split("/")[2] || "skyrim";
+    pM.typeMap = window.location.pathname.split("/")[2] || "skyrim";
 
-    dispatch(activeMap(gS.typeMap));
+    dispatch(activeMap(pM.typeMap));
     dispatch(createPathMV(false))
 
-    setSizeCanvas(gS.$element.get(0));
+    setSizeCanvas(pM.$element.get(0));
 
-    gS.canvas = new fabric.Canvas(canvasRef.current, {
+    pM.canvas = new fabric.Canvas(canvasRef.current, {
       selection: false,
       scale: 1,
       moveCursor: "default",
@@ -42,23 +42,23 @@ export const CanvasFabric = () => {
       // renderOnAddRemove: false
     });
 
-    // gS.canvas.setZoom(1);
+    // pM.canvas.setZoom(1);
 
-    // gS.canvas.setDimensions({
-    //   width: gS.canvas.width * 2,
-    //   height: gS.canvas.height * 2,
+    // pM.canvas.setDimensions({
+    //   width: pM.canvas.width * 2,
+    //   height: pM.canvas.height * 2,
     // });
 
-    // gS.canvas.clipTo = function (ctx) {
+    // pM.canvas.clipTo = function (ctx) {
     //   ctx.rect(10, 10, 300, 300);
     // }
 
     createMap(setIsLoadMap);
 
     return () => {
-      // gS.canvas.dispose();
-      gS.$element.get(0).height = 550;
-      gS.$element.get(0).width = 1160;
+      // pM.canvas.dispose();
+      pM.$element.get(0).height = 550;
+      pM.$element.get(0).width = 1160;
       setDefaultParams();
     }
   }, []);
@@ -66,7 +66,7 @@ export const CanvasFabric = () => {
   const classNames = [
     isLoadMap ? "" : sass.blur,
     sass.canvasFabric,
-    sass[gS.typeMap],
+    sass[pM.typeMap],
   ].join(" ");
 
   return (

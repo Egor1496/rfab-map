@@ -1,14 +1,16 @@
 import $ from "jquery";
 import mousewheel from "jquery-mousewheel";
 
+import { pM } from "../paramsMap";
+
 import { applyTransform } from "../transforms/applyTransform";
 import { setScale } from "../transforms/setScaleMap";
 import { setScaleIcon } from "../transforms/setScaleIcon";
 
 import { createNewPath, isCreateNewPath } from "../creating/path/createNewPath";
 
-import { gS } from "../../global/paramsGlobal";
-import { mC, mS } from "../paramsMap";
+import { store } from "../../../store/store";
+import { markerInfoMV } from "../../../store/slice/modalVisible.slice";
 
 mousewheel($);
 
@@ -25,17 +27,17 @@ setInterval(() => {
 export const bindContainerEvents = function () {
 	var oldPageX,
 		oldPageY,
-		container = $(gS.canvas.wrapperEl);
+		container = $(pM.canvas.wrapperEl);
 
-	gS.mouseDownWindow = false;
+	pM.mouseDownWindow = false;
 
 	container
 		.mouseup(function (e) {
-			const top = e.pageY - mS.transform.mapOffsetY - gS.$element.offset().top,
-				left = e.pageX - mS.transform.mapOffsetX - gS.$element.offset().left;
+			const top = e.pageY - pM.transform.mapOffsetY - pM.$element.offset().top,
+				left = e.pageX - pM.transform.mapOffsetX - pM.$element.offset().left;
 
-			mS.cursor.pageY = Number((top / mC.coeffHeight / mS.base.coeffScale).toFixed(1));
-			mS.cursor.pageX = Number((left / mC.coeffWidth / mS.base.coeffScale).toFixed(1));
+			pM.cursor.pageY = Number((top / pM.coeffHeight / pM.base.coeffScale).toFixed(1));
+			pM.cursor.pageX = Number((left / pM.coeffWidth / pM.base.coeffScale).toFixed(1));
 
 			// Создать новую точку если активирован режим создания нового маршрута.
 			if (isCreateNewPath()) {
@@ -44,34 +46,36 @@ export const bindContainerEvents = function () {
 
 			clearTimeout(pathTimer);
 			pathTimer = false;
-			gS.hasMoved = false;
+			pM.hasMoved = false;
 		})
 		.mousemove(function (e) {
 			// Непосредственно перемещение
-			if (gS.mouseDownWindow && isMove) {
+			if (pM.mouseDownWindow && isMove) {
 				isMove = false;
 
 				if (pathTimer === false)
 					pathTimer = setTimeout(() => {
-						gS.hasMoved = true; // запретить создание маршрута.
+						pM.hasMoved = true; // запретить создание маршрута.
 					}, 100);
 
-				gS.isClickDownMarker = false; // отменить отметку локации
+				pM.isClickDownMarker = false; // отменить отметку локации
 
 				// Рассчитываем смещение с учётом масштаба
-				mS.transform.transX -= (oldPageX - e.pageX) / mS.base.scale;
-				mS.transform.transY -= (oldPageY - e.pageY) / mS.base.scale;
+				pM.transform.transX -= (oldPageX - e.pageX) / pM.base.scale;
+				pM.transform.transY -= (oldPageY - e.pageY) / pM.base.scale;
 
 				applyTransform();
 
 				oldPageX = e.pageX;
 				oldPageY = e.pageY;
 
+				store.dispatch(markerInfoMV(false));
+
 				return false;
 			}
 		})
 		.mousedown(function (e) {
-			gS.mouseDownWindow = true;
+			pM.mouseDownWindow = true;
 
 			// Запомним положение в начале перемещения по карте
 			oldPageX = e.pageX;
@@ -85,11 +89,11 @@ export const bindContainerEvents = function () {
 		// Отключим скролл страницы
 		event.preventDefault();
 
-		var offset = gS.$element.offset(), // положение холста на странице
+		var offset = pM.$element.offset(), // положение холста на странице
 			centerX = event.pageX - offset.left, // координата x центра масштабирования
 			centerY = event.pageY - offset.top; // координата y центра масштабирования
 
-		mS.zoom.currentZoom += deltaY; // получить текущий шаг зумма
+		pM.zoom.currentZoom += deltaY; // получить текущий шаг зумма
 
 		setScale(centerX, centerY, deltaY);
 

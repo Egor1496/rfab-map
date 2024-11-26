@@ -1,33 +1,33 @@
-import { gS } from "../../../global/paramsGlobal";
+import { pM } from "../../paramsMap";
 
 const clearInfo = () => {
-	gS.markerInfo.title = "";
-	gS.markerInfo.description = "";
-	gS.markerInfo.bossList = [];
-	gS.markerInfo.taskList = [];
-	gS.markerInfo.prizeList = [];
-	gS.markerInfo.prizeIcon = [];
-	gS.markerInfo.md = "";
+	pM.markerInfo.title = "";
+	pM.markerInfo.description = "";
+	pM.markerInfo.quests = "";
+	pM.markerInfo.bossList = [];
+	pM.markerInfo.taskList = [];
+	pM.markerInfo.prizeList = [];
+	pM.markerInfo.prizeIcon = [];
+	pM.markerInfo.md = "";
 };
 
 export const setMarkerInfo = (mark, oImg) => {
-	gS.markerInfo.oImg = oImg || {};
+	pM.markerInfo.oImg = oImg || {};
 
 	clearInfo();
 
 	if (mark.de) {
-		gS.markerInfo.description = mark.de;
+		pM.markerInfo.description = mark.de;
 		return;
 	}
 
-	gS.markerInfo.title = mark.title || "";
-	gS.markerInfo.description = mark.description || "";
+	pM.markerInfo.title = mark.title || "";
+	pM.markerInfo.description = mark.description || "";
 
-	gS.markerInfo.bossList = mark.bossList || [];
-	gS.markerInfo.taskList = mark.taskList || [];
+	pM.markerInfo.quests = mark.quests || [];
+	pM.markerInfo.bossList = mark.bossList || [];
+	pM.markerInfo.prizeList = mark.prizeList || [];
+	pM.markerInfo.prizeIcon = mark.prizeIcon || [];
 
-	gS.markerInfo.prizeList = mark.prizeList || [];
-	gS.markerInfo.prizeIcon = mark.prizeIcon || [];
-
-	gS.markerInfo.md = mark.md || "";
+	pM.markerInfo.md = mark.md || "";
 };

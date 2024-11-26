@@ -8,7 +8,7 @@ import { FileUpload } from 'primereact/fileupload';
 import { LoadMV } from '../../../store/slice/modalVisible.slice';
 import { addPathNames } from '../../../store/slice/pathNames.slice';
 
-import { gS } from '../../../scripts/global/paramsGlobal';
+import { pM } from '../../../scripts/map/paramsMap';
 import { readFilePath } from '../../../scripts/global/filePath';
 import { transformPathObj } from '../../../scripts/global/transformPathObj';
 import { setLocalStorePath } from '../../../scripts/global/localStore';
@@ -42,10 +42,10 @@ export const LoadPath = () => {
           else if (arrParse[0]?.l)
             newPath = { n: namePath, l: arrParse }
 
-          gS.listPath.push(newPath);
+          pM.listPath.push(newPath);
           newPathList.push(newPath);
 
-          if (isLoadAll(obj.files, i)) setLocalStorePath(newPathList, gS.typeMap);
+          if (isLoadAll(obj.files, i)) setLocalStorePath(newPathList, pM.typeMap);
         }
       })
     });

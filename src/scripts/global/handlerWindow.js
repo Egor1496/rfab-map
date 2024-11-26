@@ -1,11 +1,10 @@
 import $ from "jquery";
 
+import { pM } from "../map/paramsMap";
+
 import { store } from "../../store/store";
-import { keyPress } from "../../store/slice/events.slice";
 
 import { setToggleModeInfo } from "../../store/slice/settings.slice";
-
-import { gS } from "./paramsGlobal";
 
 export const handlerWindow = () => {
 	let keyUp = true;
@@ -20,18 +19,15 @@ export const handlerWindow = () => {
 		) {
 			keyUp = false;
 
-			store.dispatch(keyPress(ev.code));
 			store.dispatch(setToggleModeInfo());
 		}
 	};
 
 	document.onkeyup = (ev) => {
 		keyUp = true;
-
-		store.dispatch(keyPress(""));
 	};
 
 	$(window).mouseup(() => {
-		gS.mouseDownWindow = false;
+		pM.mouseDownWindow = false;
 	});
 };

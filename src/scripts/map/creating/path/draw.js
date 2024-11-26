@@ -1,14 +1,14 @@
+import { pM } from "../../paramsMap";
+
 import { handlerMouseout, handlerMouseover, handlerMouseup } from "../../handlers/handlersPath";
 
-import { mC, mS } from "../../paramsMap";
-import { gS } from "../../../global/paramsGlobal";
 import { getScaledPos } from "../../transforms/getScaledPos";
 
 export const drawPoint = (point, callback) => {
 	const posIcon = getScaledPos(point.t, point.l);
 
 	fabric.Image.fromURL(
-		`${gS.urlMarkers}${gS.urlMarkersType}${mC.namePoint[point.ty]}.png`,
+		`${pM.urlMarkers}${pM.urlMarkersType}${pM.namePoint[point.ty]}.png`,
 		(oImg) => {
 			oImg
 				.set("hasControls", false)
@@ -18,7 +18,7 @@ export const drawPoint = (point, callback) => {
 				.set("originY", "center")
 				.set("top", posIcon.top)
 				.set("left", posIcon.left)
-				.scale((mC.scalePoint[point.ty] * mS.base.coeffScale) / 7.5);
+				.scale((pM.scalePoint[point.ty] * pM.base.coeffScale) / 7.5);
 
 			if (point.ty === 1) {
 				oImg.on("mouseover", () => handlerMouseover(point, oImg));
@@ -29,7 +29,7 @@ export const drawPoint = (point, callback) => {
 
 			if (point.ty === 0) oImg.moveTo(1);
 
-			gS.canvas.add(oImg);
+			pM.canvas.add(oImg);
 
 			callback(oImg);
 		}
@@ -51,10 +51,10 @@ export const drawLine = (props, callback) => {
 		strokeLineCap: "round",
 	});
 
-	if (typeLine === 2) line.set("strokeDashArray", [10 * mS.base.scale, 10 * mS.base.scale]);
-	else if (typeLine === 3) line.set("strokeDashArray", [1 * mS.base.scale, 20 * mS.base.scale]);
+	if (typeLine === 2) line.set("strokeDashArray", [10 * pM.base.scale, 10 * pM.base.scale]);
+	else if (typeLine === 3) line.set("strokeDashArray", [1 * pM.base.scale, 20 * pM.base.scale]);
 
-	gS.canvas.add(line);
+	pM.canvas.add(line);
 	line.moveTo(1);
 
 	callback(line);

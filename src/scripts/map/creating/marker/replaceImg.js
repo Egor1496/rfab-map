@@ -1,4 +1,5 @@
-import { gS } from "../../../global/paramsGlobal";
+import { pM } from "../../paramsMap";
+
 import { getScaleIcon } from "../../transforms/getScaleIcon";
 
 export const replaceImage = (marker, onLoad, onReplace) => {
@@ -8,7 +9,7 @@ export const replaceImage = (marker, onLoad, onReplace) => {
 	if (currIcon !== marker.nameIcon) {
 		onReplace();
 
-		const newUrl = gS.urlMarkers + gS.urlMarkersType + marker.nameIcon;
+		const newUrl = pM.urlMarkers + pM.urlMarkersType + marker.nameIcon;
 
 		marker.oImg._element.src = newUrl + (marker.isActive ? "_F.png" : ".png");
 		marker.oImg._element.onload = () => onLoad();

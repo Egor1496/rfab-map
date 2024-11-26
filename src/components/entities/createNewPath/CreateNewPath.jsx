@@ -10,10 +10,11 @@ import { ColorPicker } from 'primereact/colorpicker';
 import { cancelPoint, deleteNewPath } from '../../../scripts/map/creating/path/createNewPath';
 
 import { createPathMV } from '../../../store/slice/modalVisible.slice';
-import { gS } from '../../../scripts/global/paramsGlobal';
+import { addPathNames } from '../../../store/slice/pathNames.slice';
+
+import { pM } from '../../../scripts/map/paramsMap';
 import { downloadFilePath } from '../../../scripts/global/filePath';
 import { setLocalStorePath } from '../../../scripts/global/localStore';
-import { addPathNames } from '../../../store/slice/pathNames.slice';
 
 export const CreateNewPath = () => {
   const selectOpenModal = useSelector((state) => state.modalVisibleReducer).createPathMV;
@@ -48,24 +49,24 @@ export const CreateNewPath = () => {
 
   useEffect(() => {
     if (initProps.typePoint !== typePoint)
-      gS.propsCreatedPath.ty = typePoint - 1;
+      pM.propsCreatedPath.ty = typePoint - 1;
     else
-      delete gS.propsCreatedPath.ty;
+      delete pM.propsCreatedPath.ty;
 
     if (initProps.typeLine !== typeLine)
-      gS.propsCreatedPath.li = typeLine + 1;
+      pM.propsCreatedPath.li = typeLine + 1;
     else
-      delete gS.propsCreatedPath.li;
+      delete pM.propsCreatedPath.li;
 
     if (initProps.lineColor !== lineColor)
-      gS.propsCreatedPath.lc = "#" + lineColor;
+      pM.propsCreatedPath.lc = "#" + lineColor;
     else
-      delete gS.propsCreatedPath.lc;
+      delete pM.propsCreatedPath.lc;
 
     if (initProps.textarV !== textarV)
-      gS.propsCreatedPath.de = textarV;
+      pM.propsCreatedPath.de = textarV;
     else
-      delete gS.propsCreatedPath.de;
+      delete pM.propsCreatedPath.de;
 
   }, [textarV, typePoint, typeLine, lineColor])
 
@@ -98,10 +99,10 @@ export const CreateNewPath = () => {
               dispatch(createPathMV(false))
               dispatch(addPathNames([inputV]))
 
-              const newPath = { n: inputV, l: [...gS.сreatedPath] }
+              const newPath = { n: inputV, l: [...pM.сreatedPath] }
 
-              setLocalStorePath([newPath], gS.typeMap);
-              gS.listPath.push(newPath);
+              setLocalStorePath([newPath], pM.typeMap);
+              pM.listPath.push(newPath);
 
               deleteNewPath();
             } else {
@@ -113,7 +114,7 @@ export const CreateNewPath = () => {
             if (inputV.length >= 3) {
               dispatch(createPathMV(false))
 
-              downloadFilePath(JSON.stringify(gS.сreatedPath), inputV);
+              downloadFilePath(JSON.stringify(pM.сreatedPath), inputV);
               deleteNewPath();
             } else {
               alert("Введи название маршрута");

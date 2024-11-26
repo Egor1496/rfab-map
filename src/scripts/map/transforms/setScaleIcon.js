@@ -1,9 +1,9 @@
-import { gS } from "../../global/paramsGlobal";
+import { pM } from "../paramsMap";
 
 import { getScaleIcon } from "./getScaleIcon";
 
 export const setScaleIcon = () => {
-	gS.listMarkers.forEach((marker) => {
+	pM.listMarkers.forEach((marker) => {
 		marker.oImg.scale(getScaleIcon(marker));
 	});
 };

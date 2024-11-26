@@ -1,17 +1,15 @@
-import { setScaleHover } from "../transforms/setScaleHover";
+import { pM } from "../paramsMap";
 
+import { setScaleHover } from "../transforms/setScaleHover";
 import { handlerCleanM } from "../handlers/handlerCleanM";
 
 import { store } from "../../../store/store";
 import { markerInfoMV } from "../../../store/slice/modalVisible.slice";
-
 import { setMarkerInfo } from "../creating/marker/setMarkerInfo";
-
-import { gS } from "../../global/paramsGlobal";
 
 export const handlerMouseover = (mark, oImg) => {
 	setScaleHover(oImg, true);
-	gS.canvas.renderAll();
+	pM.canvas.renderAll();
 
 	if (store.getState().modalVisibleReducer.markerInfoMV === false) setMarkerInfo(mark, oImg);
 
@@ -20,7 +18,7 @@ export const handlerMouseover = (mark, oImg) => {
 
 export const handlerMouseout = (oImg) => {
 	setScaleHover(oImg, false);
-	gS.canvas.renderAll();
+	pM.canvas.renderAll();
 
 	store.dispatch(markerInfoMV(false));
 };
@@ -28,16 +26,16 @@ export const handlerMouseout = (oImg) => {
 let timerMouseDown;
 
 export const handlerMouseDown = (mark, oImg) => {
-	gS.isClickDownMarker = true;
+	pM.isClickDownMarker = true;
 
 	clearTimeout(timerMouseDown);
 	timerMouseDown = setTimeout(() => {
-		if (gS.isClickDownMarker) handlerCleanM(mark, oImg);
+		if (pM.isClickDownMarker) handlerCleanM(mark, oImg);
 	}, 200);
 };
 
 export const handlerMouseup = (oImg) => {
-	gS.isClickDownMarker = false;
+	pM.isClickDownMarker = false;
 };
 
 export const handlerMousedblclick = (mark, oImg) => {

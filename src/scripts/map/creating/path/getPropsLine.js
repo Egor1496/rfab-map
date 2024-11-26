@@ -1,6 +1,6 @@
-import { getScaledPos } from "../../transforms/getScaledPos";
+import { pM } from "../../paramsMap";
 
-import { mS } from "../../paramsMap";
+import { getScaledPos } from "../../transforms/getScaledPos";
 
 export const getPropsLine = (prevPoint, nextPoint) => {
 	const posPrevPoint = getScaledPos(prevPoint.t - 0.7, prevPoint.l - 0.7),
@@ -10,6 +10,6 @@ export const getPropsLine = (prevPoint, nextPoint) => {
 		position: [posPrevPoint.left, posPrevPoint.top, posNextPoint.left, posNextPoint.top],
 		typeLine: nextPoint.li,
 		colorLine: nextPoint.lc,
-		scale: mS.base.scale * 2,
+		scale: pM.base.scale * 2,
 	};
 };

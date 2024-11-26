@@ -1,18 +1,17 @@
-import { gS } from "../../global/paramsGlobal";
+import { pM } from "../paramsMap";
 
 import { createMarker } from "../creating/marker/createMarker";
-
 import { setLocalStoreCleanLoc } from "../../global/localStore";
 
 export const handlerCleanM = (marker) => {
-	if (marker.isClean) gS.cleanLoc = gS.cleanLoc.filter((id) => !(id === marker.id));
-	else gS.cleanLoc.push(marker.id);
+	if (marker.isClean) pM.cleanLoc = pM.cleanLoc.filter((id) => !(id === marker.id));
+	else pM.cleanLoc.push(marker.id);
 
-	setLocalStoreCleanLoc(gS.cleanLoc);
+	setLocalStoreCleanLoc(pM.cleanLoc);
 
 	marker.isClean = !marker.isClean;
 
-	gS.canvas.remove(marker.oImg);
+	pM.canvas.remove(marker.oImg);
 
 	createMarker(marker);
 };

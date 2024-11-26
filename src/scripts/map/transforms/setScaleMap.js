@@ -1,27 +1,27 @@
-import { mC, mS } from "../paramsMap";
+import { pM } from "../paramsMap";
 
 export const setScale = function (anchorX, anchorY) {
 	// Ограничим масштаб
-	if (mS.zoom.currentZoom > mC.maxZoom - mC.minZoom) {
-		mS.zoom.currentZoom = mC.maxZoom - mC.minZoom;
-	} else if (mS.zoom.currentZoom <= 0) {
-		mS.zoom.currentZoom = 0;
+	if (pM.zoom.currentZoom > pM.maxZoom - pM.minZoom) {
+		pM.zoom.currentZoom = pM.maxZoom - pM.minZoom;
+	} else if (pM.zoom.currentZoom <= 0) {
+		pM.zoom.currentZoom = 0;
 	}
 
-	const scaleToSet = mS.zoom.currentZoom * mS.zoom.stepZoomMap + mS.base.baseScale;
+	const scaleToSet = pM.zoom.currentZoom * pM.zoom.stepZoomMap + pM.base.baseScale;
 
 	let zoomStep; // необходимое изменение масштаба
 
 	// Центр масштабирования
 	if (typeof anchorX != "undefined" && typeof anchorY != "undefined") {
 		// Рассчитаем, сместить все объекты, чтобы центр масштабирования остался на месте.
-		zoomStep = scaleToSet / mS.base.scale;
-		mS.transform.transX -= ((zoomStep - 1) / scaleToSet) * anchorX;
-		mS.transform.transY -= ((zoomStep - 1) / scaleToSet) * anchorY;
+		zoomStep = scaleToSet / pM.base.scale;
+		pM.transform.transX -= ((zoomStep - 1) / scaleToSet) * anchorX;
+		pM.transform.transY -= ((zoomStep - 1) / scaleToSet) * anchorY;
 	}
 
-	mS.base.scale = scaleToSet;
+	pM.base.scale = scaleToSet;
 
 	// Обновить значения масштаба.
-	mS.base.coeffScale = mS.base.scale / mS.base.baseScale;
+	pM.base.coeffScale = pM.base.scale / pM.base.baseScale;
 };

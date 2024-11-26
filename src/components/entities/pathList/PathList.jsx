@@ -3,10 +3,10 @@ import sass from './pathList.module.sass'
 import { useRef } from 'react';
 import { useDispatch, useSelector } from 'react-redux'
 
+import { pM } from '../../../scripts/map/paramsMap';
+
 import { MySpinner } from '../../shared/mySpinner/MySpinner';
 import { MyContext } from '../../shared/myContext/MyContext';
-
-import { gS } from '../../../scripts/global/paramsGlobal'
 
 import { store } from '../../../store/store';
 import { createPathMV, LoadMV } from '../../../store/slice/modalVisible.slice';
@@ -60,7 +60,7 @@ export const PathList = () => {
       }
 
       <div className={sass.listPath}>
-        {selectIsLoad ? (gS.listPath.length ? listPathElem : emptyPathElem) : <MySpinner />}
+        {selectIsLoad ? (pM.listPath.length ? listPathElem : emptyPathElem) : <MySpinner />}
       </div>
 
       <MyContext items={[

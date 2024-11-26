@@ -1,23 +1,22 @@
-import { gS } from "../../global/paramsGlobal";
-import { mS } from "../paramsMap";
+import { pM } from "../paramsMap";
 
 export const setZoomCanvas = () => {
 	let newScale;
 
-	if (mS.base.width / mS.base.height > mS.base.baseWidth / mS.base.baseHeight) {
-		newScale = mS.base.height / mS.base.baseHeight;
+	if (pM.base.width / pM.base.height > pM.base.baseWidth / pM.base.baseHeight) {
+		newScale = pM.base.height / pM.base.baseHeight;
 	} else {
-		newScale = mS.base.width / mS.base.baseWidth;
+		newScale = pM.base.width / pM.base.baseWidth;
 	}
 
-	mS.base.scale *= newScale;
-	mS.transform.transX *= newScale;
-	mS.transform.transY *= newScale;
+	pM.base.scale *= newScale;
+	pM.transform.transX *= newScale;
+	pM.transform.transY *= newScale;
 
-	gS.canvas.setWidth(mS.base.width);
-	gS.canvas.setHeight(mS.base.height);
+	pM.canvas.setWidth(pM.base.width);
+	pM.canvas.setHeight(pM.base.height);
 
 	// Обновить значения масштаба.
-	mS.base.baseScale = mS.base.scale;
-	mS.base.coeffScale = mS.base.scale / mS.base.baseScale;
+	pM.base.baseScale = pM.base.scale;
+	pM.base.coeffScale = pM.base.scale / pM.base.baseScale;
 };

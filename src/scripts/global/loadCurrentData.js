@@ -1,11 +1,11 @@
-import { gS } from "./paramsGlobal";
+import { pM } from "../map/paramsMap";
 
 export const loadCurrentData = async (loadMarkers, loadPath) => {
-	const markers = await import(`../../data/markers/${gS.typeMap}.json`);
+	const markers = await import(`../../data/markers/${pM.typeMap}.json`);
 
 	loadMarkers([...markers.default]);
 
-	const path = await import(`../../data/path/${gS.typeMap}.json`);
+	const path = await import(`../../data/path/${pM.typeMap}.json`);
 
 	loadPath([...path.default]);
 };

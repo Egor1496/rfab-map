@@ -1,5 +1,4 @@
-import { mS, getDefaultMS } from "../map/paramsMap";
-import { gS, getDefaultGS } from "./paramsGlobal";
+import { pM, getDefaultPM } from "../map/paramsMap";
 
 const setDefault = (obj, defF) => {
 	const defObj = defF();
@@ -8,13 +7,12 @@ const setDefault = (obj, defF) => {
 };
 
 export const setDefaultParams = () => {
-	gS.listMarkers.length = 0;
+	pM.listMarkers.length = 0;
 
-	gS.listPath.length = 0;
-	gS.listPathCanvas.length = 0;
+	pM.listPath.length = 0;
+	pM.listPathCanvas.length = 0;
 
-	gS.cleanLoc.length = 0;
+	pM.cleanLoc.length = 0;
 
-	setDefault(gS, getDefaultGS);
-	setDefault(mS, getDefaultMS);
+	setDefault(pM, getDefaultPM);
 };

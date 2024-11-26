@@ -1,7 +1,7 @@
-import { mC, mS } from "../paramsMap";
+import { pM } from "../paramsMap";
 
 // Вычисляет координаты с учетом размера, масштаба, зума и смещения карты.
 export const getScaledPos = (top, left) => ({
-	top: top * mC.coeffHeight * mS.base.coeffScale + mS.transform.transY * mS.base.scale,
-	left: left * mC.coeffWidth * mS.base.coeffScale + mS.transform.transX * mS.base.scale,
+	top: top * pM.coeffHeight * pM.base.coeffScale + pM.transform.transY * pM.base.scale,
+	left: left * pM.coeffWidth * pM.base.coeffScale + pM.transform.transX * pM.base.scale,
 });

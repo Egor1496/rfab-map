@@ -1,3 +1,5 @@
+import { pM } from "../../paramsMap";
+
 import {
 	handlerMouseover,
 	handlerMouseout,
@@ -6,8 +8,6 @@ import {
 	handlerMousedblclick,
 } from "../../handlers/handlersMarker";
 
-import { gS } from "../../../global/paramsGlobal";
-
 import { getScaleIcon } from "../../transforms/getScaleIcon";
 import { getScaledPos } from "../../transforms/getScaledPos";
 
@@ -15,11 +15,11 @@ export const createMarker = (marker) => {
 	const scale = getScaleIcon(marker);
 	const pos = getScaledPos(marker.top, marker.left);
 
-	const urlCleanIcon = gS.urlMarkers + "Cross.png";
+	const urlCleanIcon = pM.urlMarkers + "Cross.png";
 
 	const urlImg =
-		gS.urlMarkers +
-		gS.urlMarkersType +
+		pM.urlMarkers +
+		pM.urlMarkersType +
 		(marker.nameIcon || "Warning") +
 		(marker.isActive ? "_F.png" : ".png");
 
@@ -44,6 +44,6 @@ export const createMarker = (marker) => {
 
 		marker.oImg = oImg;
 
-		gS.canvas.add(oImg);
+		pM.canvas.add(oImg);
 	});
 };

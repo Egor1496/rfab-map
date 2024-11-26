@@ -1,13 +1,14 @@
-import { setScaleHover } from "../transforms/setScaleHover";
+import { pM } from "../paramsMap";
 
-import { gS } from "../../global/paramsGlobal";
+import { setScaleHover } from "../transforms/setScaleHover";
+import { setMarkerInfo } from "../creating/marker/setMarkerInfo";
+
 import { store } from "../../../store/store";
 import { markerInfoMV } from "../../../store/slice/modalVisible.slice";
-import { setMarkerInfo } from "../creating/marker/setMarkerInfo";
 
 export const handlerMouseover = (point, oImg) => {
 	setScaleHover(oImg, true);
-	gS.canvas.renderAll();
+	pM.canvas.renderAll();
 	// applyTransform();
 
 	setMarkerInfo(point, oImg);
@@ -17,7 +18,7 @@ export const handlerMouseover = (point, oImg) => {
 
 export const handlerMouseout = (oImg) => {
 	setScaleHover(oImg, false);
-	gS.canvas.renderAll();
+	pM.canvas.renderAll();
 	// applyTransform();
 
 	store.dispatch(markerInfoMV(false));

@@ -1,14 +1,14 @@
-import { gS } from "../../global/paramsGlobal";
-
 import $ from "jquery";
+
+import { pM } from "../paramsMap";
 
 export const getPosModalMarker = (modalWidth, modalHeight, oImg) => {
 	const doc = document.documentElement,
 		scrollOffsetX = (window.scrollX || doc.scrollLeft) - (doc.clientLeft || 0),
 		scrollOffsetY = (window.scrollY || doc.scrollTop) - (doc.clientTop || 0);
 
-	const winOffsetX = gS.$element.offset().left - scrollOffsetX,
-		winOffsetY = gS.$element.offset().top - scrollOffsetY;
+	const winOffsetX = pM.$element.offset().left - scrollOffsetX,
+		winOffsetY = pM.$element.offset().top - scrollOffsetY;
 
 	const modalWidthMid = modalWidth / 2,
 		modalHeightMid = modalHeight / 2;
@@ -31,7 +31,7 @@ export const getPosModalMarker = (modalWidth, modalHeight, oImg) => {
 		modalTop = winOffsetY + oImg.get("top") + iconHeight;
 
 		if (modalTop + modalHeight > $(window).height() - margin) {
-			if (oImg.get("left") > gS.$element.width() / 2) {
+			if (oImg.get("left") > pM.$element.width() / 2) {
 				modalLeft = winOffsetX + oImg.get("left") - modalWidth - iconWidth;
 				modalTop = winOffsetY + oImg.get("top") - modalHeightMid;
 			} else {

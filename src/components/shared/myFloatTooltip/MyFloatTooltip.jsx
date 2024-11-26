@@ -11,7 +11,6 @@ export const MyFloatTooltip = ({ children, isMode = false }) => {
   const pos = store.getState().floatTooltipReducer.floatTooltipPos;
 
   const toggleModeInfo = useSelector((state) => state.settingsReducer).toggleModeInfo;
-  const keyPress = useSelector((state) => state.eventsReducer).keyPress;
 
   setTimeout(() => {
     if (ref.current) {
@@ -34,7 +33,7 @@ export const MyFloatTooltip = ({ children, isMode = false }) => {
         {
           isMode &&
           <div className={sass.header}>
-            <div className={`${sass.ctrl} ${keyPress === "ControlLeft" ? sass.active : ""}`}>ctrl</div>
+            <div className={`${sass.ctrl} ${!toggleModeInfo ? sass.active : ""}`}>ctrl</div>
             <div className={`${sass.modeModal} ${!toggleModeInfo ? sass.warning : ""}`}>
               {
                 toggleModeInfo ?

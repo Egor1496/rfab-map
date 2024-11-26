@@ -1,3 +1,5 @@
+import { pM } from "./paramsMap";
+
 import { handlerWindow } from "../global/handlerWindow";
 import { bindContainerEvents } from "./handlers/bindContainerEvents";
 import { bindContainerTouchEvents } from "./handlers/bindContainerTouchEvents";
@@ -17,45 +19,42 @@ import { pathNames } from "../../store/slice/pathNames.slice";
 
 import { getLocalStoreActivePath, getLocalStorePath, setOldStorePath } from "../global/localStore";
 
-import { gS } from "../global/paramsGlobal";
-import { mS } from "./paramsMap";
-
 const loadMarkers = (dataMarkers) => {
-	gS.listMarkers = dataMarkers;
+	pM.listMarkers = dataMarkers;
 
-	if (gS.listMarkers) createMarkers(); // Добавить метки на карту.
+	if (pM.listMarkers) createMarkers(); // Добавить метки на карту.
 };
 
 const loadPath = (dataPath) => {
 	setOldStorePath();
 
-	gS.listPath = [...dataPath, ...getLocalStorePath(gS.typeMap)];
+	pM.listPath = [...dataPath, ...getLocalStorePath(pM.typeMap)];
 
 	// Добавить пути на карту.
-	if (gS.listPath) createPath(gS.listPath[getLocalStoreActivePath()]?.l, gS.listPathCanvas);
+	if (pM.listPath) createPath(pM.listPath[getLocalStoreActivePath()]?.l, pM.listPathCanvas);
 
 	store.dispatch(activePath(getLocalStoreActivePath()));
 	store.dispatch(isLoadPath(true));
-	store.dispatch(pathNames(gS.listPath.map((path) => path.n)));
+	store.dispatch(pathNames(pM.listPath.map((path) => path.n)));
 };
 
 export const createMap = (setIsLoadMap) => {
-	store.dispatch(activeMap(gS.typeMap));
+	store.dispatch(activeMap(pM.typeMap));
 
-	const url = `./assets/images/map/${gS.typeMap}-map-min-filter.jpg`;
+	const url = `./assets/images/map/${pM.typeMap}-map-min-filter.jpg`;
 
 	fabric.util.loadImage(url, function (img) {
-		gS.map = new fabric.Image(img);
+		pM.map = new fabric.Image(img);
 
 		// Установим начальные и текущие размеры
-		mS.base.baseHeight = gS.map.height;
-		mS.base.baseWidth = gS.map.width;
+		pM.base.baseHeight = pM.map.height;
+		pM.base.baseWidth = pM.map.width;
 
-		mS.base.height = gS.$element.height();
-		mS.base.width = gS.$element.width();
+		pM.base.height = pM.$element.height();
+		pM.base.width = pM.$element.width();
 
 		// Отключим любую возможность редактирования и выбора карты как объекта на холсте
-		gS.map.set({
+		pM.map.set({
 			hasRotatingPoint: false,
 			hasBorders: false,
 			hasControls: false,
@@ -70,10 +69,10 @@ export const createMap = (setIsLoadMap) => {
 		loadCurrentData(loadMarkers, loadPath);
 
 		// Обновить значения масштаба.
-		mS.base.baseScale = mS.base.scale;
-		mS.base.coeffScale = mS.base.scale / mS.base.baseScale;
+		pM.base.baseScale = pM.base.scale;
+		pM.base.coeffScale = pM.base.scale / pM.base.baseScale;
 
-		gS.canvas.add(gS.map); // Добавить карту на холст.
+		pM.canvas.add(pM.map); // Добавить карту на холст.
 		applyTransform(); // Применить трансформацию карты.
 
 		setIsLoadMap(true);
