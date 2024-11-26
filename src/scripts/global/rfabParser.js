@@ -58,8 +58,8 @@ const setPrize = (prize, marker) => {
 			// Вместо пустой строки масив в 1 ел!
 
 			// !!!!!!!!!!!!! Награды перебери вручную!!!!!!!
-			// 			<q yelow>OOOOO</q>
-			// "prizeList":["<q yelow>OOOOO</q>."],
+			// 			<q ye>OOOOO</q>
+			// "prizeList":["<q ye>OOOOO</q>."],
 			// "prizeList":[""],
 		}
 	}

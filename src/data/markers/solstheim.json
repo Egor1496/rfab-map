@@ -9,12 +9,12 @@
     "top": 159.3,
     "left": 577.1,
     "prizeList": [
-      "<q yelow>Череп Карстааг</q>."
+      "<q ye>Череп Карстааг</q>."
     ]
   },
   {
-    "title": "Руины замка Карстааг (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "Если положить череп Карстаага на стул, появится <q red>босс</q>. Череп в ледяной пещере.",
+    "title": "Руины замка Карстааг (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "Если положить череп Карстаага на стул, появится <q re>босс</q>. Череп в ледяной пещере.",
     "type": "ghost_boss",
     "nameIcon": "Cave",
     "scale": 0.6,
@@ -25,12 +25,12 @@
       "Карстааг"
     ],
     "prizeList": [
-      "<q yelow>Бафф Дух Карстаага</q>."
+      "<q ye>Бафф Дух Карстаага</q>."
     ]
   },
   {
     "title": "Пещеры замка Карстаг",
-    "description": "Риклинги. Проход к <q red>боссу</q> Карстагу.",
+    "description": "Риклинги. Проход к <q re>боссу</q> Карстагу.",
     "type": "riek",
     "nameIcon": "Cave",
     "scale": 0.6,
@@ -39,7 +39,7 @@
     "left": 459.9
   },
   {
-    "title": "Пещера Щетиноспин (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Пещера Щетиноспин (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Много Риклингов",
     "type": "riek chest",
     "nameIcon": "Cave",
@@ -48,7 +48,7 @@
     "top": 251.3,
     "left": 248.9,
     "prizeList": [
-      "<q yelow>Зелья и камни</q>."
+      "<q ye>Зелья и камни</q>."
     ],
     "prizeIcon": [
       [
@@ -57,7 +57,7 @@
     ]
   },
   {
-    "title": "Пещера Харстрад (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Пещера Харстрад (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Снаружи и внутри спригган.",
     "type": "animal",
     "nameIcon": "Cave",
@@ -66,11 +66,11 @@
     "top": 312.2,
     "left": 634.5,
     "prizeList": [
-      "<q yelow>Большой сундук</q>."
+      "<q ye>Большой сундук</q>."
     ]
   },
   {
-    "title": "Фроссель (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Фроссель (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Много Риклингов",
     "type": "riek",
     "nameIcon": "Cave",
@@ -80,8 +80,8 @@
     "left": 863.1
   },
   {
-    "title": "Алтарь пещеры Тронд (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Ворожеи <q green>3</q>.",
+    "title": "Алтарь пещеры Тронд (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Ворожеи <q lgr>3</q>.",
     "type": "bandit",
     "nameIcon": "Cave",
     "scale": 0.6,
@@ -90,8 +90,8 @@
     "left": 589.9
   },
   {
-    "title": "Утес Морозной Луны (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи <q green>4</q> мирных оборотней-ликантропов.",
+    "title": "Утес Морозной Луны (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи <q lgr>4</q> мирных оборотней-ликантропов.",
     "type": "bandit",
     "nameIcon": "Cave",
     "scale": 0.6,
@@ -100,7 +100,7 @@
     "left": 510.9
   },
   {
-    "title": "Бенконгерик (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Бенконгерик (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Много Риклингов.",
     "type": "riek book word",
     "nameIcon": "Cave",
@@ -109,13 +109,13 @@
     "top": 287.3,
     "left": 590.1,
     "prizeList": [
-      "Слово <q yelow>Циклон</q>",
-      "Черная Книга <q yelow>Нерассказанные Легенды</q>."
+      "Слово <q ye>Циклон</q>",
+      "Черная Книга <q ye>Нерассказанные Легенды</q>."
     ]
   },
   {
     "title": "Отмель Хакнира",
-    "description": "<q green>3</q> бандита.",
+    "description": "<q lgr>3</q> бандита.",
     "type": "bandit",
     "nameIcon": "Campsite",
     "scale": 0.5,
@@ -123,12 +123,12 @@
     "top": 273.3,
     "left": 800.1,
     "prizeList": [
-      "Эксперт сундук <q yelow>Шлем Печать Смерти</q>."
+      "Эксперт сундук <q ye>Шлем Печать Смерти</q>."
     ]
   },
   {
-    "title": "Пристанище Буйольд (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Мирные бандиты <q green>5</q>. Убить бандитов можно по квесту риклингов.",
+    "title": "Пристанище Буйольд (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Мирные бандиты <q lgr>5</q>. Убить бандитов можно по квесту риклингов.",
     "type": "bandit",
     "nameIcon": "Campsite",
     "scale": 0.5,
@@ -137,8 +137,8 @@
     "left": 948.1
   },
   {
-    "title": "Воронья Скала (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "У алхимика можно получить <q green>3</q> превосходных зелья восстановления за <q green>5</q> желе нетча.",
+    "title": "Воронья Скала (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "У алхимика можно получить <q lgr>3</q> превосходных зелья восстановления за <q lgr>5</q> желе нетча.",
     "quests": [
       "«Марш мертвецов». В форте Морозного Мотылька Фалкса Кария."
     ],
@@ -149,8 +149,8 @@
     "left": 422.2
   },
   {
-    "title": "Застава Сиринга (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Открытая локация. <q red>Дракон</q> (<q lblue>150</q>-<q lblue>200<q tsm llblue>lvl</q></q>) <q lblue>16000</q>-<q lblue>20000xp</q> и <q green>6</q> драугров.",
+    "title": "Застава Сиринга (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Открытая локация. <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q> и <q lgr>6</q> драугров.",
     "type": "dragon draugry word",
     "nameIcon": "Dragon",
     "scale": 0.5,
@@ -158,12 +158,12 @@
     "top": 263.3,
     "left": 511.1,
     "prizeList": [
-      "Слово <q yelow>Подчинение Воли</q>."
+      "Слово <q ye>Подчинение Воли</q>."
     ]
   },
   {
-    "title": "Фалбтарз (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи риклинги. Внутри <q green>9</q> механизмов, <q green>4</q> паучков, много ловушек и загадок. <br/>&nbsp; Большой зал Фальбтарза: <q green>2</q> <q red>центуриона</q> спят и <q green>2</q> баллисты. Чтобы пройти дальше нужны <q green>2</q> сердечника центурионов.",
+    "title": "Фалбтарз (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи риклинги. Внутри <q lgr>9</q> механизмов, <q lgr>4</q> паучков, много ловушек и загадок. <br/>&nbsp; Большой зал Фальбтарза: <q lgr>2</q> <q re>центуриона</q> спят и <q lgr>2</q> баллисты. Чтобы пройти дальше нужны <q lgr>2</q> сердечника центурионов.",
     "type": "dwemer riek",
     "nameIcon": "DwemerRuins",
     "scale": 0.7,
@@ -171,13 +171,13 @@
     "top": 457.4,
     "left": 389.9,
     "prizeList": [
-      "<q yelow>Камень Кагрумеза</q>",
-      "<q yelow>Проницательность Мзунда</q>."
+      "<q ye>Камень Кагрумеза</q>",
+      "<q ye>Проницательность Мзунда</q>."
     ]
   },
   {
-    "title": "Кагрумез (<q lblue>30<q tsm llblue>lvl</q></q>) (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "Внутри <q green>3</q> бандита. <br/> Если вставлять камни Кагрумеза: <br/> &nbsp; (<q red>двери закываются каждый бой</q>) <br/> &nbsp; Бой первый: <q green>3</q> паучка и <q green>3</q> баллисты. <br/> &nbsp; Бой второй: <q green>4</q> баллисты и <q green>3</q> сферы. <br/> &nbsp; Бой третий: <q green>2</q> баллисты, <q green>2</q> сферы, паучки и зачарованная сфера.",
+    "title": "Кагрумез (<q lbl>30<q tm llbl>lvl</q></q>) (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "Внутри <q lgr>3</q> бандита. <br/> Если вставлять камни Кагрумеза: <br/> &nbsp; (<q re>двери закываются каждый бой</q>) <br/> &nbsp; Бой первый: <q lgr>3</q> паучка и <q lgr>3</q> баллисты. <br/> &nbsp; Бой второй: <q lgr>4</q> баллисты и <q lgr>3</q> сферы. <br/> &nbsp; Бой третий: <q lgr>2</q> баллисты, <q lgr>2</q> сферы, паучки и зачарованная сфера.",
     "type": "dwemer bandit",
     "nameIcon": "DwemerRuins",
     "scale": 0.7,
@@ -185,13 +185,13 @@
     "top": 630,
     "left": 671.1,
     "prizeList": [
-      "Приручение <q yelow>Двемерского Паучка и Сферу</q>",
-      "<q yelow>Двемерский Черный Лук Судьбы</q>."
+      "Приручение <q ye>Двемерского Паучка и Сферу</q>",
+      "<q ye>Двемерский Черный Лук Судьбы</q>."
     ]
   },
   {
-    "title": "Нчардак (<q lblue>30<q tsm llblue>lvl</q></q>) (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи <q green>5</q> бандитов. Внутри <q green>2</q> зачар сферы, <q green>2</q> <q red>Центуриона</q>, Баллисты <q green>6</q>. Собрав все кубики и включив все генераторы выйдет <q red>босс</q>. <br/> После выхода с локации, появится <q red>Змеевидный Дракон</q> (<q lblue>200<q tsm llblue>lvl</q></q>).",
+    "title": "Нчардак (<q lbl>30<q tm llbl>lvl</q></q>) (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи <q lgr>5</q> бандитов. Внутри <q lgr>2</q> зачар сферы, <q lgr>2</q> <q re>Центуриона</q>, Баллисты <q lgr>6</q>. Собрав все кубики и включив все генераторы выйдет <q re>босс</q>. <br/> После выхода с локации, появится <q re>Змеевидный Дракон</q> (<q lbl>200<q tm llbl>lvl</q></q>).",
     "type": "bandit dwemer dwemer_boss book",
     "nameIcon": "DwemerRuins",
     "scale": 0.7,
@@ -202,8 +202,8 @@
       "Смотритель Нчардака"
     ],
     "prizeList": [
-      "<q yelow>Черная Книга Острое Перо</q>",
-      "<q yelow>Камень Кагрумеза</q>."
+      "<q ye>Черная Книга Острое Перо</q>",
+      "<q ye>Камень Кагрумеза</q>."
     ]
   },
   {
@@ -217,8 +217,8 @@
     "left": 792.9
   },
   {
-    "title": "Форт Морозного Мотылька (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи <q green>11</q> порождений. Внутри <q green>3</q> порождения.",
+    "title": "Форт Морозного Мотылька (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи <q lgr>11</q> порождений. Внутри <q lgr>3</q> порождения.",
     "type": "ash bandit bandit_boss set",
     "nameIcon": "Fort",
     "scale": 0.6,
@@ -229,9 +229,9 @@
       "Генерал Фалкс Карий"
     ],
     "prizeList": [
-      "<q yelow>Сет Имперского Генерала</q>",
-      "<q yelow>Дубина Защитника</q>",
-      "<q yelow>Жилы камней и рубинов</q>."
+      "<q ye>Сет Имперского Генерала</q>",
+      "<q ye>Дубина Защитника</q>",
+      "<q ye>Жилы камней и рубинов</q>."
     ]
   },
   {
@@ -245,7 +245,7 @@
     "left": 614.9
   },
   {
-    "title": "Шахта Сломанный Клык (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Шахта Сломанный Клык (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Риклинги.",
     "type": "riek",
     "nameIcon": "Mine",
@@ -254,12 +254,12 @@
     "top": 296.3,
     "left": 315.9,
     "prizeList": [
-      "<q yelow>Жилы Камней</q>."
+      "<q ye>Жилы Камней</q>."
     ]
   },
   {
-    "title": "Душная шахта (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи бандит. Внутри <q green>16</q> бандитов.",
+    "title": "Душная шахта (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи бандит. Внутри <q lgr>16</q> бандитов.",
     "type": "bandit",
     "nameIcon": "Mine",
     "scale": 0.6,
@@ -268,8 +268,8 @@
     "left": 332.9
   },
   {
-    "title": "Шахта Вороньей Скалы (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Квест старика. Внутри <q green>12</q> драугров, <q green>2</q> <q red>повелителя</q>. <q red>Упав</q> вниз к <q red>боссам</q> атронахам (стоят вместе), вернуться нельзя. После комнаты с ловушками <q red>Босс</q>, который появляется подойдя к сундуку.",
+    "title": "Шахта Вороньей Скалы (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Квест старика. Внутри <q lgr>12</q> драугров, <q lgr>2</q> <q re>повелителя</q>. <q re>Упав</q> вниз к <q re>боссам</q> атронахам (стоят вместе), вернуться нельзя. После комнаты с ловушками <q re>Босс</q>, который появляется подойдя к сундуку.",
     "type": "draugry magic_boss stal book word priest",
     "nameIcon": "Mine",
     "scale": 0.6,
@@ -283,17 +283,17 @@
       "Закрисош"
     ],
     "prizeList": [
-      "Жила <q yelow>Сталгрим</q>",
-      "Слово <q yelow>Воплощение Дракона</q>",
-      "<q yelow>Маска Закрисош</q>",
-      "Черная Книга <q yelow>Ветры Перемен</q>",
-      "Справа от алхим. стола <q yelow>Зелье хождения по воде</q>",
-      "За вадопадом запертая дверь (ученик) <q yelow>Жила Сталгрим</q> <q green>2</q>."
+      "Жила <q ye>Сталгрим</q>",
+      "Слово <q ye>Воплощение Дракона</q>",
+      "<q ye>Маска Закрисош</q>",
+      "Черная Книга <q ye>Ветры Перемен</q>",
+      "Справа от алхим. стола <q ye>Зелье хождения по воде</q>",
+      "За вадопадом запертая дверь (ученик) <q ye>Жила Сталгрим</q> <q lgr>2</q>."
     ]
   },
   {
-    "title": "Курган Белого Хребта (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Стихийные Паучки и Бандосы. После закрытой паутиной комнаты спит <q red>босс</q>.",
+    "title": "Курган Белого Хребта (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Стихийные Паучки и Бандосы. После закрытой паутиной комнаты спит <q re>босс</q>.",
     "type": "book word priest",
     "nameIcon": "Tomb",
     "scale": 0.7,
@@ -304,14 +304,14 @@
       "Дукан"
     ],
     "prizeList": [
-      "Слово <q yelow>Циклон</q>",
-      "Черная Книга <q yelow>Болезненый Регент</q>",
-      "<q yelow>Маска Дукана</q>."
+      "Слово <q ye>Циклон</q>",
+      "Черная Книга <q ye>Болезненый Регент</q>",
+      "<q ye>Маска Дукана</q>."
     ]
   },
   {
-    "title": "Курган Бладскал (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Бандиты снаружи <q green>14</q>. Внутри <q green>8</q>.",
+    "title": "Курган Бладскал (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Бандиты снаружи <q lgr>14</q>. Внутри <q lgr>8</q>.",
     "type": "bandit",
     "nameIcon": "Tomb",
     "scale": 0.7,
@@ -320,7 +320,7 @@
     "left": 333.9
   },
   {
-    "title": "Курган Колбьорн (<q lblue>50<q tsm llblue>lvl</q></q>)??????",
+    "title": "Курган Колбьорн (<q lbl>50<q tm llbl>lvl</q></q>)??????",
     "description": "",
     "type": "book",
     "nameIcon": "Tomb",
@@ -329,12 +329,12 @@
     "top": 900.3,
     "left": 468.1,
     "prizeList": [
-      "Черная Книга <q yelow>Филармент и Филигрань</q>"
+      "Черная Книга <q ye>Филармент и Филигрань</q>"
     ]
   },
   {
-    "title": "Гробница Валока (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "Справа: <q green>4</q> драугра и <q red>повелитель</q>. <br/> &nbsp; <q yelow>Аметистовый Коготь</q>, Слово <q yelow>Ярость Боя</q>. <br/> Слева: <q green>7</q> драугров и <q red>повелитель</q>. <br/> &nbsp; <q yelow>Аметистовый Коготь</q>, Слово <q yelow>Ярость Боя</q>. <br/> По центру: собрав части когтей, внизу будут скелеты. После комнаты загадки босс, пройдя чуть дальше дверь <q red>закроется</q>.",
+    "title": "Гробница Валока (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "Справа: <q lgr>4</q> драугра и <q re>повелитель</q>. <br/> &nbsp; <q ye>Аметистовый Коготь</q>, Слово <q ye>Ярость Боя</q>. <br/> Слева: <q lgr>7</q> драугров и <q re>повелитель</q>. <br/> &nbsp; <q ye>Аметистовый Коготь</q>, Слово <q ye>Ярость Боя</q>. <br/> По центру: собрав части когтей, внизу будут скелеты. После комнаты загадки босс, пройдя чуть дальше дверь <q re>закроется</q>.",
     "type": "draugry magic_boss set word priest",
     "nameIcon": "Tomb",
     "scale": 0.7,
@@ -345,16 +345,16 @@
       "Валок Тюремщик"
     ],
     "prizeList": [
-      "<q yelow>Сет Валока</q>",
-      "Слово <q yelow>Ярость Боя</q> (все слова)",
-      "<q yelow>Драконий Страж</q>",
-      "<q yelow>Амик</q>",
-      "Заклинание <q yelow>Зеркало Шалидора</q>."
+      "<q ye>Сет Валока</q>",
+      "Слово <q ye>Ярость Боя</q> (все слова)",
+      "<q ye>Драконий Страж</q>",
+      "<q ye>Амик</q>",
+      "Заклинание <q ye>Зеркало Шалидора</q>."
     ]
   },
   {
-    "title": "Курган Гильденхул (<q lblue>45<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи <q green>2</q> бандита. Внутри собрав все части брони печати смерти дадут ключ. За сталгримом проход. Забрав клинок <q red>закроется</q> дверь и будет <q red>босс</q>.",
+    "title": "Курган Гильденхул (<q lbl>45<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи <q lgr>2</q> бандита. Внутри собрав все части брони печати смерти дадут ключ. За сталгримом проход. Забрав клинок <q re>закроется</q> дверь и будет <q re>босс</q>.",
     "type": "bandit ghost_boss stal",
     "nameIcon": "Tomb",
     "scale": 0.7,
@@ -365,15 +365,15 @@
       "Хакнир Печать Смерти"
     ],
     "prizeList": [
-      "<q yelow>Заклинание Трансмутация Деревяшка</q>",
-      "<q yelow>Много септимов</q>",
-      "<q yelow>Кровавая Коса</q>",
-      "<q yelow>Душитель</q>",
-      "<q yelow>Жилы Сталгрима</q> <q green>2</q>."
+      "<q ye>Заклинание Трансмутация Деревяшка</q>",
+      "<q ye>Много септимов</q>",
+      "<q ye>Кровавая Коса</q>",
+      "<q ye>Душитель</q>",
+      "<q ye>Жилы Сталгрима</q> <q lgr>2</q>."
     ]
   },
   {
-    "title": "Проход Моэсринг (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Проход Моэсринг (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Риклинги.",
     "type": "riek",
     "nameIcon": "Pass",
@@ -383,8 +383,8 @@
     "left": 527.9
   },
   {
-    "title": "Заснеженные руины (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "<q green>3</q> оборотня.",
+    "title": "Заснеженные руины (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "<q lgr>3</q> оборотня.",
     "type": "bandit",
     "nameIcon": "NordicDwelling",
     "scale": 0.7,
@@ -393,7 +393,7 @@
     "left": 611.9
   },
   {
-    "title": "Медовый зал Тирска (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Медовый зал Тирска (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Мирные риклинги. Убить риклингов можно по квесту бандитов.",
     "type": "riek",
     "nameIcon": "Settlement",
@@ -412,21 +412,21 @@
     "top": 932.3,
     "left": 907.1,
     "prizeList": [
-      "Черная Книга <q yelow>Скрытый Сумрак</q>",
-      "Книга <q yelow>Высшие Чары</q>."
+      "Черная Книга <q ye>Скрытый Сумрак</q>",
+      "Книга <q ye>Высшие Чары</q>."
     ]
   },
   {
-    "title": "Храм Мирака (<q lblue>45<q tsm llblue>lvl</q></q>)",
-    "description": "На входе <q green>2</q> члена культа. Внутри <q green>25</q> другров, скелеты, <q green>8</q> членов культа и <q green>2</q> <q red>повелителя</q>.",
+    "title": "Храм Мирака (<q lbl>45<q tm llbl>lvl</q></q>)",
+    "description": "На входе <q lgr>2</q> члена культа. Внутри <q lgr>25</q> другров, скелеты, <q lgr>8</q> членов культа и <q lgr>2</q> <q re>повелителя</q>.",
     "type": "draugry book magic word",
     "nameIcon": "Miraak",
     "id": "id37",
     "top": 525.3,
     "left": 677.1,
     "prizeList": [
-      "<q yelow>Слово Воплощение Дракона</q>",
-      "<q yelow>Черная книга Пробуждающие сны</q>"
+      "<q ye>Слово Воплощение Дракона</q>",
+      "<q ye>Черная книга Пробуждающие сны</q>"
     ]
   },
   {
@@ -439,12 +439,12 @@
     "top": 702.3,
     "left": 692.9,
     "prizeList": [
-      "<q yelow>Стеклянный Лук Короля Оленя</q>."
+      "<q ye>Стеклянный Лук Короля Оленя</q>."
     ]
   },
   {
-    "title": "Дом Хродульфа (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Снаружи Порождения пепла <q green>2</q>. Внутри <q green>2</q> бандита.",
+    "title": "Дом Хродульфа (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Снаружи Порождения пепла <q lgr>2</q>. Внутри <q lgr>2</q> бандита.",
     "type": "bandit ash",
     "nameIcon": "Shack",
     "scale": 0.5,
@@ -453,8 +453,8 @@
     "left": 537.9
   },
   {
-    "title": "Заброшенный постоялый двор (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Талморцы <q green>4</q> «по квесту Новый источник сталгрима».",
+    "title": "Заброшенный постоялый двор (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Талморцы <q lgr>4</q> «по квесту Новый источник сталгрима».",
     "type": "bandit",
     "nameIcon": "Shack",
     "scale": 0.5,
@@ -483,8 +483,8 @@
     "left": 313.9
   },
   {
-    "title": "Курган (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200<q tsm llblue>lvl</q></q>) <q lblue>16000</q>-<q lblue>20000xp</q>.",
+    "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "scale": 0.5,
@@ -493,8 +493,8 @@
     "left": 722.1
   },
   {
-    "title": "Курган (<q lblue>50<q tsm llblue>lvl</q></q>)",
-    "description": "<q red>Дракон</q> (<q lblue>150</q>-<q lblue>200<q tsm llblue>lvl</q></q>) <q lblue>16000</q>-<q lblue>20000xp</q>.",
+    "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "scale": 0.5,
@@ -503,7 +503,7 @@
     "left": 741.9
   },
   {
-    "title": "Камень Ветра (<q lblue>40<q tsm llblue>lvl</q></q>)",
+    "title": "Камень Ветра (<q lbl>40<q tm llbl>lvl</q></q>)",
     "description": "Луркер после очистки. Освобдив Скаалов, откроются квесты на сталгрим и Валока.",
     "type": "roc",
     "nameIcon": "StandingStones",
@@ -521,8 +521,8 @@
     "left": 676.9
   },
   {
-    "title": "Камень Зверя (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "Камень охраняют <q green>2</q> члена культа.",
+    "title": "Камень Зверя (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "Камень охраняют <q lgr>2</q> члена культа.",
     "type": "magic roc",
     "nameIcon": "StandingStones",
     "id": "id47",
@@ -530,8 +530,8 @@
     "left": 747.9
   },
   {
-    "title": "Камень Солнца (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "После очистки появятся <q green>3</q> Луркера (<q lblue>40-50<q tsm llblue>lvl</q></q>).",
+    "title": "Камень Солнца (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "После очистки появятся <q lgr>3</q> Луркера (<q lbl>40-50<q tm llbl>lvl</q></q>).",
     "type": "roc",
     "nameIcon": "StandingStones",
     "id": "id48",
@@ -539,8 +539,8 @@
     "left": 860.9
   },
   {
-    "title": "Камень Земли (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "После очистки появятся <q green>2</q> Луркера (<q lblue>40-50<q tsm llblue>lvl</q></q>).",
+    "title": "Камень Земли (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "После очистки появятся <q lgr>2</q> Луркера (<q lbl>40-50<q tm llbl>lvl</q></q>).",
     "type": "roc",
     "nameIcon": "StandingStones",
     "id": "id49",
@@ -548,8 +548,8 @@
     "left": 301.9
   },
   {
-    "title": "Камень Воды (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "Луркер и член культа после очистки. Часто появляется <q red>Дракон</q>.",
+    "title": "Камень Воды (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "Луркер и член культа после очистки. Часто появляется <q re>Дракон</q>.",
     "type": "dragon magic roc",
     "nameIcon": "StandingStones",
     "id": "id50",
@@ -576,7 +576,7 @@
     "top": 158.3,
     "left": 314.9,
     "prizeList": [
-      "<q yelow>Эбонит</q>."
+      "<q ye>Эбонит</q>."
     ]
   },
   {
@@ -589,12 +589,12 @@
     "top": 395.3,
     "left": 1032.9,
     "prizeList": [
-      "<q yelow>Эбонит</q>."
+      "<q ye>Эбонит</q>."
     ]
   },
   {
-    "title": "Северная Пристань (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "На корабле <q green>4</q> талморцев по квесту Новый источник сталгрима.",
+    "title": "Северная Пристань (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "На корабле <q lgr>4</q> талморцев по квесту Новый источник сталгрима.",
     "type": "bandit stal",
     "nameIcon": "Dock",
     "scale": 0.5,
@@ -602,7 +602,7 @@
     "top": 151.3,
     "left": 293.6,
     "prizeList": [
-      "<q yelow>Карта</q> Сталгримовой Руды"
+      "<q ye>Карта</q> Сталгримовой Руды"
     ]
   },
   {
@@ -615,7 +615,7 @@
     "top": 309.2,
     "left": 373.4,
     "prizeList": [
-      "<q yelow>Жил Сталгрима</q> <q green>10</q>."
+      "<q ye>Жил Сталгрима</q> <q lgr>10</q>."
     ]
   },
   {
@@ -628,12 +628,12 @@
     "top": 77.6,
     "left": 362,
     "prizeList": [
-      "<q yelow>Сталгрим</q>."
+      "<q ye>Сталгрим</q>."
     ]
   },
   {
-    "title": "Роща Бродира (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Бандиты <q green>3</q>",
+    "title": "Роща Бродира (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Бандиты <q lgr>3</q>",
     "type": "bandit",
     "nameIcon": "Pond",
     "scale": 0.5,
@@ -641,12 +641,12 @@
     "top": 741.5,
     "left": 537.5,
     "prizeList": [
-      "<q yelow>Штормовой Клык</q>."
+      "<q ye>Штормовой Клык</q>."
     ]
   },
   {
-    "title": "Курган Джолгейрр (<q lblue>60<q tsm llblue>lvl</q></q>)",
-    "description": "Нажав на труп, появится <q red>босс</q> и <q red>закроется</q> дверь.",
+    "title": "Курган Джолгейрр (<q lbl>60<q tm llbl>lvl</q></q>)",
+    "description": "Нажав на труп, появится <q re>босс</q> и <q re>закроется</q> дверь.",
     "type": "magic_boss",
     "nameIcon": "Tomb",
     "scale": 0.7,
@@ -657,12 +657,12 @@
       "Снежный Принц"
     ],
     "prizeList": [
-      "<q yelow>Щит Ауриэля</q>",
-      "<q yelow>Копье Снежного Принца</q>."
+      "<q ye>Щит Ауриэля</q>",
+      "<q ye>Копье Снежного Принца</q>."
     ]
   },
   {
-    "title": "Луркер (<q lblue>40<q tsm llblue>lvl</q></q>)",
+    "title": "Луркер (<q lbl>40<q tm llbl>lvl</q></q>)",
     "description": "",
     "type": "",
     "nameIcon": "Star",
@@ -672,8 +672,8 @@
     "left": 782.6
   },
   {
-    "title": "Событие (<q lblue>40<q tsm llblue>lvl</q></q>)",
-    "description": "Сприганы <q green>2</q>, зверь.",
+    "title": "Событие (<q lbl>40<q tm llbl>lvl</q></q>)",
+    "description": "Сприганы <q lgr>2</q>, зверь.",
     "type": "animal",
     "nameIcon": "Star",
     "scale": 0.5,
@@ -682,8 +682,8 @@
     "left": 947.5
   },
   {
-    "title": "Событие (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Порождения <q green>3</q> деруться со стражником.",
+    "title": "Событие (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Порождения <q lgr>3</q> деруться со стражником.",
     "type": "ash",
     "nameIcon": "Star",
     "scale": 0.5,
@@ -692,8 +692,8 @@
     "left": 430.4
   },
   {
-    "title": "По квесту Печать Смерти (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "бандитов <q green>2</q>.",
+    "title": "По квесту Печать Смерти (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "бандитов <q lgr>2</q>.",
     "type": "bandit",
     "nameIcon": "Star",
     "scale": 0.5,
@@ -701,12 +701,12 @@
     "top": 739,
     "left": 272.9,
     "prizeList": [
-      "Эксперт сундук <q yelow>Нагрудник Печати Смерти</q>."
+      "Эксперт сундук <q ye>Нагрудник Печати Смерти</q>."
     ]
   },
   {
-    "title": "По квесту Печать Смерти (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Порождений <q green>3</q> и сприган.",
+    "title": "По квесту Печать Смерти (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Порождений <q lgr>3</q> и сприган.",
     "type": "ash",
     "nameIcon": "Star",
     "scale": 0.5,
@@ -714,11 +714,11 @@
     "top": 936.4,
     "left": 864.2,
     "prizeList": [
-      "Эксперт сундук <q yelow>Сапоги Печати Смерти</q>."
+      "Эксперт сундук <q ye>Сапоги Печати Смерти</q>."
     ]
   },
   {
-    "title": "По квесту Печать Смерти (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "По квесту Печать Смерти (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Риклинги и крабики.",
     "type": "riek",
     "nameIcon": "Star",
@@ -727,12 +727,12 @@
     "top": 356.6,
     "left": 244.4,
     "prizeList": [
-      "Эксперт сундук <q yelow>Перчатки Печати Смерти</q>."
+      "Эксперт сундук <q ye>Перчатки Печати Смерти</q>."
     ]
   },
   {
-    "title": "Лагерь (<q lblue>30<q tsm llblue>lvl</q></q>)",
-    "description": "Бандиты <q green>5</q>",
+    "title": "Лагерь (<q lbl>30<q tm llbl>lvl</q></q>)",
+    "description": "Бандиты <q lgr>5</q>",
     "type": "bandit",
     "nameIcon": "Campsite",
     "scale": 0.5,
@@ -740,7 +740,7 @@
     "top": 1060.1,
     "left": 455.7,
     "prizeList": [
-      "Книга <q yelow>Похотливая Аргонианская дева</q>."
+      "Книга <q ye>Похотливая Аргонианская дева</q>."
     ]
   },
   {
@@ -753,11 +753,11 @@
     "top": 867.1,
     "left": 812.9,
     "prizeList": [
-      "Продает <q yelow>Камень Кагрумеза</q>."
+      "Продает <q ye>Камень Кагрумеза</q>."
     ]
   },
   {
-    "title": "Кладбище (<q lblue>30<q tsm llblue>lvl</q></q>)",
+    "title": "Кладбище (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Порождение пепла.",
     "type": "ash",
     "nameIcon": "Star",
@@ -766,11 +766,11 @@
     "top": 869.7,
     "left": 940.1,
     "prizeList": [
-      "<q yelow>Посох Упокоения</q>."
+      "<q ye>Посох Упокоения</q>."
     ]
   },
   {
-    "title": "Водопад (<q lblue>40<q tsm llblue>lvl</q></q>)",
+    "title": "Водопад (<q lbl>40<q tm llbl>lvl</q></q>)",
     "description": "Луркер и пару бандитов неподалеку.",
     "type": "",
     "nameIcon": "Star",
