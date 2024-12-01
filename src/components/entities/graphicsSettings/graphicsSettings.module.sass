@@ -1,1 +1,62 @@
-// .graphicsSettings
+.graphicsSettings
+  padding-bottom: 10px
+  .title
+    margin-bottom: 5px
+    color: #fff
+    font-size: 18px
+  .list
+    margin: 0
+    padding: 0
+    list-style-type: none
+    .listItem
+      margin: 15px 10px
+  .slider
+    .title
+      text-align: center
+    .inputWrap
+      display: flex
+      justify-content: center
+      margin-top: 10px
+  & [class~="p-slider"]
+    width: 80%
+    height: 10px
+    margin-left: 0 auto
+    border-radius: 10px
+    background-color: #000c
+    border: 2px solid #fff
+  & [class~="p-slider-range"]
+  & [class~="p-slider-handle"]
+    width: 22px
+    height: 22px
+    border-radius: 50%
+    border: 3px solid #fff
+    transform: translate(-50%, -50%)
+    background-color: #000000
+    &:hover
+      width: 25px
+      height: 25px
+  & [class~="p-selectbutton"]
+    display: flex
+  & [class~="p-button"]
+    z-index: 9
+    min-width: 35px
+    height: 25px
+    border-radius: 1px
+    border: 2px solid #757575
+    color: #fff
+    background-color: #000c
+    text-shadow: #ffffff 0px 0px 2px, 2px 2px 2px rgba(255, 255, 255, 0)
+    transition: transform 0.4s, background-color 0.4s
+    &:first-child
+      border-top-left-radius: 25px
+      border-bottom-left-radius: 25px
+    &:last-child
+      border-top-right-radius: 25px
+      border-bottom-right-radius: 25px
+    & [class~="p-button-label"]
+      width: auto
+      padding: 0 10px
+  & [class~="p-highlight"]
+    z-index: 10
+    border: 2px solid #fff
+    transform: scale(1.1)

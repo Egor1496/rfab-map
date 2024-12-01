@@ -1,1 +1,59 @@
-// .locationSettings
+.locationSettings
+  .title
+    margin-bottom: 5px
+    color: #c2ebff
+    font-size: 18px
+  .list
+    margin: 0
+    padding: 0
+    list-style-type: none
+    .listItem
+      margin: 15px 10px
+  & [class~="p-selectbutton"]
+    display: flex
+  & [class~="p-button"]
+    z-index: 9
+    min-width: 35px
+    height: 25px
+    margin: 0px 0px
+    border-radius: 2px
+    border: 2px solid #2f4a57
+    color: #fff
+    background-color: #000c
+    text-shadow: #ffffff 0px 0px 2px, 2px 2px 2px rgba(255, 255, 255, 0)
+    transition: transform 0.4s, background-color 0.4s
+    &:first-child
+      border-top-left-radius: 25px
+      border-bottom-left-radius: 25px
+    &:last-child
+      border-top-right-radius: 25px
+      border-bottom-right-radius: 25px
+    & [class~="p-button-label"]
+      width: auto
+      padding: 0 10px
+  & [class~="p-highlight"]
+    z-index: 10
+    transform: scale(1.1)
+    border: 2px solid #6ba6c3
+  // & [class~="p-focus"]
+  // & [class~="p-button-label"]
+
+  .icon
+    position: absolute
+    top: 50%
+    left: 50%
+    width: 20px
+    height: 20px
+    transform: translate(-50%, -50%)
+    background-repeat: no-repeat
+    background-size: 20px
+    &.eyeOn
+      background-image: url("/rfab-map/assets/images/ui/right-menu/eye.svg")
+    &.eyeOff
+      background-image: url("/rfab-map/assets/images/ui/right-menu/eye-off.svg")
+
+// p-selectbutton -Ообертка
+// p-button - Кнопка
+// p-highlight  - Активная кнопка
+// p-focus  - Фокус
+// p-button-label - Елемент кнопки

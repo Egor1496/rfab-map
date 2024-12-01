@@ -36,8 +36,6 @@ export const getBossList = (bossList = [], modeModal) => {
 	return bosses.join("<br/>");;
 }
 
-export const getTasks = (taskList = []) => taskList.map((task) => `${task}`).join("<br/>");
-
 export const getPrizeList = (prize = []) => prize.map((prizz) => `${prizz}`).join(", ");
 
 export const getPrizeIcon = (prizeIcon = [], sass) =>

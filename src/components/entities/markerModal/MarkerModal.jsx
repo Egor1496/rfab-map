@@ -5,7 +5,7 @@ import { useSelector } from 'react-redux';
 
 import { pM } from '../../../scripts/map/paramsMap';
 
-import { getBossList, getPrizeList, getPrizeIcon, getTasks, getQuests } from './markerModal.util';
+import { getBossList, getPrizeList, getPrizeIcon, getQuests } from './markerModal.util';
 
 import { getPosModalMarker } from '../../../scripts/map/transforms/getPosModalMarker';
 
@@ -52,8 +52,6 @@ export const MarkerModal = () => {
 
     <div className={sass.modalContent}>
       <div className={sass.title} dangerouslySetInnerHTML={{ __html: pM.markerInfo.title }} />
-
-      {toggleModeInfo && <div className={sass.taskList} dangerouslySetInnerHTML={{ __html: getTasks(pM.markerInfo.taskList) }} />}
 
       <div className={sass.description} dangerouslySetInnerHTML={{ __html: pM.markerInfo.description }} />
 

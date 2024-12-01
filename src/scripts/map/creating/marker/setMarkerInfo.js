@@ -3,9 +3,8 @@ import { pM } from "../../paramsMap";
 const clearInfo = () => {
 	pM.markerInfo.title = "";
 	pM.markerInfo.description = "";
-	pM.markerInfo.quests = "";
+	pM.markerInfo.quests = [];
 	pM.markerInfo.bossList = [];
-	pM.markerInfo.taskList = [];
 	pM.markerInfo.prizeList = [];
 	pM.markerInfo.prizeIcon = [];
 	pM.markerInfo.md = "";

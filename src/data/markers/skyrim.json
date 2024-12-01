@@ -1602,7 +1602,7 @@
     "top": 553,
     "left": 778,
     "prizeList": [
-      "Центурион (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>2000xp</q>. В конце локации."
+      "Центурион (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>2000</q><q tm llbl>xp</q>. В конце локации."
     ]
   },
   {
@@ -2600,7 +2600,7 @@
   },
   {
     "title": "Аванчнзел (<q lbl>40<q tm llbl>lvl</q></q>)",
-    "description": "Взять <q lbl>квест</q> в Рифтане. Внутри <q lgr>20</q> Двемерских паучков, двемеры <q lgr>8</q>, и двемерский призрак. Каратели <q lgr>2</q>, смертальная <q re>ловушка</q> у двойной двери. В финальной комнате двемерский центурион (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>2000xp</q> ждет игрока.",
+    "description": "Взять <q lbl>квест</q> в Рифтане. Внутри <q lgr>20</q> Двемерских паучков, двемеры <q lgr>8</q>, и двемерский призрак. Каратели <q lgr>2</q>, смертальная <q re>ловушка</q> у двойной двери. В финальной комнате двемерский центурион (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>2000</q><q tm llbl>xp</q> ждет игрока.",
     "type": "dwemer dwemer_boss",
     "nameIcon": "DwemerRuins",
     "id": "id149",
@@ -3610,7 +3610,7 @@
     "top": 784.7,
     "left": 885.4,
     "prizeList": [
-      "<q re>Повелитель</q> (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>11000xp</q>."
+      "<q re>Повелитель</q> (<q lbl>100<q tm llbl>lvl</q></q>) <q lbl>11000</q><q tm llbl>xp</q>."
     ]
   },
   {
@@ -4684,7 +4684,7 @@
   {
     "title": "Пещера Каменной пасти (<q lbl>20<q tm llbl>lvl</q></q>)",
     "description": "Бандиты: <q lgr>1</q> снаружи, <q lgr>4</q> внутри и <q lgr>2</q> тигра в упоре. В конце локации <q re>закрывающаяся дверь</q>. За дверью появляются два босса. Дверь можно открыть цепью.",
-    "type": "bandit bandit_boss magic_boss",
+    "type": "bandit bandit_boss magic_boss xp",
     "nameIcon": "Cave",
     "id": "id295",
     "top": 568,
@@ -5195,7 +5195,7 @@
     "left": 307
   },
   {
-    "title": "Лунная лесопилка (<q lbl>25<q tm llbl>lvl</q></q>)",
+    "title": "Лунная лесопилка (<q lbl>30<q tm llbl>lvl</q></q>)",
     "description": "Вампиры <q lgr>2</q>. Мирные, снимают праведность.",
     "type": "vampire",
     "nameIcon": "WoodMill",
@@ -5552,7 +5552,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id350",
@@ -5561,7 +5561,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id351",
@@ -5570,7 +5570,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id352",
@@ -5579,7 +5579,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "Он там есть?. <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "Он там есть?. <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id353",
@@ -5588,7 +5588,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id354",
@@ -5597,7 +5597,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id355",
@@ -5606,7 +5606,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id356",
@@ -5615,7 +5615,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id357",
@@ -5624,7 +5624,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id358",
@@ -5633,7 +5633,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id359",
@@ -5642,7 +5642,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id360",
@@ -5651,7 +5651,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id361",
@@ -5660,7 +5660,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id362",
@@ -5669,7 +5669,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id363",
@@ -5678,7 +5678,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id364",
@@ -5687,7 +5687,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id365",
@@ -5696,7 +5696,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id366",
@@ -5705,7 +5705,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id367",
@@ -5714,7 +5714,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id368",
@@ -5723,7 +5723,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id369",
@@ -5732,7 +5732,7 @@
   },
   {
     "title": "Курган (<q lbl>50<q tm llbl>lvl</q></q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200<q tm llbl>lvl</q></q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id370",
@@ -6694,7 +6694,7 @@
   },
   {
     "title": "Святилище Боэтии (<q lbl>30<q tm llbl>lvl</q></q>)",
-    "description": "После (<q lbl>30<q tm llbl>lvl</q></q>) персонажа, в скайриме нападает поклонник Боэтии (<q lbl>60<q tm llbl>lvl</q></q>) <q lbl>4000xp</q>. Сильный дуальшик. <br/> Поклонники Боэтии (<q lbl>45<q tm llbl>lvl</q></q>) <q lgr>6</q>, все милишники.",
+    "description": "После (<q lbl>30<q tm llbl>lvl</q></q>) персонажа, в скайриме нападает поклонник Боэтии (<q lbl>60<q tm llbl>lvl</q></q>) <q lbl>4000</q><q tm llbl>xp</q>. Сильный дуальшик. <br/> Поклонники Боэтии (<q lbl>45<q tm llbl>lvl</q></q>) <q lgr>6</q>, все милишники.",
     "type": "bandit",
     "nameIcon": "DaedricShrine",
     "id": "id455",

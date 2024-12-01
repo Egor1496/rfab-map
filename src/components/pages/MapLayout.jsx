@@ -1,3 +1,5 @@
+import sass from './mapLayout.module.sass'
+
 import { Outlet } from "react-router-dom";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -21,7 +23,7 @@ export const MapLayout = () => {
   const dispatch = useDispatch();
 
   return (
-    <>
+    <main className={sass.main}>
       <Outlet />
 
       <MarkerModal />
@@ -49,6 +51,6 @@ export const MapLayout = () => {
       >
         <LoadPath />
       </MyModal>
-    </>
+    </main>
   )
 }
