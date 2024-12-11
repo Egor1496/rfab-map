@@ -23,49 +23,89 @@ export const ResetSettings = () => {
     setVisible(true);
   };
 
-
   const accept = () => {
-    actions()
+    actions[actionType]();
     // toast.current.show({ severity: 'info', summary: 'accept' });
   }
   const reject = () => {
     // toast.current.show({ severity: 'warn', summary: 'reject' });
   }
 
-  const actions = () => {
-    switch (actionType) {
-      case "p":
-
-        break;
-      case "pa":
-
-        break;
-      case "m":
-
-        break;
-      case "ma":
-
-        break;
-      case "aa":
-
-        break;
-    }
-
-    actionType = ""
+  const setStore = (name, value) => {
+    const cleanLoc = JSON.parse(localStorage.getItem(name));
+    cleanLoc[pM.typeMap] = value;
+    localStorage.setItem(name, JSON.stringify(cleanLoc));
   }
+
+  const actions = {
+    "m": () => {
+      setStore("rfab-map-cleanLoc", []);
+      location.reload()
+    },
+    "mA": () => {
+      localStorage.removeItem("rfab-map-cleanLoc");
+      location.reload()
+    },
+    "p": () => {
+      setStore("rfab-map-pathList", []);
+      setStore("rfab-map-activePath", -1);
+      location.reload()
+    },
+    "pA": () => {
+      localStorage.removeItem("rfab-map-pathList");
+      localStorage.removeItem("rfab-map-activePath");
+      location.reload()
+    },
+    "sA": () => {
+      localStorage.clear();
+      location.reload()
+    },
+  }
+
+  const cleanSettings = [
+    {
+      type: "m",
+      title: "Очистить зачищенные локации на карте " + pM.typeMap,
+      value: `Отметки ${pM.typeMap}`
+    },
+    {
+      type: "mA",
+      title: "Очистить ВСЕ зачищенные локации",
+      value: "ВСЕ отметки"
+    },
+    {
+      type: "p",
+      title: "Удалить маршруты на карте " + pM.typeMap,
+      value: `Маршруты ${pM.typeMap}`
+    },
+    {
+      type: "pA",
+      title: "Удалить ВСЕ маршруты",
+      value: "ВСЕ маршруты"
+    },
+    {
+      type: "sA",
+      title: "Удалить ВСЕ настройки сайта включая МАРШРУТЫ и ОТМЕТКИ",
+      value: "СБРОСИТЬ ВСЁ"
+    }
+  ]
 
   return (
     <div className={sass.resetSettings}>
       <Toast ref={toast} />
 
       <div className={sass.inputWrap}>
-        <MyButton onClick={(e) => { openModal("p", "Очистить зачищеные локации на карте " + pM.typeMap); }} iconType="delete" bcolor="#ff5151">Отметки {pM.typeMap}</MyButton>
-        <MyButton onClick={(e) => { openModal("pa", "Очистить ВСЕ зачищеные локации"); }} iconType="delete" bcolor="#ff5151">ВСЕ отметки</MyButton>
-        <br />
-        <MyButton onClick={(e) => { openModal("m", "Удалить маршруты на карте " + pM.typeMap); }} iconType="delete" bcolor="#ff5151">Маршруты {pM.typeMap}</MyButton>
-        <MyButton onClick={(e) => { openModal("ma", "Удалить ВСЕ маршруты"); }} iconType="delete" bcolor="#ff5151">ВСЕ маршруты</MyButton>
-        <br />
-        <MyButton onClick={(e) => { openModal("aa", "Удалить ВСЕ настройки сайта включаяя МАРШРУТЫ и ОТМЕТКИ"); }} bcolor="#ff2121">СБРОСИТЬ ВСЁ</MyButton>
+        {
+          cleanSettings.map((el) => (
+            <MyButton
+              key={el.value}
+              onClick={(e) => { openModal(el.type, el.title); }}
+              iconType="delete"
+              bcolor="#ff5151">
+              {el.value}
+            </MyButton>
+          ))
+        }
       </div>
 
       <ConfirmDialog

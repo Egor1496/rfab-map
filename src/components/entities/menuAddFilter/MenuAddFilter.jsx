@@ -9,6 +9,7 @@ import MyTooltip from "../../shared/myTooltip/MyTooltip";
 import { filterRender } from "../../../scripts/map/creating/marker/filterRender"
 
 import listMenu from "../../../data/ui/menuFilters"
+import { pM } from '../../../scripts/map/paramsMap';
 
 const getTooltip = (target, position) => {
   return <MyTooltip
@@ -50,13 +51,14 @@ export const MenuAddFilter = () => {
   const tooltip = false;
 
   const handlerClick = (type) => {
-    if (selectActive === type) {
+    if (selectActive === type)
       type = "";
-      filterRender();
-    } else filterRender(type);
 
     dispatch(activeFilter(type))
     setLocalStoreFilter(type);
+    pM.typeFilter = type;
+
+    filterRender();
   };
 
   const menuItem = (option) => {

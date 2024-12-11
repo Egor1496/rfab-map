@@ -33,10 +33,10 @@ export const MyFloatTooltip = ({ children, isMode = false }) => {
         {
           isMode &&
           <div className={sass.header}>
-            <div className={`${sass.ctrl} ${!toggleModeInfo ? sass.active : ""}`}>ctrl</div>
-            <div className={`${sass.modeModal} ${!toggleModeInfo ? sass.warning : ""}`}>
+            <div className={`${sass.ctrl} ${toggleModeInfo === "1" ? sass.active : ""}`}>ctrl</div>
+            <div className={`${sass.modeModal} ${toggleModeInfo === "1" ? sass.warning : ""}`}>
               {
-                toggleModeInfo ?
+                toggleModeInfo === "0" ?
                   <div className={`${sass.icon} ${sass.minus}`}>—</div>
                   :
                   <div className={`${sass.icon} ${sass.pluse}`}>+</div>

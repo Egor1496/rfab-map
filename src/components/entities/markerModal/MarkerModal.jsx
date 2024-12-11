@@ -14,7 +14,8 @@ export const MarkerModal = () => {
 
   const modalVisible = useSelector((state) => state.modalVisibleReducer).markerInfoMV;
 
-  const toggleModeInfo = useSelector((state) => state.settingsReducer).toggleModeInfo;
+  const toggleModeInfo = useSelector((state) => state.settingsReducer).toggleModeInfo == "0" ?
+    true : false;
 
   if (ref.current)
     ref.current.style.display = "none";

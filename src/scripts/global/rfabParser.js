@@ -6,19 +6,19 @@ import bossList from "../../data/bossList/bossList.json";
 const typePrize = {
 	Книги: "book.png", // Книга опыта.
 	Яйца: "сhaurus.png", // Яйцо коруса.
-	Кошельки: "purse.png", // Кошелечек.
+	Кошельки: "purse.png",
 	Сумочки: "satchel.png", // Сумочка алхимика.
 	Сундучки: "chest-sm.png", // Небольшой сундук.
-	"Камни Борензии": "roc.webp", // Камень Барензии.
+	"Камни Борензии": "roc.webp",
 	Сердце: "daedra.png", // Сердце даэдра.
-	Портфели: "knapsack.png", // Портфель.
-	Скума: "skooma.png", // Скума.
+	Портфели: "knapsack.png",
+	Скума: "skooma.png",
 	Паралич: "bottleP.png", // Паралич.
 	ВЕС: "bottleW.png", // Превосходка веса.
 	ХП: "bottleH.png", // Превосходка ХП.
 	СТ: "bottleS.png", // Превосходка СТ.
 	МП: "bottleM.png", // Превосходка МП.
-	"Мастер сундуки": "chest.png", // Мастерский сундук.
+	"Мастер сундуки": "chest.png",
 	Сейф: "Safe.webp",
 };
 

@@ -19,7 +19,9 @@ export const handlerWindow = () => {
 		) {
 			keyUp = false;
 
-			store.dispatch(setToggleModeInfo());
+			store.dispatch(
+				setToggleModeInfo(store.getState().settingsReducer.toggleModeInfo === "0" ? "1" : "0")
+			);
 		}
 	};
 

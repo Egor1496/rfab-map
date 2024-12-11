@@ -21,7 +21,7 @@ export const BossTooltip = () => {
 
   return (
     visible &&
-    <div className={sass.bossTooltip + " " + (toggleModeInfo ? sass.md : sass.sm)} >
+    <div className={sass.bossTooltip + " " + (toggleModeInfo === "0" ? sass.md : sass.sm)} >
       <div className={sass.mainStats}>
         {boss.xp && <span className={sass.xp}>{boss.xp}<div className={sass.icn} /></span>}
         {boss.hp && <span className={sass.hp}>{boss.hp}<div className={sass.icn} /></span>}

@@ -10,6 +10,7 @@ export const getDefaultPM = () => {
 		iconScaleDefault: 0.3, // Размер иконок по умолчанию.
 
 		typeMap: "", // Тип активной карты.
+		typeFilter: "", // Тип активного фильтра.
 
 		urlMarkers: "./assets/images/markers/",
 		urlMarkersType: "v1/",

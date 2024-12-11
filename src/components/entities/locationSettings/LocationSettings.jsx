@@ -1,22 +1,25 @@
 import sass from './locationSettings.module.sass'
 
-import { useState } from 'react';
+import { useDispatch, useSelector } from 'react-redux';
+
+import { setCleanDisplay, setFilterDisplay, setToggleModeInfo } from '../../../store/slice/settings.slice';
 
 import { SelectButton } from 'primereact/selectbutton';
 
+import { setVisibleMarkers } from '../../../scripts/map/transforms/setVisibleMarker';
+
 export const LocationSettings = () => {
-  const modeInfoItem = ['Всё', 'Минимум'];
-  const [modeInfo, setModeInfo] = useState(modeInfoItem[0]);
+  const mode = useSelector((state) => state.settingsReducer.toggleModeInfo);
+  const filter = useSelector((state) => state.settingsReducer.filterDisplayMode);
+  const clean = useSelector((state) => state.settingsReducer.cleanDisplayMode);
 
-  const filterVisibleItem = [1, 0];
-  const [filterVisible, setFilterVisible] = useState(filterVisibleItem[0]);
+  const disapatch = useDispatch();
 
-  const cleanVisibleItem = [1, 0];
-  const [cleanVisible, setCleanVisible] = useState(cleanVisibleItem[0]);
+  const modeInfoTemplate = (option) =>
+    <div className={sass.pButtonLabel}>{option === "0" ? "Полная" : "Минимум"}</div>
 
-  const justifyTemplate = (option) => {
-    return <div className={sass.icon + " " + sass[option ? "eyeOn" : "eyeOff"]}></div>
-  }
+  const visibleTemplate = (option) =>
+    <div className={sass.icon + " " + sass[option === "0" ? "eyeOn" : "eyeOff"]} />
 
   return (
     <div className={sass.locationSettings}>
@@ -25,21 +28,42 @@ export const LocationSettings = () => {
           <div className={sass.title}>Информация метки:</div>
 
           <div className={sass.inputWrap}>
-            <SelectButton value={modeInfo} onChange={(e) => setModeInfo(e.value)} options={modeInfoItem} />
+            <SelectButton
+              value={mode}
+              onChange={(e) => {
+                if (e.value && (e.value != mode))
+                  disapatch(setToggleModeInfo(e.value));
+              }}
+              itemTemplate={modeInfoTemplate}
+              options={["0", "1"]} />
           </div>
         </li>
 
         <li className={sass.listItem}>
-          <div className={sass.title}>Фильтрованные:</div>
+          <div className={sass.title}><span>Фильтр</span>  |  <span>Отметки</span></div>
           <div className={sass.inputWrap}>
-            <SelectButton value={filterVisible} onChange={(e) => setFilterVisible(e.value)} itemTemplate={justifyTemplate} options={filterVisibleItem} />
-          </div>
-        </li>
-
-        <li className={sass.listItem}>
-          <div className={sass.title}>Зачищенные:</div>
-          <div className={sass.inputWrap}>
-            <SelectButton value={cleanVisible} onChange={(e) => setCleanVisible(e.value)} itemTemplate={justifyTemplate} options={cleanVisibleItem} />
+            <SelectButton
+              value={filter}
+              onChange={(e) => {
+                if (e.value && (e.value != filter)) {
+                  disapatch(setFilterDisplay(e.value))
+                  setVisibleMarkers()
+                }
+              }}
+              itemTemplate={visibleTemplate}
+              options={["0", "1"]}
+            />
+            <SelectButton
+              value={clean}
+              onChange={(e) => {
+                if (e.value && (e.value != clean)) {
+                  disapatch(setCleanDisplay(e.value))
+                  setVisibleMarkers()
+                }
+              }}
+              itemTemplate={visibleTemplate}
+              options={["0", "1"]}
+            />
           </div>
         </li>
       </ul>

@@ -10,6 +10,7 @@ import {
 
 import { getScaleIcon } from "../../transforms/getScaleIcon";
 import { getScaledPos } from "../../transforms/getScaledPos";
+import { setVisibleMarker } from "../../transforms/setVisibleMarker";
 
 export const createMarker = (marker) => {
 	const scale = getScaleIcon(marker);
@@ -43,6 +44,8 @@ export const createMarker = (marker) => {
 		oImg.on("mousedblclick", (e) => handlerMousedblclick(marker, oImg)); // Двойное нажатие m1
 
 		marker.oImg = oImg;
+
+		setVisibleMarker(marker);
 
 		pM.canvas.add(oImg);
 	});
