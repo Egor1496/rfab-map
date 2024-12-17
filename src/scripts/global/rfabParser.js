@@ -39,9 +39,7 @@ const setPrize = (prize, marker) => {
 
 					if (Number(prizeCountNew) < 2) prizeCountNew = "";
 
-					marker.prizeIcon[j][1] = prizeCountNew;
-
-					// console.log("ЕСТЬ " + prizeNameOld, prizeCountNew);
+					if (prizeCountNew.length > 0) marker.prizeIcon[j][1] = prizeCountNew;
 				}
 			}
 
@@ -50,30 +48,37 @@ const setPrize = (prize, marker) => {
 
 				if (Number(prizeCountNew) < 2) prizeCountNew = "";
 
-				marker.prizeIcon.push([typePrize[prizeNameNew], prizeCountNew]);
-
-				// console.log("НЕТ " + prizeNameNew, prizeCountNew);
+				if (prizeCountNew.length > 0)
+					marker.prizeIcon.push([typePrize[prizeNameNew], prizeCountNew]);
+				else marker.prizeIcon.push([typePrize[prizeNameNew]]);
 			}
 
-			// Вместо пустой строки масив в 1 ел!
+			// !!!!!!! Награды перебери вручную !!!!!!!
+			//	<q ye>OOOOO</q>
+			//	"prizeList":["<q ye>OOOOO</q>."],
+			//	"prizeList":[""],
+		}
+	}
+};
 
-			// !!!!!!!!!!!!! Награды перебери вручную!!!!!!!
-			// 			<q ye>OOOOO</q>
-			// "prizeList":["<q ye>OOOOO</q>."],
-			// "prizeList":[""],
+const deleteEmptyProp = (marker) => {
+	for (const key in marker) {
+		if (Object.prototype.hasOwnProperty.call(marker, key)) {
+			if (!marker[key]) delete marker[key];
 		}
 	}
 };
 
 const prizeIconInMarkers = (allMarkers) => {
 	for (let i = 0; i < allMarkers.length; i++) {
-		delete allMarkers[i].oImg;
-
 		for (const prizeId in prizeIcon) {
 			if (Object.prototype.hasOwnProperty.call(prizeIcon, prizeId)) {
 				if (prizeId == allMarkers[i].id) setPrize(prizeIcon[prizeId], allMarkers[i]);
 			}
 		}
+
+		deleteEmptyProp(allMarkers[i]);
+		delete allMarkers[i].oImg;
 	}
 
 	console.log(allMarkers);
@@ -122,5 +127,5 @@ const bossStatsInBossList = () => {
 
 export const rfabParser = (allMarkers) => {
 	// bossStatsInBossList();
-	prizeIconInMarkers(allMarkers);
+	// prizeIconInMarkers(allMarkers);
 };
