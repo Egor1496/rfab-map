@@ -16,13 +16,9 @@ mousewheel($);
 
 let pathTimer = false;
 
-const fps = 1000 / 30;
-
-let isMove = false;
-
-setInterval(() => {
-	isMove = true;
-}, fps);
+pM.fpsInterval = setInterval(() => {
+	pM.isMove = true;
+}, pM.fpsMap);
 
 export const bindContainerEvents = function () {
 	var oldPageX,
@@ -50,8 +46,8 @@ export const bindContainerEvents = function () {
 		})
 		.mousemove(function (e) {
 			// Непосредственно перемещение
-			if (pM.mouseDownWindow && isMove) {
-				isMove = false;
+			if (pM.mouseDownWindow && pM.isMove) {
+				pM.isMove = false;
 
 				if (pathTimer === false)
 					pathTimer = setTimeout(() => {

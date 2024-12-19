@@ -41,7 +41,9 @@ const loadPath = (dataPath) => {
 export const createMap = (setIsLoadMap) => {
 	store.dispatch(activeMap(pM.typeMap));
 
-	const url = `./assets/images/map/${pM.typeMap}-map-min-filter.jpg`;
+	const sizeMap = store.getState().settingsReducer.hdMap;
+
+	const url = `./assets/images/map/${sizeMap}/${pM.typeMap}-map.jpg`;
 
 	fabric.util.loadImage(url, function (img) {
 		pM.map = new fabric.Image(img);

@@ -13,17 +13,21 @@ export const getDefaultPM = () => {
 		typeFilter: "", // Тип активного фильтра.
 
 		urlMarkers: "./assets/images/markers/",
-		urlMarkersType: "v1/",
+		urlMarkersType: (localStorage.getItem("rfab-map-hdMarker") || "hd") + "/",
+		imgMF: localStorage.getItem("rfab-map-hdMarker") === "svg" ? ".svg" : ".png",
 
 		$element: null, // element canvas.
 		canvas: null, // fabricCanvas.
 		map: null, // fabricMap.
+
+		fpsMap: 1000 / (Number(localStorage.getItem("rfab-map-fpsMap")) || 60), // фпс при даижении карты.
+		fpsInterval: [],
+		isMove: false, // Можно ли перемещаться по карте. (фпс перемещения)
 	};
 
 	const handler = {
 		mouseDownWindow: false, // Нажата ли m1 на карте.
 		isClickDownMarker: false, // Нажата ли m1 на метке.
-		isMove: false, // Можно ли перемещаться по карте. (фпс перемещения)
 		hasMoved: false, // Происходило ли перемещение на карте. (спустя 100ms после нажатия m1)
 	};
 

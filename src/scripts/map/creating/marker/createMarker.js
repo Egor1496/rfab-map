@@ -22,7 +22,8 @@ export const createMarker = (marker) => {
 		pM.urlMarkers +
 		pM.urlMarkersType +
 		(marker.nameIcon || "Warning") +
-		(marker.isActive ? "_F.png" : ".png");
+		(marker.isActive ? "_F" : "") +
+		pM.imgMF;
 
 	fabric.Image.fromURL(marker.isClean ? urlCleanIcon : urlImg, (oImg) => {
 		oImg

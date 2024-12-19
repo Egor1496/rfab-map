@@ -9,9 +9,14 @@ export const replaceImage = (marker, onLoad, onReplace) => {
 	if (currIcon !== marker.nameIcon) {
 		onReplace();
 
-		const newUrl = pM.urlMarkers + pM.urlMarkersType + marker.nameIcon;
+		const newUrl =
+			pM.urlMarkers +
+			pM.urlMarkersType +
+			marker.nameIcon +
+			(marker.isActive ? "_F" : "") +
+			pM.imgMF;
 
-		marker.oImg._element.src = newUrl + (marker.isActive ? "_F.png" : ".png");
+		marker.oImg._element.src = newUrl;
 		marker.oImg._element.onload = () => onLoad();
 		marker.oImg.scale(getScaleIcon(marker));
 	}

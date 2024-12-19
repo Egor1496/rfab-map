@@ -5,7 +5,9 @@ export const getScaleIcon = (marker) => {
 	const scale =
 		(marker.scale || pM.scaleIconMarkers[marker.nameIcon] || pM.iconScaleDefault) * pM.coeffWidth;
 
-	const scaleIcon = (coeff * scale * (1.3 - pM.zoom.currentZoom * 0.08)) / 7.5;
+	let scaleIcon = (coeff * scale * (1.3 - pM.zoom.currentZoom * 0.08)) / 7.5;
+
+	if (pM.imgMF === ".svg") scaleIcon = scaleIcon * 8;
 
 	if (marker.isActive) return scaleIcon * pM.iconHoverZoom;
 

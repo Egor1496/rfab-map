@@ -14,14 +14,11 @@ const settingsSlice = createSlice({
 	name: "settings",
 	initialState,
 	reducers: {
-		set(state, action) {
-			state.state = action.payload;
-		},
 		setFpsMap(state, action) {
 			state.fpsMap = action.payload;
 			localStorage.setItem("rfab-map-fpsMap", action.payload);
 		},
-		hdMap(state, action) {
+		setHdMap(state, action) {
 			state.hdMap = action.payload;
 			localStorage.setItem("rfab-map-hdMap", action.payload);
 		},
@@ -45,9 +42,8 @@ const settingsSlice = createSlice({
 });
 
 export const {
-	set,
 	setFpsMap,
-	hdMap,
+	setHdMap,
 	setHdMarker,
 	setToggleModeInfo,
 	setFilterDisplay,
