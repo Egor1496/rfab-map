@@ -30,7 +30,7 @@ export const createMarkers = () => {
 		createMarker(marker);
 	});
 
-	setTimeout(() => {
-		rfabParser(pM.listMarkers);
-	}, 1000);
+	// setTimeout(() => {
+	// 	rfabParser(pM.listMarkers);
+	// }, 1000);
 };

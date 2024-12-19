@@ -90,6 +90,8 @@ const bossStatsInBossList = () => {
 			const statsB = bossStats[i];
 			const nameB = i;
 
+			let isFind = false;
+
 			for (const j in bossList) {
 				if (Object.prototype.hasOwnProperty.call(bossList, j)) {
 					const allBosses = bossList[j];
@@ -99,6 +101,8 @@ const bossStatsInBossList = () => {
 							const boss = allBosses[k];
 
 							if (nameB === boss.na) {
+								isFind = true;
+
 								boss.lvl = statsB.lvl;
 								boss.hp = statsB.ХП || "0";
 								boss.arr = statsB.Броня || "0";
@@ -119,6 +123,8 @@ const bossStatsInBossList = () => {
 					}
 				}
 			}
+
+			if (isFind === false) console.log(nameB, bossStats[i]);
 		}
 	}
 

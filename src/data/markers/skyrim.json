@@ -1966,7 +1966,7 @@
   {
     "title": "Приречная застава (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "Бандиты. <q lgr>2</q> снаружи и <q lgr>7</q> внутри.",
-    "type": "bandit bandit_boss",
+    "type": "bandit bandit_boss set",
     "nameIcon": "Cave",
     "id": "id108",
     "top": 636,
@@ -1977,6 +1977,7 @@
     ],
     "prizeList": [
       "<q ye>Перчатки Рваной Раны</q>",
+      "<q ye>Сет Воителя</q>",
       "<q ye>Старый Меч Хайварра</q>."
     ],
     "prizeIcon": [
@@ -2255,7 +2256,7 @@
   },
   {
     "title": "Каирн Холдира (<q lbl>40</q><q tm llbl>lvl</q>)",
-    "description": "Внутри призраки, <q lgr>2</q> драугра и <q re>повелитель</q> (<q lbl>100</q><q tm llbl>lvl</q>) мечник, призывает <q lgr>2</q> скелетов архимагов. Далее??? решетка <q re>закрывается</q>.",
+    "description": "Внутри призраки, <q lgr>2</q> драугра и <q re>повелитель</q> (удален?) (<q lbl>100</q><q tm llbl>lvl</q>) мечник, призывает <q lgr>2</q> скелетов архимагов. Далее??? решетка <q re>закрывается</q>.",
     "type": "draugry draugry_boss ghost xp",
     "nameIcon": "Cave",
     "id": "id122",
@@ -4459,6 +4460,7 @@
       "Ригель Сильная Рука"
     ],
     "prizeList": [
+      "<q ye>Кольцо Хоркера</q>",
       "<q ye>Щит Доблесть</q>",
       "<q ye>Необычная Серебряная Заготовка</q>."
     ],
@@ -4568,6 +4570,9 @@
     "left": 528.4,
     "bossList": [
       "Дрелас"
+    ],
+    "prizeList": [
+      "<q ye>ФЛАКОН ПЕРЕРОЖДЕНИЯ</q>."
     ],
     "prizeIcon": [
       [
