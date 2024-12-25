@@ -65,6 +65,10 @@ export const createMap = (setIsLoadMap) => {
 			selectable: false,
 		});
 
+		pM.map.on("mouseover", (e) => {
+			pM.isMouseoverMarker = true;
+		});
+
 		setZoomCanvas(); // От масштабируем, чтобы сразу видеть всё карту.
 
 		// Загрузить пути и метки (async)

@@ -38,20 +38,7 @@ export const CanvasFabric = () => {
       scale: 1,
       moveCursor: "default",
       hoverCursor: "default",
-      // enableRetinaScaling: false,
-      // renderOnAddRemove: false
     });
-
-    // pM.canvas.setZoom(1);
-
-    // pM.canvas.setDimensions({
-    //   width: pM.canvas.width * 2,
-    //   height: pM.canvas.height * 2,
-    // });
-
-    // pM.canvas.clipTo = function (ctx) {
-    //   ctx.rect(10, 10, 300, 300);
-    // }
 
     createMap(setIsLoadMap);
 

@@ -14,7 +14,7 @@ import { Donat } from '../donat/Donat'
 export const RightMenu = () => {
   return (
     <MySidebar position="right">
-      <MyAccordion activeIndex={2}>
+      <MyAccordion activeIndex={0}>
         <AccordionTab header={<div className={sass.titlePath}>Маршруты</div>}>
           <PathList />
         </AccordionTab>

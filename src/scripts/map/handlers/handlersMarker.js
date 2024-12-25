@@ -3,9 +3,11 @@ import { pM } from "../paramsMap";
 import { setScaleHover } from "../transforms/setScaleHover";
 import { handlerCleanM } from "../handlers/handlerCleanM";
 
+import { setMarkerInfo } from "../creating/marker/setMarkerInfo";
+
 import { store } from "../../../store/store";
 import { markerInfoMV } from "../../../store/slice/modalVisible.slice";
-import { setMarkerInfo } from "../creating/marker/setMarkerInfo";
+import { setTypeModeInfo } from "../../../store/slice/settings.slice";
 
 export const handlerMouseover = (mark, oImg) => {
 	setScaleHover(oImg, true);
@@ -13,6 +15,8 @@ export const handlerMouseover = (mark, oImg) => {
 
 	if (store.getState().modalVisibleReducer.markerInfoMV === false) setMarkerInfo(mark, oImg);
 
+	pM.isMouseoverMarker = false;
+	store.dispatch(setTypeModeInfo(true));
 	store.dispatch(markerInfoMV(true));
 };
 

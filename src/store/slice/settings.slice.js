@@ -4,6 +4,7 @@ const initialState = {
 	fpsMap: Number(localStorage.getItem("rfab-map-fpsMap")) || 60,
 	hdMap: localStorage.getItem("rfab-map-hdMap") || "sd",
 	hdMarker: localStorage.getItem("rfab-map-hdMarker") || "hd",
+	typeModeInfo: true,
 	toggleModeInfo: localStorage.getItem("rfab-map-toggleModeInfo") || "0",
 	filterDisplayMode: localStorage.getItem("rfab-map-filterDisplayMode") || "0",
 	cleanDisplayMode: localStorage.getItem("rfab-map-cleanDisplayMode") || "0",
@@ -26,6 +27,9 @@ const settingsSlice = createSlice({
 			state.hdMarker = action.payload;
 			localStorage.setItem("rfab-map-hdMarker", action.payload);
 		},
+		setTypeModeInfo(state, action) {
+			state.typeModeInfo = action.payload;
+		},
 		setToggleModeInfo(state, action) {
 			state.toggleModeInfo = action.payload;
 			localStorage.setItem("rfab-map-toggleModeInfo", action.payload);
@@ -45,6 +49,7 @@ export const {
 	setFpsMap,
 	setHdMap,
 	setHdMarker,
+	setTypeModeInfo,
 	setToggleModeInfo,
 	setFilterDisplay,
 	setCleanDisplay,

@@ -28,6 +28,8 @@ export const getDefaultPM = () => {
 	const handler = {
 		mouseDownWindow: false, // Нажата ли m1 на карте.
 		isClickDownMarker: false, // Нажата ли m1 на метке.
+		isContextShow: false, // Открыто ли контекстное меню карты.
+		isMouseoverMarker: true, // Наведен ли курсор карту.
 		hasMoved: false, // Происходило ли перемещение на карте. (спустя 100ms после нажатия m1)
 	};
 
@@ -76,6 +78,10 @@ export const getDefaultPM = () => {
 			oImg: null, // fabrik objImg.
 			isActive: false, // Статус Фильтра.
 			isClean: false,
+			id: "-1",
+			nameIcon: "warning",
+			md: "",
+			type: "",
 			top: 0,
 			left: 0,
 			title: "",

@@ -20,8 +20,10 @@ import { SkyrimPage } from "./components/pages/SkyrimPage";
 import { SolstheimPage } from "./components/pages/SolstheimPage";
 import { SoulcairnPage } from "./components/pages/SoulcairnPage";
 import { BlackreachPage } from "./components/pages/BlackreachPage";
-import { SkuldafnPage } from "./components/pages/SkuldafnPage";
 import { ForgottenvalePage } from "./components/pages/ForgottenvalePage";
+import { SkuldafnPage } from "./components/pages/SkuldafnPage";
+import { Sovngarde } from "./components/pages/Sovngarde";
+import { Apocryphaworld } from "./components/pages/Apocryphaworld";
 
 const container = document.getElementById('root');
 const root = createRoot(container);
@@ -40,6 +42,8 @@ root.render(
             <Route path="forgottenvale/" element={<ForgottenvalePage />} />
             <Route path="soulcairn/" element={<SoulcairnPage />} />
             <Route path="skuldafn/" element={<SkuldafnPage />} />
+            <Route path="sovngarde/" element={<Sovngarde />} />
+            <Route path="apocryphaworld/" element={<Apocryphaworld />} />
           </Route>
 
           <Route path="*" element={<ErrorPage />} />
