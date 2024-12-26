@@ -310,31 +310,15 @@
   ],
   "soulcairn": [
     {
-      "name": "Драугры",
-      "type": "draugry",
-      "level": [
-        30
-      ]
-    },
-    {
-      "name": "Скелеты",
-      "type": "skelet",
-      "level": [
-        30,
-        50
-      ],
-      "isBoss": true
-    },
-    {
-      "name": "Призраки",
-      "type": "ghost",
+      "name": "Нежить",
+      "type": "skull",
       "level": [
         40
       ]
     },
     {
       "name": "Личи",
-      "type": "magic",
+      "type": "lich",
       "level": [
         50
       ]
@@ -349,7 +333,7 @@
     {
       "icon": "dollar",
       "tooltip": "Листки",
-      "type": "soc"
+      "type": "jiub"
     }
   ]
 }
