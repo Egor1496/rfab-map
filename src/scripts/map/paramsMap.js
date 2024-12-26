@@ -127,6 +127,12 @@ export const getDefaultPM = () => {
 			Star: 0.2,
 			Altar: 0.2,
 			Bandit: 0.2,
+			caretaker: 1.3,
+			portalCairn: 0.7,
+			lich: 0.8,
+			skullBones: 0.6,
+			skulls: 0.6,
+			skull: 0.4,
 		},
 
 		// Типы иконок модальки маркера
