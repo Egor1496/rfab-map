@@ -17,7 +17,7 @@
   },
   {
     "description": "",
-    "id": "id-OOO",
+    "id": "id3",
     "top": 761.7,
     "left": 373.2,
     "type": "jiub",
@@ -34,10 +34,9 @@
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
-    "id": "id-OOO",
+    "id": "id4",
     "top": 904.5,
     "left": 443.9,
-    "type": "skull",
     "nameIcon": "skullBones",
     "prizeIcon": [
       [
@@ -47,42 +46,37 @@
   },
   {
     "description": "Драугр, Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id04",
     "top": 815.1,
     "left": 434.4,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id5",
     "top": 954.1,
     "left": 574.1,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id6",
     "top": 880.3,
     "left": 537.2,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id7",
     "top": 805.1,
     "left": 647.9,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>), Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
-    "id": "id-OOO",
+    "id": "id8",
     "top": 785.3,
     "left": 601.1,
-    "type": "skull",
     "nameIcon": "skulls",
     "prizeIcon": [
       [
@@ -92,18 +86,16 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id9",
     "top": 791,
     "left": 566.3,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Сундук",
-    "id": "id-OOO",
+    "id": "id10",
     "top": 894.8,
     "left": 633.8,
-    "type": "",
     "scale": 0.3,
     "nameIcon": "Loot",
     "prizeIcon": [
@@ -114,7 +106,7 @@
   },
   {
     "description": "<q ye>Сочинение Джиуба</q> (страница 1).",
-    "id": "id-OOO",
+    "id": "id11",
     "top": 709.4,
     "left": 556.4,
     "type": "jiub",
@@ -123,15 +115,14 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id12",
     "top": 742,
     "left": 557.8,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id13",
     "top": 664.7,
     "left": 337.2,
     "type": "lich",
@@ -139,18 +130,17 @@
   },
   {
     "description": "Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id14",
     "top": 725,
     "left": 394.7,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id15",
     "top": 747,
     "left": 436.6,
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skullBones",
     "prizeList": [
       "<q ye>Сочинение Джиуба</q> (страница 6)"
@@ -164,18 +154,16 @@
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id16",
     "top": 758.3,
     "left": 405.3,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Сундук",
-    "id": "id-OOO",
+    "id": "id17",
     "top": 675.1,
     "left": 439.4,
-    "type": "",
     "scale": 0.3,
     "nameIcon": "Loot",
     "prizeIcon": [
@@ -186,7 +174,7 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Драугры <q lgr>4</q>.",
-    "id": "id-OOO",
+    "id": "id18",
     "top": 623.6,
     "left": 382.6,
     "scale": 1,
@@ -198,30 +186,29 @@
         "chest-sm.png"
       ]
     ],
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skullBones"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>), Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id19",
     "top": 673.2,
     "left": 494.7,
-    "type": "skull lich",
+    "type": "lich",
     "nameIcon": "lich"
   },
   {
     "quests": [
       "Найти череп Арвака."
     ],
-    "id": "id-OOO",
+    "id": "id20",
     "top": 736.1,
     "left": 408.2,
-    "type": "",
     "nameIcon": "skull"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id21",
     "top": 804.9,
     "left": 1082.5,
     "type": "lich",
@@ -229,47 +216,42 @@
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id22",
     "top": 599.2,
     "left": 542.8,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id23",
     "top": 580.1,
     "left": 565.5,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id24",
     "top": 569.4,
     "left": 668.3,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id25",
     "top": 580.1,
     "left": 682.5,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Драугр.",
-    "id": "id-OOO",
+    "id": "id26",
     "top": 495.7,
     "left": 719.5,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id27",
     "top": 512,
     "left": 742.1,
     "type": "lich",
@@ -277,7 +259,7 @@
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id28",
     "top": 497.8,
     "left": 759.1,
     "type": "lich",
@@ -288,18 +270,16 @@
     "quests": [
       "Найти валерику. <q ye>Валерика</q>."
     ],
-    "id": "id-OOO",
+    "id": "id29",
     "top": 373.7,
     "left": 827.9,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id30",
     "top": 419.8,
     "left": 743.5,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
@@ -307,7 +287,7 @@
     "prizeList": [
       "<q ye>Сочинение Джиуба</q> (страница 2),"
     ],
-    "id": "id-OOO",
+    "id": "id31",
     "top": 347.4,
     "left": 740,
     "type": "lich jiub",
@@ -328,10 +308,10 @@
         "chest-sm.png"
       ]
     ],
-    "id": "id-OOO",
+    "id": "id32",
     "top": 349.5,
     "left": 951.8,
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skull"
   },
   {
@@ -345,23 +325,22 @@
         2
       ]
     ],
-    "id": "id-OOO",
+    "id": "id33",
     "top": 675.7,
     "left": 628.5,
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skullBones"
   },
   {
     "description": "Драугр <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id033",
     "top": 568.7,
     "left": 502,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id34",
     "top": 537.5,
     "left": 530,
     "type": "lich",
@@ -369,10 +348,9 @@
   },
   {
     "description": "Сундук",
-    "id": "id-OOO",
+    "id": "id35",
     "top": 693.5,
     "left": 564.8,
-    "type": "",
     "nameIcon": "Loot",
     "prizeIcon": [
       [
@@ -382,7 +360,7 @@
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id36",
     "top": 497.8,
     "left": 457.7,
     "type": "lich",
@@ -390,7 +368,7 @@
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id37",
     "top": 460.2,
     "left": 430,
     "type": "lich",
@@ -398,18 +376,16 @@
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id38",
     "top": 435.4,
     "left": 423.5,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Драугр.",
-    "id": "id-OOO",
+    "id": "id39",
     "top": 415.7,
     "left": 503.9,
-    "type": "skull",
     "nameIcon": "skullBones",
     "prizeIcon": [
       [
@@ -419,10 +395,10 @@
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугры <q lgr>2</q>, Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id40",
     "top": 387.9,
     "left": 601.8,
-    "type": "skull lich",
+    "type": "lich",
     "nameIcon": "lich",
     "prizeIcon": [
       [
@@ -432,86 +408,77 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id41",
     "top": 385.7,
     "left": 730.9,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id42",
     "top": 410.6,
     "left": 365.6,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>5</q>, Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугры <q lgr>5</q>.",
-    "id": "id-OOO",
+    "id": "id43",
     "top": 373,
     "left": 394.7,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id44",
     "top": 341.8,
     "left": 330.9,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id45",
     "top": 351.7,
     "left": 443.6,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Драугр, Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id46",
     "top": 312,
     "left": 431.6,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id47",
     "top": 314.8,
     "left": 488.3,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугры <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id48",
     "top": 317,
     "left": 412.4,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Драугры <q lgr>2</q>,  Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id49",
     "top": 256.7,
     "left": 433,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
     "prizeList": [
       "<q ye>Сочинение Джиуба</q> (страница 2)",
-      "<q ye>Сердце даэдра</q."
+      "<q ye>Сердце даэдра</q>."
     ],
-    "id": "id-OOO",
+    "id": "id50",
     "top": 273.3,
     "left": 460.8,
-    "type": "skull lich",
+    "type": "lich jiub",
     "nameIcon": "skullBones",
     "prizeIcon": [
       [
@@ -522,10 +489,9 @@
   },
   {
     "description": "Драугры <q lgr>2</q>, Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id51",
     "top": 319.8,
     "left": 315.2,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
@@ -533,10 +499,10 @@
     "prizeList": [
       "<q ye>Часть камня Жнеца</q>."
     ],
-    "id": "id-OOO",
+    "id": "id52",
     "top": 335,
     "left": 255.1,
-    "type": "skull lich caretaker",
+    "type": "lich caretaker",
     "nameIcon": "caretaker",
     "prizeIcon": [
       [
@@ -547,79 +513,64 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id53",
     "top": 682.2,
     "left": 715.9,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
-    "id": "id-OOO",
+    "id": "id54",
     "top": 609.1,
     "left": 716.6,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id55",
     "top": 708.4,
     "left": 683.2,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-OOO",
+    "id": "id56",
     "top": 695,
     "left": 786.1,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id57",
     "top": 787.2,
     "left": 762.7,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Смотритель (<q lbl>150</q><q tm llbl>lvl</q>), Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>), Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id58",
     "top": 746.7,
     "left": 900.5,
-    "type": "caretaker skull",
+    "type": "caretaker",
     "nameIcon": "caretaker"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-OOO",
+    "id": "id59",
     "top": 773.7,
     "left": 956.3,
-    "type": "skull",
-    "nameIcon": "skullы"
-  },
-  {
-    "description": "??????????? Лич (<q lbl>150</q><q tm llbl>lvl</q>), Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
-    "top": 760.9,
-    "left": 1020.1,
-    "type": "lich",
-    "nameIcon": "lich"
+    "nameIcon": "skulls"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id60",
     "top": 753.8,
     "left": 1066.2,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id61",
     "top": 704.9,
     "left": 1003.8,
     "type": "lich",
@@ -627,7 +578,7 @@
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>), Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
-    "id": "id-OOO",
+    "id": "id62",
     "top": 672.3,
     "left": 1066.9,
     "type": "lich",
@@ -638,29 +589,28 @@
     "prizeList": [
       "<q ye>Сочинение Джиуба</q> (страница 5)."
     ],
-    "id": "id-OOO",
+    "id": "id63",
     "top": 671.6,
     "left": 962.7,
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skullBones"
   },
   {
     "description": "Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>), Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-OOO",
+    "id": "id64",
     "top": 648.2,
     "left": 883.2,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>) <q lgr>2</q>, Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр <q lgr>2</q>.",
     "prizeList": [
-      "<q ye>Часть камня Жнеца</q."
+      "<q ye>Часть камня Жнеца</q>."
     ],
-    "id": "id-OOO",
+    "id": "id65",
     "top": 600.6,
     "left": 892.4,
-    "type": "skull",
+    "type": "lich",
     "nameIcon": "skullBones",
     "prizeIcon": [
       [
@@ -671,7 +621,7 @@
   },
   {
     "description": "Лич (<q lbl>150</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-OOO",
+    "id": "id66",
     "top": 513.1,
     "left": 1003.8,
     "type": "lich",
@@ -683,9 +633,9 @@
       "Нетерпеливый святой."
     ],
     "prizeList": [
-      "<q ye>Медальон Святого Джиуба</q."
+      "<q ye>Медальон Святого Джиуба</q>."
     ],
-    "id": "id-OOO",
+    "id": "id67",
     "top": 646.4,
     "left": 947.8,
     "type": "jiub",
@@ -693,91 +643,83 @@
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id68",
     "top": 484.7,
     "left": 895.3,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": " Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id69",
     "top": 559.9,
     "left": 883.9,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id70",
     "top": 564.1,
     "left": 1037.1,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id71",
     "top": 518.8,
     "left": 1056.3,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.",
     "prizeList": [
-      "<q ye>Череп Арвака</q."
+      "<q ye>Череп Арвака</q>."
     ],
-    "id": "id-OOO",
+    "id": "id72",
     "top": 446.4,
     "left": 1053.5,
-    "type": "skull",
     "nameIcon": "skullBones"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>), Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Драугр.",
-    "id": "id-OOO",
+    "id": "id73",
     "top": 442.9,
     "left": 963.4,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id74",
     "top": 448.5,
     "left": 1131,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id75",
     "top": 398.5,
     "left": 1183.1,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
-    "description": "????????????????? Нежить может зайти внутрь. Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.<br/>Собери <q lgr>3</q> части камня Жнеца. При активации Босс появляется моментально вместе с Драуграми и Скелетами.",
+    "description": "Снаружи Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>) <q lgr>2</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр.<br/>Нежить может зайти внутрь. Собери <q lgr>3</q> части камня Жнеца. При активации Босс появляется моментально вместе с Драуграми и Скелетами.",
     "prizeList": [
-      "<q ye>Пожиратель душ</q>, <q ye>Вызов Костяного Колосса (мастер)</q>, <q ye>Сердце даэдра</q>."
+      "<q ye>Пожиратель Душ</q>, <q ye>Вызов Костяного Колосса</q> (мастер), <q ye>Сердце Даэдра</q>."
     ],
     "bossList": [
       "Жнец"
     ],
-    "id": "id-OOO",
-    "top": 391.6,
-    "left": 1151.2,
-    "type": "skull boss",
+    "id": "id76",
+    "top": 760.9,
+    "left": 1020.1,
+    "scale": 1,
+    "type": "boss",
     "nameIcon": "skullBones"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
-    "id": "id-OOO",
+    "id": "id77",
     "top": 388.4,
     "left": 1123.1,
-    "type": "skull",
     "nameIcon": "skull"
   },
   {
@@ -785,45 +727,67 @@
     "prizeList": [
       "<q ye>Сочинение Джиуба</q> (страница 7)."
     ],
-    "id": "id-OOO",
+    "id": "id78",
     "top": 379.4,
     "left": 1182.7,
-    "type": "skull jiub",
+    "type": "jiub",
     "nameIcon": "skull"
   },
   {
     "description": "Смотритель (<q lbl>150</q><q tm llbl>lvl</q>), Костяной колосс (<q lbl>100</q><q tm llbl>lvl</q>), Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Драугр <q lgr>2</q>.",
     "prizeList": [
-      "<q ye>Драконий Костяной Лук</q."
+      "<q ye>Драконий Костяной Лук</q>."
     ],
-    "id": "id-OOO",
+    "id": "id79",
     "top": 278,
     "left": 1139,
-    "type": "skull caretaker",
+    "type": "caretaker",
     "nameIcon": "caretaker"
   },
   {
     "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>), Драугр <q lgr>2</q>.",
-    "id": "id-OOO",
+    "id": "id80",
     "top": 342.1,
     "left": 1038.5,
-    "type": "skull",
     "nameIcon": "skulls"
   },
   {
     "description": "Туманный человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>).",
     "prizeList": [
-      "<q ye>Часть камня Жнеца</q."
+      "<q ye>Часть камня Жнеца</q>."
     ],
-    "id": "id-OOO",
+    "id": "id81",
     "top": 267.1,
     "left": 1033.8,
-    "type": "skull",
     "nameIcon": "skullBones",
     "prizeIcon": [
       [
         "chest-sm.png"
       ]
+    ]
+  },
+  {
+    "description": "Яростный человек (<q lbl>60</q><q tm llbl>lvl</q>), Костяной человек (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>, Драугр <q lgr>2</q>.",
+    "id": "id82",
+    "top": 395.5,
+    "left": 1151.5,
+    "nameIcon": "skullBones"
+  },
+  {
+    "quests": [
+      "За гранью смерти. Найти Валерику. Победить Дюрневира."
+    ],
+    "id": "id83",
+    "top": 258.9,
+    "left": 857.6,
+    "scale": 1.5,
+    "type": "boss",
+    "nameIcon": "Dragon",
+    "bossList": [
+      "Дюрневир"
+    ],
+    "prizeList": [
+      "<q ye>Мастерский стук</q>, <q ye>Призыв Дракона</q>."
     ]
   }
 ]

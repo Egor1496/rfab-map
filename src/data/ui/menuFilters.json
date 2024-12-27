@@ -289,15 +289,13 @@
       "type": "falmer",
       "level": [
         30
-      ],
-      "isBoss": true
+      ]
     },
     {
       "name": "Двемеры",
       "type": "dwemer",
       "level": [
-        40,
-        50
+        40
       ]
     }
   ],
@@ -309,13 +307,6 @@
     }
   ],
   "soulcairn": [
-    {
-      "name": "Нежить",
-      "type": "skull",
-      "level": [
-        40
-      ]
-    },
     {
       "name": "Личи",
       "type": "lich",
@@ -331,7 +322,12 @@
       "type": "boss"
     },
     {
-      "icon": "dollar",
+      "icon": "crown",
+      "tooltip": "Смотритель",
+      "type": "caretaker"
+    },
+    {
+      "icon": "paper",
       "tooltip": "Листки",
       "type": "jiub"
     }

@@ -65,20 +65,28 @@
 
 ==========================================================================================
 
-  dollar -- soc
-  star -- xp
-  bottle -- bottle
-  word -- word
-  set -- set
-  chest -- chest
-  gold -- lode
-  barenziah -- roc
+  Фильтры:
 
-  standing_stones -- roc
-  book -- book
-  lode -- stal
+  Скайрим
+    dollar -- soc
+    star -- xp
+    bottle -- bottle
+    word -- word
+    set -- set
+    chest -- chest
+    gold -- lode
+    barenziah -- roc
 
-  skull -- boss
+  Солстхейм
+    standing_stones -- roc
+    book -- book
+    lode -- stal
+
+  Каирн душ
+    caretaker - Смотритель
+    jiub - Джиуб
+    boss - Босс
+    lich - Лич
 
 ==========================================================================================
 

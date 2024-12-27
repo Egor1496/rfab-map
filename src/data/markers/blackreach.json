@@ -1,1 +1,26 @@
-[]
+[
+  {
+    "description": "Двемерские Сферы (<q lbl>45</q><q tm llbl>lvl</q>) 6, Двемерский Паук (<q lbl>25</q><q tm llbl>lvl</q>).",
+    "id": "id-1",
+    "top": 210.3,
+    "left": 885.9,
+    "type": "dwemer",
+    "nameIcon": "dwemer"
+  },
+  {
+    "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) 3, Фалмер (<q lbl>35</q><q tm llbl>lvl</q>).",
+    "id": "id-1",
+    "top": 281.3,
+    "left": 931.2,
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) 3.",
+    "id": "id-1",
+    "top": 577.7,
+    "left": 876.5,
+    "type": "",
+    "nameIcon": "chaurus"
+  }
+]
