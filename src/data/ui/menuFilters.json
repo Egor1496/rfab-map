@@ -304,6 +304,11 @@
       "icon": "skull",
       "tooltip": "Боссы",
       "type": "boss"
+    },
+    {
+      "icon": "nirnroot",
+      "tooltip": "Корни",
+      "type": "nirnroot"
     }
   ],
   "soulcairn": [

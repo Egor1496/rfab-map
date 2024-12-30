@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" width="40px"
+  height="40px" x="0" y="0" viewBox="0 0 682.667 682.667" style="enable-background:new 0 0 512 512" xml:space="preserve"
+  class="">
+  <g>
+    <defs>
+      <clipPath id="a" clipPathUnits="userSpaceOnUse">
+        <path d="M0 512h512V0H0Z" fill="#000000" opacity="1" data-original="#000000" class="" />
+      </clipPath>
+    </defs>
+    <g clip-path="url(#a)" transform="matrix(1.7 0 0 -1.7 -100 910)">
+
+      <path
+        d="M0 0c-60.5 0-110-49.5-110-110v-15.001C-110-89.102-80.898-60-45-60A64.998 64.998 0 0 0-.001-78.095 65 65 0 0 0 44.998-60c35.898 0 65-29.102 65.002-65.001V-110C110-49.5 60.5 0 0 0"
+        style="fill-opacity:1;fill-rule:evenodd;stroke:none" transform="translate(255.999 462.002)" fill="#ffffff"
+        data-original="#8690af" class="" opacity="1" />
+      <path
+        d="M0 0a65.004 65.004 0 0 1-44.999 18.095c-35.898 0-65-29.102-65-65.001v-15H-160c0-29.788 22-54.685 50.554-59.249 6.586-56.214 71.507-100.75 109.447-100.75s102.861 44.536 109.447 100.75c28.554 4.564 50.554 29.461 50.554 59.249H110.001v15c-.002 35.899-29.104 65.001-65.002 65.001A65.004 65.004 0 0 1 0 0"
+        style="fill-opacity:1;fill-rule:evenodd;stroke:none" transform="translate(255.998 383.907)" fill="#ffffff"
+        data-original="#80b6ff" class="" opacity="1" />
+      <path
+        d="M0 0c10.553-5.742 52.076-33.688 59.412 4.508 5.049 26.289-33.29 27.522-56.929 26.638C-17.615 30.396-16.472 8.962 0 0"
+        style="fill-opacity:1;fill-rule:evenodd;stroke:none" transform="translate(180.581 273.954)" fill="#ffffff"
+        data-original="#f0e6e2" class="" opacity="1" />
+      <path
+        d="M0 0c7.335-38.195 48.858-10.25 59.411-4.508 16.472 8.962 17.615 30.396-2.483 31.147C33.29 27.522-5.049 26.289 0 0"
+        style="fill-opacity:1;fill-rule:evenodd;stroke:none" transform="translate(272.006 278.462)" fill="#ffffff"
+        data-original="#f0e6e2" class="" opacity="1" />
+      <path d="M0 0a61.096 61.096 0 0 0-31.639 0"
+        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:2.613;stroke-dasharray:none;stroke-opacity:1"
+        transform="translate(271.818 235.754)" fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="2.613" stroke-dasharray="none" stroke-opacity=""
+        data-original="#000000" class="" />
+      <path
+        d="M0 0c0-29.788-22-54.685-50.554-59.249-6.586-56.214-71.507-100.75-109.447-100.75s-102.861 44.536-109.447 100.75C-298.002-54.685-320.002-29.788-320.002 0h50.001v30.001c0 60.5 49.5 110 110 110s110-49.5 110-110V0z"
+        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:none;stroke-opacity:1"
+        transform="translate(416 322.001)" fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="22.926" stroke-dasharray="none" stroke-opacity=""
+        data-original="#000000" class="" />
+
+
+      <path
+        d="M0 0c10.553-5.742 52.076-33.688 59.412 4.508 5.049 26.289-33.29 27.522-56.929 26.638C-17.615 30.396-16.472 8.962 0 0Z"
+        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:none;stroke-opacity:1"
+        transform="translate(180.581 273.954)" fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="22.926" stroke-dasharray="none" stroke-opacity=""
+        data-original="#000000" class="" />
+      <path
+        d="M0 0c-10.553-5.742-52.076-33.688-59.411 4.508-5.049 26.289 33.29 27.522 56.928 26.638C17.615 30.396 16.472 8.962 0 0Z"
+        style="stroke-width:20;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:22.926;stroke-dasharray:none;stroke-opacity:1"
+        transform="translate(331.417 273.954)" fill="none" stroke="#000000" stroke-width="20" stroke-linecap="round"
+        stroke-linejoin="round" stroke-miterlimit="22.926" stroke-dasharray="none" stroke-opacity=""
+        data-original="#000000" class="" />
+
+    </g>
+  </g>
+</svg>
