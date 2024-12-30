@@ -264,15 +264,13 @@
       "type": "falmer",
       "level": [
         30
-      ],
-      "isBoss": true
+      ]
     },
     {
       "name": "Призраки",
       "type": "ghost",
       "level": [
-        30,
-        40
+        45
       ]
     }
   ],
@@ -281,6 +279,16 @@
       "icon": "skull",
       "tooltip": "Боссы",
       "type": "boss"
+    },
+    {
+      "icon": "portalCairn",
+      "tooltip": "Порталы",
+      "type": "portalCairn"
+    },
+    {
+      "icon": "dwemer",
+      "tooltip": "Парагон",
+      "type": "paragon"
     }
   ],
   "blackreach": [

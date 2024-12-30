@@ -1,6 +1,6 @@
 [
   {
-    "id": "id-1",
+    "id": "id1",
     "top": 110.6,
     "left": 612.1,
     "type": "nirnroot",
@@ -10,7 +10,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id2",
     "top": 124.9,
     "left": 674.7,
     "type": "nirnroot",
@@ -20,7 +20,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id3",
     "top": 190.3,
     "left": 629.6,
     "type": "nirnroot",
@@ -30,7 +30,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id4",
     "top": 165.8,
     "left": 726.2,
     "type": "nirnroot",
@@ -40,7 +40,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id5",
     "top": 234.9,
     "left": 535.1,
     "type": "nirnroot",
@@ -50,7 +50,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id6",
     "top": 307.1,
     "left": 406,
     "type": "nirnroot",
@@ -60,7 +60,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id7",
     "top": 350.6,
     "left": 170.8,
     "type": "nirnroot",
@@ -70,7 +70,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id8",
     "top": 373.5,
     "left": 520.7,
     "type": "nirnroot",
@@ -80,7 +80,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id9",
     "top": 378.3,
     "left": 605.7,
     "type": "nirnroot",
@@ -90,7 +90,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id10",
     "top": 352.8,
     "left": 763.9,
     "type": "nirnroot",
@@ -100,7 +100,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id11",
     "top": 357,
     "left": 940.8,
     "type": "nirnroot",
@@ -110,7 +110,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id12",
     "top": 525.9,
     "left": 206.9,
     "type": "nirnroot",
@@ -120,7 +120,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id13",
     "top": 453.7,
     "left": 307.8,
     "type": "nirnroot",
@@ -130,7 +130,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id14",
     "top": 536.5,
     "left": 410.3,
     "type": "nirnroot",
@@ -140,7 +140,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id15",
     "top": 546.6,
     "left": 525,
     "type": "nirnroot",
@@ -150,7 +150,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id16",
     "top": 573.7,
     "left": 878.6,
     "type": "nirnroot",
@@ -160,7 +160,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id17",
     "top": 696.4,
     "left": 379.6,
     "type": "nirnroot",
@@ -170,7 +170,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id18",
     "top": 735.7,
     "left": 696.7,
     "type": "nirnroot",
@@ -180,7 +180,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id19",
     "top": 849.3,
     "left": 773.1,
     "type": "nirnroot",
@@ -190,7 +190,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id20",
     "top": 948.6,
     "left": 625.5,
     "type": "nirnroot",
@@ -200,7 +200,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id21",
     "top": 848.8,
     "left": 588.3,
     "type": "nirnroot",
@@ -210,7 +210,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id22",
     "top": 813.7,
     "left": 516.1,
     "type": "nirnroot",
@@ -220,7 +220,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id23",
     "top": 914.1,
     "left": 437.5,
     "type": "nirnroot",
@@ -230,7 +230,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id24",
     "top": 887.5,
     "left": 337.7,
     "type": "nirnroot",
@@ -240,7 +240,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id25",
     "top": 868.9,
     "left": 298.9,
     "type": "nirnroot",
@@ -250,7 +250,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id26",
     "top": 808.4,
     "left": 254.3,
     "type": "nirnroot",
@@ -260,7 +260,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id27",
     "top": 989.7,
     "left": 234.1,
     "type": "nirnroot",
@@ -270,7 +270,7 @@
     ]
   },
   {
-    "id": "id-1",
+    "id": "id28",
     "top": 259.9,
     "left": 892.9,
     "type": "nirnroot",
@@ -281,7 +281,7 @@
   },
   {
     "description": "Двемерские Сферы (<q lbl>45</q><q tm llbl>lvl</q>) <q lgr>6</q>, Двемерский Паук (<q lbl>25</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id29",
     "top": 210.3,
     "left": 885.9,
     "type": "dwemer",
@@ -289,7 +289,7 @@
   },
   {
     "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>3</q>, Фалмер (<q lbl>35</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id30",
     "top": 281.3,
     "left": 931.2,
     "type": "falmer",
@@ -297,14 +297,14 @@
   },
   {
     "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id31",
     "top": 577.7,
     "left": 876.5,
     "nameIcon": "falmer"
   },
   {
     "description": "Двемерские Пауки (<q lbl>25</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
-    "id": "id-1",
+    "id": "id32",
     "top": 336.3,
     "left": 951.1,
     "type": "dwemer",
@@ -312,7 +312,7 @@
   },
   {
     "title": "Выход Скайрим.",
-    "id": "id-1",
+    "id": "id33",
     "top": 365.6,
     "left": 952.9,
     "scale": 0.5,
@@ -337,7 +337,7 @@
         "bottleM.png"
       ]
     ],
-    "id": "id-1",
+    "id": "id34",
     "top": 283.5,
     "left": 824.6,
     "scale": 0.4,
@@ -350,7 +350,7 @@
         "chest.png"
       ]
     ],
-    "id": "id-1",
+    "id": "id35",
     "top": 424.1,
     "left": 837.5,
     "type": "falmer",
@@ -358,7 +358,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id36",
     "top": 664.2,
     "left": 746.5,
     "type": "falmer",
@@ -366,7 +366,7 @@
   },
   {
     "description": "Фалмер (<q lbl>35</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id37",
     "top": 609.2,
     "left": 738.1,
     "type": "falmer",
@@ -374,7 +374,7 @@
   },
   {
     "description": "Ледяные Тролли (<q lbl>22</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id38",
     "top": 829.7,
     "left": 774.9,
     "scale": 0.3,
@@ -382,7 +382,7 @@
   },
   {
     "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id39",
     "top": 129.9,
     "left": 647,
     "type": "falmer",
@@ -391,7 +391,7 @@
   {
     "title": "Дымящаяся башня",
     "description": "Морозные пауки (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>11</q>.",
-    "id": "id-1",
+    "id": "id40",
     "top": 160.1,
     "left": 474.4,
     "scale": 0.5,
@@ -400,7 +400,7 @@
   {
     "title": "Дымящаяся башня",
     "description": "Морозные пауки (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>11</q>.",
-    "id": "id-1",
+    "id": "id41",
     "top": 184.1,
     "left": 401.6,
     "scale": 0.5,
@@ -408,7 +408,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>, Корус (<q lbl>30</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id42",
     "top": 252.9,
     "left": 425.6,
     "type": "falmer",
@@ -424,7 +424,7 @@
         "chest.png"
       ]
     ],
-    "id": "id-1",
+    "id": "id43",
     "top": 323.6,
     "left": 387.8,
     "type": "dwemer",
@@ -432,7 +432,7 @@
   },
   {
     "description": "Центурион (<q lbl>100</q><q tm llbl>lvl</q>), Великан (<q lbl>70</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id44",
     "top": 363.7,
     "left": 266.9,
     "type": "dwemer",
@@ -440,7 +440,7 @@
   },
   {
     "description": "Двемерские Сферы (<q lbl>45</q><q tm llbl>lvl</q>) <q lgr>6</q>.",
-    "id": "id-1",
+    "id": "id45",
     "top": 323,
     "left": 251.5,
     "type": "dwemer",
@@ -448,7 +448,7 @@
   },
   {
     "description": "Двемерские Сферы (<q lbl>45</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id46",
     "top": 292.8,
     "left": 190.4,
     "type": "dwemer",
@@ -456,7 +456,7 @@
   },
   {
     "title": "Выход Скайрим",
-    "id": "id-1",
+    "id": "id47",
     "top": 323,
     "left": 198.4,
     "scale": 0.5,
@@ -465,7 +465,7 @@
   {
     "title": "Выход Мзинчалефт",
     "description": "Зачар. Сфера (<q lbl>75</q><q tm llbl>lvl</q>), Двемерские Сферы (<q lbl>45</q><q tm llbl>lvl</q>) <q lgr>2</q>, Двемерские Пауки (<q lbl>25</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id48",
     "top": 207.9,
     "left": 135.8,
     "type": "dwemer",
@@ -473,7 +473,7 @@
   },
   {
     "description": "Корус (<q lbl>30</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id49",
     "top": 429.7,
     "left": 258.4,
     "type": "falmer",
@@ -481,7 +481,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id50",
     "top": 986.7,
     "left": 309.9,
     "type": "falmer",
@@ -489,7 +489,7 @@
   },
   {
     "description": "Двемерская Сфера (<q lbl>45</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id51",
     "top": 898.7,
     "left": 436.3,
     "type": "dwemer",
@@ -497,7 +497,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id52",
     "top": 783.2,
     "left": 263.7,
     "type": "falmer",
@@ -505,7 +505,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>4</q>.",
-    "id": "id-1",
+    "id": "id53",
     "top": 902.7,
     "left": 275.7,
     "type": "falmer",
@@ -522,7 +522,7 @@
     "bossList": [
       "Мзарк"
     ],
-    "id": "id-1",
+    "id": "id54",
     "top": 840.5,
     "left": 279.8,
     "type": "boss",
@@ -531,7 +531,7 @@
   },
   {
     "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id55",
     "top": 798.4,
     "left": 404.8,
     "type": "falmer",
@@ -539,7 +539,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id56",
     "top": 743.3,
     "left": 623.7,
     "type": "falmer",
@@ -547,7 +547,7 @@
   },
   {
     "description": "Выход Скайрим.",
-    "id": "id-1",
+    "id": "id57",
     "top": 738.4,
     "left": 662.5,
     "scale": 0.5,
@@ -555,7 +555,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id58",
     "top": 807.2,
     "left": 666.3,
     "type": "falmer",
@@ -563,7 +563,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id59",
     "top": 850.8,
     "left": 635.2,
     "type": "falmer",
@@ -575,7 +575,7 @@
     "prizeList": [
       "<q ye>Лут</q> под водой."
     ],
-    "id": "id-1",
+    "id": "id60",
     "top": 853,
     "left": 605.7,
     "type": "dwemer",
@@ -584,7 +584,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id61",
     "top": 846.5,
     "left": 690.3,
     "type": "falmer",
@@ -592,7 +592,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id62",
     "top": 889.6,
     "left": 658.1,
     "type": "falmer",
@@ -600,7 +600,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id63",
     "top": 908.2,
     "left": 672.3,
     "type": "falmer",
@@ -608,7 +608,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id64",
     "top": 973.1,
     "left": 623.7,
     "type": "falmer",
@@ -617,7 +617,7 @@
   {
     "title": "Выход Ральдбтхар - рынок",
     "description": "",
-    "id": "id-1",
+    "id": "id65",
     "top": 935.5,
     "left": 696.3,
     "scale": 0.5,
@@ -625,7 +625,7 @@
   },
   {
     "description": "Центурион (<q lbl>100</q><q tm llbl>lvl</q>), Корус (<q lbl>30</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id66",
     "top": 372.3,
     "left": 749.5,
     "type": "dwemer",
@@ -633,7 +633,7 @@
   },
   {
     "description": "Фалмер (<q lbl>35</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id67",
     "top": 385.8,
     "left": 650.2,
     "type": "falmer",
@@ -641,7 +641,7 @@
   },
   {
     "description": "Фалмер (<q lbl>35</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id68",
     "top": 417.7,
     "left": 609.1,
     "type": "falmer",
@@ -650,7 +650,7 @@
   {
     "title": "Катакомбы Тихого города",
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>19</q>.",
-    "id": "id-1",
+    "id": "id69",
     "top": 543.2,
     "left": 517.6,
     "type": "falmer",
@@ -659,7 +659,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>4</q>, Корус (<q lbl>30</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id70",
     "top": 643.2,
     "left": 513.3,
     "type": "falmer",
@@ -667,7 +667,7 @@
   },
   {
     "description": "Центурион (<q lbl>100</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id71",
     "top": 621.9,
     "left": 562.3,
     "type": "dwemer",
@@ -681,7 +681,7 @@
         "chest.png"
       ]
     ],
-    "id": "id-1",
+    "id": "id72",
     "top": 664.5,
     "left": 813.3,
     "type": "falmer",
@@ -690,7 +690,7 @@
   },
   {
     "description": "Корусы (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id73",
     "top": 240.4,
     "left": 606.3,
     "type": "falmer",
@@ -698,7 +698,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>4</q>.",
-    "id": "id-1",
+    "id": "id74",
     "top": 469.6,
     "left": 447.5,
     "type": "falmer",
@@ -706,7 +706,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>, Прислужник (<q lbl>15</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id75",
     "top": 529.5,
     "left": 438.6,
     "type": "falmer",
@@ -714,7 +714,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>4</q>, Корус (<q lbl>30</q><q tm llbl>lvl</q>), Прислужник (<q lbl>15</q><q tm llbl>lvl</q>).",
-    "id": "id-1",
+    "id": "id76",
     "top": 471,
     "left": 401.3,
     "type": "falmer",
@@ -722,7 +722,7 @@
   },
   {
     "description": "Крикни 'Безжалостная сила' в сферу для призыва <q lre>Дракона</q> (теневого).",
-    "id": "id-1",
+    "id": "id77",
     "top": 486.5,
     "left": 377.4,
     "type": "boss",
@@ -731,7 +731,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
-    "id": "id-1",
+    "id": "id78",
     "top": 588.1,
     "left": 379.6,
     "type": "falmer",
@@ -739,7 +739,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id79",
     "top": 562.8,
     "left": 410.6,
     "type": "falmer",
@@ -747,7 +747,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
-    "id": "id-1",
+    "id": "id80",
     "top": 547.3,
     "left": 325.4,
     "type": "falmer",
@@ -755,7 +755,7 @@
   },
   {
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
-    "id": "id-1",
+    "id": "id81",
     "top": 395.5,
     "left": 447.9,
     "type": "falmer",
@@ -763,7 +763,7 @@
   },
   {
     "description": "Прислужники (10лвл) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id82",
     "top": 521.1,
     "left": 352.1,
     "type": "falmer",
@@ -772,7 +772,7 @@
   {
     "title": "Насосная станция",
     "description": "Двемерский Паук (<q lbl>25</q><q tm llbl>lvl</q>), Прислужники (10лвл) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id83",
     "top": 427,
     "left": 431.9,
     "type": "falmer",
@@ -782,7 +782,7 @@
   {
     "title": "Зал собраний",
     "description": "Фалмер (<q lbl>35</q><q tm llbl>lvl</q>), Прислужники (0-25лвл) <q lgr>8</q>.",
-    "id": "id-1",
+    "id": "id84",
     "top": 498.5,
     "left": 404.9,
     "type": "falmer",
@@ -792,7 +792,7 @@
   {
     "title": "Зал размышлений",
     "description": "Фалмеры (<q lbl>35</q><q tm llbl>lvl</q>) <q lgr>2</q>, Прислужники (0-25лвл) <q lgr>7</q>.",
-    "id": "id-1",
+    "id": "id85",
     "top": 439.4,
     "left": 322.3,
     "type": "falmer",
@@ -801,7 +801,7 @@
   },
   {
     "description": "Фалмер (<q lbl>35</q><q tm llbl>lvl</q>), Прислужники (0-25лвл) <q lgr>2</q>.",
-    "id": "id-1",
+    "id": "id86",
     "top": 423.5,
     "left": 353,
     "type": "falmer",

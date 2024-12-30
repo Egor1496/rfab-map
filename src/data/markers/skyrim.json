@@ -5312,15 +5312,6 @@
     "left": 218
   },
   {
-    "title": "Лагерь Клеверовая изгород (<q lbl>10</q><q tm llbl>lvl</q>) (удален?)",
-    "description": "бандиты <q lgr>5</q> и один застрял в скале.",
-    "type": "bandit",
-    "nameIcon": "Campsite",
-    "id": "id324",
-    "top": 703.7,
-    "left": 307
-  },
-  {
     "title": "Лунная лесопилка (<q lbl>30</q><q tm llbl>lvl</q>)",
     "description": "Вампиры <q lgr>2</q>. Мирные, снимают праведность.",
     "type": "vampire",

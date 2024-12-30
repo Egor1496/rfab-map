@@ -1,1 +1,338 @@
-[]
+[
+  {
+    "title": "Главный вход",
+    "top": 549.2,
+    "left": 1010.2,
+    "scale": 0.5,
+    "id": "1",
+    "type": "portalCairn",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "description": "Призрак фалмера (<q lbl>60</q><q tm llbl>lvl</q>), Саблезуб.",
+    "top": 494.2,
+    "left": 1000.3,
+    "id": "2",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призрак фалмера (<q lbl>60</q><q tm llbl>lvl</q>).",
+    "top": 467.2,
+    "left": 990.2,
+    "id": "3",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 482.5,
+    "left": 947.9,
+    "id": "4",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "title": "Забытая Долина - Пещера",
+    "description": "Корусы <q lgr>5</q>.",
+    "top": 431.3,
+    "left": 980.6,
+    "id": "5",
+    "nameIcon": "Cave"
+  },
+  {
+    "title": "Портал",
+    "description": "Квестовый алтарь.",
+    "top": 366.2,
+    "left": 927.8,
+    "scale": 0.5,
+    "id": "6",
+    "type": "portalCairn",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "description": "Морозные пауки <q lgr>4</q>, Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>6</q>.",
+    "top": 453.9,
+    "left": 848.7,
+    "id": "7",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>4</q>.",
+    "top": 525.7,
+    "left": 777.8,
+    "id": "8",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 622.9,
+    "left": 794.5,
+    "id": "9",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
+    "top": 712.3,
+    "left": 822.5,
+    "id": "10",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "title": "Портал",
+    "description": "Квестовый алтарь.",
+    "top": 651.3,
+    "left": 835.4,
+    "scale": 0.5,
+    "id": "11",
+    "type": "portalCairn",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "title": "Вечерний Грот",
+    "description": "Фалмеры <q lgr>3</q>, Корус охотник. Проход «Вечерний Переход».",
+    "top": 734.8,
+    "left": 827.1,
+    "id": "011",
+    "type": "falmer",
+    "nameIcon": "Cave"
+  },
+  {
+    "description": "Ледяной великан (<q lbl>80</q><q tm llbl>lvl</q>), Призрак фалмера (<q lbl>60</q><q tm llbl>lvl</q>).",
+    "top": 463.2,
+    "left": 679.3,
+    "prizeList": [
+      "<q ye>Аметистовый парагон</q>."
+    ],
+    "id": "12",
+    "type": "ghost paragon",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Ледяной великан (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 415.3,
+    "left": 697.3,
+    "prizeList": [
+      "<q ye>Сапфировый парагон</q>."
+    ],
+    "id": "13",
+    "type": "ghost paragon",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 742.7,
+    "left": 771.4,
+    "id": "013",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
+    "top": 438.1,
+    "left": 575.4,
+    "id": "14",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "title": "Портал",
+    "description": "Квестовый алтарь.",
+    "top": 423.5,
+    "left": 578.8,
+    "scale": 0.5,
+    "id": "15",
+    "type": "portalCairn",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "description": "Призрак фалмера (<q lbl>60</q><q tm llbl>lvl</q>).",
+    "top": 424.6,
+    "left": 649.5,
+    "id": "16",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Призрак фалмера (<q lbl>60</q><q tm llbl>lvl</q>).",
+    "top": 354.3,
+    "left": 560.2,
+    "id": "17",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Фалмеры <q lgr>3</q>.",
+    "top": 325.6,
+    "left": 510.3,
+    "id": "18",
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Крутой склон, Фалмеры <q lgr>2</q>, Корусы <q lgr>2</q>.",
+    "top": 318.9,
+    "left": 484.3,
+    "id": "19",
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Фалмеры <q lgr>3</q>.",
+    "top": 347.2,
+    "left": 474.2,
+    "id": "019",
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Снизу: Корусы охотники <q lgr>3</q>. </br>Сверху: Фалмеры <q lgr>2</q>.",
+    "top": 392.2,
+    "left": 419.5,
+    "id": "20",
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Снизу: Корус охотник.</br>Сверху: Фалмер.",
+    "top": 428.3,
+    "left": 409.1,
+    "id": "21",
+    "type": "falmer",
+    "nameIcon": "falmer"
+  },
+  {
+    "description": "Короткий путь.",
+    "top": 488.6,
+    "left": 482.4,
+    "scale": 0.5,
+    "id": "22",
+    "nameIcon": "Star"
+  },
+  {
+    "description": "Фалмеров <q lgr>6</q>, Корусы <q lgr>2</q>. В пещере много ловушек.",
+    "top": 795.3,
+    "left": 284.3,
+    "id": "23",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "title": "Портал",
+    "description": "Квестовый алтарь.",
+    "top": 901,
+    "left": 316,
+    "scale": 0.5,
+    "id": "24",
+    "type": "portalCairn",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 859,
+    "left": 380.4,
+    "id": "25",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Снаружи: Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>12</q>. Чтобы войти в «Внутренне святилище» нужно взять воду из всех алтарей.",
+    "top": 837.4,
+    "left": 402,
+    "id": "26",
+    "type": "ghost",
+    "nameIcon": "ghost"
+  },
+  {
+    "description": "Выход из «Ледяной расщелины»",
+    "top": 778.9,
+    "left": 269.8,
+    "id": "27",
+    "nameIcon": "Cave"
+  },
+  {
+    "description": "Снаружи Фалмеры <q lgr>2</q>.<br/>Ледяная расщелина: Тролль, Фалмеры <q lgr>15</q>, Паук. Падать вниз только в воду, дальше можно будет подняться обратно.",
+    "top": 562.7,
+    "left": 406.9,
+    "id": "28",
+    "type": "falmer",
+    "nameIcon": "Cave"
+  },
+  {
+    "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>. При взятии слова появляются <q lgr>2</q> <q lre>Дракона</q>! (солнечных).<br/>Кичат лохасом, ломают лёд.",
+    "top": 596.8,
+    "left": 642.7,
+    "prizeList": [
+      "Слово <q ye>«Высасывание жизненной энергии»</q>."
+    ],
+    "scale": 0.9,
+    "id": "29",
+    "type": "ghost",
+    "nameIcon": "Dragon"
+  },
+  {
+    "description": "Ледяной великан (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 341.6,
+    "left": 484.7,
+    "prizeList": [
+      "<q ye>Изумрудный парагон</q>."
+    ],
+    "scale": 0.5,
+    "id": "30",
+    "type": "paragon",
+    "nameIcon": "Star"
+  },
+  {
+    "description": "Фалмеры <q lgr>2</q>, Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>, Ледяной великан (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 739.9,
+    "left": 254.9,
+    "prizeList": [
+      "<q ye>Брильянтовый парагон</q>."
+    ],
+    "id": "31",
+    "type": "ghost falmer paragon",
+    "nameIcon": "ghost"
+  },
+  {
+    "title": "Внутренне святилище (<q lre>ПРОХОД К БОССУ</q>)",
+    "description": "Некоторые статуи оживают, если взять у них предмет. Корусов (<q lbl>70</q><q tm llbl>lvl</q>) <q lgr>8</q>, Фалмеров (<q lbl>75</q><q tm llbl>lvl</q>) <q lgr>14</q>, Древний Ледяной атронах (<q lbl>125</q><q tm llbl>lvl</q>). В секретной комнате Ледяной великан (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 824.7,
+    "left": 410.9,
+    "scale": 0.5,
+    "prizeList": [
+      "<q ye>Рубиновый парагон</q>"
+    ],
+    "id": "32",
+    "type": "ghost paragon",
+    "nameIcon": "DwemerRuins"
+  },
+  {
+    "title": "Парагонный портал (нужны парагоны)",
+    "description": "Сапфир: Сокровищница.<br/>Изумруд: Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.<br/>Рубин: Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>5</q>, Тролли <q lgr>2</q>.<br/>Аметист: Портал в «Вечерний Грот».<br/>Бриллиант: Портал в «Ледяная расщелина».",
+    "top": 394.1,
+    "left": 706.8,
+    "scale": 0.5,
+    "id": "33",
+    "type": "portalCairn paragon",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "title": "Арена (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "bossList": [
+      "Викарий Виртур"
+    ],
+    "prizeList": [
+      "<q ye>Лук Ауриэля</q>",
+      "<q ye>Сет Древнего Фалмера</q>."
+    ],
+    "id": "34",
+    "top": 723.6,
+    "left": 604,
+    "type": "boss",
+    "nameIcon": "skull"
+  }
+]
