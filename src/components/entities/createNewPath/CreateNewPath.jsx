@@ -102,6 +102,9 @@ export const CreateNewPath = () => {
               const newPath = { n: inputV, l: [...pM.сreatedPath] }
 
               setLocalStorePath([newPath], pM.typeMap);
+
+              location.reload() //!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!111
+
               pM.listPath.push(newPath);
 
               deleteNewPath();
