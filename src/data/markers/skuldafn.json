@@ -1,1 +1,167 @@
-[]
+[
+  {
+    "description": "Огненный <q lre>Дракон</q>.",
+    "top": 385.9,
+    "left": 225.4,
+    "id": "1",
+    "scale": 1.2,
+    "nameIcon": "Dragon"
+  },
+  {
+    "description": "Морозный <q lre>Дракон</q>.<br/>Повелитель (<q lbl>100</q><q tm llbl>lvl</q>),<br/>Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>10</q>.",
+    "top": 752.5,
+    "left": 535.3,
+    "id": "2",
+    "scale": 1.2,
+    "nameIcon": "Dragon"
+  },
+  {
+    "description": "Драугры <q lgr>2</q>.",
+    "top": 380.2,
+    "left": 450.3,
+    "id": "3",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
+    "top": 588.7,
+    "left": 474.6,
+    "id": "4",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 829.4,
+    "left": 751.2,
+    "id": "5",
+    "nameIcon": "skulls"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
+    "top": 545.8,
+    "left": 669.2,
+    "id": "6",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 598.9,
+    "left": 580.5,
+    "id": "7",
+    "nameIcon": "skulls"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
+    "top": 716.4,
+    "left": 646.1,
+    "id": "8",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
+    "top": 878,
+    "left": 714.4,
+    "id": "9",
+    "nameIcon": "skulls"
+  },
+  {
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>2</q>.",
+    "top": 561.6,
+    "left": 876.6,
+    "id": "10",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугр (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 292.1,
+    "left": 619.5,
+    "id": "11",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугр (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 466.7,
+    "left": 656.8,
+    "id": "12",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугр (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 462.7,
+    "left": 884.5,
+    "id": "13",
+    "nameIcon": "skull"
+  },
+  {
+    "description": "Драугр (<q lbl>80</q><q tm llbl>lvl</q>).",
+    "top": 413.6,
+    "left": 774.9,
+    "id": "14",
+    "nameIcon": "skull"
+  },
+  {
+    "title": "Южная Башня",
+    "description": "Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
+    "top": 856.5,
+    "left": 470.9,
+    "id": "15",
+    "scale": 0.7,
+    "nameIcon": "Tomb"
+  },
+  {
+    "title": "Храм",
+    "description": "Повелители (<q lbl>100</q><q tm llbl>lvl</q>) <q lgr>4</q>, Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>16</q>.",
+    "top": 511.3,
+    "left": 771.5,
+    "id": "16",
+    "scale": 0.7,
+    "nameIcon": "Tomb"
+  },
+  {
+    "description": "Выход из Храма",
+    "top": 390.4,
+    "left": 683.4,
+    "id": "17",
+    "scale": 0.7,
+    "nameIcon": "Tomb"
+  },
+  {
+    "title": "Портал в Совнгард",
+    "description": "Можно войти в снике, если не заагрить врагов.",
+    "top": 218.6,
+    "left": 772.1,
+    "id": "18",
+    "nameIcon": "portalCairn"
+  },
+  {
+    "description": "Повелитель (<q lbl>100</q><q tm llbl>lvl</q>).",
+    "top": 900,
+    "left": 761.3,
+    "id": "19",
+    "nameIcon": "lich"
+  },
+  {
+    "description": "Повелитель (<q lbl>100</q><q tm llbl>lvl</q>), Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>5</q>.",
+    "top": 553.5,
+    "left": 751.5,
+    "id": "20",
+    "nameIcon": "lich"
+  },
+  {
+    "description": "Повелитель (<q lbl>100</q><q tm llbl>lvl</q>) <q lgr>2</q>, Драугры (<q lbl>80</q><q tm llbl>lvl</q>) <q lgr>4</q>.",
+    "top": 310.7,
+    "left": 773.8,
+    "id": "21",
+    "nameIcon": "lich"
+  },
+  {
+    "top": 259.9,
+    "left": 774.9,
+    "id": "22",
+    "scale": 0.8,
+    "bossList": [
+      "Накрин"
+    ],
+    "nameIcon": "Star"
+  }
+]

@@ -14,8 +14,8 @@ export const NavLinksMap = () => {
     { type: "forgottenvale", name: "Забытая долина" },
     { type: "soulcairn", name: "Каирн Душ" },
     { type: "skuldafn", name: "Скулдафн" },
-    { type: "sovngarde", name: "Совнгард" },
-    { type: "apocryphaworld", name: "Апокриф" },
+    // { type: "sovngarde", name: "Совнгард" },
+    // { type: "apocryphaworld", name: "Апокриф" },
   ]
 
   const getClassName = (link) => [

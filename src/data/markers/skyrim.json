@@ -3424,7 +3424,7 @@
   },
   {
     "title": "Серебряное логово (<q lbl>0</q><q tm llbl>lvl</q>) (<q lbl>40</q><q tm llbl>lvl</q>)",
-    "description": "Бандиты <q lgr>2</q> снаружи. Внутри на нижнем уровне есть дверь загадка и <q lgr>5</q> драугров. Далее <q lgr>2</q> ловушки и <q lgr>10</q> другров.",
+    "description": "Бандиты <q lgr>2</q> снаружи. Внутри на нижнем уровне есть дверь загадка и <q lgr>5</q> драугров. Далее <q lgr>2</q> ловушки и <q lgr>10</q> другров. Драугр повелитель (<q lblue>100lvl</q>) <q lblue>11000xp</q> в конце локации.",
     "type": "bandit draugry word",
     "nameIcon": "Tomb",
     "id": "id216",
@@ -3703,10 +3703,7 @@
     "nameIcon": "Tomb",
     "id": "id232",
     "top": 784.7,
-    "left": 885.4,
-    "prizeList": [
-      "<q re>Повелитель</q> (<q lbl>100</q><q tm llbl>lvl</q>) <q lbl>11000</q><q tm llbl>xp</q>."
-    ]
+    "left": 885.4
   },
   {
     "title": "Ветровая Дуга (<q lbl>40</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
