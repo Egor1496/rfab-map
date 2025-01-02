@@ -7,33 +7,30 @@ import { getScaledPos } from "../../transforms/getScaledPos";
 export const drawPoint = (point, callback) => {
 	const posIcon = getScaledPos(point.t, point.l);
 
-	fabric.Image.fromURL(
-		`${pM.urlMarkers}${pM.urlMarkersType}${pM.namePoint[point.ty]}.png`,
-		(oImg) => {
-			oImg
-				.set("hasControls", false)
-				.set("hasBorders", false)
-				.set("selectable", false)
-				.set("originX", "center")
-				.set("originY", "center")
-				.set("top", posIcon.top)
-				.set("left", posIcon.left)
-				.scale((pM.scalePoint[point.ty] * pM.base.coeffScale) / 7.5);
+	fabric.Image.fromURL(`${pM.urlMarkers}${pM.namePoint[point.ty]}.png`, (oImg) => {
+		oImg
+			.set("hasControls", false)
+			.set("hasBorders", false)
+			.set("selectable", false)
+			.set("originX", "center")
+			.set("originY", "center")
+			.set("top", posIcon.top)
+			.set("left", posIcon.left)
+			.scale((pM.scalePoint[point.ty] * pM.base.coeffScale) / 7.5);
 
-			if (point.ty === 1) {
-				oImg.on("mouseover", () => handlerMouseover(point, oImg));
-				oImg.on("mouseout", () => handlerMouseout(oImg));
-			}
-
-			oImg.on("mouseup", () => handlerMouseup());
-
-			if (point.ty === 0) oImg.moveTo(1);
-
-			pM.canvas.add(oImg);
-
-			callback(oImg);
+		if (point.ty === 1) {
+			oImg.on("mouseover", () => handlerMouseover(point, oImg));
+			oImg.on("mouseout", () => handlerMouseout(oImg));
 		}
-	);
+
+		oImg.on("mouseup", () => handlerMouseup());
+
+		if (point.ty === 0) oImg.moveTo(1);
+
+		pM.canvas.add(oImg);
+
+		callback(oImg);
+	});
 };
 
 export const drawLine = (props, callback) => {
