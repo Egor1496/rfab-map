@@ -2,10 +2,13 @@ import { pM } from "../paramsMap";
 
 export const getScaleIcon = (marker) => {
 	const coeff = pM.map.scaleX / pM.base.baseScale;
+
 	const scale =
 		(marker.scale || pM.scaleIconMarkers[marker.nameIcon] || pM.iconScaleDefault) * pM.coeffWidth;
 
-	let scaleIcon = (coeff * scale * (1.3 - pM.zoom.currentZoom * 0.08)) / 7.5;
+	const currZoom = pM.zoom.currentZoom > 8 ? 8 : pM.zoom.currentZoom;
+
+	let scaleIcon = (coeff * scale * (1.3 - currZoom * 0.08)) / 7.5;
 
 	if (pM.imgMF === ".svg") scaleIcon = scaleIcon * 8;
 
