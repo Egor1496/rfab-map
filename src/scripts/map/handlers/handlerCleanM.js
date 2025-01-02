@@ -7,7 +7,7 @@ export const handlerCleanM = (marker) => {
 	if (marker.isClean) pM.cleanLoc = pM.cleanLoc.filter((id) => !(id === marker.id));
 	else pM.cleanLoc.push(marker.id);
 
-	setLocalStoreCleanLoc(pM.cleanLoc);
+	setLocalStoreCleanLoc(pM.cleanLoc, pM.typeMap);
 
 	marker.isClean = !marker.isClean;
 

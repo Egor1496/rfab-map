@@ -7075,5 +7075,13 @@
         "Safe.webp"
       ]
     ]
+  },
+  {
+    "title": "Святилище Сангвина",
+    "id": "id471",
+    "top": 648,
+    "left": 578.4,
+    "type": "soc",
+    "nameIcon": "DaedricShrine"
   }
 ]

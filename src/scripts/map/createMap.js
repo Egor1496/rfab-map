@@ -17,9 +17,16 @@ import { isLoadPath } from "../../store/slice/dataLoad.slice";
 import { activeMap, activePath } from "../../store/slice/menuSelected.slice";
 import { pathNames } from "../../store/slice/pathNames.slice";
 
-import { getLocalStoreActivePath, getLocalStorePath, setOldStorePath } from "../global/localStore";
+import {
+	getLocalStoreActivePath,
+	getLocalStorePath,
+	setOldCleanLoc,
+	setOldStorePath,
+} from "../global/localStore";
 
 const loadMarkers = (dataMarkers) => {
+	setOldCleanLoc();
+
 	pM.listMarkers = dataMarkers;
 
 	if (pM.listMarkers) createMarkers(); // Добавить метки на карту.

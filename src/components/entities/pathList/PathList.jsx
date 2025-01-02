@@ -10,6 +10,7 @@ import { MyContext } from '../../shared/myContext/MyContext';
 
 import { store } from '../../../store/store';
 import { createPathMV, LoadMV } from '../../../store/slice/modalVisible.slice';
+
 import { handlerClickPath, handlerContextPath, handlerDeletePath, handlerDownloadPath } from './pathList.script';
 
 export const PathList = () => {
@@ -38,7 +39,6 @@ export const PathList = () => {
       </button>
     </div>
   ))
-
 
   return (
     <div className={sass.pathList}>

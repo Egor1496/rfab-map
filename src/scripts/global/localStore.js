@@ -11,13 +11,27 @@ export const setLocalStoreFilter = (typeFilter) => {
 	localStorage.setItem(key, JSON.stringify(value));
 };
 
-export const setLocalStoreCleanLoc = (listId) => {
+export const setOldCleanLoc = () => {
+	const oldCleanLocSky = JSON.parse(localStorage.getItem("clean-locations-sky")) || [],
+		oldCleanLocSols = JSON.parse(localStorage.getItem("clean-locations-sols")) || [];
+
+	const currCleanLocSky = JSON.parse(localStorage.getItem("rfab-map-cleanLoc"))?.["skyrim"] || [],
+		currCleanLocSols = JSON.parse(localStorage.getItem("rfab-map-cleanLoc"))?.["solstheim"] || [];
+
+	localStorage.removeItem("clean-locations-sky");
+	localStorage.removeItem("clean-locations-sols");
+
+	setLocalStoreCleanLoc([...oldCleanLocSky, ...currCleanLocSky], "skyrim");
+	setLocalStoreCleanLoc([...oldCleanLocSols, ...currCleanLocSols], "solstheim");
+};
+
+export const setLocalStoreCleanLoc = (listId, typeMap) => {
 	const key = "rfab-map-cleanLoc";
 	const oldCleanLoc = JSON.parse(localStorage.getItem(key) || "{}");
 
-	const value = { ...oldCleanLoc, [pM.typeMap]: listId };
+	oldCleanLoc[typeMap] = listId;
 
-	localStorage.setItem(key, JSON.stringify(value));
+	localStorage.setItem(key, JSON.stringify(oldCleanLoc));
 };
 
 //  (set) addLocalStorePath!!!!
@@ -25,7 +39,10 @@ export const setLocalStorePath = (newPathList, typeMap) => {
 	const key = "rfab-map-pathList";
 	const oldPathList = JSON.parse(localStorage.getItem(key) || "{}");
 
-	const value = { ...oldPathList, [typeMap]: [...(oldPathList[typeMap] || []), ...newPathList] };
+	const value = {
+		...oldPathList,
+		[typeMap]: [...(oldPathList[typeMap] || []), ...newPathList],
+	};
 
 	localStorage.setItem(key, JSON.stringify(value));
 };
