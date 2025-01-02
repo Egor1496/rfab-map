@@ -47,7 +47,7 @@ export const BossList = () => {
                   >
                     <div className={`${sass.boss}`}>
                       {boss.na}
-                      <span className={sass.lvl}> {boss.lvl ? boss.lvl + "lvl" : ""}</span>
+                      <span className={sass.lvl}> {boss.lvl ? boss.lvl : "?"}<span>lvl</span></span>
                     </div>
                   </div>
                 })

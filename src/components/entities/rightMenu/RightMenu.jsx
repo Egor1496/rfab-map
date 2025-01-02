@@ -27,9 +27,9 @@ export const RightMenu = () => {
         <AccordionTab header={<div className={sass.titleClean}>Очистить / Удалить</div>}>
           <ResetSettings />
         </AccordionTab>
-        <AccordionTab header={<div className={sass.titleDonat}>Поддержка</div>}>
+        {/* <AccordionTab header={<div className={sass.titleDonat}>Поддержка</div>}>
           <Donat />
-        </AccordionTab>
+        </AccordionTab> */}
       </MyAccordion>
     </MySidebar>
   )
