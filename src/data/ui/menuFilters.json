@@ -144,6 +144,11 @@
       "type": "word"
     },
     {
+      "icon": "lich",
+      "tooltip": "повелители",
+      "type": "lich"
+    },
+    {
       "icon": "set",
       "tooltip": "наборы брони",
       "type": "set"
