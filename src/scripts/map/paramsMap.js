@@ -134,6 +134,7 @@ export const getDefaultPM = () => {
 			skulls: 0.6,
 			skull: 0.4,
 			falmer: 0.4,
+			ghost: 0.5,
 		},
 
 		// Типы иконок модальки маркера
