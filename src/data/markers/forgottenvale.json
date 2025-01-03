@@ -179,8 +179,8 @@
     "top": 795.3,
     "left": 284.3,
     "id": "id23",
-    "type": "ghost",
-    "nameIcon": "ghost"
+    "type": "falmer",
+    "nameIcon": "falmer"
   },
   {
     "description": "Призраки фалмеров (<q lbl>60</q><q tm llbl>lvl</q>) <q lgr>3</q>.",
@@ -329,7 +329,7 @@
       "<q ye>Лук Ауриэля</q>",
       "<q ye>Сет Древнего Фалмера</q>."
     ],
-    "scale": 1,
+    "scale": 0.6,
     "id": "id34",
     "top": 723.6,
     "left": 604,
