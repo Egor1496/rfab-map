@@ -46,6 +46,8 @@ export const createMarker = (marker) => {
 
 		marker.oImg = oImg;
 
+		pM.countLoadMarkers++;
+
 		setVisibleMarker(marker);
 
 		pM.canvas.add(oImg);

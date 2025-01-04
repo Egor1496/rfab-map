@@ -92,10 +92,19 @@ export const createMap = (setIsLoadMap) => {
 
 		handlerWindow();
 
-		if ("ontouchstart" in window || (window.DocumentTouch && document instanceof DocumentTouch)) {
-			bindContainerTouchEvents();
-		} else {
-			bindContainerEvents();
-		}
+		let loadInterval = setInterval(() => {
+			if (pM.countLoadMarkers >= pM.listMarkers.length) {
+				if (
+					"ontouchstart" in window ||
+					(window.DocumentTouch && document instanceof DocumentTouch)
+				) {
+					bindContainerTouchEvents();
+				} else {
+					bindContainerEvents();
+				}
+
+				clearInterval(loadInterval);
+			}
+		}, 200);
 	});
 };

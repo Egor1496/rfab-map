@@ -72,6 +72,7 @@ export const getDefaultPM = () => {
 		cleanLoc: [], // Список X меток.
 
 		listMarkers: [], // Список меток json.
+		countLoadMarkers: 0, // Количество загруженных маркеров.
 
 		// Информация при наведении на метку.
 		markerInfo: {
