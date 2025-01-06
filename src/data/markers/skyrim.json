@@ -1,7 +1,7 @@
 [
   {
     "title": "Солитьюд (<q lbl>30</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Заброшенная канализация (<q lbl>30</q><q tm llbl>lvl</q>) Сразу на входе гигантские злокрысы 5. Много тайников. <br/> Крыло Пелагия (<q lbl>50</q><q tm llbl>lvl</q>): Очень маленькая комната, <q re>босс</q> (Валкиназ) слева в упоре, сразу атакует.",
+    "description": "Заброшенная канализация (<q lbl>30</q><q tm llbl>lvl</q>) Сразу на входе гигантские злокрысы <q lgr>5</q>. Много тайников. <br/> Крыло Пелагия (<q lbl>50</q><q tm llbl>lvl</q>): Очень маленькая комната, <q re>босс</q> (Валкиназ) слева в упоре, сразу атакует.",
     "quests": [
       "«Мужчина, который кричал \"Волки\"». Для активации квеста на Хризамер.",
       "на Хризамер (<q lbl>50</q><q tm llbl>lvl</q>). Достав Хризамер из ножен вас телепортит в другое измерение, из которого <q re>нельзя</q> выбраться не победив босса (Сэй'Жин). Внутри <q lgr>8</q> сильных огне. атронахов и <q lgr>3</q> <q re>Повелителя</q> (<q lbl>100</q><q tm llbl>lvl</q>) в конце."
@@ -462,7 +462,7 @@
   },
   {
     "title": "Лагерь Картспайр (<q lbl>20</q><q tm llbl>lvl</q>)",
-    "description": "Изгои <q lgr>11</q>.",
+    "description": "Изгои <q lgr>11</q> и ворожея.",
     "type": "trash",
     "nameIcon": "Campsite",
     "id": "id22",
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "title": "Форт Нойград (<q lbl>30</q><q tm llbl>lvl</q>)",
+    "title": "Форт Нойград (<q lbl>20</q><q tm llbl>lvl</q>) (<q lbl>30</q><q tm llbl>lvl</q>)",
     "description": "Маги (гроз/холод/огн) <q lgr>5</q> снаружи и <q lgr>8</q> внутри. Опасный босс за закрытой дверью.",
     "type": "magic magic_boss set",
     "nameIcon": "Fort",
@@ -924,7 +924,7 @@
   },
   {
     "title": "Кровавый Трон (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Внутри вампиры (2 спят ночью) <q lgr>8</q>, гончии <q lgr>3</q>, горгульи <q lgr>2</q> (Притворяются статуями)",
+    "description": "Внутри вампиры (<q lgr>2</q> спят ночью) <q lgr>8</q>, гончии <q lgr>3</q>, горгульи <q lgr>2</q> (Притворяются статуями)",
     "type": "vampire vampire_boss set",
     "nameIcon": "Fort",
     "id": "id44",
@@ -1175,8 +1175,8 @@
     ]
   },
   {
-    "title": "Морозная Пещера (<q lbl>35</q><q tm llbl>lvl</q>) (<q lbl>???</q><q tm llbl>lvl</q>)",
-    "description": "вампиры!!! <q re>Босс</q> и <q lgr>3</q> стихийных атронаха.",
+    "title": "Морозная Пещера (<q lbl>35</q><q tm llbl>lvl</q>) (<q lbl>?</q><q tm llbl>lvl</q>)",
+    "description": "Вампиры? <q re>Босс</q> и <q lgr>3</q> стихийных атронаха.",
     "type": "magic magic_boss",
     "nameIcon": "Cave",
     "id": "id55",
@@ -1400,7 +1400,7 @@
   },
   {
     "title": "Логово Моварта (<q lbl>40</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Внутри <q lgr>3</q> вампира (1 спит ночью), <q lgr>6</q> треллов и <q re>Босс</q> по квесту.",
+    "description": "Внутри <q lgr>3</q> вампира (<q lgr>1</q> спит ночью), <q lgr>6</q> треллов и <q re>Босс</q> по квесту.",
     "type": "vampire vampire_boss set",
     "nameIcon": "Cave",
     "id": "id67",
@@ -1615,14 +1615,14 @@
   },
   {
     "title": "Пещера Мерцающий Туман (<q lbl>40</q><q tm llbl>lvl</q>)",
-    "description": "Корус на входе, <q lgr>6</q> фалмеров, <q lgr>3</q> коруса и большой паук. Нужно иметь тир 2 стамину. Ловушка при выходе из тоннеля.",
+    "description": "Корус на входе, <q lgr>6</q> фалмеров, <q lgr>3</q> коруса и большой паук. Ловушка при выходе из тоннеля.",
     "type": "falmer",
     "nameIcon": "Cave",
     "id": "id82",
     "top": 553,
     "left": 778,
     "prizeList": [
-      "Центурион (<q lbl>100</q><q tm llbl>lvl</q>) <q lbl>2000</q><q tm llbl>xp</q>. В конце локации."
+      "<q lre>Центурион</q> (<q lbl>100</q><q tm llbl>lvl</q>) <q lbl>2000</q><q tm llbl>xp</q>. В конце локации."
     ]
   },
   {
@@ -1868,7 +1868,7 @@
   },
   {
     "title": "Мшистая пещера (<q lbl>20</q><q tm llbl>lvl</q>)",
-    "description": "Сприганты 3 и медведь",
+    "description": "Сприганты <q lgr>3</q> и медведь",
     "type": "animal bottle chest",
     "nameIcon": "Cave",
     "id": "id102",
@@ -2096,7 +2096,7 @@
   },
   {
     "title": "Пещера Кронвангр (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>40</q><q tm llbl>lvl</q>)",
-    "description": "Внутри <q lgr>18</q> пауков и <q lgr>3</q> <q re>вампира</q> (3 спят ночью).",
+    "description": "Внутри <q lgr>18</q> пауков и <q lgr>3</q> <q re>вампира</q> (<q lgr>3</q> спят ночью).",
     "type": "xp soc animal",
     "nameIcon": "Cave",
     "id": "id113",
@@ -2399,9 +2399,10 @@
     ]
   },
   {
-    "title": "Пруд Чистых Сосен",
-    "type": "soc",
-    "nameIcon": "Loot",
+    "title": "Пруд Чистых Сосен (<q lbl>10</q><q tm llbl>lvl</q>)",
+    "description": "Спригган.",
+    "type": "animal",
+    "nameIcon": "Pond",
     "id": "id132",
     "top": 287,
     "left": 294,
@@ -2573,7 +2574,7 @@
     "left": 899,
     "prizeList": [
       "Слово <q ye>Смертный приговор</q>",
-      "2 <q ye>Праха вампира</q>."
+      "<q lgr>2</q> <q ye>Праха вампира</q>."
     ],
     "prizeIcon": [
       [
@@ -6872,7 +6873,7 @@
   },
   {
     "title": "Данстарское убежище темного братства (<q lbl>25</q><q tm llbl>lvl</q>)",
-    "description": "Призраки милишники (<q lbl>30</q><q tm llbl>lvl</q>) 12, босс в конце.",
+    "description": "Призраки милишники (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>12</q>, босс в конце.",
     "type": "ghost bandit_boss",
     "nameIcon": "Settlement",
     "id": "id459",
@@ -7083,5 +7084,13 @@
     "left": 578.4,
     "type": "soc",
     "nameIcon": "DaedricShrine"
+  },
+  {
+    "title": "Доска объявлений (<q lbl>999</q><q tm llbl>lvl</q>)",
+    "id": "id472",
+    "top": 612.2,
+    "left": 707.5,
+    "scale": 0.2,
+    "nameIcon": "Star_F"
   }
 ]
