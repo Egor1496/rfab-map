@@ -92,6 +92,10 @@ export const createMap = (setIsLoadMap) => {
 
 		handlerWindow();
 
+		pM.fpsInterval = setInterval(() => {
+			pM.isMove = true;
+		}, pM.fpsMap);
+
 		let loadInterval = setInterval(() => {
 			if (pM.countLoadMarkers >= pM.listMarkers.length) {
 				if (

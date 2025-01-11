@@ -33,7 +33,11 @@ export const bindContainerTouchEvents = function () {
 					pM.transform.transX -= (touchX - touches[0].pageX) / pM.base.scale;
 					pM.transform.transY -= (touchY - touches[0].pageY) / pM.base.scale;
 
-					applyTransform();
+					if (pM.isMove) {
+						pM.isMove = false;
+
+						applyTransform();
+					}
 
 					if (transXOld != pM.transform.transX || transYOld != pM.transform.transY) {
 						e.preventDefault();

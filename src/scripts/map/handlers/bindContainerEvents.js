@@ -14,13 +14,9 @@ import { markerInfoMV } from "../../../store/slice/modalVisible.slice";
 
 mousewheel($);
 
-let pathTimer = false;
-
-pM.fpsInterval = setInterval(() => {
-	pM.isMove = true;
-}, pM.fpsMap);
-
 export const bindContainerEvents = function () {
+	let pathTimer = false;
+
 	var oldPageX,
 		oldPageY,
 		container = $(pM.canvas.wrapperEl);
@@ -36,9 +32,7 @@ export const bindContainerEvents = function () {
 			pM.cursor.pageX = Number((left / pM.coeffWidth / pM.base.coeffScale).toFixed(1));
 
 			// Создать новую точку если активирован режим создания нового маршрута.
-			if (isCreateNewPath()) {
-				createNewPath();
-			}
+			if (isCreateNewPath()) createNewPath();
 
 			clearTimeout(pathTimer);
 			pathTimer = false;

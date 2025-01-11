@@ -3,7 +3,8 @@ import { pM } from "../paramsMap";
 export const applyTransform = function () {
 	var maxTransX, maxTransY, minTransX, minTransY, group;
 
-	const space = 0;
+	const MarginX = 0,
+		MarginY = 0;
 
 	// Рассчитаем пороговые значения для смещения по оси x
 	if (pM.base.baseWidth * pM.base.scale <= pM.base.width) {
@@ -15,11 +16,12 @@ export const applyTransform = function () {
 		maxTransX = 0;
 		minTransX = (pM.base.width - pM.base.baseWidth * pM.base.scale) / pM.base.scale;
 	}
+
 	// Ограничим смещение пороговыми значениями по оси x
-	if (pM.transform.transX > maxTransX + space) {
-		pM.transform.transX = maxTransX + space;
-	} else if (pM.transform.transX < minTransX - space) {
-		pM.transform.transX = minTransX - space;
+	if (pM.transform.transX > maxTransX + MarginX) {
+		pM.transform.transX = maxTransX + MarginX;
+	} else if (pM.transform.transX < minTransX - MarginX) {
+		pM.transform.transX = minTransX - MarginX;
 	}
 
 	// Рассчитаем пороговые значения для смещения по оси y
@@ -30,11 +32,12 @@ export const applyTransform = function () {
 		maxTransY = 0;
 		minTransY = (pM.base.height - pM.base.baseHeight * pM.base.scale) / pM.base.scale;
 	}
+
 	// Ограничим смещение пороговыми значениями по оси y
-	if (pM.transform.transY > maxTransY + space) {
-		pM.transform.transY = maxTransY + space;
-	} else if (pM.transform.transY < minTransY - space) {
-		pM.transform.transY = minTransY - space;
+	if (pM.transform.transY > maxTransY + MarginY) {
+		pM.transform.transY = maxTransY + MarginY;
+	} else if (pM.transform.transY < minTransY - MarginY) {
+		pM.transform.transY = minTransY - MarginY;
 	}
 
 	// Сгруппируем все объекты на холсте и применим трансформацию
