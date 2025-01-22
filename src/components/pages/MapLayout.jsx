@@ -19,7 +19,7 @@ import { MarkerModal } from "../entities/markerModal/MarkerModal";
 
 import { LoadMV, markerInfoMV } from "../../store/slice/modalVisible.slice";
 import { contextCoppy } from '../../scripts/map/contextCoppy';
-import { Garland } from '../entities/garland/Garland';
+// import { Garland } from '../entities/garland/Garland';
 
 export const MapLayout = () => {
   const rMap = useRef(null);
@@ -58,7 +58,7 @@ export const MapLayout = () => {
         }
       }}
     >
-      <Garland />
+      {/* <Garland /> */}
 
       <Outlet />
 

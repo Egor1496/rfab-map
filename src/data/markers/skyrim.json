@@ -126,8 +126,8 @@
     ]
   },
   {
-    "title": "Подкаменная крепость (<q lbl>30</q><q tm llbl>lvl</q>) (<q lbl>???</q><q tm llbl>lvl</q>)",
-    "description": "Большой паук, фалмеров <q lgr>21</q>, двемеры???.",
+    "title": "Подкаменная крепость (<q lbl>30</q><q tm llbl>lvl</q>) (<q lbl>40</q><q tm llbl>lvl</q>)",
+    "description": "Большой паук, фалмеров <q lgr>21</q>, двемеры и <q lre>Центурион</q> (<q lbl>100</q><q tm llbl>lvl</q>).",
     "nameIcon": "UnderstoneKeep",
     "type": "roc falmer dwemer",
     "prizeIcon": [
@@ -140,7 +140,7 @@
     "left": 76
   },
   {
-    "title": "Маркарт (<q lbl>???</q><q tm llbl>lvl</q>) (<q lbl>???</q><q tm llbl>lvl</q>)",
+    "title": "Маркарт",
     "quests": [
       "«Дом ужасов» (<q lbl>35</q><q tm llbl>lvl</q>). Для убийства Турана. Доступен после <q lbl>20<q tm llbl>lvl</q></q>."
     ],
