@@ -1690,12 +1690,10 @@
     "id": "id86",
     "top": 467,
     "left": 419,
-    "prizeList": [
-      "<q ye>Броня Странствующего Рыцаря</q>."
-    ],
     "prizeIcon": [
       [
-        "chest.png"
+        "chest.png",
+        "(!?)"
       ],
       [
         "book.png"
