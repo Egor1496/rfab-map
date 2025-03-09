@@ -6957,7 +6957,14 @@
     ]
   },
   {
-    "title": "Святилище Сангвина",
+    "title": "Святилище Сангвина (<q lbl>0</q><q tm llbl>lvl</q>) (<q lbl>30</q><q tm llbl>lvl</q>)",
+    "description": "Пассивный босс.",
+    "bossList": [
+      "Старый орк"
+    ],
+    "prizeList": [
+      "<q ye>Орчий Лук Пламени</q>."
+    ],
     "id": "id471",
     "top": 648,
     "left": 578.4,
