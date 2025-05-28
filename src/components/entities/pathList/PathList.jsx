@@ -53,9 +53,9 @@ export const PathList = () => {
             onClick={() => dispatch(LoadMV(!store.getState().modalVisibleReducer.LoadMV))}
           />
 
-          <div className={`${sass.icon} ${sass.download}`}
+          {/* <div className={`${sass.icon} ${sass.download}`}
             onClick={() => handlerDownloadPath(selectActivePath)}
-          />
+          /> */}
         </div>
       }
 
