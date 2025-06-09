@@ -2333,14 +2333,14 @@
   },
   {
     "title": "Пещера Каменный Ручей (<q lbl>0</q><q tm llbl>lvl</q>)",
-    "description": "Бандиты <q lgr>4</q>. В пещере есть тайный вход в Кагрензел, а в нем сундук и далеко двемерский <q re>этеринавт-предводитель</q> (<q lbl>50</q><q tm llbl>lvl</q>) и фалмеры.",
+    "description": "Бандиты <q lgr>4</q>.",
     "type": "bandit roc xp",
     "nameIcon": "Cave",
     "id": "id128-0",
     "top": 663.3,
     "left": 1185.9,
     "prizeList": [
-      "<q ye>Лютня Финна</q> <q lbl>2500</q><q tm llbl>xp</q>."
+      "<q ye>Лютня Финна</q>."
     ],
     "prizeIcon": [
       [
