@@ -16,7 +16,7 @@ export const createMarker = (marker) => {
 	const scale = getScaleIcon(marker);
 	const pos = getScaledPos(marker.top, marker.left);
 
-	const urlCleanIcon = pM.urlMarkers + "Cross.png";
+	const urlCleanIcon = pM.urlMarkers + "Cross" + pM.imgMF;
 
 	const urlImg =
 		pM.urlMarkers +
