@@ -9,7 +9,6 @@ import { PathList } from '../pathList/PathList'
 import { LocationSettings } from '../locationSettings/LocationSettings'
 import { GraphicsSettings } from '../graphicsSettings/GraphicsSettings'
 import { ResetSettings } from '../resetSettings/ResetSettings'
-import { Donat } from '../donat/Donat'
 
 export const RightMenu = () => {
   return (
@@ -27,9 +26,6 @@ export const RightMenu = () => {
         <AccordionTab header={<div className={sass.titleClean}>Очистить / Удалить</div>}>
           <ResetSettings />
         </AccordionTab>
-        {/* <AccordionTab header={<div className={sass.titleDonat}>Поддержка</div>}>
-          <Donat />
-        </AccordionTab> */}
       </MyAccordion>
     </MySidebar>
   )

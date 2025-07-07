@@ -78,8 +78,7 @@ export const createMap = (setIsLoadMap) => {
 
 		setZoomCanvas(); // От масштабируем, чтобы сразу видеть всё карту.
 
-		// Загрузить пути и метки (async)
-		loadCurrentData(loadMarkers, loadPath);
+		loadCurrentData(loadMarkers, loadPath); // Загрузить пути и метки (async)
 
 		// Обновить значения масштаба.
 		pM.base.baseScale = pM.base.scale;

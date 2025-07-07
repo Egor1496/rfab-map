@@ -55,7 +55,7 @@ export const GraphicsSettings = () => {
           <div className={sass.title}>Локации:</div>
 
           <div className={sass.inputWrap}>
-            <SelectButton options={["hd", "svg", "cringe"]}
+            <SelectButton options={["hd", "svg"]}
               value={icon}
               onChange={(e) => {
                 dispatch(setHdMarker(e.value))
