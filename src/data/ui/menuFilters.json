@@ -124,11 +124,6 @@
   ],
   "skyrimAdd": [
     {
-      "icon": "dollar",
-      "tooltip": "социалка",
-      "type": "soc"
-    },
-    {
       "icon": "star",
       "tooltip": "квесты на опыт",
       "type": "xp"
