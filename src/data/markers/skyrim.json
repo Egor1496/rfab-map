@@ -71,10 +71,11 @@
     "title": "Рифтен",
     "description": "Убей грелод добрую для квеста.",
     "quests": [
+      "<q lgr>10</q> <q llre>огне</q>. соли для кузнеца. <q ye>5000</q><q lye>с</q> <q lbl>2500</q><q tm llbl>xp</q>.",
       "«Падение Гильдии воров» (<q lbl>35</q><q tm llbl>lvl</q>) (<q lbl>40</q><q tm llbl>lvl</q>). После <q lbl>квеста</q> «Прощай, Тёмное братство» убить <q gr>13</q> членов гильдии воров, почти все невидимки-милишники. и финального <q lre>босса</q> вампира.",
-      "Мадези <q ye>1000р</q>. Принеси бивень и золотую руду."
+      "Мадези <q ye>1000</q><q lye>с</q>. Принеси бивень и золотую руду."
     ],
-    "type": "bandit_boss",
+    "type": "bandit_boss xp",
     "nameIcon": "Riften",
     "id": "id3",
     "top": 885,
@@ -135,7 +136,7 @@
       "«Дом ужасов» (<q lbl>35</q><q tm llbl>lvl</q>). Для убийства Турана. Доступен после <q lbl>20<q tm llbl>lvl</q></q>."
     ],
     "nameIcon": "Markarth",
-    "type": "roc",
+    "type": "roc set",
     "id": "id8",
     "top": 568,
     "left": 92,
@@ -144,7 +145,7 @@
     ],
     "prizeList": [
       "<q ye>Бичь Даэдра</q>",
-      "<q ye>Сет Турана</q>",
+      "сет <q ye>Турана</q>",
       "<q ye>Символ Элейдона</q>."
     ],
     "prizeIcon": [
@@ -497,7 +498,7 @@
       "Эбонитовый воин"
     ],
     "prizeList": [
-      "<q pu>Сет эбонитового воина</q>"
+      "сет <q pu>Эбонитового Воина</q>"
     ]
   },
   {
@@ -848,9 +849,9 @@
   {
     "title": "Форт Нойград (<q lbl>20</q><q tm llbl>lvl</q>) (<q lbl>30</q><q tm llbl>lvl</q>)",
     "description": "Маги (гроз/холод/огн) <q lgr>5</q> снаружи и <q lgr>8</q> внутри. Опасный босс за закрытой дверью.",
-    "type": "magic magic_boss set",
+    "type": "magic magic_boss set map",
     "nameIcon": "Fort",
-    "id": "id43",
+    "id": "id43a",
     "top": 878,
     "left": 741,
     "bossList": [
@@ -858,8 +859,8 @@
       "Брандиш"
     ],
     "prizeList": [
-      "<q ye>Сет Ледяной Воли</q>",
-      "<q ye>Карта сокровищ (Нойгард)</q>."
+      "сет <q ye>Ледяной Воли</q>",
+      "</br><q ye>Карта Сокровищ</q> нойгард (ученик)."
     ],
     "prizeIcon": [
       [
@@ -879,6 +880,17 @@
     ]
   },
   {
+    "title": "Сокровище (карта нойгард)",
+    "id": "id43b",
+    "top": 881.4,
+    "left": 770,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Воздаяние</q>."
+    ]
+  },
+  {
     "title": "Кровавый Трон (<q lbl>50</q><q tm llbl>lvl</q>)",
     "description": "Внутри вампиры (<q lgr>2</q> спят ночью) <q lgr>8</q>, гончии <q lgr>3</q>, горгульи <q lgr>2</q> (Притворяются статуями)",
     "type": "vampire vampire_boss set",
@@ -890,7 +902,7 @@
       "Вигхар"
     ],
     "prizeList": [
-      "<q ye>Сет Древнего Вампира</q>."
+      "сет <q ye>Древнего Вампира</q>."
     ]
   },
   {
@@ -924,11 +936,14 @@
   {
     "title": "Висельная Скала (<q lbl>25</q><q tm llbl>lvl</q>)",
     "description": "Воины Серебряной руки <q lgr>3</q> снаружи и <q lgr>8</q> внутри.",
-    "type": "bandit",
+    "type": "bandit map",
     "nameIcon": "Fort",
     "id": "id47",
     "top": 565,
     "left": 948,
+    "prizeList": [
+      "Снаружи <q ye>Щит Звезда Магнуса</q> (карта <q lgr>VII</q>) ."
+    ],
     "prizeIcon": [
       [
         "book.png",
@@ -968,7 +983,7 @@
       "Фьола"
     ],
     "prizeList": [
-      "<q ye>Сет Фьолы</q>",
+      "сет <q ye>Фьолы</q>",
       "<q ye>Нордский Боевой Топор</q>",
       "<q ye>Щит Стойкость</q>"
     ],
@@ -1001,7 +1016,7 @@
       "Брурид"
     ],
     "prizeList": [
-      "<q ye>Сет Брурида</q>."
+      "сет <q ye>Брурида</q>."
     ],
     "prizeIcon": [
       [
@@ -1308,7 +1323,7 @@
       "Капитан Харгар"
     ],
     "prizeList": [
-      "<q ye>Сет Джари-Ра</q>",
+      "сет <q ye>Джари-Ра</q>",
       "<q ye>Лук Черной Крови</q>",
       "<q ye>Кольцо Черной Крови</q>",
       "<q ye>Сапоги Харгара</q>",
@@ -1358,7 +1373,7 @@
       "Моварт Пикуин"
     ],
     "prizeList": [
-      "<q ye>Сет Моварта</q>."
+      "сет <q ye>Моварта</q>."
     ]
   },
   {
@@ -1507,7 +1522,7 @@
     "quests": [
       "Саммерсетская тень. <q lgr>10</q> бандитов (<q lbl>39</q><q tm llbl>lvl</q>) и <q re>Босс</q> в конце."
     ],
-    "type": "bandit xp",
+    "type": "bandit xp set",
     "nameIcon": "Cave",
     "id": "id77",
     "top": 523,
@@ -1517,7 +1532,7 @@
     ],
     "prizeList": [
       "<q ye>Меч Королевы Фрейдис</q> <q lbl>2500</q><q tm llbl>xp</q> в сундуке",
-      "<q ye>Сет Линви</q> по квесту."
+      "</br>сет <q ye>Линви</q> по квесту."
     ],
     "prizeIcon": [
       [
@@ -1579,12 +1594,13 @@
   {
     "title": "Приют Редорана (<q lbl>0</q><q tm llbl>lvl</q>)",
     "description": "Бандиты <q lgr>3</q> и собака внутри.",
-    "type": "bandit xp",
+    "type": "bandit xp map",
     "nameIcon": "Cave",
     "id": "id83",
     "top": 561,
     "left": 589,
     "prizeList": [
+      "<q ye>Карта Сокровищ</q> <q lgr>IV</q>",
       "<q ye>Меч Армена</q> <q lbl>2500</q><q tm llbl>xp</q>."
     ],
     "prizeIcon": [
@@ -1789,7 +1805,7 @@
     ],
     "prizeList": [
       "<q ye>Амулет Голдура</q>",
-      "<q ye>Сет Воина Слова</q>."
+      "сет <q ye>Воина Слова</q>."
     ]
   },
   {
@@ -1913,7 +1929,7 @@
   {
     "title": "Грот Утопленника (<q lbl>20</q><q tm llbl>lvl</q>)",
     "description": "Спригганы <q lgr>4</q>, медведи <q lgr>4</q> и саблезуб.",
-    "type": "animal",
+    "type": "animal chest",
     "nameIcon": "Cave",
     "id": "id107",
     "top": 707,
@@ -1935,7 +1951,7 @@
   {
     "title": "Приречная застава (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "Бандиты. <q lgr>2</q> снаружи и <q lgr>7</q> внутри.",
-    "type": "bandit bandit_boss set",
+    "type": "bandit bandit_boss set xp bottle",
     "nameIcon": "Cave",
     "id": "id108",
     "top": 636,
@@ -1945,8 +1961,9 @@
       "Хайварр Железная Рука"
     ],
     "prizeList": [
+      "<q ye>Амулет Карджо</q> <q lbl>2500</q><q tm llbl>xp</q>",
       "<q ye>Перчатки Рваной Раны</q>",
-      "<q ye>Сет Воителя</q>",
+      "сет <q ye>Воителя</q>",
       "<q ye>Старый Меч Хайварра</q>."
     ],
     "prizeIcon": [
@@ -1957,6 +1974,9 @@
       [
         "chest-sm.png",
         "3"
+      ],
+      [
+        "bottleW.png"
       ]
     ]
   },
@@ -2151,7 +2171,7 @@
       "Мясник"
     ],
     "prizeList": [
-      "<q ye>Сет Мясника</q>",
+      "сет <q ye>Мясника</q>",
       "<q ye>Резак</q>",
       "<q ye>Потрошитель</q>."
     ],
@@ -2227,8 +2247,8 @@
   },
   {
     "title": "Каирн Холдира (<q lbl>40</q><q tm llbl>lvl</q>)",
-    "description": "Внутри призраки, <q lgr>2</q> драугра и <q re>Повелитель</q> (<q lbl>100</q><q tm llbl>lvl</q>) (удален?). Далее??? решетка <q re>закрывается</q>.",
-    "type": "draugry draugry_boss ghost xp lich",
+    "description": "Внутри призраки, <q lgr>4</q> драугра. Далее решетка на арене <q re>закрывается</q>!.",
+    "type": "draugry magic_boss ghost xp",
     "nameIcon": "Cave",
     "id": "id122",
     "top": 890,
@@ -2328,12 +2348,13 @@
   {
     "title": "Пещера Каменный Ручей (<q lbl>0</q><q tm llbl>lvl</q>)",
     "description": "Бандиты <q lgr>4</q>.",
-    "type": "bandit roc xp",
+    "type": "bandit roc xp map",
     "nameIcon": "Cave",
     "id": "id128-0",
     "top": 663.3,
     "left": 1185.9,
     "prizeList": [
+      "<q ye>Карта сокровищ</q> <q lgr>X</q>",
       "<q ye>Лютня Финна</q>."
     ],
     "prizeIcon": [
@@ -2371,11 +2392,14 @@
   {
     "title": "Лощина Сломанный шлем (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "Бандиты <q lgr>2</q> снаружи и <q lgr>3</q> внутри.",
-    "type": "bandit",
+    "type": "bandit map",
     "nameIcon": "Cave",
     "id": "id130",
     "top": 929,
     "left": 1235,
+    "prizeList": [
+      "на входе <q ye>Амулет Гремучих Змей</q> (карта <q lgr>IX</q>)."
+    ],
     "prizeIcon": [
       [
         "book.png"
@@ -2445,7 +2469,7 @@
   },
   {
     "title": "Кратер Драконий Зуб (<q lbl>20</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Изгои <q lgr>2</q> и ворожея.",
+    "description": "Изгои <q lgr>2</q> и ворожея. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
     "type": "trash dragon chest word",
     "nameIcon": "Dragon",
     "id": "id136",
@@ -2453,7 +2477,7 @@
     "left": 191,
     "prizeList": [
       "Слово <q ye>Элементная Ярость</q>",
-      "<q ye>Сокровище</q>."
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
     ],
     "prizeIcon": [
       [
@@ -2462,30 +2486,45 @@
     ]
   },
   {
-    "title": "Пик Древних (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "type": "dragon word",
+    "title": "Пик Древних (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "<q lgr>3</q> тролля. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon word chest animal",
     "nameIcon": "Dragon",
     "id": "id137",
     "top": 474,
     "left": 505,
     "prizeList": [
-      "Слово <q ye>Разоружение</q>."
+      "Слово <q ye>Разоружение</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
-    "title": "Алтарь Рожденного Небом (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "type": "dragon word",
+    "title": "Алтарь Рожденного Небом (<q lbl>25</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "Мать дымок. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon word chest ghost",
     "nameIcon": "Dragon",
     "id": "id138",
     "top": 435,
     "left": 619,
     "prizeList": [
-      "Слово <q ye>Морозное дыхание</q>."
+      "Слово <q ye>Морозное дыхание</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
-    "title": "Гора Антор (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "type": "dragon word",
+    "title": "Гора Антор (<q lbl>25</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "<q lgr>2</q> сильных мага. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon word magic",
     "nameIcon": "Dragon",
     "id": "id139",
     "top": 377,
@@ -2496,8 +2535,8 @@
   },
   {
     "title": "Двуглавый пик (<q lbl>40</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "После квеста <q re>Дракон</q>.",
-    "type": "dragon word priest",
+    "description": "После квеста <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon word priest chest",
     "nameIcon": "Dragon",
     "id": "id140",
     "top": 526,
@@ -2506,20 +2545,26 @@
       "Кросис"
     ],
     "prizeList": [
-      "Слово <q ye>Голосовой бросок</q>."
+      "Слово <q ye>Голосовой бросок</q> <q lgr>3</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
-    "title": "Скелетный гребень (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q lgr>3</q> скелета.",
+    "title": "Скелетный гребень (<q lbl>0</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "<q lgr>3</q> скелета. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
     "type": "skelet dragon chest word",
     "nameIcon": "Dragon",
     "id": "id141",
     "top": 622,
     "left": 1054,
     "prizeList": [
-      "<q ye>Сокровище</q>",
-      "Слово <q ye>Морозное дыхание</q>."
+      "Слово <q ye>Морозное дыхание</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
     ],
     "prizeIcon": [
       [
@@ -2529,31 +2574,44 @@
   },
   {
     "title": "Вершина Северный Ветер (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q lgr>3</q> скелета.",
-    "type": "skelet dragon word",
+    "description": "<q lgr>4</q> скелета. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "skelet dragon word chest",
     "nameIcon": "Dragon",
     "id": "id142",
     "top": 753,
     "left": 1114,
     "prizeList": [
-      "Слово <q ye>Шепот ауры</q>."
+      "Слово <q ye>Шепот ауры</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
     "title": "Откушенный Язык (<q lbl>20</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Некромант и <q lgr>3</q> скелета.",
-    "type": "dragon magic word",
+    "description": "Некромант и <q lgr>3</q> скелета. Маг. <q re>руна</q>, <q re>камень душ</q> (поток холода). </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon magic word chest",
     "nameIcon": "Dragon",
     "id": "id143",
     "top": 979,
     "left": 1181,
     "prizeList": [
-      "Слово <q ye>Испуг</q>."
+      "Слово <q ye>Испуг</q>",
+      "<q ye>Сундук Драконьего Жреца</q>",
+      "<q ye>Посох Огне Атронаха</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
-    "title": "Осенняя сторож. башня (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Бандиты <q lgr>4</q>.",
+    "title": "Осенняя сторож. башня (<q lbl>0</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "Бандиты <q lgr>4</q>. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
     "type": "bandit chest word",
     "nameIcon": "Dragon",
     "id": "id144",
@@ -2561,6 +2619,7 @@
     "left": 899,
     "prizeList": [
       "Слово <q ye>Смертный приговор</q>",
+      "<q ye>Сундук Драконьего Жреца</q>",
       "<q lgr>2</q> <q ye>Праха вампира</q>."
     ],
     "prizeIcon": [
@@ -2579,14 +2638,21 @@
     ]
   },
   {
-    "title": "Ход Древних (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "type": "dragon word",
+    "title": "Ход Древних (<q lbl>10</q><q tm llbl>lvl</q>) (<q lbl>50</q><q tm llbl>lvl</q>)",
+    "description": "Звери. </br><q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>",
+    "type": "dragon word animal chest",
     "nameIcon": "Dragon",
     "id": "id145",
     "top": 901,
     "left": 628,
     "prizeList": [
-      "Слово <q ye>Мощь Хищника</q>."
+      "Слово <q ye>Мощь Хищника</q>",
+      "</br>Сундук <q ye>Драконьего Жреца</q>."
+    ],
+    "prizeIcon": [
+      [
+        "chest.png"
+      ]
     ]
   },
   {
@@ -2602,7 +2668,7 @@
       "Оркендор"
     ],
     "prizeList": [
-      "<q ye>Сет Двемеского Архитектора</q>",
+      "сет <q ye>Двемеского Архитектора</q>",
       "<q ye>Боевой Посох Оркендора</q>."
     ]
   },
@@ -2710,7 +2776,7 @@
       "Ален Дюфон"
     ],
     "prizeList": [
-      "<q ye>Сет Алена Дюфона</q>",
+      "сет <q ye>Алена Дюфона</q>",
       "<q ye>Проклятие Эгиды</q>",
       "<br/>Вход в <q ye>Черный предел</q> (есть отдельная карта)."
     ],
@@ -2966,7 +3032,7 @@
   },
   {
     "title": "Шахта Потерянный Шанс",
-    "type": "lode",
+    "type": "lode mine",
     "nameIcon": "Mine",
     "id": "id180",
     "top": 871.5,
@@ -2979,7 +3045,7 @@
     "title": "Шахта Камень Шора (<q lbl>20</q><q tm llbl>lvl</q>)",
     "description": "Парализующие паучки <q lgr>6</q>.",
     "quests": [
-      "Кузнеца. Зачистить шахту <q ye>1000р</q>."
+      "Кузнеца. Зачистить шахту <q ye>1000</q><q lye>с</q>."
     ],
     "type": "animal",
     "nameIcon": "Mine",
@@ -2995,7 +3061,7 @@
   {
     "title": "Шахта Северный Ветер (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "<q lgr>3</q> скелета.",
-    "type": "skelet",
+    "type": "skelet mine",
     "nameIcon": "Mine",
     "id": "id183",
     "top": 731.5,
@@ -3011,7 +3077,7 @@
   },
   {
     "title": "Шахта Черный Брод",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id185",
     "top": 696.5,
@@ -3022,7 +3088,7 @@
   },
   {
     "title": "Шахта горячий пар",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id186",
     "top": 545.5,
@@ -3033,7 +3099,7 @@
   },
   {
     "title": "Сумрачная шахта",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id187",
     "top": 570.5,
@@ -3044,7 +3110,7 @@
   },
   {
     "title": "Шахта",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id190",
     "top": 259.5,
@@ -3056,7 +3122,7 @@
   {
     "title": "Желчная шахта (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "Бандиты орки <q lgr>3</q> снаружи и <q lgr>1</q> внутри.",
-    "type": "bandit",
+    "type": "bandit mine",
     "nameIcon": "Mine",
     "id": "id194",
     "top": 719.5,
@@ -3085,7 +3151,7 @@
   },
   {
     "title": "Шахта",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id196",
     "top": 664.3,
@@ -3097,7 +3163,7 @@
   {
     "title": "Шахта колскеггр (<q lbl>20</q><q tm llbl>lvl</q>)",
     "description": "Изгои <q lgr>3</q> снаружи и <q lgr>5</q> внутри.",
-    "type": "trash lode",
+    "type": "trash lode mine",
     "nameIcon": "Mine",
     "id": "id198",
     "top": 537.6,
@@ -3108,7 +3174,7 @@
   },
   {
     "title": "Шахта Сануарах",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id200",
     "top": 451.3,
@@ -3119,7 +3185,7 @@
   },
   {
     "title": "Шахта ущелье фенна",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id201",
     "top": 460.3,
@@ -3130,7 +3196,7 @@
   },
   {
     "title": "Шахта",
-    "type": "",
+    "type": "mine",
     "nameIcon": "Mine",
     "id": "id202",
     "top": 330.3,
@@ -3171,13 +3237,13 @@
   {
     "title": "Лесной оплот (<q lbl>25</q><q tm llbl>lvl</q>) (<q lbl>30</q><q tm llbl>lvl</q>)",
     "description": "Изгои <q lgr>3</q> снаружи и папаша, <q lgr>7</q> внутри и <q lgr>4</q> <q re>руны</q> холода, потом <q lgr>14</q> снаружи, <q lgr>8</q> <q re>ведьм</q> внутри и ворожея.",
-    "type": "trash  set",
+    "type": "trash set",
     "nameIcon": "Tomb",
     "id": "id204",
     "top": 336.8,
     "left": 216.3,
     "prizeList": [
-      "Над водопадом <q ye>Сет Хищника</q>",
+      "Над водопадом сет <q ye>Хищника</q>",
       "Слово <q ye>Замедление времени</q>",
       "<q ye>Торнадо</q>",
       "<q ye>Рецепт комб. яд V</q>."
@@ -3228,7 +3294,7 @@
     "top": 306.8,
     "left": 562.9,
     "prizeList": [
-      "<q ye>Сет Языка</q>",
+      "сет <q ye>Языка</q>",
       "Слово <q ye>Замедление времени</q>."
     ]
   },
@@ -3359,7 +3425,7 @@
     "quests": [
       "«Зубчатая корона». <q lgr>3</q> солдата снаружи и <q lgr>14</q> внутри. Далее активировав рычаг восстанут <q lgr>6</q> драугров. В конце <q lgr>2</q> драугра."
     ],
-    "type": "bandit draugry draugry_boss word set",
+    "type": "bandit draugry draugry_boss word set map",
     "nameIcon": "Tomb",
     "id": "id215",
     "top": 478.8,
@@ -3368,9 +3434,10 @@
       "Король Боргас"
     ],
     "prizeList": [
+      "Снаружи <q ye>Кольцо Королевской Кобры</q> (карта <q lgr>VI</q>)",
       "Слово <q ye>Замедление времени</q>",
       "<q ye>Зубчатая Корона</q>",
-      "<q ye>Сет Боргаса</q>."
+      "сет <q ye>Боргаса</q>."
     ],
     "prizeIcon": [
       [
@@ -3419,7 +3486,7 @@
     "top": 206.8,
     "left": 932.9,
     "prizeList": [
-      "<q ye>Сет предвестника</q>",
+      "сет <q ye>предвестника</q>",
       "<q ye>Бафф Истинный Соратник</q>",
       "<q ye>Превосходное Зелье</q>????."
     ]
@@ -3452,7 +3519,7 @@
       "Тень Ингола"
     ],
     "prizeList": [
-      "<q ye>Сет Ингола</q>",
+      "сет <q ye>Ингола</q>",
       "<q ye>Щит Печаль Исграмора</q>."
     ]
   },
@@ -3625,7 +3692,7 @@
       "Валс Веран"
     ],
     "prizeList": [
-      "<q ye>Сет Валса Веран</q>",
+      "сет <q ye>Валса Веран</q>",
       "<q ye>Клинок Боего мага</q>."
     ],
     "prizeIcon": [
@@ -4020,11 +4087,14 @@
   {
     "title": "Приют Подмастерья (<q lbl>0</q><q tm llbl>lvl</q>)",
     "description": "Бандит.",
-    "type": "bandit",
+    "type": "bandit map",
     "nameIcon": "NordicDwelling",
     "id": "id256",
     "top": 340.8,
     "left": 1051.3,
+    "prizeList": [
+      "<q ye>Карта Сокровищ</q> <q lgr>II</q>."
+    ],
     "prizeIcon": [
       [
         "book.png"
@@ -4272,8 +4342,8 @@
     "type": "bandit",
     "nameIcon": "Bandit",
     "id": "id268",
-    "top": 738,
-    "left": 644.7,
+    "top": 720.6,
+    "left": 659.2,
     "prizeIcon": [
       [
         "purse.png"
@@ -4378,14 +4448,15 @@
   },
   {
     "title": "Пост Предателя (<q lbl>0</q><q tm llbl>lvl</q>)",
-    "description": "Бандиты <q lgr>3</q>-<q lgr>4</q>.",
-    "type": "bandit xp",
+    "description": "Бандиты <q lgr>4</q>.",
+    "type": "bandit xp map",
     "nameIcon": "Shack",
     "id": "id274",
     "top": 468.3,
     "left": 1147.9,
     "prizeList": [
-      "<q ye>Амулет Шави</q> <q lbl>2500</q><q tm llbl>xp</q> в сейфе."
+      "<q ye>Карта Сокровищ</q> <q lgr>VII</q> (новичек)",
+      "</br><q ye>Амулет Шави</q> <q lbl>2500</q><q tm llbl>xp</q> в сейфе."
     ],
     "prizeIcon": [
       [
@@ -4572,7 +4643,7 @@
   {
     "title": "Лагерь Бронин (<q lbl>10</q><q tm llbl>lvl</q>)",
     "description": "Бандиты <q lgr>4</q> снаружи.",
-    "type": "bandit bandit_boss",
+    "type": "bandit bandit_boss xp",
     "nameIcon": "Campsite",
     "id": "id285",
     "top": 135,
@@ -4581,6 +4652,7 @@
       "Нарикус"
     ],
     "prizeList": [
+      "<q ye>Убить Нарикуса</q> <q lbl>2500</q><q tm llbl>xp</q>",
       "<q ye>Имперский меч Нарикуса</q>",
       "<q ye>Щит Нарикуса</q>."
     ],
@@ -4650,7 +4722,7 @@
     "quests": [
       "«Прощай, Тёмное Братство». Убить всех боссов. Расположены по порядку, можно успеть убить поодиночке."
     ],
-    "type": "bantit bandit_boss magic_boss roc",
+    "type": "bantit bandit_boss magic_boss roc set",
     "nameIcon": "Settlement",
     "id": "id289",
     "top": 820,
@@ -4664,8 +4736,8 @@
       "Фестус Крекс"
     ],
     "prizeList": [
-      "<q ye>Сет Пенитус Окулатус</q> за квест",
-      "<br/><q ye>Сет теней</q> за квест",
+      "сет <q ye>Пенитус Окулатус</q> за квест",
+      "<br/>сет <q ye>теней</q> за квест",
       "<br/><q ye>Кольцо ночного ткача</q> за квест."
     ],
     "prizeIcon": [
@@ -4779,7 +4851,7 @@
       "Варис"
     ],
     "prizeList": [
-      "<q ye>Карта</q> провинции Скайрим <q lbl>2500</q><q tm llbl>xp</q>???."
+      "<q ye>Карта</q> провинции Скайрим <q lbl>2500</q><q tm llbl>xp</q>."
     ],
     "prizeIcon": [
       [
@@ -4849,13 +4921,16 @@
     ]
   },
   {
-    "title": "Бандиты (<q lbl>0</q><q tm llbl>lvl</q>)",
-    "description": "<q lgr>3</q>.",
-    "type": "bandit",
+    "title": "Лагерь (<q lbl>0</q><q tm llbl>lvl</q>)",
+    "description": "Бандиты <q lgr>3</q>.",
+    "type": "bandit map",
     "nameIcon": "Bandit",
     "id": "id299",
     "top": 796.7,
     "left": 640,
+    "prizeList": [
+      "<q ye>Карта Сокровищ</q> <q lgr>I</q>."
+    ],
     "prizeIcon": [
       [
         "book.png"
@@ -5639,7 +5714,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id350",
@@ -5648,7 +5723,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id351",
@@ -5657,7 +5732,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id352",
@@ -5666,7 +5741,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "Он там есть?. <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "Он там есть?. <q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id353",
@@ -5675,7 +5750,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id354",
@@ -5684,7 +5759,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id355",
@@ -5693,7 +5768,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id356",
@@ -5702,7 +5777,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id357",
@@ -5711,7 +5786,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id358",
@@ -5720,7 +5795,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id359",
@@ -5729,7 +5804,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id360",
@@ -5738,7 +5813,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id361",
@@ -5747,7 +5822,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id362",
@@ -5756,7 +5831,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id363",
@@ -5765,7 +5840,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id364",
@@ -5774,7 +5849,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id365",
@@ -5783,7 +5858,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id366",
@@ -5792,7 +5867,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id367",
@@ -5801,7 +5876,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id368",
@@ -5810,7 +5885,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id369",
@@ -5819,7 +5894,7 @@
   },
   {
     "title": "Курган (<q lbl>50</q><q tm llbl>lvl</q>)",
-    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>. <br/> Используй Слово «Разоружение».",
+    "description": "<q re>Дракон</q> (<q lbl>150</q>-<q lbl>200</q><q tm llbl>lvl</q>) <q lbl>16000</q>-<q lbl>20000</q><q tm llbl>xp</q>.",
     "type": "dragon",
     "nameIcon": "Circle",
     "id": "id370",
@@ -5846,7 +5921,7 @@
   },
   {
     "title": "Труп мага (<q lbl>0</q><q tm llbl>lvl</q>)",
-    "description": "Пару волков.",
+    "description": "Пару волков. Магические <q lre>руны</q> холода.",
     "type": "",
     "nameIcon": "Loot",
     "id": "id372",
@@ -5901,15 +5976,6 @@
     ]
   },
   {
-    "title": "Стоянка охотников",
-    "type": "",
-    "nameIcon": "Mammoth",
-    "scale": 0.2,
-    "id": "id376",
-    "top": 610.6,
-    "left": 1106.8
-  },
-  {
     "title": "Ящики",
     "type": "",
     "nameIcon": "Loot",
@@ -5959,13 +6025,14 @@
   },
   {
     "title": "Неудачник лоренц",
-    "type": "",
+    "type": "map",
     "nameIcon": "Shack",
     "id": "id382",
     "top": 633.6,
     "left": 922.4,
     "prizeList": [
-      "<q ye>Снаряжение</q>."
+      "<q ye>Карта Сокровищ</q> <q lgr>IX</q>",
+      "<q ye>Святилище Дибеллы</q>."
     ]
   },
   {
@@ -6021,12 +6088,28 @@
     "left": 1288.5
   },
   {
-    "title": "Событие (<q lbl>10</q><q tm llbl>lvl</q>)",
+    "title": "Событие (<q lbl>10</q>-<q lbl>20</q><q tm llbl>lvl</q>)",
     "description": "Случайный враг",
     "nameIcon": "Star",
     "id": "id389b",
     "top": 477.8,
     "left": 1153.1
+  },
+  {
+    "title": "Событие (<q lbl>0</q>-<q lbl>25</q><q tm llbl>lvl</q>)",
+    "description": "Случайный враг",
+    "nameIcon": "Star",
+    "id": "id389с",
+    "top": 525.1,
+    "left": 668.7
+  },
+  {
+    "title": "Событие (<q lbl>0</q>-<q lbl>25</q><q tm llbl>lvl</q>)",
+    "description": "Случайный враг",
+    "nameIcon": "Star",
+    "id": "id389d",
+    "top": 743.1,
+    "left": 656.2
   },
   {
     "description": "Проход в «Форт стражи рассвета»",
@@ -6413,7 +6496,7 @@
     "top": 871.3,
     "left": 761.2,
     "prizeList": [
-      "<q ye>Золото</q>."
+      "<q ye>Золото</q> <q lgr>2</q>."
     ]
   },
   {
@@ -6558,13 +6641,22 @@
     "left": 998.1
   },
   {
-    "title": "Скелеты (<q lbl>30</q><q tm llbl>lvl</q>)",
-    "description": "Сильный скелет-маг и <q lgr>2</q> воина-скелета.",
+    "title": "Скелеты (<q lbl>25</q><q tm llbl>lvl</q>) ????",
+    "description": "Сильный скелет-маг, <q lgr>2</q> скелета.",
     "type": "skelet",
     "nameIcon": "Star",
     "id": "id439",
     "top": 665.5,
     "left": 534.6
+  },
+  {
+    "title": "Скелеты (<q lbl>25</q><q tm llbl>lvl</q>) ????",
+    "description": "Сильный скелет-маг, <q lgr>2</q> скелета.",
+    "type": "skelet",
+    "nameIcon": "Star",
+    "id": "id474",
+    "top": 646.3,
+    "left": 545.8
   },
   {
     "title": "Сундук с загадкой",
@@ -6675,16 +6767,6 @@
     ]
   },
   {
-    "title": "Корабль",
-    "quests": [
-      "Убить бандита (<q lbl>10</q><q tm llbl>lvl</q>). <q ye>1000р</q>."
-    ],
-    "nameIcon": "Shipwreck",
-    "id": "id457",
-    "top": 480.1,
-    "left": 1081
-  },
-  {
     "title": "Глотка Мира (<q lbl>55</q><q tm llbl>lvl</q>)",
     "description": "После прочтения свитка появляется Алдуин (предфинальный босс)",
     "type": "dragon dragon_boss",
@@ -6704,7 +6786,7 @@
   {
     "title": "Данстарское убежище темного братства (<q lbl>25</q><q tm llbl>lvl</q>)",
     "description": "Призраки милишники (<q lbl>30</q><q tm llbl>lvl</q>) <q lgr>12</q>, босс в конце.",
-    "type": "ghost bandit_boss",
+    "type": "ghost bandit_boss set",
     "nameIcon": "Settlement",
     "id": "id459",
     "top": 225.8,
@@ -6713,18 +6795,31 @@
       "Цицерон"
     ],
     "prizeList": [
-      "<q ye>Сет Цицерона</q>."
+      "сет <q ye>Цицерона</q>."
     ]
   },
   {
-    "title": "Около Острова крабов",
-    "description": "Гигантская Рыба-убийца",
+    "title": "Около Острова крабов (<q lbl>999</q><q tm llbl>lvl</q>)",
+    "description": "Гигантская Рыба-убийца. Плавает по всему побережью!",
     "type": "mutant",
     "nameIcon": "Sneg",
     "scale": 0.25,
-    "id": "id460",
+    "id": "id460a",
     "top": 136.9,
     "left": 1062.2,
+    "bossList": [
+      "Гигантская Рыба-убийца"
+    ]
+  },
+  {
+    "title": "Гигантская Рыба-убийца (<q lbl>999</q><q tm llbl>lvl</q>)",
+    "description": "",
+    "type": "mutant",
+    "nameIcon": "Sneg",
+    "scale": 0.25,
+    "id": "id460b",
+    "top": 764.7,
+    "left": 547.5,
     "bossList": [
       "Гигантская Рыба-убийца"
     ]
@@ -6747,7 +6842,7 @@
     "quests": [
       "«Пророк». Вампиры <q lgr>2</q>, гончеи <q lgr>2</q>, трелла <q lgr>2</q>."
     ],
-    "type": "vampire",
+    "type": "vampire set",
     "nameIcon": "Cave",
     "id": "id462",
     "top": 378.3,
@@ -6756,7 +6851,7 @@
       "Малк"
     ],
     "prizeList": [
-      "Сет <q ye>Рыцаря Стражи Рассвета</q>",
+      "сет <q ye>Рыцаря Стражи Рассвета</q>",
       "<q ye>Секира Ваника</q>"
     ]
   },
@@ -6798,7 +6893,7 @@
       "Вождь Йамарз"
     ],
     "prizeList": [
-      "<q ye>Сет Вождя</q>, <q ye>Волндранг</q>"
+      "сет <q ye>Вождя</q>, <q ye>Волндранг</q>"
     ]
   },
   {
@@ -6855,7 +6950,7 @@
       "Астрид"
     ],
     "prizeList": [
-      "<q ye>Сет Теней</q>, <q ye>Клинок Горя</q>"
+      "сет <q ye>Теней</q>, <q ye>Клинок Горя</q>"
     ],
     "type": "set bandit_boss",
     "nameIcon": "Shack",
@@ -6971,5 +7066,138 @@
     "left": 804.3,
     "type": "",
     "nameIcon": "Fort"
+  },
+  {
+    "title": "Сокровище (карта <q lgr>I</q>)",
+    "id": "id474",
+    "top": 724.8,
+    "left": 672.6,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Кольцо Охотника</q>."
+    ]
+  },
+  {
+    "title": "Сокровище (карта <q lgr>II</q>)",
+    "id": "id475",
+    "top": 592.8,
+    "left": 874.8,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Крушитель</q>."
+    ]
+  },
+  {
+    "title": "Речная хижина (<q lbl>0</q><q tm llbl>lvl</q>)",
+    "description": "Зверек.",
+    "id": "id476",
+    "top": 566.5,
+    "left": 1016.6,
+    "type": "map animal",
+    "nameIcon": "Shack",
+    "prizeList": [
+      "<q ye>Карта Сокровищ</q> <q lgr>III</q> (новичек)."
+    ],
+    "prizeIcon": [
+      [
+        "chest-sm.png"
+      ],
+      [
+        "purse.png"
+      ]
+    ]
+  },
+  {
+    "title": "Маяк",
+    "id": "id477",
+    "top": 184.2,
+    "left": 486.7,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Амулет Концентрации</q> (карта <q lgr>III</q>)."
+    ]
+  },
+  {
+    "title": "Сокровище (карта <q lgr>IV</q>)",
+    "id": "id478",
+    "top": 672.1,
+    "left": 670.1,
+    "type": "map set",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "сет <q ye>Странствующего Рыцаря</q>."
+    ]
+  },
+  {
+    "title": "Лагерь Анги",
+    "id": "id479",
+    "top": 919.9,
+    "left": 554.3,
+    "type": "map",
+    "nameIcon": "Shack",
+    "prizeList": [
+      "<q ye>Карта Сокровищ</q> <q lgr>V</q>."
+    ]
+  },
+  {
+    "title": "Сокровище (карта <q lgr>V</q>)",
+    "id": "id480",
+    "top": 669.7,
+    "left": 338.8,
+    "type": "map set",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "сет <q ye>Следопыта</q>."
+    ]
+  },
+  {
+    "title": "<q ye>Карта сокровищ</q> <q lgr>VI</q>",
+    "id": "id481",
+    "top": 457.5,
+    "left": 642.5,
+    "type": "map",
+    "nameIcon": "Loot"
+  },
+  {
+    "title": "<q ye>Карта Сокровищ</q> <q lgr>VIII</q>",
+    "id": "id482",
+    "top": 316.9,
+    "left": 1116.8,
+    "type": "map",
+    "nameIcon": "Loot"
+  },
+  {
+    "title": "Ключ от (карта <q lgr>VIII</q>)",
+    "id": "id483",
+    "top": 349.6,
+    "left": 325.8,
+    "type": "map",
+    "nameIcon": "Loot"
+  },
+  {
+    "title": "Сокровище (карта <q lgr>VIII</q>)",
+    "description": "Сундук заперт на ключ (он неподалеку).",
+    "id": "id483",
+    "top": 335.4,
+    "left": 323.6,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Щит Магии</q>."
+    ]
+  },
+  {
+    "title": "Сокровище (карта <q lgr>X</q>)",
+    "id": "id483",
+    "top": 759.5,
+    "left": 547.6,
+    "type": "map",
+    "nameIcon": "Loot",
+    "prizeList": [
+      "<q ye>Щит Гордыня</q>."
+    ]
   }
 ]
