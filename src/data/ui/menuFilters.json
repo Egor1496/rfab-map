@@ -125,27 +125,17 @@
   "skyrimAdd": [
     {
       "icon": "star",
-      "tooltip": "квесты на опыт",
+      "tooltip": "Квесты на опыт",
       "type": "xp"
     },
     {
-      "icon": "bottle",
-      "tooltip": "превосходные зелья",
-      "type": "bottle"
-    },
-    {
-      "icon": "word",
-      "tooltip": "крики",
-      "type": "word"
-    },
-    {
-      "icon": "lich",
-      "tooltip": "повелители",
-      "type": "lich"
+      "icon": "map",
+      "tooltip": "Карты сокровищ",
+      "type": "map"
     },
     {
       "icon": "set",
-      "tooltip": "наборы брони",
+      "tooltip": "Комплекты брони",
       "type": "set"
     },
     {
@@ -154,14 +144,34 @@
       "type": "chest"
     },
     {
-      "icon": "gold",
-      "tooltip": "золото",
-      "type": "lode"
+      "icon": "bottle",
+      "tooltip": "Превосходные зелья",
+      "type": "bottle"
+    },
+    {
+      "icon": "lich",
+      "tooltip": "Повелители",
+      "type": "lich"
+    },
+    {
+      "icon": "word",
+      "tooltip": "Крики",
+      "type": "word"
     },
     {
       "icon": "barenziah",
-      "tooltip": "камни барензии",
+      "tooltip": "Камни Барензии",
       "type": "roc"
+    },
+    {
+      "icon": "gold",
+      "tooltip": "Золото",
+      "type": "lode"
+    },
+    {
+      "icon": "mine",
+      "tooltip": "Шахты",
+      "type": "mine"
     }
   ],
   "solstheim": [

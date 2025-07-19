@@ -27,12 +27,17 @@ const iconSizes = {
   soc: 28,
   xp: 28,
   bottle: 0,
-  word: 27,
+  word: 30,
   stal: 29,
-  roc: 20,
+  roc: 23,
   book: 29,
-  set: 25,
-  boss: 25
+  set: 28,
+  boss: 25,
+  mine: 25,
+  lich: 30,
+  chest: 30,
+  map: 38,
+  lode: 32
 };
 
 const getIconStyle = (option) => ({
