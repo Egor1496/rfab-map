@@ -10,6 +10,7 @@ import { pM } from '../../scripts/map/paramsMap';
 import { MyModal } from "../shared/myModal/MyModal";
 import { MyContext } from '../shared/myContext/MyContext';
 import { MyFloatTooltip } from "../shared/myFloatTooltip/MyFloatTooltip";
+import { MyToast } from "../shared/myToast/MyToast";
 import { BossTooltip } from "../entities/bossTooltip/BossTooltip";
 // import { TassTooltip } from "../entities/tassTooltip/TassTooltip";
 
@@ -19,7 +20,8 @@ import { MarkerModal } from "../entities/markerModal/MarkerModal";
 
 import { LoadMV, markerInfoMV } from "../../store/slice/modalVisible.slice";
 import { contextCoppy } from '../../scripts/map/contextCoppy';
-// import { Garland } from '../entities/garland/Garland';
+
+import { Garland } from '../entities/garland/Garland';
 
 export const MapLayout = () => {
   const rMap = useRef(null);
@@ -58,7 +60,9 @@ export const MapLayout = () => {
         }
       }}
     >
-      {/* <Garland /> */}
+      <Garland />
+
+      <MyToast />
 
       <Outlet />
 
