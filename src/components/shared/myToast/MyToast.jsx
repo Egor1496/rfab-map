@@ -15,5 +15,5 @@ export const MyToast = () => {
     });
   }, []);
 
-  return (<Toast ref={toast} position="bottom-center" className={sass.myToast} />)
+  return (<Toast ref={toast} position="top-center" className={sass.myToast} />)
 }
